@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2026.10-draft.1",
+  "updatedOn": "2026-10-22",
+  "environmentNote": "This dataset was assembled in a build environment whose network policy blocked scouting.org and every resource publisher. Requirement outlines are maintainer drafts that have not been checked against official sources, and resource URLs were taken from web-search results without being fetched. Everything is labeled accordingly until a reviewer completes verification."
+}

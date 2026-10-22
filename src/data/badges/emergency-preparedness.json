@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.emergency-preparedness",
+  "slug": "emergency-preparedness",
+  "description": "Emergency Preparedness is about thinking ahead: how households and communities prepare for, respond to, recover from and reduce the impact of emergencies. It combines planning with your family, practical rescue and transport skills, and an understanding of how emergency services are organized.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Rescue scenarios such as electrical hazards, carbon monoxide, fire and water must only be practiced as simulations under adult supervision. Never enter a real hazard to attempt a rescue."
+  },
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Partial topic outline drafted from maintainer familiarity with the published requirements. Several requirements offer choices whose option lists are not reproduced here. The official page could not be reached from the build environment, and the outline has not been checked against it.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": []
+      },
+      "requirements": [
+        {
+          "id": "mb.emergency-preparedness.1",
+          "number": "1",
+          "title": "First Aid merit badge",
+          "summary": "Earning the First Aid merit badge.",
+          "kind": "mixed",
+          "relatedRequirementIds": ["mb.first-aid.1"],
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.2",
+          "number": "2",
+          "title": "The phases of emergency management",
+          "summary": "Preparing for, responding to, recovering from, and mitigating emergencies, applied to a range of emergency situations and to your own family.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "mb.emergency-preparedness.2a",
+              "number": "2a",
+              "title": "Prepare, respond, recover, mitigate",
+              "summary": "Discussing each phase of emergency preparedness and the questions to ask yourself in each.",
+              "kind": "discussion",
+              "orientation": "Emergency managers think in phases. Preparing is what you do before (kits, plans, training). Responding is what you do during. Recovering is getting back to normal afterward. Mitigating is reducing the chance or impact of the next one. A useful exercise is to pick one hazard common where you live and write one concrete action for each phase.",
+              "children": []
+            },
+            {
+              "id": "mb.emergency-preparedness.2b",
+              "number": "2b",
+              "title": "Planning for specific emergencies",
+              "summary": "Showing, in a chart or similar format, how the four phases apply to a set of emergency situations chosen from the official list.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.emergency-preparedness.2c",
+              "number": "2c",
+              "title": "Family kit, plan, and information",
+              "summary": "Teaching your family how to build a kit, make a plan and stay informed, and completing a family plan.",
+              "kind": "activity",
+              "orientation": "Ready.gov organizes household preparedness into building a kit, making a plan and being informed. For the plan, decide on emergency contacts, two meeting places (one just outside your home, one outside your neighborhood) and how family members will reconnect if phones are down.",
+              "relatedRequirementIds": ["rank.first-class.7e"],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.emergency-preparedness.3",
+          "number": "3",
+          "title": "Safe rescue methods",
+          "summary": "Showing how you could safely help a person in several hazardous situations without becoming a victim yourself.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "note": "Demonstrations must be simulations under adult supervision.",
+          "relatedRequirementIds": ["rank.second-class.5c"],
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.4",
+          "number": "4",
+          "title": "Signaling for help",
+          "summary": "Showing ways to attract and communicate with rescue aircraft.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.5",
+          "number": "5",
+          "title": "Transporting an injured person",
+          "summary": "With another person, showing a safe way to carry an injured person out of a remote or rugged area.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "relatedRequirementIds": ["mb.first-aid.8", "rank.first-class.7b"],
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.6",
+          "number": "6",
+          "title": "How emergency response is organized",
+          "summary": "The national incident management framework, the incident command system, and the local agencies that handle emergencies where you live.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.9",
+          "number": "9",
+          "title": "Home safety",
+          "summary": "Inspecting your home for hazards, reviewing a fire escape plan, and preventing accidents during family activities.",
+          "kind": "activity",
+          "note": "This outline skips some requirements between 6 and 9 whose option lists still need to be transcribed. Its numbering follows the maintainer draft and may not match the official numbering.",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": ["res.ready-build-a-kit", "res.ready-family-planning"],
+  "studySetIds": []
+}

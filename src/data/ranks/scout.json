@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "rank.scout",
+  "slug": "scout",
+  "name": "Scout",
+  "order": 1,
+  "description": "The Scout rank is the first step: learning the ideals of Scouting, how a troop and patrol work, a few foundational skills, and personal safety. It is usually completed soon after joining.",
+  "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+  "officialUrlStatus": "unchecked",
+  "lastReviewed": null,
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Topic outline drafted from maintainer familiarity with the Scouts BSA rank requirements (the structure introduced in 2016 and revised since) and cross-referenced with secondary sources found by web search. Official rank requirements could not be reached from the build environment.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": [
+          {
+            "label": "Wikipedia: Ranks in Scouts BSA (secondary source)",
+            "url": "https://en.wikipedia.org/wiki/Ranks_in_Scouts_BSA"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.scout.1",
+          "number": "1",
+          "title": "Scouting ideals",
+          "summary": "The Scout Oath, Scout Law, motto, slogan, Outdoor Code and Pledge of Allegiance, and the signs and symbols of Scouting.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "rank.scout.1a",
+              "number": "1a",
+              "title": "Oath, Law, motto, and slogan",
+              "summary": "Reciting the Scout Oath, Scout Law, motto and slogan from memory and explaining what they mean to you.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "rank.scout.1b",
+              "number": "1b",
+              "title": "Scout spirit",
+              "summary": "What Scout spirit means and examples of how you have shown it.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "rank.scout.1c",
+              "number": "1c",
+              "title": "Sign, salute, and handshake",
+              "summary": "Demonstrating the Scout sign, salute and handshake and when each is used.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.scout.1d",
+              "number": "1d",
+              "title": "The First Class badge",
+              "summary": "Describing the First Class Scout badge and what its parts stand for.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "rank.scout.1e",
+              "number": "1e",
+              "title": "The Outdoor Code",
+              "summary": "Reciting the Outdoor Code and explaining what it means to you.",
+              "kind": "knowledge",
+              "relatedRequirementIds": [
+                "mb.camping.2"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.scout.1f",
+              "number": "1f",
+              "title": "The Pledge of Allegiance",
+              "summary": "Reciting the Pledge of Allegiance and explaining its meaning.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.scout.2",
+          "number": "2",
+          "title": "How a troop works",
+          "summary": "After attending a troop meeting: how youth lead the troop, the steps of advancement, the ranks, and how merit badges are earned.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "rank.scout.2a",
+              "number": "2a",
+              "title": "Youth leadership",
+              "summary": "How Scouts in the troop provide its leadership.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "rank.scout.2b",
+              "number": "2b",
+              "title": "Steps of advancement",
+              "summary": "The steps a Scout goes through to advance.",
+              "kind": "knowledge",
+              "orientation": "Advancement follows a predictable cycle: you learn a skill, you are tested on it, you are reviewed, and you are recognized. Knowing the cycle helps you understand why sign-offs, conferences and boards of review exist — and why a personal checklist like this one is never the same as an official sign-off.",
+              "children": []
+            },
+            {
+              "id": "rank.scout.2c",
+              "number": "2c",
+              "title": "The ranks",
+              "summary": "What the Scouts BSA ranks are and how they are earned.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "rank.scout.2d",
+              "number": "2d",
+              "title": "Merit badges",
+              "summary": "What merit badges are and how they are earned.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.scout.3",
+          "number": "3",
+          "title": "The patrol method",
+          "summary": "How the patrol method works and getting to know your own patrol.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "rank.scout.3a",
+              "number": "3a",
+              "title": "Patrol method",
+              "summary": "Explaining the patrol method and the types of patrols in a troop.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "rank.scout.3b",
+              "number": "3b",
+              "title": "Your patrol",
+              "summary": "Learning your patrol’s name, emblem, flag and yell, and why patrol identity matters.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.scout.4",
+          "number": "4",
+          "title": "Rope skills",
+          "summary": "Tying basic knots and caring for rope.",
+          "kind": "demonstration",
+          "children": [
+            {
+              "id": "rank.scout.4a",
+              "number": "4a",
+              "title": "Three basic knots",
+              "summary": "Tying a square knot, two half hitches and a taut-line hitch, and explaining how each is used.",
+              "kind": "demonstration",
+              "orientation": "Each of these knots has a job. The square knot joins two ends of the same material, such as a bandage. Two half hitches tie a line to a post or ring. The taut-line hitch makes an adjustable loop, which is why it is used on tent guylines. Learn the job first and the knot is easier to remember. Animated step-by-step guides help, but tie each one with real rope until you can do it without looking.",
+              "children": []
+            },
+            {
+              "id": "rank.scout.4b",
+              "number": "4b",
+              "title": "Rope care",
+              "summary": "Whipping and fusing rope ends to keep them from unraveling.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.scout.5",
+          "number": "5",
+          "title": "Pocketknife safety",
+          "summary": "Showing that you know how to handle a pocketknife safely.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "rank.scout.6",
+          "number": "6",
+          "title": "Personal safety",
+          "summary": "Personal-safety exercises completed with a parent or guardian.",
+          "kind": "activity",
+          "note": "This requirement has changed in recent years (older versions referred to the Cyber Chip and a parent’s guide to child-abuse prevention; newer materials refer to personal safety awareness training). Use the current official wording.",
+          "children": []
+        },
+        {
+          "id": "rank.scout.7",
+          "number": "7",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [
+    "res.animatedknots-scouting"
+  ],
+  "studySetIds": [
+    "study.tenderfoot-skills"
+  ]
+}

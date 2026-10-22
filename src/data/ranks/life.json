@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "rank.life",
+  "slug": "life",
+  "name": "Life",
+  "order": 6,
+  "description": "Life continues the leadership path with more merit badges, service, a position of responsibility, and teaching younger Scouts.",
+  "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+  "officialUrlStatus": "unchecked",
+  "lastReviewed": null,
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Topic outline drafted from maintainer familiarity with the Scouts BSA rank requirements (the structure introduced in 2016 and revised since) and cross-referenced with secondary sources found by web search. Official rank requirements could not be reached from the build environment. Requirement numbering for the later ranks has shifted over time; confirm against the current official text.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": [
+          {
+            "label": "Wikipedia: Ranks in Scouts BSA (secondary source)",
+            "url": "https://en.wikipedia.org/wiki/Ranks_in_Scouts_BSA"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.life.1",
+          "number": "1",
+          "title": "Active participation",
+          "summary": "Being active in your troop for the required time as a Star Scout.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.life.2",
+          "number": "2",
+          "title": "Scout spirit",
+          "summary": "Showing Scout spirit by living the Scout Oath and Scout Law.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.life.3",
+          "number": "3",
+          "title": "Merit badges",
+          "summary": "Earning additional merit badges, some from the Eagle-required list.",
+          "kind": "activity",
+          "note": "The Eagle-required list was reported to change in 2026. Confirm which badges count with your unit leader.",
+          "children": []
+        },
+        {
+          "id": "rank.life.4",
+          "number": "4",
+          "title": "Service",
+          "summary": "Taking part in approved service, including conservation-related service.",
+          "kind": "service",
+          "children": []
+        },
+        {
+          "id": "rank.life.5",
+          "number": "5",
+          "title": "Position of responsibility",
+          "summary": "Serving actively in a troop position of responsibility for the required time.",
+          "kind": "leadership",
+          "children": []
+        },
+        {
+          "id": "rank.life.6",
+          "number": "6",
+          "title": "Teaching younger Scouts",
+          "summary": "Using the EDGE method to teach another Scout a skill.",
+          "kind": "activity",
+          "relatedRequirementIds": [
+            "rank.tenderfoot.8"
+          ],
+          "children": []
+        },
+        {
+          "id": "rank.life.7",
+          "number": "7",
+          "title": "Personal safety",
+          "summary": "Personal-safety exercises completed with a parent or guardian.",
+          "kind": "activity",
+          "note": "This requirement has changed in recent years (older versions referred to the Cyber Chip and a parent’s guide to child-abuse prevention; newer materials refer to personal safety awareness training). Use the current official wording.",
+          "children": []
+        },
+        {
+          "id": "rank.life.8",
+          "number": "8",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.life.9",
+          "number": "9",
+          "title": "Board of review",
+          "summary": "Completing a board of review for the rank.",
+          "kind": "review",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

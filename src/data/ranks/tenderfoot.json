@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "id": "rank.tenderfoot",
+  "slug": "tenderfoot",
+  "name": "Tenderfoot",
+  "order": 2,
+  "description": "Tenderfoot introduces camping, cooking, knots and woods tools, basic first aid, hiking safety, fitness tracking, flag etiquette and service. It is the first rank that ends with a board of review.",
+  "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+  "officialUrlStatus": "unchecked",
+  "lastReviewed": null,
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Topic outline drafted from maintainer familiarity with the Scouts BSA rank requirements (the structure introduced in 2016 and revised since) and cross-referenced with secondary sources found by web search. Official rank requirements could not be reached from the build environment.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": [
+          {
+            "label": "Wikipedia: Ranks in Scouts BSA (secondary source)",
+            "url": "https://en.wikipedia.org/wiki/Ranks_in_Scouts_BSA"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.tenderfoot.1",
+          "number": "1",
+          "title": "Camping",
+          "summary": "Preparing for and taking part in your first campouts.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "rank.tenderfoot.1a",
+              "number": "1a",
+              "title": "Gear for an overnight",
+              "summary": "Presenting yourself prepared for an overnight campout and showing your gear and how to pack it.",
+              "kind": "demonstration",
+              "orientation": "Packing for a first campout is about having the right things and being able to find them. The Ten Essentials are a good backbone: navigation, light, sun protection, insulation, first aid, fire, repair tools, food, water and shelter. Your troop will have its own gear list; bring it to your leader with your pack.",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.1b",
+              "number": "1b",
+              "title": "Your first campout",
+              "summary": "Spending at least one night on a patrol or troop campout in a tent you helped pitch.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.1c",
+              "number": "1c",
+              "title": "The Outdoor Code in practice",
+              "summary": "Telling how you practiced the Outdoor Code on a campout or outing.",
+              "kind": "discussion",
+              "relatedRequirementIds": [
+                "mb.camping.2"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.tenderfoot.2",
+          "number": "2",
+          "title": "Patrol cooking",
+          "summary": "Helping with patrol meals and cleanup and understanding why patrols eat together.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "rank.tenderfoot.2a",
+              "number": "2a",
+              "title": "Helping with a meal",
+              "summary": "Helping prepare a meal on a campout and why everyone shares in cooking and cleanup.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.2b",
+              "number": "2b",
+              "title": "Cleaning up safely",
+              "summary": "Showing how to safely clean cooking and eating gear on a campout.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.2c",
+              "number": "2c",
+              "title": "Eating as a patrol",
+              "summary": "Why eating together as a patrol matters.",
+              "kind": "discussion",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.tenderfoot.3",
+          "number": "3",
+          "title": "Knots and woods tools",
+          "summary": "Practical uses of basic knots and the safe care and use of a knife, saw and ax.",
+          "kind": "demonstration",
+          "children": [
+            {
+              "id": "rank.tenderfoot.3a",
+              "number": "3a",
+              "title": "Using a square knot",
+              "summary": "Showing a practical use of the square knot.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.3b",
+              "number": "3b",
+              "title": "Using two half hitches",
+              "summary": "Showing a practical use of two half hitches.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.3c",
+              "number": "3c",
+              "title": "Using a taut-line hitch",
+              "summary": "Showing a practical use of the taut-line hitch.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.3d",
+              "number": "3d",
+              "title": "Knife, saw, and ax",
+              "summary": "Caring for, sharpening and using a knife, saw and ax, and when each should be used.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.tenderfoot.4",
+          "number": "4",
+          "title": "First aid and outdoor hazards",
+          "summary": "Basic first aid, hazardous plants, preventing outdoor injuries and building a personal first-aid kit.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.tenderfoot.4a",
+              "number": "4a",
+              "title": "Basic first aid",
+              "summary": "First aid for a list of common minor injuries and conditions such as cuts, blisters, minor burns, bites and stings, nosebleeds, frostbite, sunburn and choking.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "This is the foundation every later first-aid requirement builds on. For each condition, learn three things: how to recognize it, what to do, and when it is serious enough to get an adult or call for help. Practice with a partner and a real first-aid kit — reading alone does not build the habit.",
+              "note": "The official requirement lists the exact conditions. Use it as your checklist.",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.4b",
+              "number": "4b",
+              "title": "Hazardous plants",
+              "summary": "Common poisonous or hazardous plants, which grow near you, and treating exposure to them.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "Poison ivy, poison oak and poison sumac all cause a rash through an oil called urushiol, which can also be picked up from tools, clothing and pets. \"Leaves of three, let it be\" helps with ivy and oak, but poison sumac has clusters of more leaflets. Learn what grows where you camp and rinse exposed skin promptly.",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.4c",
+              "number": "4c",
+              "title": "Preventing injuries",
+              "summary": "What you can do on outings to prevent or reduce the injuries and exposures in 4a and 4b.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.4d",
+              "number": "4d",
+              "title": "Personal first-aid kit",
+              "summary": "Assembling a personal first-aid kit and explaining how each item is used.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.tenderfoot.5",
+          "number": "5",
+          "title": "Hiking safety",
+          "summary": "The buddy system, what to do if you are lost, and safe hiking by day and night.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.tenderfoot.5a",
+              "number": "5a",
+              "title": "The buddy system",
+              "summary": "Why the buddy system matters for safety on outings and in your neighborhood, and using it.",
+              "kind": "mixed",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.5b",
+              "number": "5b",
+              "title": "If you are lost",
+              "summary": "What to do if you become lost on a hike or campout.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.5c",
+              "number": "5c",
+              "title": "Safe hiking",
+              "summary": "Rules of safe hiking on roads and cross-country, by day and at night.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.tenderfoot.6",
+          "number": "6",
+          "title": "Fitness",
+          "summary": "Recording baseline fitness tests, making an improvement plan, tracking activity and showing improvement.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "rank.tenderfoot.6a",
+              "number": "6a",
+              "title": "Baseline fitness tests",
+              "summary": "Recording your best results in a set of fitness tests.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.6b",
+              "number": "6b",
+              "title": "Improvement plan",
+              "summary": "Making and following a plan for improvement while tracking your activity.",
+              "kind": "activity",
+              "orientation": "A good plan is specific: which activity, how often, and how you will record it. The CDC’s guidelines for young people are a useful reference for how much activity is generally recommended, but your plan should start from your own baseline.",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.6c",
+              "number": "6c",
+              "title": "Showing improvement",
+              "summary": "Showing improvement after practicing for the required period.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.tenderfoot.7",
+          "number": "7",
+          "title": "Citizenship and service",
+          "summary": "Handling the U.S. flag correctly and taking part in service.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "rank.tenderfoot.7a",
+              "number": "7a",
+              "title": "Flag etiquette",
+              "summary": "Displaying, raising, lowering and folding the U.S. flag.",
+              "kind": "demonstration",
+              "orientation": "The U.S. Flag Code sets out how the flag is displayed and respected. Folding into the traditional triangle is a custom rather than a legal rule, but it is the form you will be expected to show. Practice with a partner so the flag never touches the ground.",
+              "children": []
+            },
+            {
+              "id": "rank.tenderfoot.7b",
+              "number": "7b",
+              "title": "Service",
+              "summary": "Taking part in approved service projects.",
+              "kind": "service",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.tenderfoot.8",
+          "number": "8",
+          "title": "Teaching a skill",
+          "summary": "Using Scouting’s EDGE teaching method to teach someone a knot.",
+          "kind": "activity",
+          "relatedRequirementIds": [
+            "mb.first-aid.9"
+          ],
+          "children": []
+        },
+        {
+          "id": "rank.tenderfoot.9",
+          "number": "9",
+          "title": "Scout spirit",
+          "summary": "Showing Scout spirit by living the Scout Oath and Scout Law in daily life.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.tenderfoot.10",
+          "number": "10",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.tenderfoot.11",
+          "number": "11",
+          "title": "Board of review",
+          "summary": "Completing a board of review for the rank.",
+          "kind": "review",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [
+    "res.nps-ten-essentials",
+    "res.animatedknots-scouting"
+  ],
+  "studySetIds": [
+    "study.tenderfoot-skills",
+    "study.first-aid-foundations"
+  ]
+}

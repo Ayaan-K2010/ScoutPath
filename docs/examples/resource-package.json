@@ -1,0 +1,25 @@
+{
+  "kind": "resources",
+  "resources": [
+    {
+      "id": "res.example-new-resource",
+      "title": "Example: a newly reviewed resource",
+      "url": "https://www.example.org/learning/page",
+      "publisher": "Example Publisher",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Replace with an original one- or two-sentence description written by the reviewer.",
+      "topics": ["example topic"],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": { "method": "maintainer", "on": "2026-10-22" }
+    }
+  ]
+}

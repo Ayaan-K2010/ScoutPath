@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.first-aid",
+  "slug": "first-aid",
+  "description": "First Aid builds on the rank-level skills every Scout learns and goes deeper: recognizing emergencies, getting help, caring for serious injuries and sudden illness, and teaching what you know. It is safety-sensitive, so the online resources here are background reading — hands-on practice with a qualified instructor is what actually builds the skill.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Medical and emergency guidance changes. Follow your counselor, current Red Cross or American Heart Association training, and local emergency services. CPR practice must be taught by currently certified instructors."
+  },
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "outline-only",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/first-aid/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Topic outline drafted from maintainer familiarity with the published requirements and cross-referenced with secondary sources found by web search. Secondary sources disagree about whether the current revision dates from 2016 or January 2024, and a revision may have renumbered items. The official page could not be reached from the build environment. Numbers and groupings must be checked against scouting.org before this version is marked verified.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": [
+          { "label": "Boy Scout Trail requirements copy, marked 'Revised January, 2024' (secondary source)", "url": "https://boyscouttrail.com/boy-scouts/meritbadges/firstaid.asp" }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.first-aid.1",
+          "number": "1",
+          "title": "Rank-level first aid",
+          "summary": "Revisits the first-aid knowledge introduced in the Tenderfoot, Second Class and First Class rank requirements, which the badge expects you to still know.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "orientation": "This badge assumes you already know the first-aid skills from the early ranks and builds on them. A good way to prepare is to work back through the rank pages linked below and check whether you could still explain each skill to a younger Scout today, not only when you first learned it.",
+          "relatedRequirementIds": ["rank.tenderfoot.4a", "rank.second-class.6a", "rank.second-class.6b", "rank.first-class.7a", "rank.first-class.7c"],
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.2",
+          "number": "2",
+          "title": "Emergency basics",
+          "summary": "Getting emergency help in different settings, sorting out priorities when more than one person is hurt, the steps to follow until help arrives, and protecting yourself from infection.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.first-aid.2a",
+              "number": "2a",
+              "title": "Getting emergency help",
+              "summary": "How you would get emergency medical help from home, from a remote camping trip, and during an activity on open water.",
+              "kind": "discussion",
+              "safetySensitive": true,
+              "orientation": "Calling for help looks very different depending on where you are. At home you can usually dial 911 and give an address. On a wilderness trip you may have no signal, a long wait and a need to send a pair of people for help with written notes. On open water you need to think about radios, signaling and how rescuers will reach you. For each setting, think through who calls, what information they need, and what everyone else does while you wait.",
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.2b",
+              "number": "2b",
+              "title": "Triage",
+              "summary": "What triage means and why responders sort injured people by urgency.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "Triage is the process of deciding who needs help first when there are more injured people than helpers. The core idea is that life-threatening problems with breathing, circulation and severe bleeding come before injuries that are painful but stable. Practice explaining why the loudest person is not always the most urgent one.",
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.2c",
+              "number": "2c",
+              "title": "Handling an emergency until help arrives",
+              "summary": "The general sequence a first-aider follows: check the scene and the person, get help on the way, and give care within your training.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "Most first-aid courses teach a simple, repeatable sequence so you do not freeze. The American Red Cross calls it Check, Call, Care: make sure the scene is safe for you, check the person, call or send someone to call 911, then give care you are trained to give and keep watching for changes. Learn the version your counselor uses and be ready to walk through it out loud.",
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.2d",
+              "number": "2d",
+              "title": "Standard precautions",
+              "summary": "Protecting yourself and others from infection by blood and other body fluids while giving care.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "Standard precautions treat every person’s blood and body fluids as potentially infectious, so you use the same protection every time instead of guessing. In first aid that means disposable gloves, avoiding direct contact with blood, safely disposing of contaminated materials, and washing your hands afterward — gloves do not replace hand washing.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.first-aid.3",
+          "number": "3",
+          "title": "First-aid kits",
+          "summary": "Assembling a home first-aid kit and reviewing a unit first-aid kit with an adult leader.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.first-aid.3a",
+              "number": "3a",
+              "title": "A home first-aid kit",
+              "summary": "Preparing a first-aid kit for your household and being able to explain what each item is for.",
+              "kind": "activity",
+              "orientation": "A kit is only useful if you know what is in it and it is easy to find. As you assemble one, sort items by purpose — wound care, medications your family uses, tools, personal protective equipment — and note expiry dates. Emergency-kit lists from Ready.gov are a helpful starting point, but your counselor may expect a specific contents list.",
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.3b",
+              "number": "3b",
+              "title": "Inspecting a unit kit",
+              "summary": "Working with an adult leader to inspect your troop or patrol first-aid kit and reporting what needs replacing.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.first-aid.4",
+          "number": "4",
+          "title": "Life-threatening emergencies",
+          "summary": "Recognizing and responding to shock, heart attack, stroke, cardiac arrest, choking and severe bleeding.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.first-aid.4a",
+              "number": "4a",
+              "title": "Shock, heart attack, and stroke",
+              "summary": "The warning signs of shock, heart attack and stroke, and what a first-aider does for each while waiting for help.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "These three conditions look different but share one rule: they are emergencies, so call 911 immediately. Learn the signs that set each apart — pale, cool, clammy skin and a weak rapid pulse for shock; chest discomfort and discomfort in the arms, back, neck or jaw for a heart attack; face drooping, arm weakness and speech trouble for a stroke — and what you can do while help is on the way.",
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.4b",
+              "number": "4b",
+              "title": "When CPR is needed",
+              "summary": "The conditions that must be present before CPR is started on a person.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.4c",
+              "number": "4c",
+              "title": "CPR technique",
+              "summary": "Demonstrating CPR on a training manikin or device approved by your counselor.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "note": "Hands-on CPR instruction must come from a currently certified instructor. Videos and articles are background only.",
+              "orientation": "CPR is a physical skill: depth, rate and hand position are learned by practicing on a manikin with feedback, not by reading. Use the American Heart Association material below to understand why compressions matter and what Hands-Only CPR is, then practice in a class taught by a certified instructor.",
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.4d",
+              "number": "4d",
+              "title": "AEDs",
+              "summary": "What an automated external defibrillator does and how it is used alongside CPR.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.4e",
+              "number": "4e",
+              "title": "Choking",
+              "summary": "Showing how to help a person who is choking.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.4f",
+              "number": "4f",
+              "title": "Serious bleeding",
+              "summary": "Showing how to control serious bleeding.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "Firm, direct pressure stops most external bleeding. The resources below explain how to apply it, when to add more dressings rather than removing soaked ones, and the limited situations where a tourniquet is used. Practice positioning and pressure with a partner and a training dressing.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.first-aid.5",
+          "number": "5",
+          "title": "Heat, cold, and the environment",
+          "summary": "Preventing, recognizing and caring for injuries and illnesses caused by heat, cold and other outdoor conditions.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "orientation": "Most outdoor emergencies are easier to prevent than to treat. For heat, know how heat cramps, heat exhaustion and heat stroke differ and why heat stroke is an emergency. For cold, know how hypothermia can happen above freezing when someone is wet, and why frostbitten skin is never rubbed. The National Weather Service and CDC pages below give clear comparison charts.",
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.6",
+          "number": "6",
+          "title": "Bone, joint, head, neck, and back injuries",
+          "summary": "Recognizing possible fractures and caring for suspected head, neck and back injuries without making them worse.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.first-aid.6a",
+              "number": "6a",
+              "title": "Fractures",
+              "summary": "Signs of a broken bone and first aid for fractures, including improvised splints.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "The safest assumption is that a painful, swollen or misshapen limb may be broken. First aid focuses on keeping it still — immobilizing the joints above and below — rather than straightening it. Practice improvised splints with padding and materials you would actually have on a trip.",
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.6b",
+              "number": "6b",
+              "title": "Head, neck, and back injuries",
+              "summary": "Symptoms of possible head, neck and back injuries and how to avoid making them worse.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.first-aid.7",
+          "number": "7",
+          "title": "Common injuries and illnesses",
+          "summary": "Symptoms, first aid and prevention for a list of everyday conditions such as allergic reactions, sprains, burns, seizures, dehydration and dental injuries.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "note": "The exact list of conditions comes from the official requirement. Use it as your checklist.",
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.8",
+          "number": "8",
+          "title": "Moving an injured person",
+          "summary": "When an injured person should and should not be moved, choosing a safe method, and improvising a stretcher with helpers.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.9",
+          "number": "9",
+          "title": "Teaching a first-aid skill",
+          "summary": "Teaching another Scout a first-aid skill your counselor selects.",
+          "kind": "activity",
+          "relatedRequirementIds": ["rank.tenderfoot.8"],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": ["res.medlineplus-first-aid", "res.redcross-check-call-care"],
+  "studySetIds": ["study.first-aid-foundations"]
+}

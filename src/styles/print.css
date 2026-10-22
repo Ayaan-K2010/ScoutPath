@@ -1,0 +1,138 @@
+.print-only {
+  display: none;
+}
+
+@media print {
+  @page {
+    margin: 16mm 14mm;
+  }
+
+  :root {
+    --bg: #fff;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+
+  .no-print,
+  .site-header,
+  .site-footer,
+  .drawer,
+  .toast-region,
+  .skip-link,
+  .btn,
+  .bookmark,
+  .icon-button,
+  .segmented,
+  .text-link,
+  .breadcrumbs,
+  dialog {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .page {
+    padding: 0;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+
+  .with-aside,
+  .with-sidebar,
+  .catalog-layout,
+  .dash-grid {
+    display: block;
+  }
+
+  .with-aside__aside {
+    position: static;
+    margin-top: 12pt;
+  }
+
+  .page-header {
+    padding: 0 0 8pt;
+    margin-bottom: 12pt;
+    border-bottom: 1.5pt solid #000;
+  }
+
+  .page-header__title {
+    font-size: 22pt;
+    color: #000;
+    max-width: none;
+  }
+
+  .req-children.is-collapsed,
+  .disclosure__panel.is-collapsed {
+    display: block !important;
+  }
+
+  .req-item,
+  .resource-row,
+  .session,
+  .schedule__day,
+  .ordered-resources > li {
+    break-inside: avoid;
+  }
+
+  .resource-row,
+  .panel,
+  .official-box {
+    border: 1pt solid #999;
+    box-shadow: none;
+    background: #fff;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  a.external-link::after {
+    content: ' — ' attr(href);
+    font-size: 8.5pt;
+    color: #444;
+    word-break: break-all;
+  }
+
+  .state-pill__icon {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .req-group__header {
+    break-after: avoid;
+    padding-block: 8pt;
+  }
+
+  .req-open-link,
+  .chevron,
+  .no-print {
+    display: none !important;
+  }
+
+  .req-children {
+    padding-bottom: 6pt;
+  }
+
+  .callout {
+    break-inside: avoid;
+  }
+
+  .print-checkbox {
+    display: inline-block !important;
+    width: 11pt;
+    height: 11pt;
+    border: 1pt solid #000;
+    margin-right: 6pt;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,2015 @@
+{
+  "schemaVersion": 1,
+  "listedOn": "2026-10-22",
+  "provenance": {
+    "method": "maintainer-draft",
+    "notes": "Badge names compiled from maintainer familiarity with the Scouts BSA catalog and adjusted for 2025-2026 changes reported in news coverage and council communications. The official merit badge list on scouting.org could not be reached from the build environment, so every listing is marked unverified. Official URLs follow the scouting.org per-badge URL pattern and have not been fetched.",
+    "recordedBy": "ScoutPath maintainers",
+    "recordedOn": "2026-10-22",
+    "references": [
+      {
+        "label": "Scouting America press release: AI and Cybersecurity merit badges (Scouting Newsroom)",
+        "url": "https://www.scoutingnewsroom.org/press-releases/scouting-america-launches-first-ever-ai-and-cybersecurity-merit-badges/"
+      },
+      {
+        "label": "Golden Gate Area Council update on Citizenship in Society (secondary source)",
+        "url": "https://goldengatescouting.org/2026/03/16/scouting-americas-military-agreement-ggac-update/"
+      },
+      {
+        "label": "Michigan Crossroads Council: Indian Lore renamed American Indian Culture (secondary source)",
+        "url": "https://michiganscouting.org/?p=189582"
+      }
+    ]
+  },
+  "badges": [
+    {
+      "id": "mb.american-business",
+      "slug": "american-business",
+      "name": "American Business",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/american-business/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.american-cultures",
+      "slug": "american-cultures",
+      "name": "American Cultures",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/american-cultures/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.american-heritage",
+      "slug": "american-heritage",
+      "name": "American Heritage",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/american-heritage/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.american-indian-culture",
+      "slug": "american-indian-culture",
+      "name": "American Indian Culture",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/american-indian-culture/",
+      "officialUrlStatus": "unchecked",
+      "lifecycleNote": "Reported as the new name of the former Indian Lore merit badge, effective January 12, 2026."
+    },
+    {
+      "id": "mb.american-labor",
+      "slug": "american-labor",
+      "name": "American Labor",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/american-labor/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.animal-science",
+      "slug": "animal-science",
+      "name": "Animal Science",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/animal-science/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.animation",
+      "slug": "animation",
+      "name": "Animation",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/animation/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.archery",
+      "slug": "archery",
+      "name": "Archery",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/archery/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.architecture",
+      "slug": "architecture",
+      "name": "Architecture",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/architecture/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.art",
+      "slug": "art",
+      "name": "Art",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/art/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.artificial-intelligence",
+      "slug": "artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/artificial-intelligence/",
+      "officialUrlStatus": "unchecked",
+      "lifecycleNote": "Reported as introduced by Scouting America in October 2025."
+    },
+    {
+      "id": "mb.astronomy",
+      "slug": "astronomy",
+      "name": "Astronomy",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/astronomy/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.athletics",
+      "slug": "athletics",
+      "name": "Athletics",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/athletics/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.automotive-maintenance",
+      "slug": "automotive-maintenance",
+      "name": "Automotive Maintenance",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/automotive-maintenance/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.aviation",
+      "slug": "aviation",
+      "name": "Aviation",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/aviation/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.backpacking",
+      "slug": "backpacking",
+      "name": "Backpacking",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/backpacking/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.basketry",
+      "slug": "basketry",
+      "name": "Basketry",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/basketry/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.bird-study",
+      "slug": "bird-study",
+      "name": "Bird Study",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/bird-study/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.bugling",
+      "slug": "bugling",
+      "name": "Bugling",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/bugling/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.camping",
+      "slug": "camping",
+      "name": "Camping",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/camping/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.canoeing",
+      "slug": "canoeing",
+      "name": "Canoeing",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/canoeing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.chemistry",
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/chemistry/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.chess",
+      "slug": "chess",
+      "name": "Chess",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/chess/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.citizenship-in-society",
+      "slug": "citizenship-in-society",
+      "name": "Citizenship in Society",
+      "category": "citizenship",
+      "lifecycle": "discontinued",
+      "eagle": {
+        "status": "unknown",
+        "verified": false,
+        "note": "Reported as removed from the Eagle-required list in 2026."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-society/",
+      "officialUrlStatus": "unchecked",
+      "lifecycleNote": "Council notices and news coverage report this badge was discontinued effective February 27, 2026, with limited completion allowances for Scouts who had already started. Confirm current rules with your unit leader and official sources."
+    },
+    {
+      "id": "mb.citizenship-in-the-community",
+      "slug": "citizenship-in-the-community",
+      "name": "Citizenship in the Community",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-community/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.citizenship-in-the-nation",
+      "slug": "citizenship-in-the-nation",
+      "name": "Citizenship in the Nation",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.citizenship-in-the-world",
+      "slug": "citizenship-in-the-world",
+      "name": "Citizenship in the World",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-world/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.climbing",
+      "slug": "climbing",
+      "name": "Climbing",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/climbing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.coin-collecting",
+      "slug": "coin-collecting",
+      "name": "Coin Collecting",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/coin-collecting/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.collections",
+      "slug": "collections",
+      "name": "Collections",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/collections/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.communication",
+      "slug": "communication",
+      "name": "Communication",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/communication/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.composite-materials",
+      "slug": "composite-materials",
+      "name": "Composite Materials",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/composite-materials/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.cooking",
+      "slug": "cooking",
+      "name": "Cooking",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/cooking/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.crime-prevention",
+      "slug": "crime-prevention",
+      "name": "Crime Prevention",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/crime-prevention/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.cybersecurity",
+      "slug": "cybersecurity",
+      "name": "Cybersecurity",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/cybersecurity/",
+      "officialUrlStatus": "unchecked",
+      "lifecycleNote": "Reported as introduced by Scouting America in October 2025."
+    },
+    {
+      "id": "mb.cycling",
+      "slug": "cycling",
+      "name": "Cycling",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required-option",
+        "group": "Swimming, Hiking, or Cycling",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/cycling/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.dentistry",
+      "slug": "dentistry",
+      "name": "Dentistry",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/dentistry/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.digital-technology",
+      "slug": "digital-technology",
+      "name": "Digital Technology",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/digital-technology/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.disabilities-awareness",
+      "slug": "disabilities-awareness",
+      "name": "Disabilities Awareness",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.dog-care",
+      "slug": "dog-care",
+      "name": "Dog Care",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/dog-care/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.drafting",
+      "slug": "drafting",
+      "name": "Drafting",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/drafting/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.electricity",
+      "slug": "electricity",
+      "name": "Electricity",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/electricity/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.electronics",
+      "slug": "electronics",
+      "name": "Electronics",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/electronics/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.emergency-preparedness",
+      "slug": "emergency-preparedness",
+      "name": "Emergency Preparedness",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required-option",
+        "group": "Emergency Preparedness or Lifesaving",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.energy",
+      "slug": "energy",
+      "name": "Energy",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/energy/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.engineering",
+      "slug": "engineering",
+      "name": "Engineering",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/engineering/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.entrepreneurship",
+      "slug": "entrepreneurship",
+      "name": "Entrepreneurship",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.environmental-science",
+      "slug": "environmental-science",
+      "name": "Environmental Science",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required-option",
+        "group": "Environmental Science or Sustainability",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/environmental-science/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.exploration",
+      "slug": "exploration",
+      "name": "Exploration",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/exploration/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.family-life",
+      "slug": "family-life",
+      "name": "Family Life",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/family-life/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.farm-mechanics",
+      "slug": "farm-mechanics",
+      "name": "Farm Mechanics",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/farm-mechanics/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.fingerprinting",
+      "slug": "fingerprinting",
+      "name": "Fingerprinting",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.fire-safety",
+      "slug": "fire-safety",
+      "name": "Fire Safety",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/fire-safety/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.first-aid",
+      "slug": "first-aid",
+      "name": "First Aid",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/first-aid/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.fish-and-wildlife-management",
+      "slug": "fish-and-wildlife-management",
+      "name": "Fish and Wildlife Management",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/fish-and-wildlife-management/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.fishing",
+      "slug": "fishing",
+      "name": "Fishing",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/fishing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.fly-fishing",
+      "slug": "fly-fishing",
+      "name": "Fly Fishing",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.forestry",
+      "slug": "forestry",
+      "name": "Forestry",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/forestry/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.game-design",
+      "slug": "game-design",
+      "name": "Game Design",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/game-design/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.gardening",
+      "slug": "gardening",
+      "name": "Gardening",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/gardening/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.genealogy",
+      "slug": "genealogy",
+      "name": "Genealogy",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/genealogy/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.geocaching",
+      "slug": "geocaching",
+      "name": "Geocaching",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/geocaching/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.geology",
+      "slug": "geology",
+      "name": "Geology",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/geology/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.golf",
+      "slug": "golf",
+      "name": "Golf",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/golf/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.graphic-arts",
+      "slug": "graphic-arts",
+      "name": "Graphic Arts",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/graphic-arts/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.health-care-professions",
+      "slug": "health-care-professions",
+      "name": "Health Care Professions",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.hiking",
+      "slug": "hiking",
+      "name": "Hiking",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required-option",
+        "group": "Swimming, Hiking, or Cycling",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/hiking/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.home-repairs",
+      "slug": "home-repairs",
+      "name": "Home Repairs",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/home-repairs/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.horsemanship",
+      "slug": "horsemanship",
+      "name": "Horsemanship",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/horsemanship/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.insect-study",
+      "slug": "insect-study",
+      "name": "Insect Study",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/insect-study/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.inventing",
+      "slug": "inventing",
+      "name": "Inventing",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/inventing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.journalism",
+      "slug": "journalism",
+      "name": "Journalism",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/journalism/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.kayaking",
+      "slug": "kayaking",
+      "name": "Kayaking",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/kayaking/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.landscape-architecture",
+      "slug": "landscape-architecture",
+      "name": "Landscape Architecture",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/landscape-architecture/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.law",
+      "slug": "law",
+      "name": "Law",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/law/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.leatherwork",
+      "slug": "leatherwork",
+      "name": "Leatherwork",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/leatherwork/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.lifesaving",
+      "slug": "lifesaving",
+      "name": "Lifesaving",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required-option",
+        "group": "Emergency Preparedness or Lifesaving",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/lifesaving/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.mammal-study",
+      "slug": "mammal-study",
+      "name": "Mammal Study",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/mammal-study/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.metalwork",
+      "slug": "metalwork",
+      "name": "Metalwork",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/metalwork/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.mining-in-society",
+      "slug": "mining-in-society",
+      "name": "Mining in Society",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/mining-in-society/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.model-design-and-building",
+      "slug": "model-design-and-building",
+      "name": "Model Design and Building",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.motorboating",
+      "slug": "motorboating",
+      "name": "Motorboating",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/motorboating/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.moviemaking",
+      "slug": "moviemaking",
+      "name": "Moviemaking",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/moviemaking/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.multisport",
+      "slug": "multisport",
+      "name": "Multisport",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/multisport/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.music",
+      "slug": "music",
+      "name": "Music",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/music/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.nature",
+      "slug": "nature",
+      "name": "Nature",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/nature/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.nuclear-science",
+      "slug": "nuclear-science",
+      "name": "Nuclear Science",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/nuclear-science/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.oceanography",
+      "slug": "oceanography",
+      "name": "Oceanography",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/oceanography/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.orienteering",
+      "slug": "orienteering",
+      "name": "Orienteering",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/orienteering/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.painting",
+      "slug": "painting",
+      "name": "Painting",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/painting/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.personal-fitness",
+      "slug": "personal-fitness",
+      "name": "Personal Fitness",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/personal-fitness/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.personal-management",
+      "slug": "personal-management",
+      "name": "Personal Management",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/personal-management/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.pets",
+      "slug": "pets",
+      "name": "Pets",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/pets/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.photography",
+      "slug": "photography",
+      "name": "Photography",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/photography/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.pioneering",
+      "slug": "pioneering",
+      "name": "Pioneering",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/pioneering/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.plant-science",
+      "slug": "plant-science",
+      "name": "Plant Science",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/plant-science/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.plumbing",
+      "slug": "plumbing",
+      "name": "Plumbing",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/plumbing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.pottery",
+      "slug": "pottery",
+      "name": "Pottery",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/pottery/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.programming",
+      "slug": "programming",
+      "name": "Programming",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/programming/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.public-health",
+      "slug": "public-health",
+      "name": "Public Health",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/public-health/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.public-speaking",
+      "slug": "public-speaking",
+      "name": "Public Speaking",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/public-speaking/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.pulp-and-paper",
+      "slug": "pulp-and-paper",
+      "name": "Pulp and Paper",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/pulp-and-paper/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.radio",
+      "slug": "radio",
+      "name": "Radio",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/radio/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.railroading",
+      "slug": "railroading",
+      "name": "Railroading",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/railroading/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.reading",
+      "slug": "reading",
+      "name": "Reading",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/reading/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.reptile-and-amphibian-study",
+      "slug": "reptile-and-amphibian-study",
+      "name": "Reptile and Amphibian Study",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/reptile-and-amphibian-study/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.rifle-shooting",
+      "slug": "rifle-shooting",
+      "name": "Rifle Shooting",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/rifle-shooting/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.robotics",
+      "slug": "robotics",
+      "name": "Robotics",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/robotics/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.rowing",
+      "slug": "rowing",
+      "name": "Rowing",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/rowing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.safety",
+      "slug": "safety",
+      "name": "Safety",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/safety/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.salesmanship",
+      "slug": "salesmanship",
+      "name": "Salesmanship",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/salesmanship/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.scholarship",
+      "slug": "scholarship",
+      "name": "Scholarship",
+      "category": "citizenship",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/scholarship/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.scouting-heritage",
+      "slug": "scouting-heritage",
+      "name": "Scouting Heritage",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/scouting-heritage/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.scuba-diving",
+      "slug": "scuba-diving",
+      "name": "Scuba Diving",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/scuba-diving/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.sculpture",
+      "slug": "sculpture",
+      "name": "Sculpture",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/sculpture/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.search-and-rescue",
+      "slug": "search-and-rescue",
+      "name": "Search and Rescue",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/search-and-rescue/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.shotgun-shooting",
+      "slug": "shotgun-shooting",
+      "name": "Shotgun Shooting",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/shotgun-shooting/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.signs-signals-and-codes",
+      "slug": "signs-signals-and-codes",
+      "name": "Signs, Signals, and Codes",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/signs-signals-and-codes/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.skating",
+      "slug": "skating",
+      "name": "Skating",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/skating/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.small-boat-sailing",
+      "slug": "small-boat-sailing",
+      "name": "Small-Boat Sailing",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/small-boat-sailing/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.snow-sports",
+      "slug": "snow-sports",
+      "name": "Snow Sports",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/snow-sports/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.soil-and-water-conservation",
+      "slug": "soil-and-water-conservation",
+      "name": "Soil and Water Conservation",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/soil-and-water-conservation/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.space-exploration",
+      "slug": "space-exploration",
+      "name": "Space Exploration",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/space-exploration/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.sports",
+      "slug": "sports",
+      "name": "Sports",
+      "category": "sports",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/sports/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.stamp-collecting",
+      "slug": "stamp-collecting",
+      "name": "Stamp Collecting",
+      "category": "hobbies-heritage",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/stamp-collecting/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.surveying",
+      "slug": "surveying",
+      "name": "Surveying",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/surveying/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.sustainability",
+      "slug": "sustainability",
+      "name": "Sustainability",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required-option",
+        "group": "Environmental Science or Sustainability",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/sustainability/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.swimming",
+      "slug": "swimming",
+      "name": "Swimming",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "required-option",
+        "group": "Swimming, Hiking, or Cycling",
+        "verified": false,
+        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/swimming/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.textile",
+      "slug": "textile",
+      "name": "Textile",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/textile/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.theater",
+      "slug": "theater",
+      "name": "Theater",
+      "category": "arts-communication",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/theater/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.traffic-safety",
+      "slug": "traffic-safety",
+      "name": "Traffic Safety",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/traffic-safety/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.truck-transportation",
+      "slug": "truck-transportation",
+      "name": "Truck Transportation",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/truck-transportation/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.veterinary-medicine",
+      "slug": "veterinary-medicine",
+      "name": "Veterinary Medicine",
+      "category": "health-safety",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/veterinary-medicine/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.water-sports",
+      "slug": "water-sports",
+      "name": "Water Sports",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/water-sports/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.weather",
+      "slug": "weather",
+      "name": "Weather",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/weather/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.welding",
+      "slug": "welding",
+      "name": "Welding",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/welding/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.whitewater",
+      "slug": "whitewater",
+      "name": "Whitewater",
+      "category": "aquatics",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/whitewater/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.wilderness-survival",
+      "slug": "wilderness-survival",
+      "name": "Wilderness Survival",
+      "category": "outdoor",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.wood-carving",
+      "slug": "wood-carving",
+      "name": "Wood Carving",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/wood-carving/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.woodwork",
+      "slug": "woodwork",
+      "name": "Woodwork",
+      "category": "trades-crafts",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": false
+      },
+      "catalogStatus": "unverified",
+      "officialUrl": "https://www.scouting.org/merit-badges/woodwork/",
+      "officialUrlStatus": "unchecked"
+    }
+  ]
+}

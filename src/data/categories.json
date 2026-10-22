@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    { "id": "outdoor", "name": "Outdoor Skills", "description": "Camping, hiking, navigation, cooking and the skills that carry you through a trip." },
+    { "id": "nature", "name": "Nature & Environment", "description": "Living things, landscapes, weather and how to care for them." },
+    { "id": "aquatics", "name": "Aquatics", "description": "Swimming, boating and water safety." },
+    { "id": "health-safety", "name": "Health & Safety", "description": "First aid, fitness, emergency readiness and safe habits." },
+    { "id": "citizenship", "name": "Citizenship & Life Skills", "description": "Community, government, communication, money and family life." },
+    { "id": "science-tech", "name": "Science & Technology", "description": "Engineering, computing, space, energy and how things work." },
+    { "id": "arts-communication", "name": "Arts & Design", "description": "Visual art, music, performance, film and design." },
+    { "id": "trades-crafts", "name": "Trades & Crafts", "description": "Hands-on making, repair and skilled trades." },
+    { "id": "sports", "name": "Sports & Shooting Sports", "description": "Athletics, team and individual sports, and range sports." },
+    { "id": "hobbies-heritage", "name": "Hobbies & Heritage", "description": "Collecting, animals, history and personal interests." }
+  ]
+}

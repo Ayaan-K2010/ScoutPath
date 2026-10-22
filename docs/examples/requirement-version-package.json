@@ -1,0 +1,28 @@
+{
+  "kind": "requirement-version",
+  "ownerId": "rank.scout",
+  "version": {
+    "versionId": "example-2027",
+    "label": "Example: transcription checked against the official source",
+    "effectiveDate": "2027-01-01",
+    "status": "verified",
+    "completeness": "complete",
+    "wordingPolicy": "link-only",
+    "sourceUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+    "sourceLinkStatus": "ok",
+    "sourceCheckedOn": "2027-01-05",
+    "supersedes": "outline-2026-draft",
+    "provenance": {
+      "method": "human-transcription",
+      "notes": "Example only. A reviewer compared every number and topic with the official requirements.",
+      "recordedBy": "Example Reviewer",
+      "recordedOn": "2027-01-05",
+      "references": []
+    },
+    "requirements": [
+      { "id": "rank.scout.1", "number": "1", "title": "Scouting ideals", "summary": "The Scout Oath, Scout Law, motto, slogan and related ideals.", "kind": "knowledge", "children": [] },
+      { "id": "rank.scout.2", "number": "2", "title": "How a troop works", "summary": "How a troop is led and how advancement works.", "kind": "knowledge", "children": [] },
+      { "id": "rank.scout.3", "number": "3", "title": "Rope skills", "summary": "Basic knots and rope care (example renumbering).", "kind": "demonstration", "children": [] }
+    ]
+  }
+}

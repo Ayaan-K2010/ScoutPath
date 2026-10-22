@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "rank.eagle",
+  "slug": "eagle",
+  "name": "Eagle",
+  "order": 7,
+  "description": "Eagle Scout is the highest rank. It combines sustained participation, a full set of merit badges, leadership, and a service project the Scout plans, develops and leads. Eagle procedures are detailed and governed by official guidance, so this page is an orientation only.",
+  "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+  "officialUrlStatus": "unchecked",
+  "lastReviewed": null,
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Topic outline drafted from maintainer familiarity with the Scouts BSA rank requirements (the structure introduced in 2016 and revised since) and cross-referenced with secondary sources found by web search. Official rank requirements could not be reached from the build environment. Eagle has detailed official procedures (including the Eagle Scout Rank Application and service project workbook) that are not summarized here.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": [
+          {
+            "label": "Wikipedia: Ranks in Scouts BSA (secondary source)",
+            "url": "https://en.wikipedia.org/wiki/Ranks_in_Scouts_BSA"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.eagle.1",
+          "number": "1",
+          "title": "Active participation",
+          "summary": "Being active in your troop for the required time as a Life Scout.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.2",
+          "number": "2",
+          "title": "Scout spirit and references",
+          "summary": "Showing Scout spirit and listing references who can speak to it.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.3",
+          "number": "3",
+          "title": "Merit badges",
+          "summary": "Earning the required total of merit badges, including those on the Eagle-required list.",
+          "kind": "activity",
+          "note": "Council communications in 2026 report that Citizenship in Society was discontinued and that Eagle now requires 13 Eagle-required badges plus 8 electives (still 21 in total). This has not been checked against scouting.org. Confirm the current list and any transition rules with your unit leader.",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.4",
+          "number": "4",
+          "title": "Position of responsibility",
+          "summary": "Serving actively in a position of responsibility for the required time.",
+          "kind": "leadership",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.5",
+          "number": "5",
+          "title": "Eagle Scout service project",
+          "summary": "Planning, developing and leading a service project that benefits a community organization, following official procedures.",
+          "kind": "leadership",
+          "note": "Project approvals and workbook procedures are set by official guidance and your council.",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.6",
+          "number": "6",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.7",
+          "number": "7",
+          "title": "Board of review",
+          "summary": "Completing an Eagle Scout board of review.",
+          "kind": "review",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

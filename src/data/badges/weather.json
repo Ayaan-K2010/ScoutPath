@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.weather",
+  "slug": "weather",
+  "description": "Weather connects the science of the atmosphere — air masses, fronts, clouds and the water cycle — with the practical safety decisions Scouts make outdoors. ScoutPath has gathered background resources and a study set, but the requirement outline has not been written yet.",
+  "lastReviewed": null,
+  "safety": { "sensitive": true, "reviewed": false, "note": "Severe-weather safety guidance comes from the National Weather Service and your local authorities." },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": ["res.nws-lightning-safety", "res.noaa-jetstream-weather-maps", "res.noaa-weather-systems", "res.nws-cloud-chart", "res.noaa-jetstream-lightning"],
+  "studySetIds": ["study.weather-and-lightning"]
+}

@@ -1,0 +1,1687 @@
+{
+  "schemaVersion": 1,
+  "resources": [
+    {
+      "id": "res.redcross-check-call-care",
+      "title": "Check, Call, Care: the three emergency action steps",
+      "url": "https://www.redcross.org/take-a-class/resources/articles/the-three-cs-of-first-aid-check-call-care",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Introduces the Check, Call, Care sequence for responding to an emergency: making sure the scene is safe, getting help on the way, and giving care within your training.",
+      "topics": [
+        "emergency response",
+        "scene safety",
+        "calling 911"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-burns",
+      "title": "Burns: types, symptoms, and how to help",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Explains how burns are classified, how to cool a burn, which home remedies to avoid, and when a burn needs emergency care.",
+      "topics": [
+        "burns",
+        "first aid"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-choking",
+      "title": "Adult and child choking: symptoms and first aid",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Describes how to recognize choking in an adult or child and the back-blow and abdominal-thrust approach taught in Red Cross courses.",
+      "topics": [
+        "choking",
+        "airway"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-bleeding",
+      "title": "Life-threatening external bleeding",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Covers recognizing severe bleeding and controlling it with direct pressure, plus when a tourniquet is used.",
+      "topics": [
+        "bleeding",
+        "tourniquet",
+        "direct pressure"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-wounds",
+      "title": "Wounds: types and first aid",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/wounds",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "An overview of cuts, scrapes, punctures and other wounds, with basic cleaning and covering steps.",
+      "topics": [
+        "cuts and scrapes",
+        "puncture wounds",
+        "wound care"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-fractures",
+      "title": "Fractures: types, symptoms, and treatment",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/fractures",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Explains how to recognize a possible broken bone and why a suspected fracture is treated as a fracture until a professional says otherwise.",
+      "topics": [
+        "fractures",
+        "splinting"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-muscle-bone-joint",
+      "title": "Muscle, bone, and joint injuries",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/muscle-bone-joint-injury",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Covers sprains, strains and dislocations, including resting the injured part and using a wrapped cold pack.",
+      "topics": [
+        "sprains",
+        "strains",
+        "cold packs"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-eye-injury",
+      "title": "Eye injury: symptoms and treatment",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/eye-injury",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Describes first aid for common eye injuries, including objects in the eye.",
+      "topics": [
+        "eye injury",
+        "object in eye"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-water-safety",
+      "title": "Water safety",
+      "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "A hub of water-safety guidance: supervision, swimming skills, life jackets and what to do in a water emergency.",
+      "topics": [
+        "water safety",
+        "drowning prevention",
+        "supervision"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.redcross-swim-safety",
+      "title": "Swimming safety",
+      "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/swim-safety.html",
+      "publisher": "American Red Cross",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Practical swimming-safety habits, including swimming in lifeguarded areas and never swimming alone.",
+      "topics": [
+        "swimming",
+        "buddy system",
+        "lifeguards"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.medlineplus-first-aid",
+      "title": "First Aid (MedlinePlus health topic)",
+      "url": "https://medlineplus.gov/firstaid.html",
+      "publisher": "National Library of Medicine (MedlinePlus)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "A government index of first-aid topics with links to plain-language articles on dozens of injuries and illnesses.",
+      "topics": [
+        "first aid",
+        "reference"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.medlineplus-shock",
+      "title": "Shock (MedlinePlus Medical Encyclopedia)",
+      "url": "https://medlineplus.gov/ency/article/000039.htm",
+      "publisher": "National Library of Medicine (MedlinePlus)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Describes the warning signs of shock and the first-aid steps to take while waiting for emergency help.",
+      "topics": [
+        "shock",
+        "emergency care"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.medlineplus-bleeding",
+      "title": "Bleeding (MedlinePlus Medical Encyclopedia)",
+      "url": "https://medlineplus.gov/ency/article/000045.htm",
+      "publisher": "National Library of Medicine (MedlinePlus)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Explains external and internal bleeding and why direct pressure is the main first-aid step for most external bleeding.",
+      "topics": [
+        "bleeding",
+        "direct pressure"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.medlineplus-broken-bone",
+      "title": "Broken bone (MedlinePlus Medical Encyclopedia)",
+      "url": "https://medlineplus.gov/ency/article/000001.htm",
+      "publisher": "National Library of Medicine (MedlinePlus)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Covers signs of a broken bone and immobilizing the area above and below the injury instead of trying to straighten it.",
+      "topics": [
+        "fractures",
+        "immobilization"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.medlineplus-heat-emergencies",
+      "title": "Heat emergencies (MedlinePlus Medical Encyclopedia)",
+      "url": "https://medlineplus.gov/ency/article/000056.htm",
+      "publisher": "National Library of Medicine (MedlinePlus)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Explains heat cramps, heat exhaustion and heat stroke, with first-aid steps for each.",
+      "topics": [
+        "heat exhaustion",
+        "heat stroke",
+        "dehydration"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.medlineplus-cold-prevention",
+      "title": "How to prevent frostbite and hypothermia",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000866.htm",
+      "publisher": "National Library of Medicine (MedlinePlus)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Practical prevention advice for cold weather, including layering and why cotton is a poor choice when it is wet and cold.",
+      "topics": [
+        "hypothermia",
+        "frostbite",
+        "layering"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.medlineplus-stroke",
+      "title": "Stroke (MedlinePlus health topic)",
+      "url": "https://medlineplus.gov/stroke.html",
+      "publisher": "National Library of Medicine (MedlinePlus)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "A government overview of stroke, its warning signs and why calling emergency services quickly matters.",
+      "topics": [
+        "stroke",
+        "warning signs"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.aha-hands-only-cpr",
+      "title": "Hands-Only CPR",
+      "url": "https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr",
+      "publisher": "American Heart Association",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The American Heart Association’s introduction to Hands-Only CPR for teens and adults who suddenly collapse. Reading it does not replace hands-on training from a certified instructor.",
+      "topics": [
+        "CPR",
+        "cardiac arrest"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.aha-what-is-cpr",
+      "title": "What is CPR?",
+      "url": "https://cpr.heart.org/en/resources/what-is-cpr",
+      "publisher": "American Heart Association",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Explains what CPR does, why fast action matters in cardiac arrest, and how CPR fits with calling 911 and using an AED.",
+      "topics": [
+        "CPR",
+        "AED",
+        "cardiac arrest"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.aha-heart-attack-signs",
+      "title": "Warning signs of a heart attack",
+      "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack",
+      "publisher": "American Heart Association",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Lists the common warning signs of a heart attack and explains why symptoms can differ from person to person.",
+      "topics": [
+        "heart attack",
+        "warning signs"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-heart-attack",
+      "title": "About heart attack symptoms, risk, and recovery",
+      "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The CDC’s summary of heart attack symptoms and the advice to call 911 right away.",
+      "topics": [
+        "heart attack",
+        "warning signs"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.osha-bloodborne",
+      "title": "Bloodborne pathogens: worker protections",
+      "url": "https://www.osha.gov/bloodborne-pathogens/worker-protections",
+      "publisher": "Occupational Safety and Health Administration",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "Workplace guidance on protecting yourself from blood and body fluids, including gloves and hand washing. Useful background for standard precautions in first aid.",
+      "topics": [
+        "standard precautions",
+        "bloodborne pathogens",
+        "gloves"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.nws-heat-illness",
+      "title": "Heat cramps, exhaustion, and stroke",
+      "url": "https://www.weather.gov/safety/heat-illness",
+      "publisher": "National Weather Service",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "A concise National Weather Service chart comparing heat cramps, heat exhaustion and heat stroke, with what to do for each.",
+      "topics": [
+        "heat exhaustion",
+        "heat stroke",
+        "heat cramps"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.niosh-heat-illnesses",
+      "title": "Heat-related illnesses",
+      "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "publisher": "CDC / National Institute for Occupational Safety and Health",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "Describes the range of heat-related illnesses and first aid, written for people who work or exert themselves in the heat.",
+      "topics": [
+        "heat stress",
+        "heat stroke",
+        "dehydration"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-hypothermia",
+      "title": "Preventing hypothermia",
+      "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The CDC’s guide to hypothermia warning signs and prevention, including the reminder that it can happen above freezing when someone is wet and chilled.",
+      "topics": [
+        "hypothermia",
+        "cold weather"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-frostbite",
+      "title": "Preventing frostbite",
+      "url": "https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "How to recognize early frostbite and what not to do, such as rubbing the area or warming numb skin with a heating pad.",
+      "topics": [
+        "frostbite",
+        "cold weather"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-frostbite-hypothermia-pdf",
+      "title": "Avoid, spot, and treat frostbite and hypothermia",
+      "url": "https://www.cdc.gov/winter-weather/media/pdf/avoid-spot-treat-frostbite.pdf",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "pdf",
+      "description": "A one-page printable CDC reference on avoiding, recognizing and responding to frostbite and hypothermia.",
+      "topics": [
+        "frostbite",
+        "hypothermia",
+        "printable"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.niosh-venomous-snakes",
+      "title": "Venomous snakes",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html",
+      "publisher": "CDC / National Institute for Occupational Safety and Health",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "Covers the main venomous snakes in the United States, how to avoid bites, and first-aid do’s and don’ts while getting medical care.",
+      "topics": [
+        "snakebite",
+        "outdoor hazards"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.niosh-venomous-spiders",
+      "title": "Venomous spiders",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html",
+      "publisher": "CDC / National Institute for Occupational Safety and Health",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "Describes black widow and brown recluse spiders, how bites usually happen, and basic first aid.",
+      "topics": [
+        "spider bites",
+        "outdoor hazards"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.niosh-poisonous-plants",
+      "title": "Poisonous plants",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html",
+      "publisher": "CDC / National Institute for Occupational Safety and Health",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "Explains poison ivy, oak and sumac, how urushiol spreads through tools and clothing, and how to rinse exposed skin.",
+      "topics": [
+        "poison ivy",
+        "poisonous plants",
+        "urushiol"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-ticks",
+      "title": "Preventing tick bites",
+      "url": "https://www.cdc.gov/ticks/prevention/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The CDC’s tick-bite prevention steps before, during and after time outdoors, including tick checks and repellents.",
+      "topics": [
+        "ticks",
+        "insect bites",
+        "repellent"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-water-treatment",
+      "title": "Water treatment options when hiking, camping, or traveling",
+      "url": "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "Compares boiling, filtering, chemical disinfection and UV treatment for backcountry water, with what each method does and does not remove.",
+      "topics": [
+        "water treatment",
+        "boiling",
+        "filters"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-drowning",
+      "title": "Preventing drowning",
+      "url": "https://www.cdc.gov/drowning/prevention/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The CDC’s drowning-prevention guidance, including swimming skills, life jackets and always swimming with a buddy.",
+      "topics": [
+        "drowning prevention",
+        "buddy system",
+        "life jackets"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.lnt-seven-principles",
+      "title": "The Leave No Trace Seven Principles",
+      "url": "https://lnt.org/why/7-principles/",
+      "publisher": "Leave No Trace Center for Outdoor Ethics",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The source for the seven Leave No Trace principles, with explanations of each for people visiting the outdoors.",
+      "topics": [
+        "Leave No Trace",
+        "outdoor ethics"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.nps-leave-no-trace",
+      "title": "Leave No Trace Seven Principles (National Park Service)",
+      "url": "https://www.nps.gov/articles/leave-no-trace-seven-principles.htm",
+      "publisher": "National Park Service",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "The National Park Service’s explanation of the seven principles as a flexible framework rather than a list of rules.",
+      "topics": [
+        "Leave No Trace",
+        "outdoor ethics",
+        "national parks"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.nps-ten-essentials",
+      "title": "Ten Essentials",
+      "url": "https://www.nps.gov/articles/10essentials.htm",
+      "publisher": "National Park Service",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "The National Park Service’s version of the Ten Essentials: navigation, sun protection, insulation, illumination, first aid, fire, repair kit, nutrition, hydration and emergency shelter.",
+      "topics": [
+        "ten essentials",
+        "packing",
+        "hiking"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.nps-hiking-safety",
+      "title": "About hiking safety",
+      "url": "https://www.nps.gov/thingstodo/learn-about-hiking-safety.htm",
+      "publisher": "National Park Service",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "General trail-safety habits from the National Park Service: planning, telling someone your route and knowing your limits.",
+      "topics": [
+        "hiking safety",
+        "trip planning"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.smokey-campfire-safety",
+      "title": "How to put out a campfire",
+      "url": "https://smokeybear.com/campfire-safety",
+      "publisher": "USDA Forest Service and Ad Council (Smokey Bear)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Smokey Bear’s campfire guidance: choosing a site, keeping fires small and attended, and the drown, stir and feel method for putting a fire out.",
+      "topics": [
+        "campfire",
+        "fire safety",
+        "wildfire prevention"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.fsis-camping-food-safety",
+      "title": "Food safety while hiking, camping, and boating",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping",
+      "publisher": "USDA Food Safety and Inspection Service",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "How to pack, keep cold, cook and clean up food safely on trips, including the danger zone between 40 °F and 140 °F.",
+      "topics": [
+        "food safety",
+        "camp cooking"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.foodsafety-temperatures",
+      "title": "Safe minimum internal temperatures",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "publisher": "FoodSafety.gov (U.S. Department of Health and Human Services)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "diagram",
+      "description": "A reference chart of safe cooking temperatures for meat, poultry, fish, eggs and leftovers, measured with a food thermometer.",
+      "topics": [
+        "cooking temperatures",
+        "food thermometer"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.usgs-map-compass",
+      "title": "Finding your way with map and compass",
+      "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+      "publisher": "U.S. Geological Survey",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "A USGS primer on contour lines, map scale, map symbols and taking a bearing with a compass.",
+      "topics": [
+        "topographic maps",
+        "compass",
+        "navigation"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.usgs-declination",
+      "title": "What is declination?",
+      "url": "https://www.usgs.gov/faqs/what-declination",
+      "publisher": "U.S. Geological Survey",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "A short USGS explanation of magnetic declination and why the difference between true north and magnetic north changes over time.",
+      "topics": [
+        "declination",
+        "compass",
+        "navigation"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.nws-lightning-safety",
+      "title": "Lightning safety",
+      "url": "https://www.weather.gov/safety/lightning-safety",
+      "publisher": "National Weather Service",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The National Weather Service’s lightning-safety hub: why hearing thunder means you are in range, what counts as safe shelter, and what to do outdoors.",
+      "topics": [
+        "lightning",
+        "thunderstorms",
+        "severe weather"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.noaa-jetstream-lightning",
+      "title": "JetStream: lightning safety",
+      "url": "https://www.noaa.gov/jetstream/lightning/lightning-safety",
+      "publisher": "NOAA JetStream",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "A lesson from NOAA’s online weather school on lightning risk and how to reduce it, including waiting 30 minutes after the last thunder.",
+      "topics": [
+        "lightning",
+        "weather education"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.noaa-jetstream-weather-maps",
+      "title": "JetStream: how to read surface weather maps",
+      "url": "https://www.noaa.gov/jetstream/wxmaps",
+      "publisher": "NOAA JetStream",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "A NOAA lesson on reading surface weather maps: highs, lows, fronts and the symbols forecasters use.",
+      "topics": [
+        "weather maps",
+        "fronts",
+        "air pressure"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.noaa-weather-systems",
+      "title": "Weather systems and patterns",
+      "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/weather-systems-patterns",
+      "publisher": "NOAA Education",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "NOAA’s education collection on air masses, fronts and the large patterns that shape day-to-day weather.",
+      "topics": [
+        "air masses",
+        "fronts",
+        "weather systems"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.nws-cloud-chart",
+      "title": "Cloud classifications and characteristics",
+      "url": "https://www.weather.gov/media/lmk/soo/cloudchart.pdf",
+      "publisher": "National Weather Service",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "diagram",
+      "description": "A printable National Weather Service cloud chart that groups clouds by height and shape.",
+      "topics": [
+        "clouds",
+        "cloud identification",
+        "printable"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.ready-build-a-kit",
+      "title": "Build a kit",
+      "url": "https://www.ready.gov/kit",
+      "publisher": "Ready.gov (FEMA)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "FEMA’s list of basic emergency-kit supplies and tips for storing and maintaining a household kit.",
+      "topics": [
+        "emergency kit",
+        "preparedness"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.ready-family-planning",
+      "title": "Family emergency planning",
+      "url": "https://www.ready.gov/kids/family-emergency-planning",
+      "publisher": "Ready.gov (FEMA)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "A youth-friendly guide to making a family emergency plan: contacts, meeting places and what to do when you are apart.",
+      "topics": [
+        "family plan",
+        "preparedness",
+        "meeting places"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.ready-supply-checklist",
+      "title": "Emergency supply list (printable)",
+      "url": "https://www.ready.gov/sites/default/files/2021-02/ready_checklist.pdf",
+      "publisher": "Ready.gov (FEMA)",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "pdf",
+      "description": "A printable checklist version of FEMA’s recommended emergency supplies.",
+      "topics": [
+        "emergency kit",
+        "printable",
+        "checklist"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.animatedknots-scouting",
+      "title": "Scouting knots",
+      "url": "https://www.animatedknots.com/scouting-knots",
+      "publisher": "Animated Knots by Grog",
+      "publisherType": "independent",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "A collection of step-by-step knot animations grouped around knots commonly taught in Scouting.",
+      "topics": [
+        "knots",
+        "ropework"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.animatedknots-square-knot",
+      "title": "Square knot",
+      "url": "https://www.animatedknots.com/square-knot",
+      "publisher": "Animated Knots by Grog",
+      "publisherType": "independent",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "An animated, step-by-step square knot, with notes on when it should not be trusted to hold a load.",
+      "topics": [
+        "square knot",
+        "knots"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.animatedknots-two-half-hitches",
+      "title": "Two half hitches",
+      "url": "https://www.animatedknots.com/two-half-hitches-knot",
+      "publisher": "Animated Knots by Grog",
+      "publisherType": "independent",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "An animated guide to tying two half hitches around a pole or ring.",
+      "topics": [
+        "two half hitches",
+        "hitches",
+        "knots"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.animatedknots-midshipmans-hitch",
+      "title": "Midshipman’s hitch (taut-line style hitch)",
+      "url": "https://www.animatedknots.com/midshipmans-hitch-knot",
+      "publisher": "Animated Knots by Grog",
+      "publisherType": "independent",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "An animated adjustable-loop hitch that the site presents as an improved version of the taut-line hitch. Check with your leader which form they expect you to show.",
+      "topics": [
+        "taut-line hitch",
+        "adjustable hitch",
+        "knots"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.animatedknots-clove-hitch",
+      "title": "Clove hitch",
+      "url": "https://www.animatedknots.com/clove-hitch-knot-using-loops",
+      "publisher": "Animated Knots by Grog",
+      "publisherType": "independent",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "An animated clove hitch tied with loops, a common starting knot for lashings.",
+      "topics": [
+        "clove hitch",
+        "lashing",
+        "knots"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.animatedknots-square-lashing",
+      "title": "Square lashing",
+      "url": "https://www.animatedknots.com/square-lashing-knot",
+      "publisher": "Animated Knots by Grog",
+      "publisherType": "independent",
+      "sourceClass": "independent",
+      "type": "interactive",
+      "description": "An animated square lashing for binding two poles that cross at a right angle.",
+      "topics": [
+        "square lashing",
+        "pioneering"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.legion-flag-code",
+      "title": "U.S. Flag Code: display, respect, and proper use",
+      "url": "https://www.legion.org/advocacy/flag-advocacy/flag-code",
+      "publisher": "The American Legion",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "The American Legion’s plain-language guide to the U.S. Flag Code: display rules, respect for the flag and conduct during ceremonies.",
+      "topics": [
+        "U.S. flag",
+        "flag etiquette",
+        "citizenship"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.legion-flag-folding",
+      "title": "Flag-folding procedures",
+      "url": "https://www.legion.org/advocacy/flag-advocacy/flag-folding-procedures",
+      "publisher": "The American Legion",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "Step-by-step instructions for the traditional triangular fold of the U.S. flag.",
+      "topics": [
+        "flag folding",
+        "U.S. flag"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.va-flag-display",
+      "title": "Guidelines for display of the flag",
+      "url": "https://www.va.gov/opa/publications/celebrate/flagdisplay.pdf",
+      "publisher": "U.S. Department of Veterans Affairs",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "pdf",
+      "description": "A printable VA guide to displaying the U.S. flag correctly in different settings.",
+      "topics": [
+        "U.S. flag",
+        "flag display",
+        "printable"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.cdc-youth-activity",
+      "title": "Physical activity guidelines for children and adolescents",
+      "url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "publisherType": "government",
+      "sourceClass": "independent",
+      "type": "official-page",
+      "description": "The CDC’s summary of how much and what kinds of activity are recommended for school-aged youth.",
+      "topics": [
+        "physical fitness",
+        "exercise",
+        "health"
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "not-required",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    },
+    {
+      "id": "res.aha-heart-attack-stroke-signs",
+      "title": "Get familiar with the signs of a heart attack or stroke",
+      "url": "https://www.heart.org/en/news/2020/01/21/get-familiar-with-signs-of-a-heart-attack-or-stroke",
+      "publisher": "American Heart Association",
+      "publisherType": "nonprofit",
+      "sourceClass": "independent",
+      "type": "article",
+      "description": "An American Heart Association article that walks through heart attack warning signs and the F.A.S.T. signs of stroke — face drooping, arm weakness, speech difficulty and time to call 911.",
+      "topics": [
+        "stroke",
+        "heart attack",
+        "F.A.S.T."
+      ],
+      "durationMinutes": null,
+      "durationVerified": false,
+      "language": "en",
+      "linkStatus": "unchecked",
+      "lastChecked": null,
+      "contentReviewedOn": null,
+      "verification": "unverified",
+      "safetyReview": "pending",
+      "discovery": {
+        "method": "web-search",
+        "on": "2026-10-22",
+        "note": "URL taken from a web-search result. The page itself could not be fetched from the build environment."
+      }
+    }
+  ]
+}

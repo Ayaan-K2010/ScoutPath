@@ -1,0 +1,1139 @@
+{
+  "schemaVersion": 1,
+  "sets": [
+    {
+      "id": "study.first-aid-foundations",
+      "slug": "first-aid-foundations",
+      "title": "First aid foundations",
+      "description": "Core first-aid ideas that run through the Tenderfoot, Second Class and First Class ranks and the First Aid merit badge: emergency action steps, heat and cold illness, heart attack and stroke, CPR basics, bleeding, burns and shock.",
+      "status": "unverified",
+      "reviewedOn": null,
+      "badgeIds": [
+        "mb.first-aid"
+      ],
+      "rankIds": [
+        "rank.tenderfoot",
+        "rank.second-class",
+        "rank.first-class"
+      ],
+      "requirementIds": [
+        "mb.first-aid.2c",
+        "mb.first-aid.2d",
+        "mb.first-aid.4a",
+        "mb.first-aid.4c",
+        "mb.first-aid.4f",
+        "mb.first-aid.5",
+        "rank.second-class.6a",
+        "rank.first-class.7c"
+      ],
+      "guide": {
+        "intro": "This guide summarizes what reputable first-aid organizations publish on each topic so you know what to look for when you study and practice. It is not a first-aid course. First aid is a hands-on skill: practice with your counselor or a certified instructor, and follow current training when it differs from anything here.",
+        "sections": [
+          {
+            "heading": "Check, Call, Care",
+            "body": "The American Red Cross organizes emergency response into three actions. Check: make sure the scene is safe for you, then check the person — are they responsive, breathing normally, or bleeding severely? Call: call 911 (or have someone else call) when a person is unresponsive, not breathing normally, or has another life-threatening problem; dispatchers are trained to coach you through steps such as CPR. Care: give the care you are trained to give and keep watching for changes until help takes over.",
+            "sourceResourceIds": [
+              "res.redcross-check-call-care"
+            ]
+          },
+          {
+            "heading": "Heat illness: exhaustion versus stroke",
+            "body": "Heat exhaustion often shows up as heavy sweating, cool, pale and clammy skin, a fast but weak pulse, nausea, dizziness, headache or fainting. Move the person somewhere cooler, loosen clothing, apply cool wet cloths and offer sips of water; get medical help if they vomit, get worse, or symptoms last more than an hour. Heat stroke is a medical emergency: look for confusion, hot skin, a fast strong pulse and possible loss of consciousness. Call 911, move the person somewhere cooler and cool them with cold cloths or a cool bath.",
+            "sourceResourceIds": [
+              "res.nws-heat-illness",
+              "res.niosh-heat-illnesses"
+            ]
+          },
+          {
+            "heading": "Cold injuries: hypothermia and frostbite",
+            "body": "Hypothermia is not only a winter problem — the CDC notes it can happen at cool temperatures above 40 °F when someone is wet from rain, sweat or water. Warning signs include shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech and drowsiness. Frostbite often starts with redness or pain, then skin that looks white or grayish-yellow and feels unusually firm or waxy and numb. Because the area is numb, do not rub it and do not warm it with a heating pad, stove or fireplace; get the person to warmth and medical care.",
+            "sourceResourceIds": [
+              "res.cdc-hypothermia",
+              "res.cdc-frostbite"
+            ]
+          },
+          {
+            "heading": "Heart attack, stroke, and Hands-Only CPR",
+            "body": "The most common heart attack sign is chest discomfort — pressure, squeezing or pain in the center of the chest. Other signs include discomfort in the arms, back, neck, jaw or stomach, shortness of breath, a cold sweat, nausea or lightheadedness. For stroke, the American Heart Association teaches F.A.S.T.: Face drooping, Arm weakness, Speech difficulty, Time to call 911. If a teen or adult suddenly collapses, Hands-Only CPR has two steps: call 911, then push hard and fast in the center of the chest at 100 to 120 compressions a minute. CPR must be learned hands-on from a certified instructor.",
+            "sourceResourceIds": [
+              "res.aha-heart-attack-signs",
+              "res.aha-heart-attack-stroke-signs",
+              "res.aha-hands-only-cpr"
+            ]
+          },
+          {
+            "heading": "Shock",
+            "body": "Shock happens when the body is not getting enough blood flow. Signs can include pale, cool, clammy skin, a rapid but weak pulse, rapid shallow breathing, bluish lips or fingernails, and confusion. Call 911, check breathing, and follow the first-aid steps you have been trained in while waiting for help.",
+            "sourceResourceIds": [
+              "res.medlineplus-shock"
+            ]
+          },
+          {
+            "heading": "Bleeding, burns, and choking",
+            "body": "Firm, direct pressure is the main way to control most external bleeding; a tourniquet is reserved for life-threatening bleeding that pressure does not control. For burns, cool the area with clean, cool running water and skip greasy home remedies such as butter, which do not help. For a conscious adult or child who is choking, Red Cross courses teach a cycle of back blows and abdominal thrusts. Each of these is a physical skill to practice with an instructor.",
+            "sourceResourceIds": [
+              "res.medlineplus-bleeding",
+              "res.redcross-bleeding",
+              "res.redcross-burns",
+              "res.redcross-choking"
+            ]
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "Standard precautions",
+            "definition": "Treating all blood and most body fluids as potentially infectious and protecting yourself every time, for example with disposable gloves and hand washing.",
+            "sourceResourceIds": [
+              "res.osha-bloodborne"
+            ]
+          },
+          {
+            "term": "Hypothermia",
+            "definition": "A dangerous drop in body temperature caused by losing heat faster than the body can make it, often when someone is cold and wet.",
+            "sourceResourceIds": [
+              "res.cdc-hypothermia"
+            ]
+          },
+          {
+            "term": "Frostbite",
+            "definition": "Freezing of the skin and the tissue beneath it, most often on the nose, ears, cheeks, chin, fingers or toes.",
+            "sourceResourceIds": [
+              "res.cdc-frostbite"
+            ]
+          },
+          {
+            "term": "Heat stroke",
+            "definition": "The most serious heat-related illness, in which the body can no longer control its temperature. It is a 911 emergency.",
+            "sourceResourceIds": [
+              "res.nws-heat-illness"
+            ]
+          },
+          {
+            "term": "Shock",
+            "definition": "A life-threatening condition in which the body is not getting enough blood flow.",
+            "sourceResourceIds": [
+              "res.medlineplus-shock"
+            ]
+          },
+          {
+            "term": "Hands-Only CPR",
+            "definition": "CPR without rescue breaths: call 911, then push hard and fast in the center of the chest of a teen or adult who has suddenly collapsed.",
+            "sourceResourceIds": [
+              "res.aha-hands-only-cpr"
+            ]
+          },
+          {
+            "term": "AED",
+            "definition": "Automated external defibrillator: a portable device that checks the heart’s rhythm and can deliver a shock, used alongside CPR.",
+            "sourceResourceIds": [
+              "res.aha-what-is-cpr"
+            ]
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "id": "fa-1",
+          "front": "What are the three emergency action steps taught by the American Red Cross?",
+          "back": "Check, Call, Care — check the scene and the person, call 911 or have someone call, and give care within your training.",
+          "sourceResourceIds": [
+            "res.redcross-check-call-care"
+          ]
+        },
+        {
+          "id": "fa-2",
+          "front": "Which is the 911 emergency: heat exhaustion or heat stroke?",
+          "back": "Heat stroke. Call 911, move the person somewhere cooler and cool them with cold cloths or a cool bath.",
+          "sourceResourceIds": [
+            "res.nws-heat-illness"
+          ]
+        },
+        {
+          "id": "fa-3",
+          "front": "What does skin usually look and feel like with heat exhaustion?",
+          "back": "Cool, pale and clammy, often with heavy sweating.",
+          "sourceResourceIds": [
+            "res.nws-heat-illness",
+            "res.niosh-heat-illnesses"
+          ]
+        },
+        {
+          "id": "fa-4",
+          "front": "Can hypothermia happen when it is above freezing?",
+          "back": "Yes. The CDC notes it can happen above 40 °F when a person is wet and chilled.",
+          "sourceResourceIds": [
+            "res.cdc-hypothermia"
+          ]
+        },
+        {
+          "id": "fa-5",
+          "front": "Name four warning signs of hypothermia.",
+          "back": "Any four of: shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech, drowsiness.",
+          "sourceResourceIds": [
+            "res.cdc-hypothermia"
+          ]
+        },
+        {
+          "id": "fa-6",
+          "front": "Should you rub frostbitten skin to warm it?",
+          "back": "No. Rubbing and direct heat such as heating pads can damage numb skin.",
+          "sourceResourceIds": [
+            "res.cdc-frostbite"
+          ]
+        },
+        {
+          "id": "fa-7",
+          "front": "What are the two steps of Hands-Only CPR?",
+          "back": "Call 911, then push hard and fast in the center of the chest.",
+          "sourceResourceIds": [
+            "res.aha-hands-only-cpr"
+          ]
+        },
+        {
+          "id": "fa-8",
+          "front": "What compression rate does the American Heart Association teach for CPR?",
+          "back": "100 to 120 compressions per minute.",
+          "sourceResourceIds": [
+            "res.aha-hands-only-cpr"
+          ]
+        },
+        {
+          "id": "fa-9",
+          "front": "What does F.A.S.T. stand for?",
+          "back": "Face drooping, Arm weakness, Speech difficulty, Time to call 911 — the warning signs of stroke.",
+          "sourceResourceIds": [
+            "res.aha-heart-attack-stroke-signs"
+          ]
+        },
+        {
+          "id": "fa-10",
+          "front": "What is the most common warning sign of a heart attack?",
+          "back": "Chest discomfort — pressure, squeezing, fullness or pain in the center of the chest.",
+          "sourceResourceIds": [
+            "res.aha-heart-attack-signs"
+          ]
+        },
+        {
+          "id": "fa-11",
+          "front": "What is the main first-aid step for most external bleeding?",
+          "back": "Firm, direct pressure on the wound.",
+          "sourceResourceIds": [
+            "res.medlineplus-bleeding"
+          ]
+        },
+        {
+          "id": "fa-12",
+          "front": "Do disposable gloves replace hand washing?",
+          "back": "No. Wash your hands after removing gloves; gloves can have tiny tears and hands can become contaminated when you take them off.",
+          "sourceResourceIds": [
+            "res.osha-bloodborne"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "fa-q1",
+          "prompt": "You find someone who has collapsed near a busy road. What is the first thing to check?",
+          "choices": [
+            "Whether the scene is safe for you",
+            "The person’s medical history",
+            "Whether the person has identification",
+            "The person’s blood pressure"
+          ],
+          "answerIndex": 0,
+          "explanation": "Check, Call, Care starts with the scene. If you become a second victim, you cannot help anyone.",
+          "sourceResourceIds": [
+            "res.redcross-check-call-care"
+          ]
+        },
+        {
+          "id": "fa-q2",
+          "prompt": "Which combination points to heat stroke rather than heat exhaustion?",
+          "choices": [
+            "Confusion and hot skin",
+            "Heavy sweating and cool, clammy skin",
+            "Mild leg cramps only",
+            "Goosebumps and shivering"
+          ],
+          "answerIndex": 0,
+          "explanation": "Confusion, hot skin and a fast, strong pulse are heat stroke warning signs. Cool, clammy skin with heavy sweating is more typical of heat exhaustion.",
+          "sourceResourceIds": [
+            "res.nws-heat-illness"
+          ]
+        },
+        {
+          "id": "fa-q3",
+          "prompt": "It is 45 °F and raining. A hiker in wet clothes is shivering and fumbling with a zipper. What should you suspect?",
+          "choices": [
+            "Hypothermia",
+            "Heat exhaustion",
+            "Nothing — it is above freezing",
+            "Dehydration only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hypothermia can happen above 40 °F when someone is wet and chilled. Shivering and fumbling hands are warning signs.",
+          "sourceResourceIds": [
+            "res.cdc-hypothermia"
+          ]
+        },
+        {
+          "id": "fa-q4",
+          "prompt": "Which response to suspected frostbite is correct?",
+          "choices": [
+            "Rub the skin briskly to restore feeling",
+            "Hold the area near a camp stove",
+            "Get the person to warmth without rubbing the area, and seek medical care",
+            "Wait for the numbness to pass on its own"
+          ],
+          "answerIndex": 2,
+          "explanation": "Frostbitten skin is numb and easily damaged, so do not rub it or warm it with direct heat such as stoves or heating pads.",
+          "sourceResourceIds": [
+            "res.cdc-frostbite"
+          ]
+        },
+        {
+          "id": "fa-q5",
+          "prompt": "What compression rate is taught for Hands-Only CPR?",
+          "choices": [
+            "60 to 80 per minute",
+            "100 to 120 per minute",
+            "150 to 180 per minute",
+            "As slowly as needed to stay steady"
+          ],
+          "answerIndex": 1,
+          "explanation": "The American Heart Association teaches 100 to 120 compressions per minute.",
+          "sourceResourceIds": [
+            "res.aha-hands-only-cpr"
+          ]
+        },
+        {
+          "id": "fa-q6",
+          "prompt": "In the F.A.S.T. stroke check, what does the A stand for?",
+          "choices": [
+            "Arm weakness",
+            "Airway",
+            "Alertness",
+            "Allergies"
+          ],
+          "answerIndex": 0,
+          "explanation": "F.A.S.T. is Face drooping, Arm weakness, Speech difficulty, Time to call 911.",
+          "sourceResourceIds": [
+            "res.aha-heart-attack-stroke-signs"
+          ]
+        },
+        {
+          "id": "fa-q7",
+          "prompt": "What is the main first-aid step for most external bleeding?",
+          "choices": [
+            "Firm, direct pressure",
+            "Apply a tourniquet immediately",
+            "Rinse the wound and wait",
+            "Remove soaked dressings every minute"
+          ],
+          "answerIndex": 0,
+          "explanation": "Direct pressure will stop most external bleeding. A tourniquet is used for life-threatening bleeding that pressure does not control.",
+          "sourceResourceIds": [
+            "res.medlineplus-bleeding",
+            "res.redcross-bleeding"
+          ]
+        },
+        {
+          "id": "fa-q8",
+          "prompt": "After giving first aid while wearing disposable gloves, what should you do?",
+          "choices": [
+            "Remove the gloves and wash your hands",
+            "Wash the gloves and keep them for next time",
+            "Nothing — gloves protected your hands",
+            "Wipe your hands on your clothing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Disposable gloves are used once, and wearing them does not replace hand washing.",
+          "sourceResourceIds": [
+            "res.osha-bloodborne"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "study.camp-ready",
+      "slug": "camp-ready",
+      "title": "Camp ready",
+      "description": "Outdoor ethics, the Ten Essentials, safe drinking water, campfire safety, food safety and tick prevention — the practical knowledge behind the camping requirements in the ranks and the Camping merit badge.",
+      "status": "unverified",
+      "reviewedOn": null,
+      "badgeIds": [
+        "mb.camping"
+      ],
+      "rankIds": [
+        "rank.tenderfoot",
+        "rank.second-class",
+        "rank.first-class"
+      ],
+      "requirementIds": [
+        "mb.camping.2",
+        "mb.camping.5c",
+        "mb.camping.6b",
+        "mb.camping.8b",
+        "rank.second-class.1b",
+        "rank.second-class.2c",
+        "rank.first-class.2d"
+      ],
+      "guide": {
+        "intro": "A camping study guide built from public-agency and nonprofit guidance. Use it to prepare for discussions with your leaders and counselor; the real learning happens on campouts.",
+        "sections": [
+          {
+            "heading": "Leave No Trace",
+            "body": "The seven Leave No Trace principles are: plan ahead and prepare; travel and camp on durable surfaces; dispose of waste properly; leave what you find; minimize campfire impacts; respect wildlife; and be considerate of others. The National Park Service describes them as a framework for making good decisions rather than a strict set of rules.",
+            "sourceResourceIds": [
+              "res.lnt-seven-principles",
+              "res.nps-leave-no-trace"
+            ]
+          },
+          {
+            "heading": "The Ten Essentials",
+            "body": "The National Park Service lists ten categories of gear for any trip: navigation, sun protection, insulation (extra clothing), illumination, first-aid supplies, fire, a repair kit and tools, nutrition (extra food), hydration (extra water) and emergency shelter. What you carry in each category depends on where, when and how long you are going.",
+            "sourceResourceIds": [
+              "res.nps-ten-essentials"
+            ]
+          },
+          {
+            "heading": "Safe drinking water",
+            "body": "Water that looks clear can still carry germs. The CDC calls boiling the most reliable method: bring water to a rolling boil for 1 minute, or 3 minutes above 6,500 feet. Filters remove many parasites and bacteria but many do not reliably remove viruses. Chemical disinfectants such as iodine and chlorine are less effective against some parasites, and UV devices do not work well in cloudy water.",
+            "sourceResourceIds": [
+              "res.cdc-water-treatment"
+            ]
+          },
+          {
+            "heading": "Campfire safety",
+            "body": "Check local fire restrictions first, keep the fire small and never leave it unattended. To put it out, Smokey Bear’s method is to drown the fire with water, stir the ashes and embers, drown it again, and feel for heat with the back of your hand. If it is too hot to touch, it is too hot to leave.",
+            "sourceResourceIds": [
+              "res.smokey-campfire-safety"
+            ]
+          },
+          {
+            "heading": "Food safety at camp",
+            "body": "Bacteria grow fastest between 40 °F and 140 °F, the “danger zone.” Keep perishable food cold, and do not leave it out for more than 2 hours (1 hour when it is above 90 °F). Use a food thermometer: 145 °F for whole cuts of beef, pork, veal and lamb (then rest 3 minutes), 160 °F for ground meats, and 165 °F for poultry and leftovers.",
+            "sourceResourceIds": [
+              "res.fsis-camping-food-safety",
+              "res.foodsafety-temperatures"
+            ]
+          },
+          {
+            "heading": "Ticks",
+            "body": "Ticks are most active from spring through early fall. The CDC recommends EPA-registered repellent, clothing treated with permethrin, walking in the center of trails, and checking your whole body after being outdoors. Showering soon after coming indoors and tumbling clothes in a hot dryer also help.",
+            "sourceResourceIds": [
+              "res.cdc-ticks"
+            ]
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "Durable surface",
+            "definition": "Ground that resists damage from foot traffic and camping, such as established trails and campsites, rock, gravel or dry grasses.",
+            "sourceResourceIds": [
+              "res.lnt-seven-principles"
+            ]
+          },
+          {
+            "term": "Danger zone",
+            "definition": "The temperature range between 40 °F and 140 °F, where bacteria in food multiply fastest.",
+            "sourceResourceIds": [
+              "res.fsis-camping-food-safety"
+            ]
+          },
+          {
+            "term": "Layering",
+            "definition": "Wearing a moisture-moving inner layer, an insulating middle layer and a wind- and rain-resistant outer layer so you can adjust to conditions.",
+            "sourceResourceIds": [
+              "res.medlineplus-cold-prevention"
+            ]
+          },
+          {
+            "term": "Permethrin",
+            "definition": "An insecticide used to treat clothing and gear (not skin) to help prevent tick bites.",
+            "sourceResourceIds": [
+              "res.cdc-ticks"
+            ]
+          },
+          {
+            "term": "Contour line",
+            "definition": "A line on a topographic map that connects points of equal elevation. Lines close together show steep ground.",
+            "sourceResourceIds": [
+              "res.usgs-map-compass"
+            ]
+          },
+          {
+            "term": "Declination",
+            "definition": "The angle between true north and magnetic north, which varies by location and changes over time.",
+            "sourceResourceIds": [
+              "res.usgs-declination"
+            ]
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "id": "cr-1",
+          "front": "How many Leave No Trace principles are there?",
+          "back": "Seven.",
+          "sourceResourceIds": [
+            "res.lnt-seven-principles"
+          ]
+        },
+        {
+          "id": "cr-2",
+          "front": "Name the Leave No Trace principle about fires.",
+          "back": "Minimize campfire impacts.",
+          "sourceResourceIds": [
+            "res.lnt-seven-principles"
+          ]
+        },
+        {
+          "id": "cr-3",
+          "front": "Which water treatment method does the CDC call most reliable?",
+          "back": "Boiling.",
+          "sourceResourceIds": [
+            "res.cdc-water-treatment"
+          ]
+        },
+        {
+          "id": "cr-4",
+          "front": "How long should you boil water at elevations above 6,500 feet?",
+          "back": "3 minutes (1 minute at lower elevations).",
+          "sourceResourceIds": [
+            "res.cdc-water-treatment"
+          ]
+        },
+        {
+          "id": "cr-5",
+          "front": "What are the steps for putting out a campfire?",
+          "back": "Drown it with water, stir, drown it again, and feel for heat with the back of your hand.",
+          "sourceResourceIds": [
+            "res.smokey-campfire-safety"
+          ]
+        },
+        {
+          "id": "cr-6",
+          "front": "What temperature range is the food “danger zone”?",
+          "back": "40 °F to 140 °F.",
+          "sourceResourceIds": [
+            "res.fsis-camping-food-safety"
+          ]
+        },
+        {
+          "id": "cr-7",
+          "front": "What internal temperature should poultry reach?",
+          "back": "165 °F, measured with a food thermometer.",
+          "sourceResourceIds": [
+            "res.foodsafety-temperatures"
+          ]
+        },
+        {
+          "id": "cr-8",
+          "front": "What internal temperature should ground beef reach?",
+          "back": "160 °F.",
+          "sourceResourceIds": [
+            "res.foodsafety-temperatures"
+          ]
+        },
+        {
+          "id": "cr-9",
+          "front": "Name five of the Ten Essentials categories.",
+          "back": "Any five of: navigation, sun protection, insulation, illumination, first aid, fire, repair kit and tools, nutrition, hydration, emergency shelter.",
+          "sourceResourceIds": [
+            "res.nps-ten-essentials"
+          ]
+        },
+        {
+          "id": "cr-10",
+          "front": "Where on a trail should you walk to reduce tick exposure?",
+          "back": "In the center of the trail, away from tall grass and brush.",
+          "sourceResourceIds": [
+            "res.cdc-ticks"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "cr-q1",
+          "prompt": "Which of these is one of the seven Leave No Trace principles?",
+          "choices": [
+            "Respect wildlife",
+            "Always build a fire",
+            "Take a souvenir rock",
+            "Camp as far from trails as possible"
+          ],
+          "answerIndex": 0,
+          "explanation": "Respect wildlife is one of the seven principles; leave what you find and minimize campfire impacts are two others.",
+          "sourceResourceIds": [
+            "res.lnt-seven-principles"
+          ]
+        },
+        {
+          "id": "cr-q2",
+          "prompt": "Your stream water looks crystal clear. What is the safest choice?",
+          "choices": [
+            "Treat it anyway — boiling is most reliable",
+            "Drink it, because clear water is safe",
+            "Only drink it if it tastes normal",
+            "Let it sit for ten minutes and drink it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Clear water can still carry germs. The CDC calls boiling the most reliable treatment.",
+          "sourceResourceIds": [
+            "res.cdc-water-treatment"
+          ]
+        },
+        {
+          "id": "cr-q3",
+          "prompt": "What limitation does the CDC note about many portable water filters?",
+          "choices": [
+            "Many do not reliably remove viruses",
+            "They make water taste salty",
+            "They only work above 6,500 feet",
+            "They remove chemical pollutants completely"
+          ],
+          "answerIndex": 0,
+          "explanation": "Many filters remove parasites and bacteria but do not reliably remove viruses.",
+          "sourceResourceIds": [
+            "res.cdc-water-treatment"
+          ]
+        },
+        {
+          "id": "cr-q4",
+          "prompt": "How do you know a campfire is out?",
+          "choices": [
+            "The ashes are cool when you feel them with the back of your hand",
+            "You no longer see flames",
+            "You covered it with dirt",
+            "It has been an hour since the last log"
+          ],
+          "answerIndex": 0,
+          "explanation": "Drown, stir, drown again and feel. If it is too hot to touch, it is too hot to leave.",
+          "sourceResourceIds": [
+            "res.smokey-campfire-safety"
+          ]
+        },
+        {
+          "id": "cr-q5",
+          "prompt": "On a 95 °F day, how long can perishable food safely sit out?",
+          "choices": [
+            "No more than 1 hour",
+            "Up to 4 hours",
+            "All day if it is shaded",
+            "Until it smells off"
+          ],
+          "answerIndex": 0,
+          "explanation": "Perishables should not sit out more than 2 hours, or 1 hour when it is above 90 °F.",
+          "sourceResourceIds": [
+            "res.fsis-camping-food-safety"
+          ]
+        },
+        {
+          "id": "cr-q6",
+          "prompt": "How should you check that a burger is safely cooked?",
+          "choices": [
+            "Use a food thermometer to confirm 160 °F",
+            "Check that the inside is brown",
+            "Cook it for exactly 5 minutes per side",
+            "Press it to see if juices run clear"
+          ],
+          "answerIndex": 0,
+          "explanation": "Color is not a reliable indicator. Ground meats should reach 160 °F measured with a thermometer.",
+          "sourceResourceIds": [
+            "res.foodsafety-temperatures"
+          ]
+        },
+        {
+          "id": "cr-q7",
+          "prompt": "Which item belongs in the “insulation” Ten Essentials category?",
+          "choices": [
+            "An extra warm layer of clothing",
+            "A headlamp",
+            "A map",
+            "Sunscreen"
+          ],
+          "answerIndex": 0,
+          "explanation": "Insulation means extra clothing to stay warm if conditions change or you are out longer than planned.",
+          "sourceResourceIds": [
+            "res.nps-ten-essentials"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "study.weather-and-lightning",
+      "slug": "weather-and-lightning",
+      "title": "Weather and lightning",
+      "description": "Lightning safety, reading weather maps, fronts and clouds — background for the weather requirements in First Class, the Camping merit badge and the Weather merit badge.",
+      "status": "unverified",
+      "reviewedOn": null,
+      "badgeIds": [
+        "mb.weather",
+        "mb.camping"
+      ],
+      "rankIds": [
+        "rank.first-class"
+      ],
+      "requirementIds": [
+        "mb.camping.1b",
+        "rank.first-class.5b",
+        "rank.first-class.5c",
+        "rank.first-class.5d"
+      ],
+      "guide": {
+        "intro": "Weather knowledge is useful only when it changes what you do. This guide focuses on the decisions: when to move to shelter, what counts as shelter, and how to read the signs that weather is changing.",
+        "sections": [
+          {
+            "heading": "When thunder roars",
+            "body": "If you can hear thunder, you are within striking distance of lightning — rain does not need to be falling where you are. Move to safe shelter right away and stay there until 30 minutes after the last thunder you hear.",
+            "sourceResourceIds": [
+              "res.nws-lightning-safety",
+              "res.noaa-jetstream-lightning"
+            ]
+          },
+          {
+            "heading": "What counts as safe shelter",
+            "body": "Safe shelter is a substantial building with plumbing and wiring, or a hard-topped, fully enclosed vehicle. Tents, picnic pavilions, small sheds and open vehicles do not protect you. Outdoors there is no completely safe place, so plan where you would go before storms build.",
+            "sourceResourceIds": [
+              "res.nws-lightning-safety"
+            ]
+          },
+          {
+            "heading": "Helping a lightning victim",
+            "body": "People struck by lightning do not carry an electrical charge, so it is safe to help them right away. Call 911 and begin CPR if the person is not breathing normally and you are trained.",
+            "sourceResourceIds": [
+              "res.nws-lightning-safety"
+            ]
+          },
+          {
+            "heading": "Fronts and air masses",
+            "body": "An air mass is a large body of air with similar temperature and moisture. The boundary where two air masses meet is a front. On surface weather maps, cold fronts are drawn in blue and warm fronts in red; an occluded front forms when a faster cold front catches up with a warm front.",
+            "sourceResourceIds": [
+              "res.noaa-weather-systems",
+              "res.noaa-jetstream-weather-maps"
+            ]
+          },
+          {
+            "heading": "Reading the clouds",
+            "body": "Clouds are grouped by height and shape. High clouds carry the prefix cirro-, middle clouds alto-, and low clouds have no prefix. Puffy clouds that build upward are cumuliform; flat, layered clouds are stratiform. Towering cumulus that keeps growing is a sign that thunderstorms may develop.",
+            "sourceResourceIds": [
+              "res.nws-cloud-chart"
+            ]
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "Front",
+            "definition": "The boundary between two air masses with different temperature or moisture.",
+            "sourceResourceIds": [
+              "res.noaa-weather-systems"
+            ]
+          },
+          {
+            "term": "Air mass",
+            "definition": "A large body of air with fairly uniform temperature and moisture.",
+            "sourceResourceIds": [
+              "res.noaa-weather-systems"
+            ]
+          },
+          {
+            "term": "Occluded front",
+            "definition": "A front that forms when a faster-moving cold front overtakes a warm front.",
+            "sourceResourceIds": [
+              "res.noaa-jetstream-weather-maps"
+            ]
+          },
+          {
+            "term": "Cumuliform",
+            "definition": "Clouds that build upward and look heaped or puffy.",
+            "sourceResourceIds": [
+              "res.nws-cloud-chart"
+            ]
+          },
+          {
+            "term": "Stratiform",
+            "definition": "Flat, layered clouds that spread out horizontally.",
+            "sourceResourceIds": [
+              "res.nws-cloud-chart"
+            ]
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "id": "wx-1",
+          "front": "If you can hear thunder, what does that tell you?",
+          "back": "You are within striking distance of lightning.",
+          "sourceResourceIds": [
+            "res.nws-lightning-safety"
+          ]
+        },
+        {
+          "id": "wx-2",
+          "front": "How long should you wait after the last thunder before going back outside?",
+          "back": "30 minutes.",
+          "sourceResourceIds": [
+            "res.noaa-jetstream-lightning"
+          ]
+        },
+        {
+          "id": "wx-3",
+          "front": "Is a tent safe shelter from lightning?",
+          "back": "No. Safe shelter is a substantial building or a hard-topped, fully enclosed vehicle.",
+          "sourceResourceIds": [
+            "res.nws-lightning-safety"
+          ]
+        },
+        {
+          "id": "wx-4",
+          "front": "Is it safe to touch someone who was struck by lightning?",
+          "back": "Yes — lightning victims do not carry a charge. Call 911 and give care.",
+          "sourceResourceIds": [
+            "res.nws-lightning-safety"
+          ]
+        },
+        {
+          "id": "wx-5",
+          "front": "What is a front?",
+          "back": "The boundary where two different air masses meet.",
+          "sourceResourceIds": [
+            "res.noaa-weather-systems"
+          ]
+        },
+        {
+          "id": "wx-6",
+          "front": "What color is a cold front on a surface weather map?",
+          "back": "Blue (warm fronts are red).",
+          "sourceResourceIds": [
+            "res.noaa-jetstream-weather-maps"
+          ]
+        },
+        {
+          "id": "wx-7",
+          "front": "What cloud-name prefix marks high clouds? Middle clouds?",
+          "back": "Cirro- for high clouds, alto- for middle clouds.",
+          "sourceResourceIds": [
+            "res.nws-cloud-chart"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "wx-q1",
+          "prompt": "You hear distant thunder but it is not raining. What should your group do?",
+          "choices": [
+            "Move to safe shelter now",
+            "Keep going until it starts raining",
+            "Crouch under the tallest tree",
+            "Wait to see if it gets closer"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hearing thunder means you are within striking distance. Rain is not required for lightning to strike.",
+          "sourceResourceIds": [
+            "res.nws-lightning-safety"
+          ]
+        },
+        {
+          "id": "wx-q2",
+          "prompt": "Which of these is safe shelter during a thunderstorm?",
+          "choices": [
+            "A hard-topped, fully enclosed car",
+            "A picnic pavilion",
+            "A tent",
+            "A rocky overhang"
+          ],
+          "answerIndex": 0,
+          "explanation": "Safe shelter is a substantial building or a hard-topped, fully enclosed vehicle.",
+          "sourceResourceIds": [
+            "res.nws-lightning-safety"
+          ]
+        },
+        {
+          "id": "wx-q3",
+          "prompt": "How long after the last thunder should you stay sheltered?",
+          "choices": [
+            "30 minutes",
+            "5 minutes",
+            "Until the rain stops",
+            "Until you see blue sky"
+          ],
+          "answerIndex": 0,
+          "explanation": "Wait 30 minutes after the last thunder before resuming outdoor activities.",
+          "sourceResourceIds": [
+            "res.noaa-jetstream-lightning"
+          ]
+        },
+        {
+          "id": "wx-q4",
+          "prompt": "What is the boundary between two air masses called?",
+          "choices": [
+            "A front",
+            "A ridge",
+            "A trough of clouds",
+            "A jet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Where two air masses meet is a front.",
+          "sourceResourceIds": [
+            "res.noaa-weather-systems"
+          ]
+        },
+        {
+          "id": "wx-q5",
+          "prompt": "Which cloud name describes a high-level cloud?",
+          "choices": [
+            "Cirrostratus",
+            "Altostratus",
+            "Stratus",
+            "Nimbostratus"
+          ],
+          "answerIndex": 0,
+          "explanation": "High clouds carry the cirro- prefix; alto- marks middle clouds.",
+          "sourceResourceIds": [
+            "res.nws-cloud-chart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "study.tenderfoot-skills",
+      "slug": "tenderfoot-skills",
+      "title": "Tenderfoot skills",
+      "description": "Knots and their jobs, flag etiquette, poisonous plants, snakebite do’s and don’ts, and the buddy system — background for the Scout and Tenderfoot ranks.",
+      "status": "unverified",
+      "reviewedOn": null,
+      "badgeIds": [],
+      "rankIds": [
+        "rank.scout",
+        "rank.tenderfoot"
+      ],
+      "requirementIds": [
+        "rank.scout.4a",
+        "rank.tenderfoot.3a",
+        "rank.tenderfoot.3b",
+        "rank.tenderfoot.3c",
+        "rank.tenderfoot.4b",
+        "rank.tenderfoot.5a",
+        "rank.tenderfoot.7a"
+      ],
+      "guide": {
+        "intro": "A review of the early-rank skills you can study at home. Knots and flag folding are hands-on: use the resources to learn the steps, then practice with real rope and a real flag.",
+        "sections": [
+          {
+            "heading": "Knots and their jobs",
+            "body": "The square knot joins two ends, such as the ends of a bandage, but it is not trusted where safety depends on it. Two half hitches tie a line to a ring, post or pole. A taut-line style hitch makes an adjustable loop that slides to tighten and then holds, which is why it is used on tent guylines.",
+            "sourceResourceIds": [
+              "res.animatedknots-square-knot",
+              "res.animatedknots-two-half-hitches",
+              "res.animatedknots-midshipmans-hitch"
+            ]
+          },
+          {
+            "heading": "Respect for the U.S. flag",
+            "body": "The U.S. Flag Code sets out how the flag is displayed and treated. When the flag is lowered and folded, no part of it should touch the ground. The traditional fold produces a triangle with only the blue field of stars showing. The federal Flag Code itself does not include penalties.",
+            "sourceResourceIds": [
+              "res.legion-flag-code",
+              "res.legion-flag-folding"
+            ]
+          },
+          {
+            "heading": "Poisonous plants",
+            "body": "Poison ivy, poison oak and poison sumac cause rashes through an oil called urushiol, which can also spread from tools, clothing and pets and can stay active on surfaces for years. “Leaves of three” helps with poison ivy and oak, but poison sumac usually has clusters of 7–13 leaflets. If exposed, rinse skin right away with rubbing alcohol or a degreasing soap and plenty of water.",
+            "sourceResourceIds": [
+              "res.niosh-poisonous-plants"
+            ]
+          },
+          {
+            "heading": "Snakebite do’s and don’ts",
+            "body": "Get medical help as quickly as possible. While waiting, keep the person calm and still with the bite below heart level, and cover it with a clean, dry dressing. Do not cut the wound, suck out venom, apply a tourniquet or ice, or try to catch the snake.",
+            "sourceResourceIds": [
+              "res.niosh-venomous-snakes"
+            ]
+          },
+          {
+            "heading": "The buddy system",
+            "body": "Always swimming and hiking with a buddy means someone is there to notice trouble and get help. The CDC’s drowning-prevention advice is to always swim with a buddy, even for strong swimmers.",
+            "sourceResourceIds": [
+              "res.cdc-drowning"
+            ]
+          }
+        ],
+        "vocabulary": [
+          {
+            "term": "Urushiol",
+            "definition": "The oily sap in poison ivy, oak and sumac that causes an allergic rash.",
+            "sourceResourceIds": [
+              "res.niosh-poisonous-plants"
+            ]
+          },
+          {
+            "term": "Hitch",
+            "definition": "A knot that ties a rope to an object, such as a pole or ring.",
+            "sourceResourceIds": [
+              "res.animatedknots-two-half-hitches"
+            ]
+          },
+          {
+            "term": "Union",
+            "definition": "The blue field of stars on the U.S. flag. After the traditional fold, only the union shows.",
+            "sourceResourceIds": [
+              "res.legion-flag-folding"
+            ]
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "id": "tf-1",
+          "front": "What is the square knot good for — and not good for?",
+          "back": "Joining two ends, such as a bandage. It should not be trusted where safety depends on it.",
+          "sourceResourceIds": [
+            "res.animatedknots-square-knot"
+          ]
+        },
+        {
+          "id": "tf-2",
+          "front": "What do two half hitches do?",
+          "back": "Tie a line to a ring, post or pole.",
+          "sourceResourceIds": [
+            "res.animatedknots-two-half-hitches"
+          ]
+        },
+        {
+          "id": "tf-3",
+          "front": "Why is a taut-line style hitch used on tent guylines?",
+          "back": "It forms an adjustable loop that slides to tighten and then holds.",
+          "sourceResourceIds": [
+            "res.animatedknots-midshipmans-hitch"
+          ]
+        },
+        {
+          "id": "tf-4",
+          "front": "When folding the U.S. flag, what should never happen?",
+          "back": "No part of the flag should touch the ground.",
+          "sourceResourceIds": [
+            "res.legion-flag-folding"
+          ]
+        },
+        {
+          "id": "tf-5",
+          "front": "After the traditional fold, what part of the flag shows?",
+          "back": "Only the blue union with stars.",
+          "sourceResourceIds": [
+            "res.legion-flag-folding"
+          ]
+        },
+        {
+          "id": "tf-6",
+          "front": "What substance in poison ivy causes the rash?",
+          "back": "Urushiol, an oily sap.",
+          "sourceResourceIds": [
+            "res.niosh-poisonous-plants"
+          ]
+        },
+        {
+          "id": "tf-7",
+          "front": "Does “leaves of three” work for poison sumac?",
+          "back": "No — poison sumac usually has clusters of 7–13 leaflets.",
+          "sourceResourceIds": [
+            "res.niosh-poisonous-plants"
+          ]
+        },
+        {
+          "id": "tf-8",
+          "front": "Name two things NOT to do for a snakebite.",
+          "back": "Any two of: cut the wound, suck out venom, apply a tourniquet, apply ice, try to catch the snake.",
+          "sourceResourceIds": [
+            "res.niosh-venomous-snakes"
+          ]
+        },
+        {
+          "id": "tf-9",
+          "front": "Who should you swim with?",
+          "back": "Always swim with a buddy.",
+          "sourceResourceIds": [
+            "res.cdc-drowning"
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "tf-q1",
+          "prompt": "Which knot would you use to tie a line to a tent pole or ring?",
+          "choices": [
+            "Two half hitches",
+            "Square knot",
+            "Sheet bend",
+            "Overhand knot"
+          ],
+          "answerIndex": 0,
+          "explanation": "Two half hitches secure a line to an object such as a pole or ring.",
+          "sourceResourceIds": [
+            "res.animatedknots-two-half-hitches"
+          ]
+        },
+        {
+          "id": "tf-q2",
+          "prompt": "Why is the square knot not used to hold critical loads?",
+          "choices": [
+            "It can slip or capsize under load",
+            "It is too hard to untie",
+            "It only works on wet rope",
+            "It cannot join two ropes"
+          ],
+          "answerIndex": 0,
+          "explanation": "The square knot is a simple joining knot that is not trusted where safety depends on it.",
+          "sourceResourceIds": [
+            "res.animatedknots-square-knot"
+          ]
+        },
+        {
+          "id": "tf-q3",
+          "prompt": "You brushed against poison ivy. What should you do first?",
+          "choices": [
+            "Rinse the skin with rubbing alcohol or degreasing soap and plenty of water",
+            "Scratch to see if a rash forms",
+            "Wait a day before washing",
+            "Burn the plant so no one else touches it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rinse promptly. Burning these plants is dangerous because the smoke carries urushiol.",
+          "sourceResourceIds": [
+            "res.niosh-poisonous-plants"
+          ]
+        },
+        {
+          "id": "tf-q4",
+          "prompt": "Which is correct snakebite first aid while waiting for help?",
+          "choices": [
+            "Keep the person calm and still with the bite below heart level",
+            "Apply a tight tourniquet",
+            "Cut the wound and suck out the venom",
+            "Pack the bite in ice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Keep the person calm and still and cover the bite; avoid tourniquets, cutting, suction and ice.",
+          "sourceResourceIds": [
+            "res.niosh-venomous-snakes"
+          ]
+        },
+        {
+          "id": "tf-q5",
+          "prompt": "During flag lowering and folding, what is the rule about the ground?",
+          "choices": [
+            "No part of the flag should touch it",
+            "It may touch only the stripes",
+            "It is fine if the flag is going to be washed",
+            "It does not matter at night"
+          ],
+          "answerIndex": 0,
+          "explanation": "No portion of the flag should touch the ground while it is lowered and folded.",
+          "sourceResourceIds": [
+            "res.legion-flag-folding"
+          ]
+        }
+      ]
+    }
+  ]
+}

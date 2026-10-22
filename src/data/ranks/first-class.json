@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "id": "rank.first-class",
+  "slug": "first-class",
+  "name": "First Class",
+  "order": 4,
+  "description": "First Class completes the foundational outdoor skills: menu planning and serving as cook, lashings, orienteering and GPS, plants and weather, boating safety, advanced first aid, home emergency planning, citizenship and recruiting.",
+  "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+  "officialUrlStatus": "unchecked",
+  "lastReviewed": null,
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Topic outline drafted from maintainer familiarity with the Scouts BSA rank requirements (the structure introduced in 2016 and revised since) and cross-referenced with secondary sources found by web search. Official rank requirements could not be reached from the build environment. Several sub-requirements under 1, 6 and 9 are not yet transcribed.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": [
+          {
+            "label": "Wikipedia: Ranks in Scouts BSA (secondary source)",
+            "url": "https://en.wikipedia.org/wiki/Ranks_in_Scouts_BSA"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.first-class.1",
+          "number": "1",
+          "title": "Outdoor activities and ethics",
+          "summary": "Taking part in the required troop activities, including overnight campouts, and outdoor ethics.",
+          "kind": "activity",
+          "note": "Sub-requirements are not yet transcribed in this outline.",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.2",
+          "number": "2",
+          "title": "Menu planning and camp cooking",
+          "summary": "Planning a menu and budget, choosing gear, handling perishable food safely, and serving as patrol cook.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.first-class.2a",
+              "number": "2a",
+              "title": "Planning a menu",
+              "summary": "Helping plan a menu for a campout that meets nutritional needs.",
+              "kind": "activity",
+              "relatedRequirementIds": [
+                "mb.camping.8b"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.first-class.2b",
+              "number": "2b",
+              "title": "Budget and amounts",
+              "summary": "Making a shopping list with a budget and the food amounts needed.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.2c",
+              "number": "2c",
+              "title": "Cooking gear",
+              "summary": "Showing which pans, utensils and gear the menu needs.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.2d",
+              "number": "2d",
+              "title": "Safe food handling",
+              "summary": "Safe handling and storage of meat, dairy, eggs, vegetables and other perishable food.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "The USDA danger zone is 40–140 °F, where bacteria grow fastest. On a trip, that means keeping cold foods cold, not leaving perishables out too long (less time in hot weather), and cooking to safe internal temperatures checked with a food thermometer rather than by color.",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.2e",
+              "number": "2e",
+              "title": "Serving as cook",
+              "summary": "Serving as cook on a campout and supervising helpers.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.first-class.3",
+          "number": "3",
+          "title": "Lashings",
+          "summary": "When to use lashings, the knots that start and finish them, and using lashings to build something useful.",
+          "kind": "demonstration",
+          "children": [
+            {
+              "id": "rank.first-class.3a",
+              "number": "3a",
+              "title": "When to use lashings",
+              "summary": "When you should and should not use lashings.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.3b",
+              "number": "3b",
+              "title": "Timber hitch and clove hitch",
+              "summary": "Tying the timber hitch and clove hitch.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.3c",
+              "number": "3c",
+              "title": "Basic lashings",
+              "summary": "Tying square, shear and diagonal lashings.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.3d",
+              "number": "3d",
+              "title": "A camp gadget",
+              "summary": "Using lashings to build a useful camp gadget or structure.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.first-class.4",
+          "number": "4",
+          "title": "Navigation",
+          "summary": "Completing an orienteering course and using an electronic navigation tool.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "rank.first-class.4a",
+              "number": "4a",
+              "title": "Orienteering course",
+              "summary": "Completing an orienteering course with map and compass.",
+              "kind": "activity",
+              "relatedRequirementIds": [
+                "mb.camping.3"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.first-class.4b",
+              "number": "4b",
+              "title": "GPS and electronic navigation",
+              "summary": "Using a GPS unit, phone app or other electronic navigation system.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.first-class.5",
+          "number": "5",
+          "title": "Nature and weather",
+          "summary": "Identifying native plants, getting weather forecasts, reading natural signs of hazardous weather, and preparing for extreme weather.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.first-class.5a",
+              "number": "5a",
+              "title": "Native plants",
+              "summary": "Identifying or showing evidence of native plants in your area.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.5b",
+              "number": "5b",
+              "title": "Weather forecasts",
+              "summary": "Ways to get a weather forecast and why forecasts matter when planning an activity.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "The National Weather Service is the primary public source of U.S. forecasts and warnings. Learn the difference between a watch (conditions are favorable) and a warning (the hazard is happening or imminent), and decide ahead of time what each would mean for your trip.",
+              "relatedRequirementIds": [
+                "mb.camping.1b"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.first-class.5c",
+              "number": "5c",
+              "title": "Natural signs of hazardous weather",
+              "summary": "Natural indicators that dangerous weather is approaching and what to do about it.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "Building cumulus clouds, a sudden drop in temperature, rising wind and distant thunder are all signs to act early. Thunder means lightning is within striking distance, so move to safe shelter right away and wait until 30 minutes after the last thunder.",
+              "children": []
+            },
+            {
+              "id": "rank.first-class.5d",
+              "number": "5d",
+              "title": "Extreme weather where you live",
+              "summary": "Extreme weather you might meet in your area and how to plan for it.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.first-class.6",
+          "number": "6",
+          "title": "Swimming and boating",
+          "summary": "The swimmer test, safe trips afloat, boat parts, and line rescues.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "note": "Sub-requirements are not yet transcribed in this outline.",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.7",
+          "number": "7",
+          "title": "First aid and emergency preparedness",
+          "summary": "Bandaging, moving injured people, heart attack signs and CPR, home utilities, a home emergency plan and safe water in an emergency.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.first-class.7a",
+              "number": "7a",
+              "title": "Bandages",
+              "summary": "Applying bandages for several injuries, such as a sprained ankle and head and arm injuries.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.first-class.7b",
+              "number": "7b",
+              "title": "Moving an injured person",
+              "summary": "Moving a person from a hazardous room and helping someone with a sprained ankle to safety.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "mb.first-aid.8"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.first-class.7c",
+              "number": "7c",
+              "title": "Heart attack and CPR",
+              "summary": "The common signs of a heart attack and the steps of CPR.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "mb.first-aid.4a",
+                "mb.first-aid.4c"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.first-class.7d",
+              "number": "7d",
+              "title": "Home utilities",
+              "summary": "The utility services in your home or meeting place, their hazards, and emergency responses.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.first-class.7e",
+              "number": "7e",
+              "title": "Home emergency plan",
+              "summary": "Developing an emergency action plan for your home covering fire, storms and outages.",
+              "kind": "activity",
+              "orientation": "A home emergency plan covers who to contact, where to meet, how to get out, and what to do when the power or water is off. Ready.gov’s family planning guide walks through the pieces and has printable templates.",
+              "relatedRequirementIds": [
+                "mb.emergency-preparedness.2c"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.first-class.7f",
+              "number": "7f",
+              "title": "Safe water in an emergency",
+              "summary": "How to get safe drinking water in an emergency.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.first-class.8",
+          "number": "8",
+          "title": "Fitness",
+          "summary": "Continuing regular physical activity and reflecting on your progress.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.9",
+          "number": "9",
+          "title": "Citizenship and environment",
+          "summary": "Constitutional rights and obligations, a local environmental issue, reducing trash, and service.",
+          "kind": "mixed",
+          "note": "Sub-requirements are not yet transcribed in this outline.",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.10",
+          "number": "10",
+          "title": "Sharing Scouting",
+          "summary": "Telling someone eligible about Scouting and inviting them to an activity.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.11",
+          "number": "11",
+          "title": "Scout spirit",
+          "summary": "Showing Scout spirit by living the Scout Oath and Scout Law.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.12",
+          "number": "12",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.13",
+          "number": "13",
+          "title": "Board of review",
+          "summary": "Completing a board of review for the rank.",
+          "kind": "review",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [
+    "res.nws-lightning-safety",
+    "res.ready-family-planning"
+  ],
+  "studySetIds": [
+    "study.weather-and-lightning",
+    "study.first-aid-foundations"
+  ]
+}

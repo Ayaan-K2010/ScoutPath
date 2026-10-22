@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "mappings": [
+    {
+      "resourceId": "res.redcross-check-call-care",
+      "requirementId": "mb.first-aid.2a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nps-hiking-safety",
+      "requirementId": "mb.first-aid.2a",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.redcross-water-safety",
+      "requirementId": "mb.first-aid.2a",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.redcross-check-call-care",
+      "requirementId": "mb.first-aid.2c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.osha-bloodborne",
+      "requirementId": "mb.first-aid.2d",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.ready-build-a-kit",
+      "requirementId": "mb.first-aid.3a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.ready-supply-checklist",
+      "requirementId": "mb.first-aid.3a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-first-aid",
+      "requirementId": "mb.first-aid.3a",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.medlineplus-shock",
+      "requirementId": "mb.first-aid.4a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.aha-heart-attack-signs",
+      "requirementId": "mb.first-aid.4a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.aha-heart-attack-stroke-signs",
+      "requirementId": "mb.first-aid.4a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-heart-attack",
+      "requirementId": "mb.first-aid.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-stroke",
+      "requirementId": "mb.first-aid.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.aha-what-is-cpr",
+      "requirementId": "mb.first-aid.4b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.aha-hands-only-cpr",
+      "requirementId": "mb.first-aid.4c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.aha-what-is-cpr",
+      "requirementId": "mb.first-aid.4c",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.aha-what-is-cpr",
+      "requirementId": "mb.first-aid.4d",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-choking",
+      "requirementId": "mb.first-aid.4e",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.redcross-bleeding",
+      "requirementId": "mb.first-aid.4f",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.medlineplus-bleeding",
+      "requirementId": "mb.first-aid.4f",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nws-heat-illness",
+      "requirementId": "mb.first-aid.5",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.medlineplus-heat-emergencies",
+      "requirementId": "mb.first-aid.5",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-hypothermia",
+      "requirementId": "mb.first-aid.5",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-frostbite",
+      "requirementId": "mb.first-aid.5",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-frostbite-hypothermia-pdf",
+      "requirementId": "mb.first-aid.5",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.niosh-heat-illnesses",
+      "requirementId": "mb.first-aid.5",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-cold-prevention",
+      "requirementId": "mb.first-aid.5",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-fractures",
+      "requirementId": "mb.first-aid.6a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.medlineplus-broken-bone",
+      "requirementId": "mb.first-aid.6a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.redcross-burns",
+      "requirementId": "mb.first-aid.7",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-muscle-bone-joint",
+      "requirementId": "mb.first-aid.7",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-first-aid",
+      "requirementId": "mb.first-aid.7",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-heat-emergencies",
+      "requirementId": "mb.first-aid.7",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nps-hiking-safety",
+      "requirementId": "mb.camping.1a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.nps-ten-essentials",
+      "requirementId": "mb.camping.1a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nws-lightning-safety",
+      "requirementId": "mb.camping.1b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.noaa-jetstream-lightning",
+      "requirementId": "mb.camping.1b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.cdc-hypothermia",
+      "requirementId": "mb.camping.1c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nws-heat-illness",
+      "requirementId": "mb.camping.1c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.cdc-ticks",
+      "requirementId": "mb.camping.1c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.niosh-venomous-snakes",
+      "requirementId": "mb.camping.1c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.lnt-seven-principles",
+      "requirementId": "mb.camping.2",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.nps-leave-no-trace",
+      "requirementId": "mb.camping.2",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.usgs-map-compass",
+      "requirementId": "mb.camping.3",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.usgs-declination",
+      "requirementId": "mb.camping.3",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-cold-prevention",
+      "requirementId": "mb.camping.5a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nps-ten-essentials",
+      "requirementId": "mb.camping.5c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-water-treatment",
+      "requirementId": "mb.camping.6b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.fsis-camping-food-safety",
+      "requirementId": "mb.camping.8b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.foodsafety-temperatures",
+      "requirementId": "mb.camping.8b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.foodsafety-temperatures",
+      "requirementId": "mb.camping.8c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.ready-build-a-kit",
+      "requirementId": "mb.emergency-preparedness.2a",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.ready-build-a-kit",
+      "requirementId": "mb.emergency-preparedness.2c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.ready-family-planning",
+      "requirementId": "mb.emergency-preparedness.2c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.ready-supply-checklist",
+      "requirementId": "mb.emergency-preparedness.2c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-water-safety",
+      "requirementId": "mb.emergency-preparedness.3",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.ready-family-planning",
+      "requirementId": "mb.emergency-preparedness.9",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.lnt-seven-principles",
+      "requirementId": "rank.scout.1e",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.animatedknots-square-knot",
+      "requirementId": "rank.scout.4a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.animatedknots-two-half-hitches",
+      "requirementId": "rank.scout.4a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.animatedknots-midshipmans-hitch",
+      "requirementId": "rank.scout.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.animatedknots-scouting",
+      "requirementId": "rank.scout.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nps-ten-essentials",
+      "requirementId": "rank.tenderfoot.1a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.lnt-seven-principles",
+      "requirementId": "rank.tenderfoot.1c",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.fsis-camping-food-safety",
+      "requirementId": "rank.tenderfoot.2b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.animatedknots-square-knot",
+      "requirementId": "rank.tenderfoot.3a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.animatedknots-two-half-hitches",
+      "requirementId": "rank.tenderfoot.3b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.animatedknots-midshipmans-hitch",
+      "requirementId": "rank.tenderfoot.3c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.redcross-wounds",
+      "requirementId": "rank.tenderfoot.4a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.redcross-burns",
+      "requirementId": "rank.tenderfoot.4a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-ticks",
+      "requirementId": "rank.tenderfoot.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.niosh-venomous-snakes",
+      "requirementId": "rank.tenderfoot.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.niosh-venomous-spiders",
+      "requirementId": "rank.tenderfoot.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.cdc-frostbite",
+      "requirementId": "rank.tenderfoot.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-choking",
+      "requirementId": "rank.tenderfoot.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.niosh-poisonous-plants",
+      "requirementId": "rank.tenderfoot.4b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-ticks",
+      "requirementId": "rank.tenderfoot.4c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.niosh-poisonous-plants",
+      "requirementId": "rank.tenderfoot.4c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-first-aid",
+      "requirementId": "rank.tenderfoot.4d",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.cdc-drowning",
+      "requirementId": "rank.tenderfoot.5a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-swim-safety",
+      "requirementId": "rank.tenderfoot.5a",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.nps-hiking-safety",
+      "requirementId": "rank.tenderfoot.5c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.cdc-youth-activity",
+      "requirementId": "rank.tenderfoot.6b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.legion-flag-code",
+      "requirementId": "rank.tenderfoot.7a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.legion-flag-folding",
+      "requirementId": "rank.tenderfoot.7a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.va-flag-display",
+      "requirementId": "rank.tenderfoot.7a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.lnt-seven-principles",
+      "requirementId": "rank.second-class.1b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.nps-leave-no-trace",
+      "requirementId": "rank.second-class.1b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.smokey-campfire-safety",
+      "requirementId": "rank.second-class.2a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.smokey-campfire-safety",
+      "requirementId": "rank.second-class.2c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.fsis-camping-food-safety",
+      "requirementId": "rank.second-class.2e",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.foodsafety-temperatures",
+      "requirementId": "rank.second-class.2e",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.usgs-map-compass",
+      "requirementId": "rank.second-class.3a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.usgs-declination",
+      "requirementId": "rank.second-class.3a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nps-hiking-safety",
+      "requirementId": "rank.second-class.3c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.cdc-drowning",
+      "requirementId": "rank.second-class.5a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.redcross-swim-safety",
+      "requirementId": "rank.second-class.5a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.redcross-water-safety",
+      "requirementId": "rank.second-class.5a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-water-safety",
+      "requirementId": "rank.second-class.5c",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.nws-heat-illness",
+      "requirementId": "rank.second-class.6a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.cdc-hypothermia",
+      "requirementId": "rank.second-class.6a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.medlineplus-shock",
+      "requirementId": "rank.second-class.6a",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.redcross-eye-injury",
+      "requirementId": "rank.second-class.6a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-burns",
+      "requirementId": "rank.second-class.6a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.medlineplus-heat-emergencies",
+      "requirementId": "rank.second-class.6a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.redcross-bleeding",
+      "requirementId": "rank.second-class.6b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.aha-heart-attack-stroke-signs",
+      "requirementId": "rank.second-class.6b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.cdc-youth-activity",
+      "requirementId": "rank.second-class.7a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.legion-flag-code",
+      "requirementId": "rank.second-class.8b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.fsis-camping-food-safety",
+      "requirementId": "rank.first-class.2d",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.foodsafety-temperatures",
+      "requirementId": "rank.first-class.2d",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.animatedknots-clove-hitch",
+      "requirementId": "rank.first-class.3b",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.animatedknots-square-lashing",
+      "requirementId": "rank.first-class.3c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.usgs-map-compass",
+      "requirementId": "rank.first-class.4a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nws-lightning-safety",
+      "requirementId": "rank.first-class.5b",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nws-lightning-safety",
+      "requirementId": "rank.first-class.5c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.noaa-jetstream-lightning",
+      "requirementId": "rank.first-class.5c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.nws-cloud-chart",
+      "requirementId": "rank.first-class.5c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.noaa-weather-systems",
+      "requirementId": "rank.first-class.5d",
+      "relevance": "background"
+    },
+    {
+      "resourceId": "res.redcross-muscle-bone-joint",
+      "requirementId": "rank.first-class.7a",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.aha-heart-attack-signs",
+      "requirementId": "rank.first-class.7c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.aha-what-is-cpr",
+      "requirementId": "rank.first-class.7c",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.aha-hands-only-cpr",
+      "requirementId": "rank.first-class.7c",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.ready-family-planning",
+      "requirementId": "rank.first-class.7e",
+      "relevance": "core"
+    },
+    {
+      "resourceId": "res.ready-build-a-kit",
+      "requirementId": "rank.first-class.7e",
+      "relevance": "supporting"
+    },
+    {
+      "resourceId": "res.cdc-water-treatment",
+      "requirementId": "rank.first-class.7f",
+      "relevance": "supporting"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+/* ScoutPath design tokens. Every color, size and duration in the UI comes from here. */
+:root {
+  /* Brand palette */
+  --forest: #193c32;
+  --forest-hover: #22503f;
+  --pine: #102b24;
+  --sage: #8fa58b;
+  --sage-soft: #c9d6c5;
+  --sage-pale: #e8efe5;
+  --ivory: #f8f7f1;
+  --ivory-deep: #f1efe6;
+  --paper: #ffffff;
+  --charcoal: #262d29;
+  --muted: #69736b;
+  --border: #e1e5dc;
+  --border-strong: #cdd3c7;
+  --amber: #c99a4a;
+  --amber-pale: #f6ecd9;
+  --amber-ink: #7d5a1c;
+
+  /* Status tones (muted, legible on white and ivory) */
+  --ok-ink: #1f5a3f;
+  --ok-bg: #e3efe6;
+  --warn-ink: #7d5a1c;
+  --warn-bg: #f6ecd9;
+  --alert-ink: #8a3b2c;
+  --alert-bg: #f7e5df;
+  --info-ink: #3d5566;
+  --info-bg: #e5ecf0;
+  --neutral-ink: #4f5952;
+  --neutral-bg: #eef0ea;
+
+  /* Semantic roles */
+  --bg: var(--ivory);
+  --surface: var(--paper);
+  --surface-muted: var(--sage-pale);
+  --text: var(--charcoal);
+  /* Slightly deeper than --muted so secondary text keeps 4.5:1 contrast on sage and ivory-deep surfaces. */
+  --text-muted: #5f6961;
+  --link: var(--forest);
+  --focus-ring: var(--forest);
+  --on-dark: #eef2ea;
+  --on-dark-muted: #b6c4b3;
+
+  /* Typography */
+  --font-serif: 'Newsreader Variable', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  --fs-2xs: 0.6875rem;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: clamp(1.625rem, 1.35rem + 1vw, 2.125rem);
+  --fs-3xl: clamp(2rem, 1.55rem + 1.8vw, 2.75rem);
+  --fs-display: clamp(2.5rem, 1.6rem + 3.6vw, 4.375rem);
+
+  --lh-tight: 1.1;
+  --lh-snug: 1.3;
+  --lh-body: 1.6;
+
+  --measure: 66ch;
+  --measure-narrow: 52ch;
+
+  /* Spacing (4px base) */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.25rem;
+  --s-6: 1.5rem;
+  --s-8: 2rem;
+  --s-10: 2.5rem;
+  --s-12: 3rem;
+  --s-16: 4rem;
+  --s-20: 5rem;
+  --s-24: 6rem;
+
+  --gutter: clamp(1rem, 3.5vw, 2.5rem);
+  --container: 75rem;
+  --container-narrow: 48rem;
+  --header-h: 4rem;
+
+  /* Shape */
+  --r-xs: 3px;
+  --r-sm: 5px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --r-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgb(16 43 36 / 0.06);
+  --shadow-md: 0 1px 2px rgb(16 43 36 / 0.05), 0 10px 24px -14px rgb(16 43 36 / 0.22);
+  --shadow-lg: 0 2px 6px rgb(16 43 36 / 0.06), 0 24px 48px -20px rgb(16 43 36 / 0.32);
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-fast: 140ms;
+  --dur: 200ms;
+  --dur-slow: 320ms;
+
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur: 0ms;
+    --dur-slow: 0ms;
+  }
+}

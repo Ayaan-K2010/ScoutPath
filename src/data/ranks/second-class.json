@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "id": "rank.second-class",
+  "slug": "second-class",
+  "name": "Second Class",
+  "order": 3,
+  "description": "Second Class builds outdoor independence: Leave No Trace, fire and stove use, camp cooking, map and compass, nature observation, swimming and water rescue, more first aid, fitness, citizenship and personal safety.",
+  "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+  "officialUrlStatus": "unchecked",
+  "lastReviewed": null,
+  "currentVersion": "outline-2026-draft",
+  "versions": [
+    {
+      "versionId": "outline-2026-draft",
+      "label": "ScoutPath topic outline (draft, unverified)",
+      "effectiveDate": null,
+      "status": "unverified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": null,
+      "supersedes": null,
+      "provenance": {
+        "method": "maintainer-draft",
+        "notes": "Topic outline drafted from maintainer familiarity with the Scouts BSA rank requirements (the structure introduced in 2016 and revised since) and cross-referenced with secondary sources found by web search. Official rank requirements could not be reached from the build environment. Some sub-requirements under 6, 8 and 9 are not yet transcribed.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-22",
+        "references": [
+          {
+            "label": "Wikipedia: Ranks in Scouts BSA (secondary source)",
+            "url": "https://en.wikipedia.org/wiki/Ranks_in_Scouts_BSA"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.second-class.1",
+          "number": "1",
+          "title": "Outdoor activities and ethics",
+          "summary": "Taking part in troop activities including overnights, practicing Leave No Trace, and choosing a patrol site.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "rank.second-class.1a",
+              "number": "1a",
+              "title": "Troop activities",
+              "summary": "Taking part in the required number of troop or patrol activities, including overnight campouts.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.1b",
+              "number": "1b",
+              "title": "Leave No Trace in practice",
+              "summary": "Explaining the principles of Leave No Trace and how you practiced them.",
+              "kind": "discussion",
+              "orientation": "The seven principles are: plan ahead and prepare; travel and camp on durable surfaces; dispose of waste properly; leave what you find; minimize campfire impacts; respect wildlife; be considerate of others. Being able to give a real example from your own trip for each is far more convincing than reciting the list.",
+              "relatedRequirementIds": [
+                "mb.camping.2"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.1c",
+              "number": "1c",
+              "title": "Choosing a patrol site",
+              "summary": "Selecting and recommending a location for your patrol site on a campout.",
+              "kind": "activity",
+              "relatedRequirementIds": [
+                "mb.camping.6c"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.2",
+          "number": "2",
+          "title": "Fire, stoves, cooking, and knots",
+          "summary": "When fires are appropriate, preparing and building a fire, stove safety, cooking a meal and two more knots.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.second-class.2a",
+              "number": "2a",
+              "title": "When to use a fire",
+              "summary": "When a fire is appropriate for cooking or other purposes and when it is not.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2b",
+              "number": "2b",
+              "title": "Preparing fuel",
+              "summary": "Using woods tools to prepare tinder, kindling and fuel wood.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2c",
+              "number": "2c",
+              "title": "Building and extinguishing a fire",
+              "summary": "Building a fire at an approved place and time, then putting it out completely with minimal impact.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "Before you light anything, check fire restrictions and have water and a shovel at hand. To put a fire out, the method taught by the Forest Service is to drown it with water, stir the ashes, drown it again, and feel for heat with the back of your hand. If it is too hot to touch, it is too hot to leave. Burying coals is not enough — they can keep smoldering.",
+              "note": "Only where local fire restrictions allow and with adult supervision.",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2d",
+              "number": "2d",
+              "title": "Stoves",
+              "summary": "Choosing between stove types, setting one up and lighting it, and stove safety procedures.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "mb.camping.7b"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2e",
+              "number": "2e",
+              "title": "Planning and cooking a meal",
+              "summary": "Planning and cooking a hot meal on a campout with attention to nutrition and safe food handling.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2f",
+              "number": "2f",
+              "title": "Sheet bend",
+              "summary": "Tying a sheet bend and describing when to use it.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2g",
+              "number": "2g",
+              "title": "Bowline",
+              "summary": "Tying a bowline and describing when to use it.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.3",
+          "number": "3",
+          "title": "Navigation and hiking",
+          "summary": "Using a compass and map, taking a navigated hike, hiking hazards, and finding directions without a compass.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "rank.second-class.3a",
+              "number": "3a",
+              "title": "Compass and map basics",
+              "summary": "How a compass works, orienting a map, and explaining map symbols.",
+              "kind": "demonstration",
+              "orientation": "Topographic maps show the shape of the land with contour lines: lines close together mean steep ground. Orienting the map means turning it so north on the map points north on the ground. The USGS primer covers contour lines, scale, symbols and bearings, and explains declination — the difference between true north and magnetic north.",
+              "relatedRequirementIds": [
+                "mb.camping.3"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.3b",
+              "number": "3b",
+              "title": "Navigated hike",
+              "summary": "Taking an approved hike using a map and compass together.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.3c",
+              "number": "3c",
+              "title": "Hiking hazards",
+              "summary": "Hazards and injuries you might meet on a hike and how to prevent them.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.3d",
+              "number": "3d",
+              "title": "Directions without a compass",
+              "summary": "Finding direction by day and by night without a compass or electronic device.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.4",
+          "number": "4",
+          "title": "Wildlife",
+          "summary": "Identifying or finding evidence of wild animals in your area.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.second-class.5",
+          "number": "5",
+          "title": "Swimming and water rescue",
+          "summary": "Safe-swim precautions, the beginner swim test and reaching and throwing rescues.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.second-class.5a",
+              "number": "5a",
+              "title": "Safe swim precautions",
+              "summary": "The precautions for a safe swim.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "Safe swimming relies on layers of protection: qualified supervision, knowing each swimmer’s ability, a buddy for everyone, and staying in designated areas. The CDC and Red Cross pages explain why swimming with a buddy matters even for strong swimmers.",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.5b",
+              "number": "5b",
+              "title": "Beginner swim test",
+              "summary": "Passing the beginner swim test.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.5c",
+              "number": "5c",
+              "title": "Reaching and throwing rescues",
+              "summary": "Demonstrating water rescues by reaching and throwing.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "mb.emergency-preparedness.3"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.5d",
+              "number": "5d",
+              "title": "Why not swim out",
+              "summary": "Why swimming rescues should not be attempted when reaching or throwing would work.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.6",
+          "number": "6",
+          "title": "First aid",
+          "summary": "First aid for more serious injuries and illnesses, \"hurry cases,\" and preventing them on outings.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.second-class.6a",
+              "number": "6a",
+              "title": "First aid for serious conditions",
+              "summary": "First aid for a list of conditions including heat and cold illnesses, shock, puncture wounds and more serious burns.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "This step moves from minor injuries to conditions that can become serious. For heat, learn how heat exhaustion differs from heat stroke, which is a 911 emergency. For cold, learn the early signs of hypothermia — shivering, confusion, fumbling hands. For shock, learn the pale, clammy skin and weak, rapid pulse, and why you call for help immediately.",
+              "note": "The official requirement lists the exact conditions.",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.6b",
+              "number": "6b",
+              "title": "Hurry cases",
+              "summary": "What to do for urgent emergencies such as stopped breathing, stroke, severe bleeding and swallowed poisons.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.6c",
+              "number": "6c",
+              "title": "Prevention on outings",
+              "summary": "How to prevent or reduce the injuries in 6a and 6b while camping or hiking.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.7",
+          "number": "7",
+          "title": "Fitness and healthy choices",
+          "summary": "Staying physically active, reflecting on progress, and learning about the dangers of drugs, alcohol and tobacco.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "rank.second-class.7a",
+              "number": "7a",
+              "title": "Staying active",
+              "summary": "Being physically active on a regular schedule for several weeks and tracking it.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.7b",
+              "number": "7b",
+              "title": "Reflecting on fitness",
+              "summary": "Sharing your challenges and successes and setting a goal to continue.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.7c",
+              "number": "7c",
+              "title": "Healthy choices",
+              "summary": "Taking part in a program about the dangers of drugs, alcohol and tobacco.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.8",
+          "number": "8",
+          "title": "Citizenship and money",
+          "summary": "Flag ceremonies, respect for the flag, earning and saving money, comparing prices, and service.",
+          "kind": "mixed",
+          "note": "Sub-requirements 8c–8e are not yet transcribed in this outline.",
+          "children": [
+            {
+              "id": "rank.second-class.8a",
+              "number": "8a",
+              "title": "Flag ceremony",
+              "summary": "Taking part in a flag ceremony.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.8b",
+              "number": "8b",
+              "title": "Respect for the flag",
+              "summary": "The respect due the U.S. flag on different occasions.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.9",
+          "number": "9",
+          "title": "Personal safety",
+          "summary": "Personal safety and protection, and responding to bullying.",
+          "kind": "knowledge",
+          "note": "Sub-requirements are not yet transcribed in this outline.",
+          "children": []
+        },
+        {
+          "id": "rank.second-class.10",
+          "number": "10",
+          "title": "Scout spirit",
+          "summary": "Showing Scout spirit by living the Scout Oath and Scout Law.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.second-class.11",
+          "number": "11",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.second-class.12",
+          "number": "12",
+          "title": "Board of review",
+          "summary": "Completing a board of review for the rank.",
+          "kind": "review",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [
+    "res.usgs-map-compass",
+    "res.smokey-campfire-safety"
+  ],
+  "studySetIds": [
+    "study.camp-ready",
+    "study.first-aid-foundations"
+  ]
+}

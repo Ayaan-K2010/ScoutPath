@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "id": "tpl.first-aid-workshop",
+      "title": "First Aid workshop",
+      "description": "Background reading for a First Aid merit badge workshop, ordered from emergency action steps to specific injuries. Pair it with hands-on practice led by qualified instructors.",
+      "resourceIds": [
+        "res.redcross-check-call-care",
+        "res.osha-bloodborne",
+        "res.aha-what-is-cpr",
+        "res.aha-hands-only-cpr",
+        "res.aha-heart-attack-stroke-signs",
+        "res.medlineplus-shock",
+        "res.redcross-bleeding",
+        "res.redcross-burns",
+        "res.redcross-choking",
+        "res.nws-heat-illness",
+        "res.cdc-hypothermia",
+        "res.redcross-fractures"
+      ],
+      "badgeIds": [
+        "mb.first-aid"
+      ],
+      "requirementIds": [
+        "mb.first-aid.2c",
+        "mb.first-aid.4a",
+        "mb.first-aid.4f",
+        "mb.first-aid.5"
+      ]
+    },
+    {
+      "id": "tpl.new-scout-orientation",
+      "title": "New Scout orientation",
+      "description": "Resources for the first weeks in a troop: knots, the outdoors, first campout gear, and flag basics.",
+      "resourceIds": [
+        "res.animatedknots-scouting",
+        "res.animatedknots-square-knot",
+        "res.animatedknots-two-half-hitches",
+        "res.animatedknots-midshipmans-hitch",
+        "res.nps-ten-essentials",
+        "res.lnt-seven-principles",
+        "res.legion-flag-folding"
+      ],
+      "badgeIds": [],
+      "requirementIds": [
+        "rank.scout.4a",
+        "rank.tenderfoot.1a",
+        "rank.tenderfoot.7a"
+      ]
+    },
+    {
+      "id": "tpl.camp-preparation",
+      "title": "Camp preparation",
+      "description": "Before the next campout: packing, weather, water, food safety, fire safety, ticks and plants.",
+      "resourceIds": [
+        "res.nps-ten-essentials",
+        "res.nws-lightning-safety",
+        "res.cdc-water-treatment",
+        "res.fsis-camping-food-safety",
+        "res.smokey-campfire-safety",
+        "res.cdc-ticks",
+        "res.niosh-poisonous-plants"
+      ],
+      "badgeIds": [
+        "mb.camping"
+      ],
+      "requirementIds": [
+        "mb.camping.1b",
+        "mb.camping.6b",
+        "mb.camping.8b"
+      ]
+    },
+    {
+      "id": "tpl.outdoor-skills",
+      "title": "Outdoor skills",
+      "description": "Navigation, lashings and outdoor ethics for patrol skill nights.",
+      "resourceIds": [
+        "res.usgs-map-compass",
+        "res.usgs-declination",
+        "res.animatedknots-clove-hitch",
+        "res.animatedknots-square-lashing",
+        "res.lnt-seven-principles",
+        "res.nps-hiking-safety"
+      ],
+      "badgeIds": [],
+      "requirementIds": [
+        "rank.second-class.3a",
+        "rank.first-class.3c"
+      ]
+    },
+    {
+      "id": "tpl.citizenship-basics",
+      "title": "Flag and citizenship basics",
+      "description": "Flag display, etiquette and folding resources for flag ceremonies and citizenship discussions.",
+      "resourceIds": [
+        "res.legion-flag-code",
+        "res.legion-flag-folding",
+        "res.va-flag-display"
+      ],
+      "badgeIds": [],
+      "requirementIds": [
+        "rank.tenderfoot.7a",
+        "rank.second-class.8b"
+      ]
+    },
+    {
+      "id": "tpl.eagle-required-study",
+      "title": "Eagle-required badge study",
+      "description": "Starting points for three Eagle-required badges ScoutPath has outlined so far: First Aid, Camping and Emergency Preparedness.",
+      "resourceIds": [
+        "res.redcross-check-call-care",
+        "res.nps-ten-essentials",
+        "res.lnt-seven-principles",
+        "res.ready-build-a-kit",
+        "res.ready-family-planning"
+      ],
+      "badgeIds": [
+        "mb.first-aid",
+        "mb.camping",
+        "mb.emergency-preparedness"
+      ],
+      "requirementIds": []
+    }
+  ]
+}
