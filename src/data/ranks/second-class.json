@@ -8,7 +8,7 @@
   "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
   "officialUrlStatus": "unchecked",
   "lastReviewed": null,
-  "currentVersion": "outline-2026-draft",
+  "currentVersion": "2025-official-excerpt",
   "versions": [
     {
       "versionId": "outline-2026-draft",
@@ -384,6 +384,440 @@
           "summary": "Completing a board of review for the rank.",
           "kind": "review",
           "children": []
+        }
+      ]
+    },
+    {
+      "versionId": "2025-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2025-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/wp-content/uploads/2025/12/Second-Class-v2.pdf",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": "outline-2026-draft",
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts differed on the exact list of conditions in 6a; the summary stays general.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Second-Class-v2.pdf",
+            "label": "Second Class rank requirements (scouting.org, December 2025)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf",
+            "label": "2025 Scouts BSA Requirements (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.second-class.1",
+          "number": "1",
+          "title": "Camping and outdoor ethics",
+          "summary": "Troop activities including campouts, Leave No Trace, and choosing a patrol site.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "rank.second-class.1a",
+              "number": "1a",
+              "title": "Troop activities",
+              "summary": "Taking part in the required number of troop or patrol activities since joining, some outdoors and some with overnight camping.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.1b",
+              "number": "1b",
+              "title": "Leave No Trace in practice",
+              "summary": "Explaining the Leave No Trace principles and how you practiced them on an outing.",
+              "kind": "discussion",
+              "orientation": "The seven principles are: plan ahead and prepare; travel and camp on durable surfaces; dispose of waste properly; leave what you find; minimize campfire impacts; respect wildlife; be considerate of others. A real example from your own trip for each principle is far more convincing than reciting the list.",
+              "relatedRequirementIds": [
+                "mb.camping.2"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.1c",
+              "number": "1c",
+              "title": "Choosing a patrol site",
+              "summary": "Selecting and recommending a location for your patrol site on a campout.",
+              "kind": "activity",
+              "relatedRequirementIds": [
+                "mb.camping.6c"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.10",
+              "number": "10",
+              "title": "Scout spirit",
+              "summary": "Living the Scout Oath and Law, your duty to God, and four points of the Scout Law.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.11",
+              "number": "11",
+              "title": "Scoutmaster conference",
+              "summary": "Taking part in a Scoutmaster conference.",
+              "kind": "conference",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.12",
+              "number": "12",
+              "title": "Board of review",
+              "summary": "Completing a board of review for the rank.",
+              "kind": "review",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.2",
+          "number": "2",
+          "title": "Cooking and tools",
+          "summary": "When fires are appropriate, preparing and building a fire, stove safety, cooking a meal and two more knots.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.second-class.2a",
+              "number": "2a",
+              "title": "When to use a fire",
+              "summary": "When a fire is appropriate for cooking or other purposes and when it is not.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2b",
+              "number": "2b",
+              "title": "Preparing fuel",
+              "summary": "Using woods tools to prepare tinder, kindling and fuel wood.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2c",
+              "number": "2c",
+              "title": "Building and extinguishing a fire",
+              "summary": "Building a fire at an approved place and time, then putting it out completely with minimal impact.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "Before you light anything, check fire restrictions and have water and a shovel at hand. To put a fire out, the method the Forest Service teaches is to drown it with water, stir the ashes, drown it again, and feel for heat with the back of your hand. If it is too hot to touch, it is too hot to leave.",
+              "note": "Only where local fire restrictions allow and with adult supervision.",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2d",
+              "number": "2d",
+              "title": "Stoves",
+              "summary": "Choosing between stove types, setting one up and lighting it, and stove safety.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "mb.camping.8a"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2e",
+              "number": "2e",
+              "title": "Planning and cooking a meal",
+              "summary": "Planning and cooking a hot breakfast or lunch on a campout with attention to nutrition and safe food handling.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2f",
+              "number": "2f",
+              "title": "Sheet bend",
+              "summary": "Tying a sheet bend and describing when to use it.",
+              "kind": "demonstration",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.2g",
+              "number": "2g",
+              "title": "Bowline",
+              "summary": "Tying a bowline and describing when to use it.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.3",
+          "number": "3",
+          "title": "Navigation",
+          "summary": "Using a compass and map, a navigated hike, hiking hazards, and finding directions without a compass.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "rank.second-class.3a",
+              "number": "3a",
+              "title": "Compass and map basics",
+              "summary": "How a compass works, orienting a map, and explaining five map symbols.",
+              "kind": "demonstration",
+              "orientation": "Topographic maps show the shape of the land with contour lines: lines close together mean steep ground. Orienting the map means turning it so north on the map points north on the ground. The USGS primer covers contour lines, scale, symbols and bearings, and explains declination.",
+              "relatedRequirementIds": [
+                "mb.camping.3"
+              ],
+              "children": []
+            },
+            {
+              "id": "rank.second-class.3b",
+              "number": "3b",
+              "title": "Navigated hike",
+              "summary": "Taking an approved five-mile hike (or ten-mile bike ride) using a map and compass.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.3c",
+              "number": "3c",
+              "title": "Hiking hazards",
+              "summary": "Hazards and injuries you might meet on a hike and how to prevent them.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.3d",
+              "number": "3d",
+              "title": "Directions without a compass",
+              "summary": "Finding direction by day and by night without a compass or electronic device.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.4",
+          "number": "4",
+          "title": "Nature",
+          "summary": "Identifying or showing evidence of at least ten kinds of wild animals in your area.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.second-class.5",
+          "number": "5",
+          "title": "Aquatics",
+          "summary": "Safe-swim precautions, the beginner swim test, and reaching and throwing rescues.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.second-class.5a",
+              "number": "5a",
+              "title": "Safe swim precautions",
+              "summary": "The precautions for a safe swim.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "orientation": "Safe swimming relies on layers of protection: qualified supervision, knowing each swimmer’s ability, a buddy for everyone and staying in designated areas. The CDC and Red Cross pages explain why swimming with a buddy matters even for strong swimmers.",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.5b",
+              "number": "5b",
+              "title": "Beginner swim test",
+              "summary": "Passing the beginner swim test.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.5c",
+              "number": "5c",
+              "title": "Reaching and throwing rescues",
+              "summary": "Demonstrating water rescues by reaching and throwing.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.5d",
+              "number": "5d",
+              "title": "Why not swim out",
+              "summary": "Why reaching or throwing comes before any swimming rescue.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.6",
+          "number": "6",
+          "title": "First aid and emergencies",
+          "summary": "First aid for more serious injuries, “hurry cases,” prevention, emergency response and accident scenes.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "rank.second-class.6a",
+              "number": "6a",
+              "title": "First aid for serious injuries",
+              "summary": "First aid for a list of injuries and conditions, such as an object in the eye or a bite from a warm-blooded animal.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "note": "The official requirement lists the exact conditions. Use it as your checklist.",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.6b",
+              "number": "6b",
+              "title": "Hurry cases",
+              "summary": "What to do for urgent cases such as stopped breathing, stroke, severe bleeding and swallowed poisons.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.6c",
+              "number": "6c",
+              "title": "Prevention on outings",
+              "summary": "How to prevent or reduce the injuries in 6a and 6b while camping or hiking.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.6d",
+              "number": "6d",
+              "title": "Responding to emergencies",
+              "summary": "How to respond to emergencies at home and in the backcountry.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            },
+            {
+              "id": "rank.second-class.6e",
+              "number": "6e",
+              "title": "At an accident scene",
+              "summary": "How to respond if you come upon the scene of a vehicle accident.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.7",
+          "number": "7",
+          "title": "Fitness and healthy choices",
+          "summary": "Staying physically active, reflecting on progress, and learning about substance misuse.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "rank.second-class.7a",
+              "number": "7a",
+              "title": "Staying active",
+              "summary": "Being physically active at least 30 minutes a day, five days a week, for four weeks, and tracking it.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.7b",
+              "number": "7b",
+              "title": "Reflecting on fitness",
+              "summary": "Sharing your challenges and successes and setting a goal to continue.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.7c",
+              "number": "7c",
+              "title": "Healthy choices",
+              "summary": "Taking part in a program on the dangers of drugs, alcohol and tobacco, and relating it to the Scout Oath and Law.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.8",
+          "number": "8",
+          "title": "Citizenship and money",
+          "summary": "Flag ceremonies, respect for the flag, saving money, comparing prices, and service.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "rank.second-class.8a",
+              "number": "8a",
+              "title": "Flag ceremony",
+              "summary": "Taking part in a flag ceremony.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.8b",
+              "number": "8b",
+              "title": "Respect for the flag",
+              "summary": "The respect due the U.S. flag.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.8c",
+              "number": "8c",
+              "title": "Earning and saving",
+              "summary": "Making and following a plan with a parent or guardian to earn and save money.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.8d",
+              "number": "8d",
+              "title": "Comparing prices",
+              "summary": "Comparing the price of an item at several stores and deciding where to buy it.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.8e",
+              "number": "8e",
+              "title": "Service",
+              "summary": "Taking part in two hours of approved service and relating it to the Scout Oath.",
+              "kind": "service",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rank.second-class.9",
+          "number": "9",
+          "title": "Personal safety",
+          "summary": "The three R’s of personal safety and responding to bullying.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "rank.second-class.9a",
+              "number": "9a",
+              "title": "The three R’s",
+              "summary": "Explaining the three R’s of personal safety and protection.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "rank.second-class.9b",
+              "number": "9b",
+              "title": "Bullying",
+              "summary": "Describing bullying and how to respond to it.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
         }
       ]
     }

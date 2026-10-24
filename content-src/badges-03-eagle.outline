@@ -1,0 +1,114 @@
+# Eagle-required badges (part 2) and Eagle options — checked against official scouting.org excerpts.
+
+@owner mb.family-life
+@complete complete
+@source https://www.scouting.org/skills/merit-badges/digital-resource-guides/family-life/contents/ | Family Life Digital Resource Guide (scouting.org)
+@desc Family Life is done almost entirely with your family: understanding what families do for each other, carrying real responsibilities at home for three months, completing individual and family projects, running family meetings on important topics, and reflecting on what makes a good parent.
+1 d Why families matter :: What a family is, why families matter to people and society, and how one member’s actions affect the others.
+2 d Why you matter :: Reasons you are important to your family, discussed with your parent or guardian and your counselor.
+3 a Chores for ninety days :: Doing several regular household chores for ninety days, keeping a record, and discussing their effect on your family.
+4 a An individual home project :: An approved project at home that benefits your family, and discussing its goal and results.
+5 a A family project :: Planning and carrying out a project with your family, then discussing its objective, everyone’s part and the results.
+6 a Family meetings :: Planning and holding family meetings on a set of important topics.
+6a d Planning a meeting :: How to plan and run a family meeting.
+6b a Holding meetings :: Preparing an agenda on the official list of topics, reviewing it with a parent or guardian, and holding the meetings.
+7 d Effective parenting :: What makes an effective parent or guardian and their role in a family.
+
+@owner mb.lifesaving
+@complete partial
+@note Excerpts confirmed requirements 1, 4 and 5 and the prerequisite swimming items; requirements 6 onward (rowing and in-water rescues, escapes, submerged-victim recovery, spinal injury management, CPR and other injuries) were not visible with their numbers and are not outlined yet.
+@desc Lifesaving teaches you to help someone in trouble in the water while keeping yourself safe — starting with reaching, throwing and rowing rescues and moving to carefully supervised in-water rescues, escapes, spinal injury management and CPR.
+@safety Water rescue skills must be learned and practiced only with a qualified aquatics instructor and Safe Swim Defense in place. Never attempt an in-water rescue you have not been trained for.
+1 k! Safe Swim Defense :: Reviewing the principles of Safe Swim Defense with your counselor before the in-water requirements.
+= rank.second-class.5a
+2 m! Prerequisites :: Earning the Swimming merit badge before the in-water requirements.
+= mb.swimming.2
+3 demo! Endurance swim :: A strong continuous swim using several strokes, as described in the official requirement.
+4 demo! Reaching rescues :: Demonstrating reaching rescues with everyday items such as arms, legs, towels, paddles or poles.
+= rank.second-class.5c
+5 demo! Throwing rescues :: Demonstrating throwing rescues with a line, ring buoy, rescue bag or other floating support.
+
+@owner mb.environmental-science
+@complete partial
+@source https://www.scouting.org/skills/merit-badges/digital-resource-guides/environmental-science/ | Environmental Science Digital Resource Guide (scouting.org)
+@note Most requirements offer a choice of options; the option lists are summarized rather than reproduced.
+@desc Environmental Science asks you to observe an ecosystem closely and investigate how people affect air, water and land, how rare species and pollinators are protected, how invasive species spread, and how pollution can be prevented.
+1 k Describing environmental science :: What environmental science is and why it matters.
+2 a Ecology :: Observing an ecosystem over two days, its living and nonliving parts, and human effects on it.
+3 m Air pollution :: One option on air pollution, such as particulate matter, transportation or clean-air law.
+4 m Water pollution :: One option on local water sources, flooding or drought, or clean-water law.
+5 m Land pollution :: An option on land pollution, such as chemical use in an approved area or a Superfund site.
+6 m Rare and endangered species :: An option on a threatened or endangered species, a recovered species or habitat restoration.
+7 m Pollution prevention :: Ways to prevent pollution, from the options in the official requirement.
+8 m Pollination :: An option on pollinators and their role in ecosystems and agriculture.
+9 a Invasive species :: Investigating invasive species in your area.
+10 k Construction and the environment :: Environmental impacts to consider for a construction project.
+11 a Environmental careers :: Careers that use environmental science and the preparation one of them requires.
+
+@owner mb.sustainability
+@complete complete
+@note Requirements 2–7 offer choices of options; the options are summarized.
+@desc Sustainability looks at the systems that support everyday life — water, food, community, energy and the things we own — and asks how your household and community can meet today’s needs without using up tomorrow’s.
+1 d What sustainability means :: Sustainability in your own words and why it matters to society.
+2 m Water :: An option on household water use, why water matters, or flooding and drought.
+3 m Food :: An option on how sustainable different foods are, or what limits food availability.
+4 m Community :: An option such as sketching a sustainable community or examining a local unsustainable practice.
+5 m Energy :: An option on energy sources, household energy use or reducing consumption.
+6 m Stuff :: An option on possessions, waste and recycling.
+7 k Big-picture topics :: Topics such as global sustainability goals, life-support systems, product life cycles, population, species decline and climate.
+8 a Sustainability in practice :: Observing sustainability on a Scouting outing, applying the Scout Oath, Law and Leave No Trace, and choosing household changes.
+= mb.camping.2
+
+@owner mb.swimming
+@complete complete
+@note Requirement 1 covers health and safety; the swimmer test is a prerequisite for the in-water requirements.
+@desc Swimming builds real water competence: health and safety around water, the swimmer test, good form in five strokes, an endurance swim, rescues from the side, floating and survival skills, surface dives and diving into deep water.
+@safety Swimming activities must follow Safe Swim Defense with qualified supervision.
+@study study.tenderfoot-skills
+1 k! Health and safety :: Preventing and treating swimming-related health concerns, and the principles of Safe Swim Defense.
+= rank.second-class.5a
+2 demo! Swimmer test :: Passing the swimmer test before the other swimming requirements.
+= rank.first-class.6a
+3 demo! Stroke form :: Good form in the front crawl or trudgen, back crawl, sidestroke, breaststroke and elementary backstroke.
+4 demo! Endurance swim :: A continuous swim using the required strokes and distances.
+5 demo! Rescues from the side :: Reaching, object and line rescues, and when not to attempt a swimming rescue.
+= rank.second-class.5c
+6 demo! Floating and survival :: Resting floats, survival floating, and the HELP and huddle positions in a life jacket.
+7 demo! Surface dives :: Feetfirst and headfirst surface dives and swimming underwater.
+8 demo! Diving :: Standing and long shallow dives into water of the required depth.
+
+@owner mb.hiking
+@complete complete
+@source https://www.scouting.org/skills/merit-badges/digital-resource-guides/hiking/contents/ | Hiking Digital Resource Guide (scouting.org)
+@desc Hiking prepares you for long days on foot: hiking hazards and first aid, trail ethics and foot care, conditioning, and a series of planned and reported hikes building up to twenty miles.
+@safety Long hikes need a plan approved by your counselor, the buddy system and preparation for weather and terrain.
+@study study.camp-ready
+1 m! Hazards while hiking :: Hiking hazards and first aid for hiking injuries and illnesses.
+1a d! Likely hazards :: The hazards you are most likely to meet while hiking and how to anticipate, prevent and respond to them.
+= mb.camping.1a
+1b demo! First aid for hikers :: First aid for hiking-related injuries and illnesses such as heat and cold illness and bites.
+2 m Hiking ethics and safety :: Good hiking practice, Leave No Trace and the Outdoor Code.
+2a k Good hiking practice :: Trail ethics, footwear and foot care.
+2b k Leave No Trace :: The Leave No Trace principles and how they apply to hiking.
+2c k The Outdoor Code :: The Outdoor Code and examples of following it.
+3 a Conditioning :: Why hiking is aerobic and a conditioning plan for long hikes.
+4 a Long hikes :: Four ten-mile hikes and one twenty-mile hike on different days, each with an approved plan.
+4a a First ten-mile hike :: The first ten-mile hike.
+4b a Second ten-mile hike :: The second ten-mile hike.
+4c a Third ten-mile hike :: The third ten-mile hike.
+4d a Fourth ten-mile hike :: The fourth ten-mile hike.
+4e a Twenty-mile hike :: The twenty-mile hike.
+5 a Hike reports :: A written report after each hike on the route, weather, sights and challenges.
+
+@owner mb.cycling
+@complete partial
+@source https://www.scouting.org/wp-content/uploads/2025/12/Major-Requirement-Changes-as-of-1_1_2026.pdf | Major Requirement Changes as of January 1, 2026 (scouting.org)
+@note Requirement 6 offers a road-biking or a trail-biking option; their sub-items are summarized. Electric bikes are not permitted for this badge.
+@desc Cycling covers riding safely and legally, fitting and maintaining a bike, handling skills, and a series of road or trail rides of increasing distance, planned with the buddy system.
+@safety Always wear a properly fitted helmet, follow traffic laws and ride with a buddy. Electric bikes are not used for this badge.
+1 k! Hazards and first aid :: Cycling hazards and how to prevent them, first aid for cycling injuries, and poisonous plants and animals where you ride.
+2 k! Laws and riding on roads :: Bicycle laws, how they compare with motor-vehicle laws, and where and how to ride on roads.
+3 k! Clothing and gear :: Clothing and gear including a properly fitted helmet, and Scouting America’s bike safety guidelines.
+4 demo Bike maintenance :: Cleaning, adjusting and inspecting a bike with a safety checklist.
+5 demo! Handling skills :: Mounting, starting, stopping, turning, shifting, scanning and signaling.
+6 a! Riding program :: One option: road biking with a safety test and rides of increasing distance, or trail biking with skills, a trail safety test and trail rides.

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.citizenship-in-the-nation",
+  "slug": "citizenship-in-the-nation",
+  "description": "Citizenship in the Nation covers how the United States is governed — the Constitution, the three branches, founding documents and national issues — and connects them to your own life through speeches, landmarks and a letter to your representatives.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/citizenship-nation/contents/",
+            "label": "Citizenship in the Nation Digital Resource Guide (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.citizenship-in-the-nation.1",
+          "number": "1",
+          "title": "The Constitution",
+          "summary": "What the Constitution is and what it does.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-nation.2",
+          "number": "2",
+          "title": "The Preamble",
+          "summary": "The six purposes stated in the Preamble and how they affect your family and community.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-nation.3",
+          "number": "3",
+          "title": "The three branches",
+          "summary": "The functions of the three branches of government and how they balance each other.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-nation.3a",
+              "number": "3a",
+              "title": "What each branch does",
+              "summary": "The function of each branch of the federal government.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.3b",
+              "number": "3b",
+              "title": "Separation of powers",
+              "summary": "Why powers are divided among the branches.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.3c",
+              "number": "3c",
+              "title": "Checks and balances",
+              "summary": "How each branch checks the others.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.3d",
+              "number": "3d",
+              "title": "Getting involved",
+              "summary": "How citizens can take part in each branch.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-nation.4",
+          "number": "4",
+          "title": "Founding documents",
+          "summary": "Important national documents and ideals, such as the Declaration of Independence, the Bill of Rights and the national motto.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-nation.4a",
+              "number": "4a",
+              "title": "The Declaration of Independence",
+              "summary": "The purpose and meaning of the Declaration of Independence.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.4b",
+              "number": "4b",
+              "title": "The Bill of Rights",
+              "summary": "The Bill of Rights and the Fourteenth Amendment.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.4c",
+              "number": "4c",
+              "title": "The national motto",
+              "summary": "What “E Pluribus Unum” means.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-nation.5",
+          "number": "5",
+          "title": "Following national issues",
+          "summary": "Following the news for several days, discussing national issues and how one affects you, your family and community.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-nation.6",
+          "number": "6",
+          "title": "A historic speech",
+          "summary": "Studying an approved historic speech: its author, context, content and importance.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-nation.7",
+          "number": "7",
+          "title": "National landmarks",
+          "summary": "Two of four options, such as visiting a historic landmark, touring a capitol or federal facility, or researching a national monument.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-nation.7a",
+              "number": "7a",
+              "title": "Historic site",
+              "summary": "Visiting a historic landmark or site on the National Register.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.7b",
+              "number": "7b",
+              "title": "Capitol building",
+              "summary": "Touring your state or federal capitol.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.7c",
+              "number": "7c",
+              "title": "Federal facility",
+              "summary": "Touring a federal facility.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-nation.7d",
+              "number": "7d",
+              "title": "National monument",
+              "summary": "Researching a national monument.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-nation.8",
+          "number": "8",
+          "title": "Writing to Congress",
+          "summary": "Identifying your members of Congress and writing to one about a national issue.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

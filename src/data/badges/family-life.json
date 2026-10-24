@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.family-life",
+  "slug": "family-life",
+  "description": "Family Life is done almost entirely with your family: understanding what families do for each other, carrying real responsibilities at home for three months, completing individual and family projects, running family meetings on important topics, and reflecting on what makes a good parent.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/family-life/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/family-life/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/family-life/contents/",
+            "label": "Family Life Digital Resource Guide (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.family-life.1",
+          "number": "1",
+          "title": "Why families matter",
+          "summary": "What a family is, why families matter to people and society, and how one member’s actions affect the others.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.family-life.2",
+          "number": "2",
+          "title": "Why you matter",
+          "summary": "Reasons you are important to your family, discussed with your parent or guardian and your counselor.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.family-life.3",
+          "number": "3",
+          "title": "Chores for ninety days",
+          "summary": "Doing several regular household chores for ninety days, keeping a record, and discussing their effect on your family.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.family-life.4",
+          "number": "4",
+          "title": "An individual home project",
+          "summary": "An approved project at home that benefits your family, and discussing its goal and results.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.family-life.5",
+          "number": "5",
+          "title": "A family project",
+          "summary": "Planning and carrying out a project with your family, then discussing its objective, everyone’s part and the results.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.family-life.6",
+          "number": "6",
+          "title": "Family meetings",
+          "summary": "Planning and holding family meetings on a set of important topics.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.family-life.6a",
+              "number": "6a",
+              "title": "Planning a meeting",
+              "summary": "How to plan and run a family meeting.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "mb.family-life.6b",
+              "number": "6b",
+              "title": "Holding meetings",
+              "summary": "Preparing an agenda on the official list of topics, reviewing it with a parent or guardian, and holding the meetings.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.family-life.7",
+          "number": "7",
+          "title": "Effective parenting",
+          "summary": "What makes an effective parent or guardian and their role in a family.",
+          "kind": "discussion",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

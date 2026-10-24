@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.swimming",
+  "slug": "swimming",
+  "description": "Swimming builds real water competence: health and safety around water, the swimmer test, good form in five strokes, an endurance swim, rescues from the side, floating and survival skills, surface dives and diving into deep water.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Swimming activities must follow Safe Swim Defense with qualified supervision."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/swimming/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 1 covers health and safety; the swimmer test is a prerequisite for the in-water requirements.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/swimming/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.swimming.1",
+          "number": "1",
+          "title": "Health and safety",
+          "summary": "Preventing and treating swimming-related health concerns, and the principles of Safe Swim Defense.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "rank.second-class.5a"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.swimming.2",
+          "number": "2",
+          "title": "Swimmer test",
+          "summary": "Passing the swimmer test before the other swimming requirements.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "rank.first-class.6a"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.swimming.3",
+          "number": "3",
+          "title": "Stroke form",
+          "summary": "Good form in the front crawl or trudgen, back crawl, sidestroke, breaststroke and elementary backstroke.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.swimming.4",
+          "number": "4",
+          "title": "Endurance swim",
+          "summary": "A continuous swim using the required strokes and distances.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.swimming.5",
+          "number": "5",
+          "title": "Rescues from the side",
+          "summary": "Reaching, object and line rescues, and when not to attempt a swimming rescue.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "rank.second-class.5c"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.swimming.6",
+          "number": "6",
+          "title": "Floating and survival",
+          "summary": "Resting floats, survival floating, and the HELP and huddle positions in a life jacket.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.swimming.7",
+          "number": "7",
+          "title": "Surface dives",
+          "summary": "Feetfirst and headfirst surface dives and swimming underwater.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.swimming.8",
+          "number": "8",
+          "title": "Diving",
+          "summary": "Standing and long shallow dives into water of the required depth.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": [
+    "study.tenderfoot-skills"
+  ]
+}

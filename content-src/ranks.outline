@@ -1,0 +1,264 @@
+# Scouts BSA ranks — structure checked against official scouting.org excerpts (2025 requirements, effective 2025-01-01;
+# Scouting America reported no rank changes for 2026). Summaries are ScoutPath's own words, never official wording.
+
+@owner rank.scout
+@effective 2025-01-01
+@complete complete
+@url https://www.scouting.org/wp-content/uploads/2025/12/Scout-Rank.pdf
+@source https://www.scouting.org/wp-content/uploads/2025/12/Scout-Rank.pdf | Scout rank requirements (scouting.org, December 2025)
+@source https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf | 2025 Scouts BSA Requirements (scouting.org)
+@note Excerpts for requirements 2–5 came from earlier official editions with the same structure; their current wording was not visible.
+1 k Scouting ideals :: The Scout Oath, Scout Law, motto, slogan, Outdoor Code and Pledge of Allegiance, and the signs and symbols of Scouting.
+1a k Oath, Law, motto, and slogan :: Reciting the Scout Oath, Scout Law, motto and slogan from memory and explaining what they mean to you.
+1b d Scout spirit :: What Scout spirit means and examples of how you have shown it.
+1c demo Sign, salute, and handshake :: Demonstrating the Scout sign, salute and handshake and when each is used.
+1d k The First Class badge :: Describing the First Class badge, what its parts stand for and why it matters.
+1e k Outdoor Code and Leave No Trace :: Reciting the Outdoor Code, listing the seven Leave No Trace principles and explaining how the two fit together.
+> The Outdoor Code is a short pledge about how Scouts behave outdoors; the seven Leave No Trace principles are a practical framework for doing it: plan ahead, use durable surfaces, dispose of waste properly, leave what you find, minimize campfire impacts, respect wildlife and be considerate of others. Be ready to explain how a principle helps you keep a promise in the Code.
+= mb.camping.2
+1f k The Pledge of Allegiance :: Reciting the Pledge of Allegiance and explaining its meaning.
+2 k How a troop works :: After attending a troop meeting: how youth lead the troop, the steps of advancement, the ranks, and how merit badges are earned.
+2a k Youth leadership :: How Scouts in the troop provide its leadership.
+2b k Steps of advancement :: The steps a Scout goes through to advance.
+> Advancement follows a predictable cycle: you learn a skill, you are tested on it, you are reviewed, and you are recognized. Knowing the cycle explains why sign-offs, conferences and boards of review exist — and why a personal checklist like this one is never an official sign-off.
+2c k The ranks :: What the Scouts BSA ranks are and how they are earned.
+2d k Merit badges :: What merit badges are and how they are earned.
+3 k The patrol method :: How the patrol method works and getting to know your own patrol.
+3a k Patrol method :: Explaining the patrol method and the kinds of patrols in a troop.
+3b k Your patrol :: Learning your patrol’s name, emblem, flag and yell.
+4 demo Rope skills :: Tying basic knots and caring for rope.
+4a demo Three basic knots :: Tying a square knot, two half hitches and a taut-line hitch, and explaining how each is used.
+> Each knot has a job. The square knot joins two ends of the same material, such as a bandage. Two half hitches tie a line to a post or ring. The taut-line hitch makes an adjustable loop, which is why it is used on tent guylines. Learn the job first and the knot is easier to remember; then tie each one with real rope until you can do it without looking.
+4b demo Rope care :: Whipping and fusing rope ends so they do not unravel.
+5 demo! Pocketknife safety :: Showing that you know how to handle a pocketknife safely.
+6 a Personal safety :: Personal-safety exercises completed with a parent or guardian, including Scouting America’s personal safety awareness material.
+~ Earlier editions referred to the Cyber Chip; the 2025 requirements use personal safety awareness videos. Follow the current official wording.
+7 c Scoutmaster conference :: Taking part in a Scoutmaster conference.
+
+@owner rank.tenderfoot
+@effective 2025-01-01
+@complete complete
+@url https://www.scouting.org/wp-content/uploads/2025/12/Tenderfoot-Rank.pdf
+@source https://www.scouting.org/wp-content/uploads/2025/12/Tenderfoot-Rank.pdf | Tenderfoot rank requirements (scouting.org, December 2025)
+@source https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf | 2025 Scouts BSA Requirements (scouting.org)
+1 a Camping and outdoor ethics :: Preparing for and taking part in your first campouts.
+1a demo Gear for an overnight :: Presenting yourself ready for an overnight campout and showing your gear and how to pack it.
+> Packing for a first campout is about having the right things and being able to find them. The Ten Essentials make a good backbone: navigation, light, sun protection, insulation, first aid, fire, repair tools, food, water and shelter. Your troop will have its own gear list; bring it to your leader with your pack.
+1b a Your first campout :: Spending at least one night on a patrol or troop campout in a tent you helped pitch.
+1c d The Outdoor Code in practice :: Telling how you practiced the Outdoor Code on a campout or outing.
+= mb.camping.2
+2 a Cooking :: Helping with patrol meals and cleanup and understanding why patrols eat together.
+2a a Helping with a meal :: Helping prepare a meal on a campout and why everyone shares in cooking and cleanup.
+2b demo! Cleaning up safely :: Showing how to safely clean cooking and eating gear on a campout.
+2c d Eating as a patrol :: Why eating together as a patrol matters.
+3 demo Tools :: Practical uses of basic knots and the safe care and use of woods tools.
+3a demo Using a square knot :: Showing a practical use of the square knot.
+3b demo Using two half hitches :: Showing a practical use of two half hitches.
+3c demo Using a taut-line hitch :: Showing a practical use of the taut-line hitch.
+3d demo! Knife, saw, and ax :: Caring for, sharpening and using a knife, saw and ax, and when each should be used.
+4 m! First aid and nature :: Basic first aid, hazardous plants, preventing outdoor injuries and building a personal first-aid kit.
+4a demo! Basic first aid :: First aid for a list of common minor injuries and conditions such as cuts, blisters, minor burns, bites and stings, nosebleeds, frostbite, sunburn and choking.
+~ The official requirement lists the exact conditions. Use it as your checklist.
+> This is the foundation every later first-aid requirement builds on. For each condition, learn how to recognize it, what to do, and when it is serious enough to get an adult or call for help. Practice with a partner and a real first-aid kit — reading alone does not build the habit.
+4b k! Hazardous plants :: Common poisonous or hazardous plants, which grow near you, and treating exposure to them.
+> Poison ivy, poison oak and poison sumac cause a rash through an oil called urushiol, which can also be picked up from tools, clothing and pets. "Leaves of three, let it be" helps with ivy and oak, but poison sumac has clusters of more leaflets. Learn what grows where you camp and rinse exposed skin promptly.
+4c k! Preventing injuries :: What you can do on outings to prevent or reduce the injuries and exposures in 4a and 4b.
+4d a! Personal first-aid kit :: Assembling a personal first-aid kit and explaining how each item is used.
+5 k! Hiking :: The buddy system, what to do if you are lost, and safe hiking by day and night.
+5a m! The buddy system :: Why the buddy system matters for safety on outings and in your neighborhood, and using it.
+5b k! If you are lost :: What to do if you become lost on a hike or campout.
+5c k! Safe hiking :: Rules of safe hiking on roads and cross-country, by day and at night.
+6 a Fitness :: Recording baseline fitness tests, making a 30-day improvement plan and showing improvement.
+6a a Baseline fitness tests :: Recording your best results in pushups, situps or curl-ups, a sit-and-reach and a one-mile walk or run.
+6b a Improvement plan :: Making a plan for improvement and keeping track of your activity for at least 30 days.
+> A good plan is specific: which activity, how often and how you will record it. The CDC’s guidelines for young people are a useful reference for how much activity is generally recommended, but your plan should start from your own baseline.
+6c a Showing improvement :: Showing improvement in each test after 30 days of practice.
+7 m Citizenship :: Handling the U.S. flag correctly and taking part in service.
+7a demo Flag etiquette :: Displaying, raising, lowering and folding the U.S. flag.
+> The U.S. Flag Code sets out how the flag is displayed and respected. Folding into the traditional triangle is a custom rather than a legal rule, but it is the form you will be expected to show. Practice with a partner so the flag never touches the ground.
+7b s Service :: Taking part in one hour of approved service.
+8 a Leadership :: Describing Scouting’s Teaching EDGE method and using it to teach someone the square knot.
+= mb.first-aid.10
+9 d Scout spirit :: Living the Scout Oath and Law, and explaining how you have done your duty to God and lived four points of the Scout Law.
+10 c Scoutmaster conference :: Taking part in a Scoutmaster conference.
+11 r Board of review :: Completing a board of review for the rank.
+
+@owner rank.second-class
+@effective 2025-01-01
+@complete complete
+@url https://www.scouting.org/wp-content/uploads/2025/12/Second-Class-v2.pdf
+@source https://www.scouting.org/wp-content/uploads/2025/12/Second-Class-v2.pdf | Second Class rank requirements (scouting.org, December 2025)
+@source https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf | 2025 Scouts BSA Requirements (scouting.org)
+@note Excerpts differed on the exact list of conditions in 6a; the summary stays general.
+1 a Camping and outdoor ethics :: Troop activities including campouts, Leave No Trace, and choosing a patrol site.
+1a a Troop activities :: Taking part in the required number of troop or patrol activities since joining, some outdoors and some with overnight camping.
+1b d Leave No Trace in practice :: Explaining the Leave No Trace principles and how you practiced them on an outing.
+> The seven principles are: plan ahead and prepare; travel and camp on durable surfaces; dispose of waste properly; leave what you find; minimize campfire impacts; respect wildlife; be considerate of others. A real example from your own trip for each principle is far more convincing than reciting the list.
+= mb.camping.2
+1c a Choosing a patrol site :: Selecting and recommending a location for your patrol site on a campout.
+= mb.camping.6c
+2 m! Cooking and tools :: When fires are appropriate, preparing and building a fire, stove safety, cooking a meal and two more knots.
+2a k! When to use a fire :: When a fire is appropriate for cooking or other purposes and when it is not.
+2b demo! Preparing fuel :: Using woods tools to prepare tinder, kindling and fuel wood.
+2c demo! Building and extinguishing a fire :: Building a fire at an approved place and time, then putting it out completely with minimal impact.
+~ Only where local fire restrictions allow and with adult supervision.
+> Before you light anything, check fire restrictions and have water and a shovel at hand. To put a fire out, the method the Forest Service teaches is to drown it with water, stir the ashes, drown it again, and feel for heat with the back of your hand. If it is too hot to touch, it is too hot to leave.
+2d demo! Stoves :: Choosing between stove types, setting one up and lighting it, and stove safety.
+= mb.camping.8a
+2e a! Planning and cooking a meal :: Planning and cooking a hot breakfast or lunch on a campout with attention to nutrition and safe food handling.
+2f demo Sheet bend :: Tying a sheet bend and describing when to use it.
+2g demo Bowline :: Tying a bowline and describing when to use it.
+3 m Navigation :: Using a compass and map, a navigated hike, hiking hazards, and finding directions without a compass.
+3a demo Compass and map basics :: How a compass works, orienting a map, and explaining five map symbols.
+> Topographic maps show the shape of the land with contour lines: lines close together mean steep ground. Orienting the map means turning it so north on the map points north on the ground. The USGS primer covers contour lines, scale, symbols and bearings, and explains declination.
+= mb.camping.3
+3b a Navigated hike :: Taking an approved five-mile hike (or ten-mile bike ride) using a map and compass.
+3c k! Hiking hazards :: Hazards and injuries you might meet on a hike and how to prevent them.
+3d demo Directions without a compass :: Finding direction by day and by night without a compass or electronic device.
+4 a Nature :: Identifying or showing evidence of at least ten kinds of wild animals in your area.
+5 m! Aquatics :: Safe-swim precautions, the beginner swim test, and reaching and throwing rescues.
+5a k! Safe swim precautions :: The precautions for a safe swim.
+> Safe swimming relies on layers of protection: qualified supervision, knowing each swimmer’s ability, a buddy for everyone and staying in designated areas. The CDC and Red Cross pages explain why swimming with a buddy matters even for strong swimmers.
+5b demo! Beginner swim test :: Passing the beginner swim test.
+5c demo! Reaching and throwing rescues :: Demonstrating water rescues by reaching and throwing.
+5d k! Why not swim out :: Why reaching or throwing comes before any swimming rescue.
+6 m! First aid and emergencies :: First aid for more serious injuries, “hurry cases,” prevention, emergency response and accident scenes.
+6a demo! First aid for serious injuries :: First aid for a list of injuries and conditions, such as an object in the eye or a bite from a warm-blooded animal.
+~ The official requirement lists the exact conditions. Use it as your checklist.
+6b demo! Hurry cases :: What to do for urgent cases such as stopped breathing, stroke, severe bleeding and swallowed poisons.
+6c k! Prevention on outings :: How to prevent or reduce the injuries in 6a and 6b while camping or hiking.
+6d k! Responding to emergencies :: How to respond to emergencies at home and in the backcountry.
+6e k! At an accident scene :: How to respond if you come upon the scene of a vehicle accident.
+7 m Fitness and healthy choices :: Staying physically active, reflecting on progress, and learning about substance misuse.
+7a a Staying active :: Being physically active at least 30 minutes a day, five days a week, for four weeks, and tracking it.
+7b d Reflecting on fitness :: Sharing your challenges and successes and setting a goal to continue.
+7c a Healthy choices :: Taking part in a program on the dangers of drugs, alcohol and tobacco, and relating it to the Scout Oath and Law.
+8 m Citizenship and money :: Flag ceremonies, respect for the flag, saving money, comparing prices, and service.
+8a a Flag ceremony :: Taking part in a flag ceremony.
+8b k Respect for the flag :: The respect due the U.S. flag.
+8c a Earning and saving :: Making and following a plan with a parent or guardian to earn and save money.
+8d a Comparing prices :: Comparing the price of an item at several stores and deciding where to buy it.
+8e s Service :: Taking part in two hours of approved service and relating it to the Scout Oath.
+9 k Personal safety :: The three R’s of personal safety and responding to bullying.
+9a k The three R’s :: Explaining the three R’s of personal safety and protection.
+9b k Bullying :: Describing bullying and how to respond to it.
+10 d Scout spirit :: Living the Scout Oath and Law, your duty to God, and four points of the Scout Law.
+11 c Scoutmaster conference :: Taking part in a Scoutmaster conference.
+12 r Board of review :: Completing a board of review for the rank.
+
+@owner rank.first-class
+@effective 2025-01-01
+@complete complete
+@url https://www.scouting.org/wp-content/uploads/2025/12/First-Class.pdf
+@source https://www.scouting.org/wp-content/uploads/2025/12/First-Class.pdf | First Class rank requirements (scouting.org, December 2025)
+@source https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf | 2025 Scouts BSA Requirements (scouting.org)
+@note Requirement 10 is outlined from earlier official editions; its current wording was not visible in the excerpts.
+1 a Camping and outdoor ethics :: Troop activities including campouts, and the impact of camping.
+1a a Troop activities :: Taking part in ten troop or patrol activities since joining, with the required number outdoors and overnight.
+1b d Outdoor ethics :: Explaining camping’s impacts and the outdoor ethics principles you practiced.
+= mb.camping.2
+2 m! Cooking :: Menu planning, budgeting, food safety, cleanup and serving as cook.
+2a a Planning a menu :: Helping plan a nutritious menu for a campout.
+= mb.camping.8c
+2b a Budget and amounts :: Making a shopping list with a budget and the food amounts needed.
+2c a Cooking gear :: Showing which pans, utensils and gear the menu needs.
+2d demo! Safe food handling :: Safe handling and storage of perishable food, and disposing of garbage and waste.
+> The USDA danger zone is 40–140 °F, where bacteria grow fastest. On a trip that means keeping cold foods cold, not leaving perishables out too long (less time in hot weather), and cooking to safe internal temperatures checked with a thermometer rather than by color.
+2e a! Serving as cook :: Serving as cook on a campout and supervising helpers.
+3 demo Tools :: When to use lashings, the hitches that start them, and building something with lashings.
+3a d When to use lashings :: When you should and should not use lashings.
+3b demo Timber and clove hitch :: Tying the timber hitch and clove hitch.
+3c demo Basic lashings :: Tying square, shear and diagonal lashings.
+3d a A camp gadget :: Using lashings to build a useful camp gadget or structure.
+4 m Navigation :: An orienteering course and electronic navigation.
+4a a Orienteering course :: Completing a map-and-compass orienteering course of at least one mile.
+= mb.camping.3
+4b demo GPS and electronic navigation :: Using a GPS unit, phone app or other electronic navigation tool.
+5 m! Nature :: Native plants, weather forecasts, natural signs of hazardous weather and local extreme weather.
+5a a Native plants :: Identifying or showing evidence of native plants in your area.
+5b k! Weather forecasts :: Ways to get a forecast and why forecasts matter when planning an activity.
+> The National Weather Service is the primary public source of U.S. forecasts and warnings. Learn the difference between a watch (conditions are favorable) and a warning (the hazard is happening or imminent), and decide ahead of time what each would mean for your trip.
+= mb.camping.1b
+5c k! Natural signs of hazardous weather :: Natural indicators that dangerous weather is approaching and what to do about it.
+> Building cumulus clouds, a sudden drop in temperature, rising wind and distant thunder are all signs to act early. Thunder means lightning is within striking distance, so move to safe shelter right away and wait until 30 minutes after the last thunder.
+5d k! Extreme weather where you live :: Extreme weather you might meet locally and how to plan for it.
+6 m! Aquatics :: The swimmer test, safe trips afloat, boat parts, body position and line rescues.
+6a demo! Swimmer test :: Passing the swimmer test.
+6b k! Safe trip afloat :: The precautions for a safe trip afloat.
+6c k Boat and paddle parts :: Identifying the basic parts of a canoe, kayak or other boat, and of a paddle or oar.
+6d k! Body position :: Proper body positioning in a watercraft and why it matters.
+6e demo! Line rescue :: Showing a line rescue as tender and as rescuer, with a helper and a practice victim.
+7 m! First aid and emergency preparedness :: Bandaging, moving injured people, heart attack and CPR, utilities, a home emergency plan and safe water.
+7a demo! Bandages :: Applying bandages for injuries such as a sprained ankle and injuries to the head, upper arm and collarbone.
+7b demo! Moving an injured person :: Moving a person from a hazardous room and helping someone with a sprained ankle to safety.
+7c k! Heart attack and CPR :: The common signs of a heart attack and the steps of CPR.
+= mb.first-aid.4
+7d k! Home utilities :: The utility services in your home or meeting place, their hazards and emergency responses.
+7e a Home emergency plan :: An emergency action plan for your home covering fire, storms and outages.
+> A home emergency plan covers who to contact, where to meet, how to get out and what to do when the power or water is off. Ready.gov’s family planning guide walks through the pieces.
+= mb.emergency-preparedness.1
+7f k! Safe water in an emergency :: How to get safe drinking water in an emergency.
+8 a Fitness :: Continuing regular physical activity and reflecting on your progress.
+8a a Staying active :: Being physically active for the required period and tracking it.
+8b d Reflecting on fitness :: Sharing your challenges and successes and setting a goal.
+9 m Citizenship :: Constitutional rights and obligations, a community environmental issue, reducing waste, and service.
+9a d Rights and obligations :: Visiting an approved individual to discuss the constitutional rights and obligations of a U.S. citizen.
+9b a An environmental issue :: Investigating an environmental issue affecting your community.
+9c a Reducing waste :: Noting the trash produced on an outing and discussing how to reduce it.
+9d s Service :: Taking part in three hours of approved service.
+10 a Sharing Scouting :: Telling someone who is eligible about Scouting and inviting them to an activity.
+11 d Scout spirit :: Living the Scout Oath and Law, your duty to God, and four points of the Scout Law.
+12 c Scoutmaster conference :: Taking part in a Scoutmaster conference.
+13 r Board of review :: Completing a board of review for the rank.
+
+@owner rank.star
+@effective 2025-01-01
+@complete complete
+@url https://www.scouting.org/wp-content/uploads/2025/12/Star-Rank.pdf
+@source https://www.scouting.org/wp-content/uploads/2025/12/Star-Rank.pdf | Star rank requirements (scouting.org, December 2025)
+@source https://www.scouting.org/skills/merit-badges/eagle-required/ | Eagle-required merit badges (scouting.org)
+1 a Active participation :: Being active in your troop for the required time as a First Class Scout.
+2 d Scout spirit :: Living the Scout Oath and Law and explaining how you have done your duty to God.
+3 a Merit badges :: Earning six merit badges, including four from the Eagle-required list.
+4 s Service :: Six hours of approved service, including conservation-related service.
+5 l Position of responsibility :: Serving actively in an approved troop position, or carrying out an approved leadership project, for the required time.
+~ Assistant patrol leader is not an approved position for Star, Life or Eagle.
+6 a Personal safety :: Personal-safety exercises with a parent or guardian.
+6a a Parent’s guide exercises :: Completing the exercises in the parent’s guide to child-abuse prevention with a parent or guardian.
+6b a Personal safety awareness videos :: Viewing the personal safety awareness videos with a parent’s or guardian’s permission.
+7 c Scoutmaster conference :: Taking part in a Scoutmaster conference.
+8 r Board of review :: Completing a board of review for the rank.
+
+@owner rank.life
+@effective 2025-01-01
+@complete complete
+@url https://www.scouting.org/wp-content/uploads/2025/12/Life-Rank.pdf
+@source https://www.scouting.org/wp-content/uploads/2025/12/Life-Rank.pdf | Life rank requirements (scouting.org, December 2025)
+1 a Active participation :: Being active in your troop for six months as a Star Scout.
+2 d Scout spirit :: Living the Scout Oath and Law and explaining how you have done your duty to God.
+3 a Merit badges :: Earning five more merit badges (eleven in all), including three more from the Eagle-required list.
+4 s Service :: Six hours of approved service, at least three of them conservation-related.
+5 l Position of responsibility :: Serving six months in an approved troop position, or carrying out an approved leadership project.
+6 a Teaching younger Scouts :: Using the Teaching EDGE method to teach another Scout a skill from the official list.
+= rank.tenderfoot.8
+7 c Scoutmaster conference :: Taking part in a Scoutmaster conference.
+8 r Board of review :: Completing a board of review for the rank.
+
+@owner rank.eagle
+@effective 2025-01-01
+@complete complete
+@url https://www.scouting.org/skills/merit-badges/eagle-required/
+@source https://www.scouting.org/skills/merit-badges/eagle-required/ | Eagle-required merit badges (scouting.org)
+@source https://www.scouting.org/program-updates/citizenship-in-society-merit-badge-discontinuance/ | Citizenship in Society merit badge discontinuance (scouting.org)
+@source https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf | 2025 Scouts BSA Requirements (scouting.org)
+@source https://filestore.scouting.org/filestore/pdf/gta-section-9.pdf | Guide to Advancement, section 9 (Eagle Scout service project)
+@note Eagle procedures (application, project workbook, board timing after age 18) are governed by the Guide to Advancement and are not summarized here.
+1 a Active participation :: Being active in your troop for six months as a Life Scout.
+2 d Scout spirit and references :: Living the Scout Oath and Law, explaining how they will guide your life, and listing references.
+3 a Merit badges :: Earning 21 merit badges, including the 13 on the Eagle-required list.
+~ Since Citizenship in Society was discontinued in February 2026, Eagle requires 13 required badges and 8 electives. Scouts who had already started may have transition options; ask your unit leader.
+4 l Position of responsibility :: Serving six months in an approved position of responsibility as a Life Scout.
+5 l Eagle Scout service project :: Planning, developing and leading a service project that benefits a religious institution, school or community, with the required approvals before you begin.
+~ Project approvals and workbook procedures are set by official guidance and your council.
+6 c Scoutmaster conference :: Taking part in a Scoutmaster conference as a Life Scout.
+7 r Board of review :: Completing an Eagle Scout board of review.

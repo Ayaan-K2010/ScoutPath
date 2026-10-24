@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.lifesaving",
+  "slug": "lifesaving",
+  "description": "Lifesaving teaches you to help someone in trouble in the water while keeping yourself safe — starting with reaching, throwing and rowing rescues and moving to carefully supervised in-water rescues, escapes, spinal injury management and CPR.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Water rescue skills must be learned and practiced only with a qualified aquatics instructor and Safe Swim Defense in place. Never attempt an in-water rescue you have not been trained for."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/lifesaving/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts confirmed requirements 1, 4 and 5 and the prerequisite swimming items; requirements 6 onward (rowing and in-water rescues, escapes, submerged-victim recovery, spinal injury management, CPR and other injuries) were not visible with their numbers and are not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/lifesaving/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.lifesaving.1",
+          "number": "1",
+          "title": "Safe Swim Defense",
+          "summary": "Reviewing the principles of Safe Swim Defense with your counselor before the in-water requirements.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "rank.second-class.5a"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.lifesaving.2",
+          "number": "2",
+          "title": "Prerequisites",
+          "summary": "Earning the Swimming merit badge before the in-water requirements.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.swimming.2"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.lifesaving.3",
+          "number": "3",
+          "title": "Endurance swim",
+          "summary": "A strong continuous swim using several strokes, as described in the official requirement.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.lifesaving.4",
+          "number": "4",
+          "title": "Reaching rescues",
+          "summary": "Demonstrating reaching rescues with everyday items such as arms, legs, towels, paddles or poles.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "rank.second-class.5c"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.lifesaving.5",
+          "number": "5",
+          "title": "Throwing rescues",
+          "summary": "Demonstrating throwing rescues with a line, ring buoy, rescue bag or other floating support.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

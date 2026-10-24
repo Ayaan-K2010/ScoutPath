@@ -1,0 +1,28 @@
+# Badge slugs whose official page (https://www.scouting.org/merit-badges/<slug>/) appeared in scouting.org search results.
+# Used by content:compile to mark the catalog listing as confirmed.
+first-aid
+camping
+emergency-preparedness
+citizenship-in-the-community
+citizenship-in-the-nation
+citizenship-in-the-world
+communication
+cooking
+personal-fitness
+personal-management
+family-life
+lifesaving
+environmental-science
+sustainability
+swimming
+hiking
+cycling
+backpacking
+safety
+wilderness-survival
+search-and-rescue
+signs-signals-and-codes
+multisport
+water-sports
+nature
+soil-and-water-conservation

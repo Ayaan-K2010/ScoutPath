@@ -8,7 +8,7 @@
   "officialUrl": "https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/",
   "officialUrlStatus": "unchecked",
   "lastReviewed": null,
-  "currentVersion": "outline-2026-draft",
+  "currentVersion": "2025-official-excerpt",
   "versions": [
     {
       "versionId": "outline-2026-draft",
@@ -81,6 +81,102 @@
           "number": "6",
           "title": "Scoutmaster conference",
           "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.7",
+          "number": "7",
+          "title": "Board of review",
+          "summary": "Completing an Eagle Scout board of review.",
+          "kind": "review",
+          "children": []
+        }
+      ]
+    },
+    {
+      "versionId": "2025-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2025-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/skills/merit-badges/eagle-required/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": "outline-2026-draft",
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Eagle procedures (application, project workbook, board timing after age 18) are governed by the Guide to Advancement and are not summarized here.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/eagle-required/",
+            "label": "Eagle-required merit badges (scouting.org)"
+          },
+          {
+            "url": "https://www.scouting.org/program-updates/citizenship-in-society-merit-badge-discontinuance/",
+            "label": "Citizenship in Society merit badge discontinuance (scouting.org)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf",
+            "label": "2025 Scouts BSA Requirements (scouting.org)"
+          },
+          {
+            "url": "https://filestore.scouting.org/filestore/pdf/gta-section-9.pdf",
+            "label": "Guide to Advancement, section 9 (Eagle Scout service project)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "rank.eagle.1",
+          "number": "1",
+          "title": "Active participation",
+          "summary": "Being active in your troop for six months as a Life Scout.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.2",
+          "number": "2",
+          "title": "Scout spirit and references",
+          "summary": "Living the Scout Oath and Law, explaining how they will guide your life, and listing references.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.3",
+          "number": "3",
+          "title": "Merit badges",
+          "summary": "Earning 21 merit badges, including the 13 on the Eagle-required list.",
+          "kind": "activity",
+          "note": "Since Citizenship in Society was discontinued in February 2026, Eagle requires 13 required badges and 8 electives. Scouts who had already started may have transition options; ask your unit leader.",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.4",
+          "number": "4",
+          "title": "Position of responsibility",
+          "summary": "Serving six months in an approved position of responsibility as a Life Scout.",
+          "kind": "leadership",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.5",
+          "number": "5",
+          "title": "Eagle Scout service project",
+          "summary": "Planning, developing and leading a service project that benefits a religious institution, school or community, with the required approvals before you begin.",
+          "kind": "leadership",
+          "note": "Project approvals and workbook procedures are set by official guidance and your council.",
+          "children": []
+        },
+        {
+          "id": "rank.eagle.6",
+          "number": "6",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference as a Life Scout.",
           "kind": "conference",
           "children": []
         },

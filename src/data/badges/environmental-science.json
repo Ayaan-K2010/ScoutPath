@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.environmental-science",
+  "slug": "environmental-science",
+  "description": "Environmental Science asks you to observe an ecosystem closely and investigate how people affect air, water and land, how rare species and pollinators are protected, how invasive species spread, and how pollution can be prevented.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/environmental-science/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Most requirements offer a choice of options; the option lists are summarized rather than reproduced.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/environmental-science/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/environmental-science/",
+            "label": "Environmental Science Digital Resource Guide (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.environmental-science.1",
+          "number": "1",
+          "title": "Describing environmental science",
+          "summary": "What environmental science is and why it matters.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.environmental-science.10",
+              "number": "10",
+              "title": "Construction and the environment",
+              "summary": "Environmental impacts to consider for a construction project.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.environmental-science.11",
+              "number": "11",
+              "title": "Environmental careers",
+              "summary": "Careers that use environmental science and the preparation one of them requires.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.environmental-science.2",
+          "number": "2",
+          "title": "Ecology",
+          "summary": "Observing an ecosystem over two days, its living and nonliving parts, and human effects on it.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.3",
+          "number": "3",
+          "title": "Air pollution",
+          "summary": "One option on air pollution, such as particulate matter, transportation or clean-air law.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.4",
+          "number": "4",
+          "title": "Water pollution",
+          "summary": "One option on local water sources, flooding or drought, or clean-water law.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.5",
+          "number": "5",
+          "title": "Land pollution",
+          "summary": "An option on land pollution, such as chemical use in an approved area or a Superfund site.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.6",
+          "number": "6",
+          "title": "Rare and endangered species",
+          "summary": "An option on a threatened or endangered species, a recovered species or habitat restoration.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.7",
+          "number": "7",
+          "title": "Pollution prevention",
+          "summary": "Ways to prevent pollution, from the options in the official requirement.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.8",
+          "number": "8",
+          "title": "Pollination",
+          "summary": "An option on pollinators and their role in ecosystems and agriculture.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.9",
+          "number": "9",
+          "title": "Invasive species",
+          "summary": "Investigating invasive species in your area.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

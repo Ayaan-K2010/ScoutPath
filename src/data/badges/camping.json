@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "mb.camping",
   "slug": "camping",
-  "description": "Camping turns occasional campouts into real competence: planning a trip, choosing and caring for gear, cooking for a group, camping responsibly, and building up a record of nights outdoors. Much of the badge is done outside, so the resources here are for preparing and reflecting rather than replacing the trips themselves.",
+  "description": "Camping turns occasional campouts into real competence: planning a trip, choosing and caring for gear, cooking for a group, camping responsibly, and building a record of nights outdoors. Much of the badge happens outside, so the resources here are for preparing and reflecting rather than replacing the trips.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,
     "reviewed": false,
     "note": "Stove, fuel, fire, weather and water-treatment topics are safety-sensitive. Follow your leaders, local fire restrictions and your unit’s safety guidance."
   },
-  "currentVersion": "outline-2026-draft",
+  "currentVersion": "2026-official-excerpt",
   "versions": [
     {
       "versionId": "outline-2026-draft",
@@ -28,7 +28,10 @@
         "recordedBy": "ScoutPath maintainers",
         "recordedOn": "2026-10-22",
         "references": [
-          { "label": "Boy Scout Trail: Camping merit badge (secondary source)", "url": "https://www.boyscouttrail.com/boy-scouts/meritbadges/camping-merit-badge.asp" }
+          {
+            "label": "Boy Scout Trail: Camping merit badge (secondary source)",
+            "url": "https://www.boyscouttrail.com/boy-scouts/meritbadges/camping-merit-badge.asp"
+          }
         ]
       },
       "requirements": [
@@ -58,7 +61,10 @@
               "kind": "discussion",
               "safetySensitive": true,
               "orientation": "Weather changes the plan for gear, clothing, cooking and even whether a trip should go ahead. Lightning is the classic example: if you can hear thunder, you are close enough to be struck, so you need a plan for shelter before storms arrive, not after.",
-              "relatedRequirementIds": ["rank.first-class.5b", "rank.first-class.5c"],
+              "relatedRequirementIds": [
+                "rank.first-class.5b",
+                "rank.first-class.5c"
+              ],
               "children": []
             },
             {
@@ -69,7 +75,10 @@
               "kind": "knowledge",
               "safetySensitive": true,
               "note": "The official requirement lists the specific conditions. Use that list as your checklist.",
-              "relatedRequirementIds": ["mb.first-aid.5", "rank.tenderfoot.4a"],
+              "relatedRequirementIds": [
+                "mb.first-aid.5",
+                "rank.tenderfoot.4a"
+              ],
               "children": []
             }
           ]
@@ -81,7 +90,11 @@
           "summary": "Understanding Leave No Trace and the Outdoor Code and writing personal and group plans for putting them into practice on your next outing.",
           "kind": "mixed",
           "orientation": "The seven Leave No Trace principles are a framework for making good decisions, not a rulebook. For your plans, pick concrete actions for each principle — for example, how you will repackage food to cut trash, where you will cook, and how you will store food away from wildlife — and decide which ones are personal and which the group owns.",
-          "relatedRequirementIds": ["rank.scout.1e", "rank.tenderfoot.1c", "rank.second-class.1b"],
+          "relatedRequirementIds": [
+            "rank.scout.1e",
+            "rank.tenderfoot.1c",
+            "rank.second-class.1b"
+          ],
           "children": []
         },
         {
@@ -91,7 +104,10 @@
           "summary": "Making a written plan for an overnight trek and showing how to reach your campsite with a topographic map and either a compass or a GPS receiver.",
           "kind": "activity",
           "orientation": "A trip plan answers who, where, when, how and what if. The navigation part asks you to read terrain from contour lines and connect the map to the ground. The USGS primer explains contours, scale and bearings in plain language.",
-          "relatedRequirementIds": ["rank.second-class.3a", "rank.first-class.4a"],
+          "relatedRequirementIds": [
+            "rank.second-class.3a",
+            "rank.first-class.4a"
+          ],
           "children": []
         },
         {
@@ -101,8 +117,22 @@
           "summary": "Building a duty roster for your patrol and helping another group of Scouts prepare for a real campout.",
           "kind": "activity",
           "children": [
-            { "id": "mb.camping.4a", "number": "4a", "title": "Duty roster", "summary": "Making a duty roster that shows how your patrol is organized for an actual overnight campout.", "kind": "activity", "children": [] },
-            { "id": "mb.camping.4b", "number": "4b", "title": "Helping another group prepare", "summary": "Helping a patrol or a younger Scout unit plan and set up for a real campout.", "kind": "activity", "children": [] }
+            {
+              "id": "mb.camping.4a",
+              "number": "4a",
+              "title": "Duty roster",
+              "summary": "Making a duty roster that shows how your patrol is organized for an actual overnight campout.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.camping.4b",
+              "number": "4b",
+              "title": "Helping another group prepare",
+              "summary": "Helping a patrol or a younger Scout unit plan and set up for a real campout.",
+              "kind": "activity",
+              "children": []
+            }
           ]
         },
         {
@@ -121,7 +151,14 @@
               "orientation": "Layering means combining a moisture-moving base layer, an insulating middle layer and a wind- and rain-resistant outer layer, so you can add or remove warmth as conditions change. Cotton holds water against your skin and loses its warmth when wet.",
               "children": []
             },
-            { "id": "mb.camping.5b", "number": "5b", "title": "Footwear", "summary": "Discussing footwear for different kinds of camping trips.", "kind": "discussion", "children": [] },
+            {
+              "id": "mb.camping.5b",
+              "number": "5b",
+              "title": "Footwear",
+              "summary": "Discussing footwear for different kinds of camping trips.",
+              "kind": "discussion",
+              "children": []
+            },
             {
               "id": "mb.camping.5c",
               "number": "5c",
@@ -131,7 +168,14 @@
               "orientation": "Scouting teaches its own list of outdoor essentials. The National Park Service’s Ten Essentials covers similar ground — navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter — and is useful for understanding the reasoning behind each item. Use the list from your handbook for the requirement itself.",
               "children": []
             },
-            { "id": "mb.camping.5d", "number": "5d", "title": "Pack inspection", "summary": "Presenting your pack, ready for a campout, for inspection.", "kind": "demonstration", "children": [] }
+            {
+              "id": "mb.camping.5d",
+              "number": "5d",
+              "title": "Pack inspection",
+              "summary": "Presenting your pack, ready for a campout, for inspection.",
+              "kind": "demonstration",
+              "children": []
+            }
           ]
         },
         {
@@ -141,7 +185,14 @@
           "summary": "Tents, campsite selection, camp sanitation and water treatment, backpacks and sleeping bags.",
           "kind": "mixed",
           "children": [
-            { "id": "mb.camping.6a", "number": "6a", "title": "Tents", "summary": "Describing several types of tents, when to use them and how to care for them, and pitching one with another Scout.", "kind": "mixed", "children": [] },
+            {
+              "id": "mb.camping.6a",
+              "number": "6a",
+              "title": "Tents",
+              "summary": "Describing several types of tents, when to use them and how to care for them, and pitching one with another Scout.",
+              "kind": "mixed",
+              "children": []
+            },
             {
               "id": "mb.camping.6b",
               "number": "6b",
@@ -152,9 +203,33 @@
               "orientation": "Clear water can still carry germs. The CDC compares the main backcountry methods: boiling (the most reliable), filters, chemical disinfectants and UV devices, and explains what each one does and does not remove. Know at least two methods well enough to demonstrate them and explain their limits.",
               "children": []
             },
-            { "id": "mb.camping.6c", "number": "6c", "title": "Choosing a tent site", "summary": "The factors to consider when deciding where to pitch a tent.", "kind": "knowledge", "relatedRequirementIds": ["rank.second-class.1c"], "children": [] },
-            { "id": "mb.camping.6d", "number": "6d", "title": "Backpacks", "summary": "Comparing internal- and external-frame packs.", "kind": "discussion", "children": [] },
-            { "id": "mb.camping.6e", "number": "6e", "title": "Sleeping bags and ground beds", "summary": "Sleeping bag types for different conditions, caring for a bag and keeping it dry, and making a comfortable ground bed.", "kind": "mixed", "children": [] }
+            {
+              "id": "mb.camping.6c",
+              "number": "6c",
+              "title": "Choosing a tent site",
+              "summary": "The factors to consider when deciding where to pitch a tent.",
+              "kind": "knowledge",
+              "relatedRequirementIds": [
+                "rank.second-class.1c"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.camping.6d",
+              "number": "6d",
+              "title": "Backpacks",
+              "summary": "Comparing internal- and external-frame packs.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "mb.camping.6e",
+              "number": "6e",
+              "title": "Sleeping bags and ground beds",
+              "summary": "Sleeping bag types for different conditions, caring for a bag and keeping it dry, and making a comfortable ground bed.",
+              "kind": "mixed",
+              "children": []
+            }
           ]
         },
         {
@@ -165,8 +240,26 @@
           "kind": "mixed",
           "safetySensitive": true,
           "children": [
-            { "id": "mb.camping.7a", "number": "7a", "title": "Gear checklists and packing", "summary": "Making a checklist of personal and patrol gear and packing your share for comfort, balance and easy access.", "kind": "activity", "children": [] },
-            { "id": "mb.camping.7b", "number": "7b", "title": "Stove and fuel safety", "summary": "The safety procedures for different stove fuels and for storing extra fuel.", "kind": "knowledge", "safetySensitive": true, "relatedRequirementIds": ["rank.second-class.2d"], "children": [] }
+            {
+              "id": "mb.camping.7a",
+              "number": "7a",
+              "title": "Gear checklists and packing",
+              "summary": "Making a checklist of personal and patrol gear and packing your share for comfort, balance and easy access.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.camping.7b",
+              "number": "7b",
+              "title": "Stove and fuel safety",
+              "summary": "The safety procedures for different stove fuels and for storing extra fuel.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "rank.second-class.2d"
+              ],
+              "children": []
+            }
           ]
         },
         {
@@ -177,7 +270,14 @@
           "kind": "mixed",
           "safetySensitive": true,
           "children": [
-            { "id": "mb.camping.8a", "number": "8a", "title": "Lightweight stoves", "summary": "The advantages and disadvantages of different lightweight cooking stoves.", "kind": "discussion", "children": [] },
+            {
+              "id": "mb.camping.8a",
+              "number": "8a",
+              "title": "Lightweight stoves",
+              "summary": "The advantages and disadvantages of different lightweight cooking stoves.",
+              "kind": "discussion",
+              "children": []
+            },
             {
               "id": "mb.camping.8b",
               "number": "8b",
@@ -186,10 +286,21 @@
               "kind": "activity",
               "safetySensitive": true,
               "orientation": "Food safety outdoors comes down to keeping cold food cold, cooking to safe temperatures, and keeping hands and surfaces clean. The USDA guidance explains the 40–140 °F danger zone and how long perishables can sit out. Food storage also matters for wildlife, which ties back to Leave No Trace.",
-              "relatedRequirementIds": ["rank.first-class.2a", "rank.first-class.2d"],
+              "relatedRequirementIds": [
+                "rank.first-class.2a",
+                "rank.first-class.2d"
+              ],
               "children": []
             },
-            { "id": "mb.camping.8c", "number": "8c", "title": "Cooking for your patrol", "summary": "Cooking the meals you planned for your patrol, including at least one trail meal on a lightweight stove.", "kind": "activity", "safetySensitive": true, "children": [] }
+            {
+              "id": "mb.camping.8c",
+              "number": "8c",
+              "title": "Cooking for your patrol",
+              "summary": "Cooking the meals you planned for your patrol, including at least one trail meal on a lightweight stove.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "children": []
+            }
           ]
         },
         {
@@ -200,8 +311,22 @@
           "kind": "activity",
           "note": "Night counts, what counts as a qualifying night, and the list of optional experiences come from the official requirement. Check with your counselor before planning.",
           "children": [
-            { "id": "mb.camping.9a", "number": "9a", "title": "Nights camped", "summary": "Camping the required total number of nights at designated Scouting activities, under the conditions the requirement describes.", "kind": "activity", "children": [] },
-            { "id": "mb.camping.9b", "number": "9b", "title": "Additional outdoor experiences", "summary": "Completing outdoor experiences chosen from the options in the official requirement, such as a hike, paddle, bike trip or conservation project.", "kind": "activity", "children": [] }
+            {
+              "id": "mb.camping.9a",
+              "number": "9a",
+              "title": "Nights camped",
+              "summary": "Camping the required total number of nights at designated Scouting activities, under the conditions the requirement describes.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.camping.9b",
+              "number": "9b",
+              "title": "Additional outdoor experiences",
+              "summary": "Completing outdoor experiences chosen from the options in the official requirement, such as a hike, paddle, bike trip or conservation project.",
+              "kind": "activity",
+              "children": []
+            }
           ]
         },
         {
@@ -213,8 +338,366 @@
           "children": []
         }
       ]
+    },
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/camping/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": "outline-2026-draft",
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/camping/",
+            "label": "Camping merit badge (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/camping/contents/",
+            "label": "Camping Digital Resource Guide (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.camping.1",
+          "number": "1",
+          "title": "Camping hazards",
+          "summary": "Likely camping hazards, weather awareness, and first aid and prevention for common camping injuries and illnesses.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.camping.1a",
+              "number": "1a",
+              "title": "Likely hazards",
+              "summary": "The hazards you are most likely to meet while camping and how to anticipate, prevent, reduce and respond to them.",
+              "kind": "discussion",
+              "safetySensitive": true,
+              "orientation": "Think in layers: what could go wrong (terrain, water, wildlife, weather, fire, gear, people), how likely it is on your actual trips, and what you would do before, during and after. Trail-safety and Ten Essentials guidance from the National Park Service is a practical way to organize your thinking.",
+              "children": []
+            },
+            {
+              "id": "mb.camping.1b",
+              "number": "1b",
+              "title": "Weather awareness",
+              "summary": "Why you watch the weather before and during a campout and how to prepare if it turns bad.",
+              "kind": "discussion",
+              "safetySensitive": true,
+              "orientation": "Weather changes the plan for gear, clothing, cooking and whether a trip should go ahead. Lightning is the classic example: if you can hear thunder, you are close enough to be struck, so plan shelter before storms arrive.",
+              "relatedRequirementIds": [
+                "rank.first-class.5b"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.camping.1c",
+              "number": "1c",
+              "title": "First aid for camping",
+              "summary": "First aid for, and prevention of, common camping problems such as cold and heat illness, bites and stings and blisters.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "note": "The official requirement lists the conditions. Use it as your checklist.",
+              "relatedRequirementIds": [
+                "mb.first-aid.11",
+                "rank.tenderfoot.4a"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.camping.10",
+              "number": "10",
+              "title": "Reflection",
+              "summary": "How earning the badge taught you about health and safety, survival, public health, conservation and citizenship, and how the Scout Oath and Law apply to camping.",
+              "kind": "discussion",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.camping.2",
+          "number": "2",
+          "title": "Leave No Trace and the Outdoor Code",
+          "summary": "Learning the Leave No Trace principles and the Outdoor Code and writing personal and group plans to practice them on your next outing.",
+          "kind": "mixed",
+          "orientation": "The seven principles are a framework for good decisions, not a rulebook. For your plans, pick concrete actions for each principle — how you will repackage food to cut trash, where you will cook, how you will store food away from wildlife — and decide which ones are personal and which the group owns.",
+          "relatedRequirementIds": [
+            "rank.scout.1e",
+            "rank.second-class.1b"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.camping.3",
+          "number": "3",
+          "title": "Overnight trek",
+          "summary": "A written plan for an overnight trek and showing how to reach your campsite with a topographic map and a compass, GPS receiver or phone app.",
+          "kind": "activity",
+          "orientation": "A trip plan answers who, where, when, how and what if. The navigation part asks you to read terrain from contour lines and connect the map to the ground; the USGS primer explains contours, scale and bearings in plain language.",
+          "relatedRequirementIds": [
+            "rank.second-class.3a",
+            "rank.first-class.4a"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.camping.4",
+          "number": "4",
+          "title": "Duty roster and preparation",
+          "summary": "Organizing your patrol for a campout and helping another group of Scouts prepare for one.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.camping.4a",
+              "number": "4a",
+              "title": "Duty roster",
+              "summary": "A duty roster showing how your patrol is organized for an actual overnight campout.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.camping.4b",
+              "number": "4b",
+              "title": "Helping another group",
+              "summary": "Helping a patrol or a Webelos unit prepare for an actual campout.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.camping.5",
+          "number": "5",
+          "title": "Clothing and equipment",
+          "summary": "Clothing for warm and cold weather, footwear, gear care, the Scout Basic Essentials and a pack inspection.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "mb.camping.5a",
+              "number": "5a",
+              "title": "Clothing and layering",
+              "summary": "Clothing for warm- and cold-weather overnights, and what layering means.",
+              "kind": "knowledge",
+              "orientation": "Layering combines a moisture-moving base layer, an insulating middle layer and a wind- and rain-resistant shell, so you can add or remove warmth as conditions change. Cotton holds water against your skin and loses its warmth when wet.",
+              "children": []
+            },
+            {
+              "id": "mb.camping.5b",
+              "number": "5b",
+              "title": "Footwear",
+              "summary": "Footwear for different kinds of weather and trips.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "mb.camping.5c",
+              "number": "5c",
+              "title": "Caring for gear",
+              "summary": "How to care for and store camping gear.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.camping.5d",
+              "number": "5d",
+              "title": "Scout Basic Essentials",
+              "summary": "The Scout Basic Essentials for any outing and why each one is needed.",
+              "kind": "knowledge",
+              "orientation": "The National Park Service’s Ten Essentials cover similar ground — navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter — and are useful for understanding the reasoning. Use the Scouting list for the requirement itself.",
+              "children": []
+            },
+            {
+              "id": "mb.camping.5e",
+              "number": "5e",
+              "title": "Pack inspection",
+              "summary": "Presenting your packed gear for inspection.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.camping.6",
+          "number": "6",
+          "title": "Tents, sanitation, packs, and sleeping",
+          "summary": "Tents, water treatment, choosing a site, backpacks, sleeping bags and ground beds.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "mb.camping.6a",
+              "number": "6a",
+              "title": "Tents",
+              "summary": "Four types of tents, when to use them and how to care for them, and pitching one with another Scout.",
+              "kind": "mixed",
+              "children": []
+            },
+            {
+              "id": "mb.camping.6b",
+              "number": "6b",
+              "title": "Sanitation and water treatment",
+              "summary": "Why camp sanitation and water treatment matter, and demonstrating two ways to treat water.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "Clear water can still carry germs. The CDC compares boiling (the most reliable), filters, chemical disinfectants and UV devices, and explains what each does and does not remove. Know two methods well enough to demonstrate them and explain their limits.",
+              "children": []
+            },
+            {
+              "id": "mb.camping.6c",
+              "number": "6c",
+              "title": "Choosing a tent site",
+              "summary": "What to consider when choosing where to pitch a tent.",
+              "kind": "knowledge",
+              "relatedRequirementIds": [
+                "rank.second-class.1c"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.camping.6d",
+              "number": "6d",
+              "title": "Backpacks",
+              "summary": "Comparing internal- and external-frame packs.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "mb.camping.6e",
+              "number": "6e",
+              "title": "Sleeping bags and ground beds",
+              "summary": "Sleeping bag types and care, keeping a bag dry, and making a comfortable ground bed.",
+              "kind": "mixed",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.camping.7",
+          "number": "7",
+          "title": "Preparing for an overnight",
+          "summary": "Gear checklists and packing your own and your share of patrol gear and food.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.camping.7a",
+              "number": "7a",
+              "title": "Gear checklist",
+              "summary": "A checklist of personal and patrol gear for an overnight campout.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.camping.7b",
+              "number": "7b",
+              "title": "Packing",
+              "summary": "Packing your gear and your share of patrol equipment and food for comfort, balance and quick access.",
+              "kind": "demonstration",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.camping.8",
+          "number": "8",
+          "title": "Camp cooking",
+          "summary": "Stove and fuel safety, choosing lightweight stoves, menu planning, food protection and cooking for your patrol.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.camping.8a",
+              "number": "8a",
+              "title": "Stove and fuel safety",
+              "summary": "Safety procedures for propane or butane stoves, liquid-fuel stoves and storing extra fuel.",
+              "kind": "knowledge",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "rank.second-class.2d"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.camping.8b",
+              "number": "8b",
+              "title": "Lightweight stoves",
+              "summary": "The pros and cons of different lightweight cooking stoves.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "mb.camping.8c",
+              "number": "8c",
+              "title": "Camp menu",
+              "summary": "A camp menu for several days, and protecting food from weather, animals and contamination.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "orientation": "Food safety outdoors comes down to keeping cold food cold, cooking to safe temperatures and keeping hands and surfaces clean. The USDA guidance explains the 40–140 °F danger zone and how long perishables can sit out. Food storage also matters for wildlife.",
+              "relatedRequirementIds": [
+                "rank.first-class.2a"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.camping.8d",
+              "number": "8d",
+              "title": "Cooking for your patrol",
+              "summary": "Cooking several meals for your patrol, including a trail meal on a lightweight stove.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.camping.9",
+          "number": "9",
+          "title": "Camping experience",
+          "summary": "Nights camped at Scouting activities, additional outdoor experiences and a conservation project.",
+          "kind": "activity",
+          "note": "Night counts, what counts as a qualifying night, and the list of options come from the official requirement. Check with your counselor before planning.",
+          "children": [
+            {
+              "id": "mb.camping.9a",
+              "number": "9a",
+              "title": "Nights camped",
+              "summary": "Camping the required number of nights at designated Scouting activities under the conditions the requirement describes.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.camping.9b",
+              "number": "9b",
+              "title": "Outdoor experiences",
+              "summary": "Completing outdoor experiences chosen from the official options, such as a mountain hike, a paddle, a bike trip or a snow campout.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.camping.9c",
+              "number": "9c",
+              "title": "Conservation project",
+              "summary": "A conservation project on a camping experience, approved by the landowner or land manager.",
+              "kind": "service",
+              "children": []
+            }
+          ]
+        }
+      ]
     }
   ],
-  "relatedResourceIds": ["res.nps-ten-essentials", "res.lnt-seven-principles"],
-  "studySetIds": ["study.camp-ready", "study.weather-and-lightning"]
+  "relatedResourceIds": [
+    "res.nps-ten-essentials",
+    "res.lnt-seven-principles"
+  ],
+  "studySetIds": [
+    "study.camp-ready",
+    "study.weather-and-lightning"
+  ]
 }

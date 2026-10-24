@@ -38,7 +38,7 @@ export const reviewStatus = z.enum(['approved', 'pending', 'flagged', 'not-requi
 export type ReviewStatus = z.infer<typeof reviewStatus>;
 
 export const provenance = z.object({
-  method: z.enum(['official-structured-import', 'human-transcription', 'maintainer-draft']),
+  method: z.enum(['official-structured-import', 'human-transcription', 'official-source-excerpt', 'maintainer-draft']),
   notes: z.string().min(1),
   recordedBy: z.string().min(1),
   recordedOn: isoDate,

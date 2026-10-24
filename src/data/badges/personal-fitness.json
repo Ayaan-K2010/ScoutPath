@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.personal-fitness",
+  "slug": "personal-fitness",
+  "description": "Personal Fitness looks at fitness in body, mind and spirit, then asks you to measure where you are, design a twelve-week exercise and nutrition program, follow it, and show what changed.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Talk with a parent or guardian, and a doctor if needed, before starting a new exercise program. Substitutions are allowed when an exercise is not safe for you."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/personal-fitness/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/personal-fitness/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/personal-fitness/contents/",
+            "label": "Personal Fitness Digital Resource Guide (scouting.org)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Major-Requirement-Changes-as-of-1_1_2026.pdf",
+            "label": "Major Requirement Changes as of January 1, 2026 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.personal-fitness.1",
+          "number": "1",
+          "title": "Defining fitness",
+          "summary": "Physical, mental, emotional, social and spiritual fitness, why they matter, and how they relate to the Scout Oath and Law.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.personal-fitness.2",
+          "number": "2",
+          "title": "Monitoring your health",
+          "summary": "Why regular physical and dental exams and daily oral care matter.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.personal-fitness.3",
+          "number": "3",
+          "title": "Fitness habits",
+          "summary": "Exercise, avoiding harmful substances, vaccinations, nutrition, healthy weight, sleep and time with family and friends.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.personal-fitness.4",
+          "number": "4",
+          "title": "Measures of fitness",
+          "summary": "Recording a timed mile, strength measures and a flexibility test.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.personal-fitness.5",
+          "number": "5",
+          "title": "Pre-assessment",
+          "summary": "Recording your test results, finding your strongest and weakest areas, logging food and drink, and setting diet goals.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.personal-fitness.6",
+          "number": "6",
+          "title": "Planning a program",
+          "summary": "A twelve-week plan with warm-up, cardio, strength, flexibility, cool-down and diet goals.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.personal-fitness.7",
+          "number": "7",
+          "title": "Completing the program",
+          "summary": "Following and logging the program, retesting along the way, showing improvement and discussing results.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.personal-fitness.8",
+          "number": "8",
+          "title": "Careers or lifestyle",
+          "summary": "One option: exploring fitness careers, or how a fitness activity supports a hobby or healthy lifestyle.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

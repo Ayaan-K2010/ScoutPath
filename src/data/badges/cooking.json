@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.cooking",
+  "slug": "cooking",
+  "description": "Cooking covers food safety and nutrition, cooking methods, and planning, cooking and evaluating real meals at home, in camp and on the trail — with attention to allergies, budgets and cleanup.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Food handling, stoves, fires and food allergies are safety-sensitive. Cook with appropriate supervision and follow food-safety guidance."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/cooking/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/cooking/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/cooking/contents/",
+            "label": "Cooking Digital Resource Guide (scouting.org)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2024/12/Merit-Badge-Requirement-Updates-Effective-January-1-2025-Updated-12-12-24.pdf",
+            "label": "Merit Badge Requirement Updates effective January 1, 2025 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.cooking.1",
+          "number": "1",
+          "title": "Health and safety",
+          "summary": "Cooking hazards and first aid, safe storage and preparation of perishable food, food allergies and reading labels.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.cooking.2",
+          "number": "2",
+          "title": "Nutrition",
+          "summary": "Food groups, limiting oils and sugars, tracking what you eat, reviewing your habits and understanding food labels.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.cooking.3",
+          "number": "3",
+          "title": "Cooking basics",
+          "summary": "Cooking methods, stoves versus fires, timing a meal, and how taste, texture and smell affect eating.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.cooking.4",
+          "number": "4",
+          "title": "Cooking at home",
+          "summary": "Planning menus, making shopping lists, and preparing, timing and evaluating meals at home using several cooking methods.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.cooking.5",
+          "number": "5",
+          "title": "Camp cooking",
+          "summary": "Planning, cooking and evaluating meals and snacks in camp, with safe cleanup and Leave No Trace.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.camping.8d",
+            "rank.first-class.2e"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.cooking.6",
+          "number": "6",
+          "title": "Trail and backpacking meals",
+          "summary": "Planning lightweight meals, repackaging food, cooking on a hike and sharing gear.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.cooking.7",
+          "number": "7",
+          "title": "Careers or hobbies",
+          "summary": "One option: exploring cooking careers, or how cooking skills support a hobby or healthy lifestyle.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": [
+    "study.camp-ready"
+  ]
+}

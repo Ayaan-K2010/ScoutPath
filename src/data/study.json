@@ -17,12 +17,10 @@
         "rank.first-class"
       ],
       "requirementIds": [
-        "mb.first-aid.2c",
-        "mb.first-aid.2d",
-        "mb.first-aid.4a",
-        "mb.first-aid.4c",
-        "mb.first-aid.4f",
-        "mb.first-aid.5",
+        "mb.first-aid.1",
+        "mb.first-aid.7",
+        "mb.first-aid.4",
+        "mb.first-aid.11",
         "rank.second-class.6a",
         "rank.first-class.7c"
       ],
@@ -371,9 +369,9 @@
       ],
       "requirementIds": [
         "mb.camping.2",
-        "mb.camping.5c",
+        "mb.camping.5d",
         "mb.camping.6b",
-        "mb.camping.8b",
+        "mb.camping.8c",
         "rank.second-class.1b",
         "rank.second-class.2c",
         "rank.first-class.2d"

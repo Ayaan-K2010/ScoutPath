@@ -1,0 +1,126 @@
+# First Aid, Camping, Emergency Preparedness — checked against official scouting.org excerpts (2026 requirements).
+
+@owner mb.first-aid
+@effective 2026-01-01
+@complete partial
+@url https://www.scouting.org/merit-badges/first-aid/
+@source https://www.scouting.org/merit-badges/first-aid/ | First Aid merit badge (scouting.org Merit Badge Hub)
+@source https://www.scouting.org/wp-content/uploads/2024/12/Merit-Badge-Requirement-Updates-Effective-January-1-2025-Updated-12-12-24.pdf | Merit Badge Requirement Updates effective January 1, 2025 (scouting.org)
+@note The badge was reorganized in 2025 into twelve topic areas. Excerpts did not consistently show sub-item lettering, so sub-items are described inside each requirement rather than invented. Scouts must also complete the first-aid requirements of the Tenderfoot, Second Class and First Class ranks.
+@desc First Aid goes well beyond the rank-level basics: assessing an emergency, airway and breathing, bleeding, loss of consciousness, CPR and AEDs, bone, joint, head and spine injuries, moving a patient, heat and cold, and stress reactions. It is safety-sensitive — the resources here are background reading, and hands-on practice with a qualified instructor is what builds the skill.
+@safety Medical and emergency guidance changes. Follow your counselor, current Red Cross or American Heart Association training, and local emergency services. CPR must be learned from currently certified instructors.
+@study study.first-aid-foundations
+1 m! Handling a first aid emergency :: Assessing a scene and a patient, getting emergency help at home and in remote places, infection precautions, airway and breathing, a full patient check, shock and triage.
+> Most courses teach a simple, repeatable sequence so you do not freeze. The American Red Cross calls it Check, Call, Care: make sure the scene is safe, check the person, call or send someone to call 911, then give the care you are trained to give and keep watching for changes. Standard precautions — gloves, avoiding contact with blood, washing your hands afterward — protect you every time.
+= rank.second-class.6d
+2 a! First aid kits :: Assembling and checking first aid kits using an approved checklist, and knowing what each item is for.
+> A kit is only useful if you know what is in it and can find it fast. Sort items by purpose — wound care, medications your family uses, tools, protective equipment — and note expiry dates. Ready.gov’s emergency supply list is a helpful cross-check, but use the checklist your counselor approves.
+= rank.tenderfoot.4d
+3 demo! Wounds and burns :: Recognizing and caring for different kinds of wounds and injuries, including burns and cold injuries to the skin.
+~ The official requirement lists the exact conditions. Use it as your checklist.
+4 demo! Bleeding :: Controlling bleeding, from minor wounds to life-threatening bleeding.
+> Firm, direct pressure stops most external bleeding. Add dressings on top rather than removing soaked ones, and know when a tourniquet is used. Practice positioning and pressure with a partner and a training dressing.
+5 demo! Breathing emergencies :: Signs, first aid and prevention for conditions that affect breathing, such as choking, asthma, severe allergic reactions and inhalation injuries.
+6 demo! Loss of consciousness :: Signs, first aid and prevention for conditions that cause loss of consciousness, such as fainting, seizures, overdose and drowning.
+7 demo! Heart attack, CPR, and AEDs :: Heart attack warning signs, when CPR is needed, CPR on a training device, and how to use an AED.
+~ Hands-on CPR instruction must come from a currently certified instructor. Videos and articles are background only.
+> Heart attack, stroke and cardiac arrest share one rule: call 911 immediately. CPR is a physical skill — depth, rate and hand position are learned on a manikin with feedback. Use the American Heart Association material to understand Hands-Only CPR, then practice in a certified class, and find out where the AEDs are in the places you spend time.
+= rank.first-class.7c
+8 demo! Muscle and bone injuries :: Strains, sprains, fractures and dislocations, including bandaging and splinting.
+> Treat a painful, swollen or misshapen limb as possibly broken. First aid focuses on keeping it still — immobilizing the joints above and below — rather than straightening it. Practice improvised splints with materials you would really have on a trip.
+= rank.first-class.7a
+9 demo! Head, neck, and spine injuries :: Concussions, head wounds and suspected neck or back injuries, and how to avoid making them worse.
+10 demo! Moving a patient :: When to move an injured person, carries for emergencies, and improvising a stretcher with helpers.
+= rank.first-class.7b, mb.emergency-preparedness.4
+11 demo! Heat- and cold-related conditions :: Preventing, recognizing and caring for heat and cold illnesses such as heat exhaustion, heatstroke and hypothermia.
+> Most outdoor emergencies are easier to prevent than to treat. Know how heat exhaustion differs from heatstroke, which is a 911 emergency, and how hypothermia can happen above freezing when someone is wet. The National Weather Service and CDC pages give clear comparisons.
+= mb.camping.1c
+12 d Stress reactions :: How people react to stressful situations and what helps prepare for and manage those reactions.
+
+@owner mb.camping
+@effective 2026-01-01
+@complete complete
+@url https://www.scouting.org/merit-badges/camping/
+@source https://www.scouting.org/merit-badges/camping/ | Camping merit badge (scouting.org Merit Badge Hub)
+@source https://www.scouting.org/skills/merit-badges/digital-resource-guides/camping/contents/ | Camping Digital Resource Guide (scouting.org)
+@desc Camping turns occasional campouts into real competence: planning a trip, choosing and caring for gear, cooking for a group, camping responsibly, and building a record of nights outdoors. Much of the badge happens outside, so the resources here are for preparing and reflecting rather than replacing the trips.
+@safety Stove, fuel, fire, weather and water-treatment topics are safety-sensitive. Follow your leaders, local fire restrictions and your unit’s safety guidance.
+@study study.camp-ready
+@study study.weather-and-lightning
+1 m! Camping hazards :: Likely camping hazards, weather awareness, and first aid and prevention for common camping injuries and illnesses.
+1a d! Likely hazards :: The hazards you are most likely to meet while camping and how to anticipate, prevent, reduce and respond to them.
+> Think in layers: what could go wrong (terrain, water, wildlife, weather, fire, gear, people), how likely it is on your actual trips, and what you would do before, during and after. Trail-safety and Ten Essentials guidance from the National Park Service is a practical way to organize your thinking.
+1b d! Weather awareness :: Why you watch the weather before and during a campout and how to prepare if it turns bad.
+> Weather changes the plan for gear, clothing, cooking and whether a trip should go ahead. Lightning is the classic example: if you can hear thunder, you are close enough to be struck, so plan shelter before storms arrive.
+= rank.first-class.5b
+1c k! First aid for camping :: First aid for, and prevention of, common camping problems such as cold and heat illness, bites and stings and blisters.
+~ The official requirement lists the conditions. Use it as your checklist.
+= mb.first-aid.11, rank.tenderfoot.4a
+2 m Leave No Trace and the Outdoor Code :: Learning the Leave No Trace principles and the Outdoor Code and writing personal and group plans to practice them on your next outing.
+> The seven principles are a framework for good decisions, not a rulebook. For your plans, pick concrete actions for each principle — how you will repackage food to cut trash, where you will cook, how you will store food away from wildlife — and decide which ones are personal and which the group owns.
+= rank.scout.1e, rank.second-class.1b
+3 a Overnight trek :: A written plan for an overnight trek and showing how to reach your campsite with a topographic map and a compass, GPS receiver or phone app.
+> A trip plan answers who, where, when, how and what if. The navigation part asks you to read terrain from contour lines and connect the map to the ground; the USGS primer explains contours, scale and bearings in plain language.
+= rank.second-class.3a, rank.first-class.4a
+4 a Duty roster and preparation :: Organizing your patrol for a campout and helping another group of Scouts prepare for one.
+4a a Duty roster :: A duty roster showing how your patrol is organized for an actual overnight campout.
+4b a Helping another group :: Helping a patrol or a Webelos unit prepare for an actual campout.
+5 m Clothing and equipment :: Clothing for warm and cold weather, footwear, gear care, the Scout Basic Essentials and a pack inspection.
+5a k Clothing and layering :: Clothing for warm- and cold-weather overnights, and what layering means.
+> Layering combines a moisture-moving base layer, an insulating middle layer and a wind- and rain-resistant shell, so you can add or remove warmth as conditions change. Cotton holds water against your skin and loses its warmth when wet.
+5b d Footwear :: Footwear for different kinds of weather and trips.
+5c k Caring for gear :: How to care for and store camping gear.
+5d k Scout Basic Essentials :: The Scout Basic Essentials for any outing and why each one is needed.
+> The National Park Service’s Ten Essentials cover similar ground — navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter — and are useful for understanding the reasoning. Use the Scouting list for the requirement itself.
+5e demo Pack inspection :: Presenting your packed gear for inspection.
+6 m Tents, sanitation, packs, and sleeping :: Tents, water treatment, choosing a site, backpacks, sleeping bags and ground beds.
+6a m Tents :: Four types of tents, when to use them and how to care for them, and pitching one with another Scout.
+6b demo! Sanitation and water treatment :: Why camp sanitation and water treatment matter, and demonstrating two ways to treat water.
+> Clear water can still carry germs. The CDC compares boiling (the most reliable), filters, chemical disinfectants and UV devices, and explains what each does and does not remove. Know two methods well enough to demonstrate them and explain their limits.
+6c k Choosing a tent site :: What to consider when choosing where to pitch a tent.
+= rank.second-class.1c
+6d d Backpacks :: Comparing internal- and external-frame packs.
+6e m Sleeping bags and ground beds :: Sleeping bag types and care, keeping a bag dry, and making a comfortable ground bed.
+7 a Preparing for an overnight :: Gear checklists and packing your own and your share of patrol gear and food.
+7a a Gear checklist :: A checklist of personal and patrol gear for an overnight campout.
+7b demo Packing :: Packing your gear and your share of patrol equipment and food for comfort, balance and quick access.
+8 m! Camp cooking :: Stove and fuel safety, choosing lightweight stoves, menu planning, food protection and cooking for your patrol.
+8a k! Stove and fuel safety :: Safety procedures for propane or butane stoves, liquid-fuel stoves and storing extra fuel.
+= rank.second-class.2d
+8b d Lightweight stoves :: The pros and cons of different lightweight cooking stoves.
+8c a! Camp menu :: A camp menu for several days, and protecting food from weather, animals and contamination.
+> Food safety outdoors comes down to keeping cold food cold, cooking to safe temperatures and keeping hands and surfaces clean. The USDA guidance explains the 40–140 °F danger zone and how long perishables can sit out. Food storage also matters for wildlife.
+= rank.first-class.2a
+8d a! Cooking for your patrol :: Cooking several meals for your patrol, including a trail meal on a lightweight stove.
+9 a Camping experience :: Nights camped at Scouting activities, additional outdoor experiences and a conservation project.
+~ Night counts, what counts as a qualifying night, and the list of options come from the official requirement. Check with your counselor before planning.
+9a a Nights camped :: Camping the required number of nights at designated Scouting activities under the conditions the requirement describes.
+9b a Outdoor experiences :: Completing outdoor experiences chosen from the official options, such as a mountain hike, a paddle, a bike trip or a snow campout.
+9c s Conservation project :: A conservation project on a camping experience, approved by the landowner or land manager.
+10 d Reflection :: How earning the badge taught you about health and safety, survival, public health, conservation and citizenship, and how the Scout Oath and Law apply to camping.
+
+@owner mb.emergency-preparedness
+@effective 2026-01-01
+@complete partial
+@url https://www.scouting.org/merit-badges/emergency-preparedness/
+@source https://www.scouting.org/merit-badges/emergency-preparedness/ | Emergency Preparedness merit badge (scouting.org Merit Badge Hub)
+@source https://www.scouting.org/wp-content/uploads/2025/12/Advancement-updates-2026_2.pdf | Advancement Updates 2026 (scouting.org)
+@source https://www.scouting.org/wp-content/uploads/2025/12/Major-Requirement-Changes-as-of-1_1_2026.pdf | Major Requirement Changes as of January 1, 2026 (scouting.org)
+@note For 2026 the First Aid requirement moved to the end (requirement 9) with the others otherwise unchanged; the order of 1–8 follows that note and the official page excerpts. Sub-item lettering was not shown and is not invented here.
+@desc Emergency Preparedness is about thinking ahead: how households and communities prepare for, respond to, recover from and reduce the impact of emergencies. It combines planning with your family, practical rescue and transport skills, and an understanding of how emergency services are organized.
+@safety Rescue scenarios such as electrical hazards, carbon monoxide, fire and water must only be practiced as simulations under adult supervision. Never enter a real hazard to attempt a rescue.
+1 m Preparing for emergencies :: Prevention, protection, mitigation, response and recovery applied to a set of emergencies, and preparing a family disaster kit for sheltering in place and evacuating.
+> Emergency managers think in phases: what you do before (kits, plans, training), during, and after, and how you reduce the chance or impact of the next one. Ready.gov organizes household preparedness into building a kit, making a plan and being informed — a good frame for this requirement.
+= rank.first-class.7e
+2 demo! Safe rescues :: Showing how to help someone in danger — from a live electrical wire, carbon monoxide, burning clothing or water — without becoming a victim yourself.
+~ Demonstrations must be simulations under adult supervision.
+= rank.second-class.5c
+3 demo Signaling for help :: Ways to signal rescue aircraft, drones and searchers on the ground.
+4 demo! Transporting an injured person :: Moving an injured person out of a remote area, including improvised stretchers.
+= mb.first-aid.10
+5 k How emergency response is organized :: The national incident management framework, the incident command system, and how a unit can help within it.
+6 s Emergency service :: The roles a unit can take in an emergency, such as crowd and traffic control or feeding and shelter, and taking part in an emergency service project.
+7 a Emergency management careers :: Researching a career in emergency management and discussing it with your counselor.
+8 a Home safety :: Inspecting your home for hazards with an adult and making a family fire escape plan with a meeting place.
+9 m First Aid merit badge :: Earning the First Aid merit badge.
+= mb.first-aid.1

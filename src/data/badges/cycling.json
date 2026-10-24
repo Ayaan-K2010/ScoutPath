@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.cycling",
+  "slug": "cycling",
+  "description": "Cycling covers riding safely and legally, fitting and maintaining a bike, handling skills, and a series of road or trail rides of increasing distance, planned with the buddy system.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Always wear a properly fitted helmet, follow traffic laws and ride with a buddy. Electric bikes are not used for this badge."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/cycling/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 6 offers a road-biking or a trail-biking option; their sub-items are summarized. Electric bikes are not permitted for this badge.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/cycling/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Major-Requirement-Changes-as-of-1_1_2026.pdf",
+            "label": "Major Requirement Changes as of January 1, 2026 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.cycling.1",
+          "number": "1",
+          "title": "Hazards and first aid",
+          "summary": "Cycling hazards and how to prevent them, first aid for cycling injuries, and poisonous plants and animals where you ride.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.cycling.2",
+          "number": "2",
+          "title": "Laws and riding on roads",
+          "summary": "Bicycle laws, how they compare with motor-vehicle laws, and where and how to ride on roads.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.cycling.3",
+          "number": "3",
+          "title": "Clothing and gear",
+          "summary": "Clothing and gear including a properly fitted helmet, and Scouting America’s bike safety guidelines.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.cycling.4",
+          "number": "4",
+          "title": "Bike maintenance",
+          "summary": "Cleaning, adjusting and inspecting a bike with a safety checklist.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.cycling.5",
+          "number": "5",
+          "title": "Handling skills",
+          "summary": "Mounting, starting, stopping, turning, shifting, scanning and signaling.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.cycling.6",
+          "number": "6",
+          "title": "Riding program",
+          "summary": "One option: road biking with a safety test and rides of increasing distance, or trail biking with skills, a trail safety test and trail rides.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.citizenship-in-the-community",
+  "slug": "citizenship-in-the-community",
+  "description": "Citizenship in the Community looks at how local government, services and volunteers shape the place you live, and asks you to take part: attending a public meeting, interviewing someone in local government, volunteering, and presenting what you learned about your community.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-community/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/citizenship-in-the-community/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/citizenship-community/contents/",
+            "label": "Citizenship in the Community Digital Resource Guide (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.citizenship-in-the-community.1",
+          "number": "1",
+          "title": "What community citizenship means",
+          "summary": "What good citizenship in your community means, its rights, duties and obligations, and how you can show it.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-community.2",
+          "number": "2",
+          "title": "Mapping your community",
+          "summary": "One of two options for exploring your community’s services, landmarks and resources.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-community.2a",
+              "number": "2a",
+              "title": "Option A",
+              "summary": "Mapping community services and landmarks and their distances from your home.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-community.2b",
+              "number": "2b",
+              "title": "Option B",
+              "summary": "The alternative exploration option described in the official requirement.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-community.3",
+          "number": "3",
+          "title": "A public meeting",
+          "summary": "Attending an approved local government or court meeting and analyzing an issue discussed there.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-community.3a",
+              "number": "3a",
+              "title": "Attend the meeting",
+              "summary": "Attending an approved in-person local government or court meeting.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-community.3b",
+              "number": "3b",
+              "title": "An issue with different views",
+              "summary": "Explaining an issue from the meeting where opinions differed and which view you favor.",
+              "kind": "discussion",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-community.4",
+          "number": "4",
+          "title": "Investigating a community issue",
+          "summary": "Choosing a local issue, learning which part of local government handles it, and interviewing someone involved.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-community.4a",
+              "number": "4a",
+              "title": "Who handles it",
+              "summary": "Identifying which branch or office of local government deals with the issue.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-community.4b",
+              "number": "4b",
+              "title": "Interview",
+              "summary": "Interviewing someone from that office, with approval.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-community.4c",
+              "number": "4c",
+              "title": "Sharing what you learned",
+              "summary": "Sharing what you learned with your counselor.",
+              "kind": "discussion",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-community.5",
+          "number": "5",
+          "title": "A film about community service",
+          "summary": "Watching an approved film about people who improved their community and discussing its lessons.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-community.6",
+          "number": "6",
+          "title": "Taxpayer-funded services",
+          "summary": "Community services paid for by taxes and why they matter.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-community.7",
+          "number": "7",
+          "title": "Charity and volunteering",
+          "summary": "Researching charitable organizations, choosing one, and volunteering with it for the required time.",
+          "kind": "service",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-community.7a",
+              "number": "7a",
+              "title": "Three organizations",
+              "summary": "Identifying charitable organizations outside Scouting that serve your community.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-community.7b",
+              "number": "7b",
+              "title": "Researching one",
+              "summary": "Researching one organization’s work.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-community.7c",
+              "number": "7c",
+              "title": "Volunteering",
+              "summary": "Learning how young people can help and volunteering with the organization, then discussing the experience.",
+              "kind": "service",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-community.8",
+          "number": "8",
+          "title": "Community presentation",
+          "summary": "Preparing and giving a presentation about your community’s history, culture, strengths and challenges.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

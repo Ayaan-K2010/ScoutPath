@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.citizenship-in-the-world",
+  "slug": "citizenship-in-the-world",
+  "description": "Citizenship in the World explores what it means to be a citizen of a connected world: how people become U.S. citizens, how nations pursue their interests, international law and trade, kinds of government, diplomacy, and connecting with people from other countries.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-world/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirements 6 and 7 changed for 2026; requirement 6 became three required parts.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/citizenship-in-the-world/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/citizenship-in-the-world/contents/",
+            "label": "Citizenship in the World Digital Resource Guide (scouting.org)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Major-Requirement-Changes-as-of-1_1_2026.pdf",
+            "label": "Major Requirement Changes as of January 1, 2026 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.citizenship-in-the-world.1",
+          "number": "1",
+          "title": "World citizenship",
+          "summary": "What world citizenship means to you and what it takes to be a good world citizen.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-world.2",
+          "number": "2",
+          "title": "Becoming a citizen",
+          "summary": "How people become U.S. citizens, the rights, duties and obligations of citizenship, and how they compare with other countries.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-world.3",
+          "number": "3",
+          "title": "National interest and economies",
+          "summary": "A current world event and national interest, and how a country’s geography and resources shape its economy.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-world.3a",
+              "number": "3a",
+              "title": "National interest",
+              "summary": "How national interest affects a country’s actions in a current world event.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-world.3b",
+              "number": "3b",
+              "title": "Geography and economy",
+              "summary": "How a foreign country’s geography, natural resources and climate shape its economy and partnerships.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-world.4",
+          "number": "4",
+          "title": "International relations",
+          "summary": "Options covering international and national law, a current trade issue, and international organizations.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-world.5",
+          "number": "5",
+          "title": "Kinds of government",
+          "summary": "Options covering constitutional and non-constitutional governments and governments in power today.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.citizenship-in-the-world.6",
+          "number": "6",
+          "title": "Diplomacy",
+          "summary": "How governments are represented abroad, the roles of ambassadors and consuls, and passports and visas.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.citizenship-in-the-world.6a",
+              "number": "6a",
+              "title": "Representation abroad",
+              "summary": "How governments are represented in other countries.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-world.6b",
+              "number": "6b",
+              "title": "Ambassadors and consuls",
+              "summary": "The roles of ambassadors, consuls and other diplomats.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.citizenship-in-the-world.6c",
+              "number": "6c",
+              "title": "Passports and visas",
+              "summary": "The purpose of passports and visas.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.citizenship-in-the-world.7",
+          "number": "7",
+          "title": "Connecting with the world",
+          "summary": "Options such as visiting the State Department’s website, meeting a Scout or student from another country, or taking part in an international event.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

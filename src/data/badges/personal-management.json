@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.personal-management",
+  "slug": "personal-management",
+  "description": "Personal Management is practical money and time management: saving for a goal, running a thirteen-week budget, understanding investing, insurance and credit, managing your time for a week, planning a project, and exploring the cost of a career.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/personal-management/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/personal-management/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf",
+            "label": "2025 Scouts BSA Requirements (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.personal-management.1",
+          "number": "1",
+          "title": "A family savings goal",
+          "summary": "Choosing a major family purchase, writing a savings plan and a shopping strategy.",
+          "kind": "activity",
+          "children": [
+            {
+              "id": "mb.personal-management.10",
+              "number": "10",
+              "title": "Career costs",
+              "summary": "Researching a career’s education and costs and how to cover them.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.personal-management.2",
+          "number": "2",
+          "title": "A thirteen-week budget",
+          "summary": "Preparing a budget, comparing expected income and expenses, and tracking actual results.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.3",
+          "number": "3",
+          "title": "Money concepts",
+          "summary": "Discussing several money concepts, such as the emotions around money, buyer’s remorse and charitable giving.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.4",
+          "number": "4",
+          "title": "Saving and investing",
+          "summary": "Saving versus investing, return and risk, simple and compound interest, and diversification.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.5",
+          "number": "5",
+          "title": "Kinds of investments",
+          "summary": "Common investments such as stocks, mutual funds, bonds, certificates of deposit and savings accounts.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.6",
+          "number": "6",
+          "title": "Insurance",
+          "summary": "Common kinds of insurance and what they protect against.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.7",
+          "number": "7",
+          "title": "Loans and credit",
+          "summary": "Loans and interest rates, ways to borrow, credit and debit cards, credit reports and reducing debt.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.8",
+          "number": "8",
+          "title": "Time management",
+          "summary": "A to-do list, a seven-day schedule and diary, and reviewing what worked.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.9",
+          "number": "9",
+          "title": "A project plan",
+          "summary": "A written plan for a project, with goal, timeline, resources and budget.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

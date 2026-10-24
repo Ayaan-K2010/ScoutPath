@@ -23,10 +23,10 @@
         "mb.first-aid"
       ],
       "requirementIds": [
-        "mb.first-aid.2c",
-        "mb.first-aid.4a",
-        "mb.first-aid.4f",
-        "mb.first-aid.5"
+        "mb.first-aid.1",
+        "mb.first-aid.7",
+        "mb.first-aid.4",
+        "mb.first-aid.11"
       ]
     },
     {
@@ -68,7 +68,7 @@
       "requirementIds": [
         "mb.camping.1b",
         "mb.camping.6b",
-        "mb.camping.8b"
+        "mb.camping.8c"
       ]
     },
     {

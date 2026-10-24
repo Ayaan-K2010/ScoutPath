@@ -1,0 +1,71 @@
+# Requirement → resource mappings. One line per requirement: <requirementId> | <resource-slug> <core|supporting|background>, ...
+# Compiled into src/data/mappings.json by npm run content:compile.
+
+rank.scout.1e | lnt-seven-principles background
+rank.scout.4a | animatedknots-square-knot core, animatedknots-two-half-hitches core, animatedknots-midshipmans-hitch supporting, animatedknots-scouting supporting
+rank.tenderfoot.1a | nps-ten-essentials core
+rank.tenderfoot.1c | lnt-seven-principles background
+rank.tenderfoot.2b | fsis-camping-food-safety supporting
+rank.tenderfoot.3a | animatedknots-square-knot core
+rank.tenderfoot.3b | animatedknots-two-half-hitches core
+rank.tenderfoot.3c | animatedknots-midshipmans-hitch core
+rank.tenderfoot.4a | redcross-wounds core, redcross-burns core, cdc-ticks supporting, niosh-venomous-snakes supporting, niosh-venomous-spiders supporting, cdc-frostbite supporting, redcross-choking supporting
+rank.tenderfoot.4b | niosh-poisonous-plants core
+rank.tenderfoot.4c | cdc-ticks supporting, niosh-poisonous-plants supporting
+rank.tenderfoot.4d | medlineplus-first-aid background
+rank.tenderfoot.5a | cdc-drowning supporting, redcross-swim-safety background
+rank.tenderfoot.5c | nps-hiking-safety supporting
+rank.tenderfoot.6b | cdc-youth-activity supporting
+rank.tenderfoot.7a | legion-flag-code core, legion-flag-folding core, va-flag-display supporting
+rank.second-class.1b | lnt-seven-principles core, nps-leave-no-trace supporting
+rank.second-class.2a | smokey-campfire-safety supporting
+rank.second-class.2c | smokey-campfire-safety core
+rank.second-class.2e | fsis-camping-food-safety supporting, foodsafety-temperatures supporting
+rank.second-class.3a | usgs-map-compass core, usgs-declination supporting
+rank.second-class.3c | nps-hiking-safety supporting
+rank.second-class.5a | cdc-drowning core, redcross-swim-safety core, redcross-water-safety supporting
+rank.second-class.5c | redcross-water-safety background
+rank.second-class.6a | nws-heat-illness core, cdc-hypothermia core, medlineplus-shock core, redcross-eye-injury supporting, redcross-burns supporting, medlineplus-heat-emergencies supporting
+rank.second-class.6b | redcross-bleeding supporting, aha-heart-attack-stroke-signs supporting
+rank.second-class.7a | cdc-youth-activity supporting
+rank.second-class.8b | legion-flag-code core
+rank.first-class.2d | fsis-camping-food-safety core, foodsafety-temperatures core
+rank.first-class.3b | animatedknots-clove-hitch core
+rank.first-class.3c | animatedknots-square-lashing core
+rank.first-class.4a | usgs-map-compass supporting
+rank.first-class.5b | nws-lightning-safety supporting
+rank.first-class.5c | nws-lightning-safety core, noaa-jetstream-lightning supporting, nws-cloud-chart supporting
+rank.first-class.5d | noaa-weather-systems background
+rank.first-class.7a | redcross-muscle-bone-joint supporting
+rank.first-class.7c | aha-heart-attack-signs core, aha-what-is-cpr core, aha-hands-only-cpr supporting
+rank.first-class.7e | ready-family-planning core, ready-build-a-kit supporting
+rank.first-class.7f | cdc-water-treatment supporting
+
+# First Aid (2026 structure)
+mb.first-aid.1 | redcross-check-call-care core, osha-bloodborne supporting, medlineplus-shock supporting, redcross-water-safety background
+mb.first-aid.2 | ready-build-a-kit supporting, ready-supply-checklist supporting, medlineplus-first-aid background
+mb.first-aid.3 | redcross-wounds core, redcross-burns core, cdc-frostbite supporting, redcross-eye-injury supporting
+mb.first-aid.4 | redcross-bleeding core, medlineplus-bleeding supporting
+mb.first-aid.5 | redcross-choking core
+mb.first-aid.6 | medlineplus-first-aid background
+mb.first-aid.7 | aha-hands-only-cpr core, aha-what-is-cpr core, aha-heart-attack-signs core, aha-heart-attack-stroke-signs supporting, cdc-heart-attack supporting, medlineplus-stroke supporting
+mb.first-aid.8 | redcross-fractures core, medlineplus-broken-bone core, redcross-muscle-bone-joint core
+mb.first-aid.11 | nws-heat-illness core, medlineplus-heat-emergencies core, cdc-hypothermia core, cdc-frostbite supporting, cdc-frostbite-hypothermia-pdf supporting, niosh-heat-illnesses supporting, medlineplus-cold-prevention supporting
+
+# Camping (2026 structure)
+mb.camping.1a | nps-hiking-safety core, nps-ten-essentials supporting
+mb.camping.1b | nws-lightning-safety core, noaa-jetstream-lightning supporting
+mb.camping.1c | cdc-hypothermia supporting, nws-heat-illness supporting, cdc-ticks supporting, niosh-venomous-snakes supporting
+mb.camping.2 | lnt-seven-principles core, nps-leave-no-trace supporting
+mb.camping.3 | usgs-map-compass core, usgs-declination supporting
+mb.camping.5a | medlineplus-cold-prevention supporting
+mb.camping.5d | nps-ten-essentials core
+mb.camping.6b | cdc-water-treatment core
+mb.camping.8a | smokey-campfire-safety background
+mb.camping.8c | fsis-camping-food-safety core, foodsafety-temperatures supporting
+mb.camping.8d | foodsafety-temperatures supporting
+
+# Emergency Preparedness (2026 structure)
+mb.emergency-preparedness.1 | ready-build-a-kit core, ready-family-planning core, ready-supply-checklist supporting
+mb.emergency-preparedness.2 | redcross-water-safety background
+mb.emergency-preparedness.8 | ready-family-planning supporting

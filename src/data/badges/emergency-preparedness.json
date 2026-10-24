@@ -9,7 +9,7 @@
     "reviewed": false,
     "note": "Rescue scenarios such as electrical hazards, carbon monoxide, fire and water must only be practiced as simulations under adult supervision. Never enter a real hazard to attempt a rescue."
   },
-  "currentVersion": "outline-2026-draft",
+  "currentVersion": "2026-official-excerpt",
   "versions": [
     {
       "versionId": "outline-2026-draft",
@@ -36,7 +36,9 @@
           "title": "First Aid merit badge",
           "summary": "Earning the First Aid merit badge.",
           "kind": "mixed",
-          "relatedRequirementIds": ["mb.first-aid.1"],
+          "relatedRequirementIds": [
+            "mb.first-aid.1"
+          ],
           "children": []
         },
         {
@@ -70,7 +72,9 @@
               "summary": "Teaching your family how to build a kit, make a plan and stay informed, and completing a family plan.",
               "kind": "activity",
               "orientation": "Ready.gov organizes household preparedness into building a kit, making a plan and being informed. For the plan, decide on emergency contacts, two meeting places (one just outside your home, one outside your neighborhood) and how family members will reconnect if phones are down.",
-              "relatedRequirementIds": ["rank.first-class.7e"],
+              "relatedRequirementIds": [
+                "rank.first-class.7e"
+              ],
               "children": []
             }
           ]
@@ -83,7 +87,9 @@
           "kind": "demonstration",
           "safetySensitive": true,
           "note": "Demonstrations must be simulations under adult supervision.",
-          "relatedRequirementIds": ["rank.second-class.5c"],
+          "relatedRequirementIds": [
+            "rank.second-class.5c"
+          ],
           "children": []
         },
         {
@@ -101,7 +107,10 @@
           "summary": "With another person, showing a safe way to carry an injured person out of a remote or rugged area.",
           "kind": "demonstration",
           "safetySensitive": true,
-          "relatedRequirementIds": ["mb.first-aid.8", "rank.first-class.7b"],
+          "relatedRequirementIds": [
+            "mb.first-aid.8",
+            "rank.first-class.7b"
+          ],
           "children": []
         },
         {
@@ -122,8 +131,133 @@
           "children": []
         }
       ]
+    },
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": "outline-2026-draft",
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. For 2026 the First Aid requirement moved to the end (requirement 9) with the others otherwise unchanged; the order of 1–8 follows that note and the official page excerpts. Sub-item lettering was not shown and is not invented here.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/emergency-preparedness/",
+            "label": "Emergency Preparedness merit badge (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Advancement-updates-2026_2.pdf",
+            "label": "Advancement Updates 2026 (scouting.org)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Major-Requirement-Changes-as-of-1_1_2026.pdf",
+            "label": "Major Requirement Changes as of January 1, 2026 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.emergency-preparedness.1",
+          "number": "1",
+          "title": "Preparing for emergencies",
+          "summary": "Prevention, protection, mitigation, response and recovery applied to a set of emergencies, and preparing a family disaster kit for sheltering in place and evacuating.",
+          "kind": "mixed",
+          "orientation": "Emergency managers think in phases: what you do before (kits, plans, training), during, and after, and how you reduce the chance or impact of the next one. Ready.gov organizes household preparedness into building a kit, making a plan and being informed — a good frame for this requirement.",
+          "relatedRequirementIds": [
+            "rank.first-class.7e"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.2",
+          "number": "2",
+          "title": "Safe rescues",
+          "summary": "Showing how to help someone in danger — from a live electrical wire, carbon monoxide, burning clothing or water — without becoming a victim yourself.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "note": "Demonstrations must be simulations under adult supervision.",
+          "relatedRequirementIds": [
+            "rank.second-class.5c"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.3",
+          "number": "3",
+          "title": "Signaling for help",
+          "summary": "Ways to signal rescue aircraft, drones and searchers on the ground.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.4",
+          "number": "4",
+          "title": "Transporting an injured person",
+          "summary": "Moving an injured person out of a remote area, including improvised stretchers.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.first-aid.10"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.5",
+          "number": "5",
+          "title": "How emergency response is organized",
+          "summary": "The national incident management framework, the incident command system, and how a unit can help within it.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.6",
+          "number": "6",
+          "title": "Emergency service",
+          "summary": "The roles a unit can take in an emergency, such as crowd and traffic control or feeding and shelter, and taking part in an emergency service project.",
+          "kind": "service",
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.7",
+          "number": "7",
+          "title": "Emergency management careers",
+          "summary": "Researching a career in emergency management and discussing it with your counselor.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.8",
+          "number": "8",
+          "title": "Home safety",
+          "summary": "Inspecting your home for hazards with an adult and making a family fire escape plan with a meeting place.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.emergency-preparedness.9",
+          "number": "9",
+          "title": "First Aid merit badge",
+          "summary": "Earning the First Aid merit badge.",
+          "kind": "mixed",
+          "relatedRequirementIds": [
+            "mb.first-aid.1"
+          ],
+          "children": []
+        }
+      ]
     }
   ],
-  "relatedResourceIds": ["res.ready-build-a-kit", "res.ready-family-planning"],
+  "relatedResourceIds": [
+    "res.ready-build-a-kit",
+    "res.ready-family-planning"
+  ],
   "studySetIds": []
 }

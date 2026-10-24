@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "mb.first-aid",
   "slug": "first-aid",
-  "description": "First Aid builds on the rank-level skills every Scout learns and goes deeper: recognizing emergencies, getting help, caring for serious injuries and sudden illness, and teaching what you know. It is safety-sensitive, so the online resources here are background reading — hands-on practice with a qualified instructor is what actually builds the skill.",
+  "description": "First Aid goes well beyond the rank-level basics: assessing an emergency, airway and breathing, bleeding, loss of consciousness, CPR and AEDs, bone, joint, head and spine injuries, moving a patient, heat and cold, and stress reactions. It is safety-sensitive — the resources here are background reading, and hands-on practice with a qualified instructor is what builds the skill.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,
     "reviewed": false,
-    "note": "Medical and emergency guidance changes. Follow your counselor, current Red Cross or American Heart Association training, and local emergency services. CPR practice must be taught by currently certified instructors."
+    "note": "Medical and emergency guidance changes. Follow your counselor, current Red Cross or American Heart Association training, and local emergency services. CPR must be learned from currently certified instructors."
   },
-  "currentVersion": "outline-2026-draft",
+  "currentVersion": "2026-official-excerpt",
   "versions": [
     {
       "versionId": "outline-2026-draft",
@@ -28,7 +28,10 @@
         "recordedBy": "ScoutPath maintainers",
         "recordedOn": "2026-10-22",
         "references": [
-          { "label": "Boy Scout Trail requirements copy, marked 'Revised January, 2024' (secondary source)", "url": "https://boyscouttrail.com/boy-scouts/meritbadges/firstaid.asp" }
+          {
+            "label": "Boy Scout Trail requirements copy, marked 'Revised January, 2024' (secondary source)",
+            "url": "https://boyscouttrail.com/boy-scouts/meritbadges/firstaid.asp"
+          }
         ]
       },
       "requirements": [
@@ -40,7 +43,13 @@
           "kind": "knowledge",
           "safetySensitive": true,
           "orientation": "This badge assumes you already know the first-aid skills from the early ranks and builds on them. A good way to prepare is to work back through the rank pages linked below and check whether you could still explain each skill to a younger Scout today, not only when you first learned it.",
-          "relatedRequirementIds": ["rank.tenderfoot.4a", "rank.second-class.6a", "rank.second-class.6b", "rank.first-class.7a", "rank.first-class.7c"],
+          "relatedRequirementIds": [
+            "rank.tenderfoot.4a",
+            "rank.second-class.6a",
+            "rank.second-class.6b",
+            "rank.first-class.7a",
+            "rank.first-class.7c"
+          ],
           "children": []
         },
         {
@@ -251,12 +260,184 @@
           "title": "Teaching a first-aid skill",
           "summary": "Teaching another Scout a first-aid skill your counselor selects.",
           "kind": "activity",
-          "relatedRequirementIds": ["rank.tenderfoot.8"],
+          "relatedRequirementIds": [
+            "rank.tenderfoot.8"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/first-aid/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": "outline-2026-draft",
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The badge was reorganized in 2025 into twelve topic areas. Excerpts did not consistently show sub-item lettering, so sub-items are described inside each requirement rather than invented. Scouts must also complete the first-aid requirements of the Tenderfoot, Second Class and First Class ranks.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/first-aid/",
+            "label": "First Aid merit badge (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2024/12/Merit-Badge-Requirement-Updates-Effective-January-1-2025-Updated-12-12-24.pdf",
+            "label": "Merit Badge Requirement Updates effective January 1, 2025 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.first-aid.1",
+          "number": "1",
+          "title": "Handling a first aid emergency",
+          "summary": "Assessing a scene and a patient, getting emergency help at home and in remote places, infection precautions, airway and breathing, a full patient check, shock and triage.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "orientation": "Most courses teach a simple, repeatable sequence so you do not freeze. The American Red Cross calls it Check, Call, Care: make sure the scene is safe, check the person, call or send someone to call 911, then give the care you are trained to give and keep watching for changes. Standard precautions — gloves, avoiding contact with blood, washing your hands afterward — protect you every time.",
+          "relatedRequirementIds": [
+            "rank.second-class.6d"
+          ],
+          "children": [
+            {
+              "id": "mb.first-aid.10",
+              "number": "10",
+              "title": "Moving a patient",
+              "summary": "When to move an injured person, carries for emergencies, and improvising a stretcher with helpers.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "relatedRequirementIds": [
+                "rank.first-class.7b",
+                "mb.emergency-preparedness.4"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.11",
+              "number": "11",
+              "title": "Heat- and cold-related conditions",
+              "summary": "Preventing, recognizing and caring for heat and cold illnesses such as heat exhaustion, heatstroke and hypothermia.",
+              "kind": "demonstration",
+              "safetySensitive": true,
+              "orientation": "Most outdoor emergencies are easier to prevent than to treat. Know how heat exhaustion differs from heatstroke, which is a 911 emergency, and how hypothermia can happen above freezing when someone is wet. The National Weather Service and CDC pages give clear comparisons.",
+              "relatedRequirementIds": [
+                "mb.camping.1c"
+              ],
+              "children": []
+            },
+            {
+              "id": "mb.first-aid.12",
+              "number": "12",
+              "title": "Stress reactions",
+              "summary": "How people react to stressful situations and what helps prepare for and manage those reactions.",
+              "kind": "discussion",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.first-aid.2",
+          "number": "2",
+          "title": "First aid kits",
+          "summary": "Assembling and checking first aid kits using an approved checklist, and knowing what each item is for.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "orientation": "A kit is only useful if you know what is in it and can find it fast. Sort items by purpose — wound care, medications your family uses, tools, protective equipment — and note expiry dates. Ready.gov’s emergency supply list is a helpful cross-check, but use the checklist your counselor approves.",
+          "relatedRequirementIds": [
+            "rank.tenderfoot.4d"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.3",
+          "number": "3",
+          "title": "Wounds and burns",
+          "summary": "Recognizing and caring for different kinds of wounds and injuries, including burns and cold injuries to the skin.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "note": "The official requirement lists the exact conditions. Use it as your checklist.",
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.4",
+          "number": "4",
+          "title": "Bleeding",
+          "summary": "Controlling bleeding, from minor wounds to life-threatening bleeding.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "orientation": "Firm, direct pressure stops most external bleeding. Add dressings on top rather than removing soaked ones, and know when a tourniquet is used. Practice positioning and pressure with a partner and a training dressing.",
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.5",
+          "number": "5",
+          "title": "Breathing emergencies",
+          "summary": "Signs, first aid and prevention for conditions that affect breathing, such as choking, asthma, severe allergic reactions and inhalation injuries.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.6",
+          "number": "6",
+          "title": "Loss of consciousness",
+          "summary": "Signs, first aid and prevention for conditions that cause loss of consciousness, such as fainting, seizures, overdose and drowning.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.7",
+          "number": "7",
+          "title": "Heart attack, CPR, and AEDs",
+          "summary": "Heart attack warning signs, when CPR is needed, CPR on a training device, and how to use an AED.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "orientation": "Heart attack, stroke and cardiac arrest share one rule: call 911 immediately. CPR is a physical skill — depth, rate and hand position are learned on a manikin with feedback. Use the American Heart Association material to understand Hands-Only CPR, then practice in a certified class, and find out where the AEDs are in the places you spend time.",
+          "note": "Hands-on CPR instruction must come from a currently certified instructor. Videos and articles are background only.",
+          "relatedRequirementIds": [
+            "rank.first-class.7c"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.8",
+          "number": "8",
+          "title": "Muscle and bone injuries",
+          "summary": "Strains, sprains, fractures and dislocations, including bandaging and splinting.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "orientation": "Treat a painful, swollen or misshapen limb as possibly broken. First aid focuses on keeping it still — immobilizing the joints above and below — rather than straightening it. Practice improvised splints with materials you would really have on a trip.",
+          "relatedRequirementIds": [
+            "rank.first-class.7a"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.9",
+          "number": "9",
+          "title": "Head, neck, and spine injuries",
+          "summary": "Concussions, head wounds and suspected neck or back injuries, and how to avoid making them worse.",
+          "kind": "demonstration",
+          "safetySensitive": true,
           "children": []
         }
       ]
     }
   ],
-  "relatedResourceIds": ["res.medlineplus-first-aid", "res.redcross-check-call-care"],
-  "studySetIds": ["study.first-aid-foundations"]
+  "relatedResourceIds": [
+    "res.medlineplus-first-aid",
+    "res.redcross-check-call-care"
+  ],
+  "studySetIds": [
+    "study.first-aid-foundations"
+  ]
 }
