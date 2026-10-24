@@ -13,7 +13,7 @@ export function VerificationTag({ status, label }: { status: VerificationStatus;
   const v = VERIFICATION[status];
   const Icon = v.icon;
   return (
-    <span className={`tag tag--${v.tone}`} title={v.help}>
+    <span className={`tag tag--${v.tone} stamp`} data-status={status} title={v.help}>
       <Icon aria-hidden="true" />
       {label ?? v.label}
     </span>

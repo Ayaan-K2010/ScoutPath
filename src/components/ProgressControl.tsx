@@ -1,5 +1,6 @@
 import { useId } from 'react';
 import { PROGRESS_LABELS, PROGRESS_STATES, type ProgressState } from '../features/progress/schema';
+import { PencilMark } from './StatePill';
 
 const HINTS: Record<ProgressState, string> = {
   'not-started': 'Nothing recorded yet',
@@ -28,6 +29,7 @@ export function ProgressControl({ value, onChange, legend, compact = false }: Pr
             <div className="segmented__option" key={state}>
               <input type="radio" id={id} name={name} value={state} checked={value === state} onChange={() => onChange(state)} />
               <label htmlFor={id} title={HINTS[state]}>
+                <PencilMark state={state} />
                 {state === 'completed-personal' ? 'Completed (personal)' : PROGRESS_LABELS[state]}
               </label>
             </div>

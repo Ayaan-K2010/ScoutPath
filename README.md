@@ -49,7 +49,7 @@ Notable official changes reflected in the data: rank requirements effective Janu
 | Validation | Zod 4 — one schema set shared by the app, scripts and tests |
 | Search | MiniSearch (in-browser) |
 | Icons | Lucide |
-| Fonts | Newsreader and Inter, self-hosted via Fontsource (SIL Open Font License); system-font fallbacks |
+| Fonts | Zilla Slab, Atkinson Hyperlegible and Kalam, self-hosted via Fontsource (SIL Open Font License); system-font fallbacks |
 | Styling | Hand-written CSS with design tokens (`src/styles/tokens.css`) — no utility framework |
 | Persistence | `localStorage` with schema validation |
 | Tests | Vitest, Testing Library, jsdom |

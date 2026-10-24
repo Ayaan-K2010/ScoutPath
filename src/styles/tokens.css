@@ -1,50 +1,61 @@
 /* ScoutPath design tokens. Every color, size and duration in the UI comes from here. */
 :root {
-  /* Brand palette */
-  --forest: #193c32;
-  --forest-hover: #22503f;
-  --pine: #102b24;
-  --sage: #8fa58b;
-  --sage-soft: #c9d6c5;
-  --sage-pale: #e8efe5;
-  --ivory: #f8f7f1;
-  --ivory-deep: #f1efe6;
-  --paper: #ffffff;
-  --charcoal: #262d29;
-  --muted: #69736b;
-  --border: #e1e5dc;
-  --border-strong: #cdd3c7;
-  --amber: #c99a4a;
-  --amber-pale: #f6ecd9;
-  --amber-ink: #7d5a1c;
+  /* Brand palette: a Scout field handbook. Paper and kraft, dark ink, olive drab and neckerchief red. */
+  --forest: #3f4b24;
+  --forest-hover: #2e3820;
+  --pine: #2e3820;
+  --sage: #8c836b;
+  --sage-soft: #cdbf95;
+  --sage-pale: #e6d9ba;
+  --ivory: #f3ecda;
+  --ivory-deep: #e9dfc7;
+  --paper: #fdfbf4;
+  --charcoal: #29271e;
+  --muted: #5b5546;
+  --border: #d6c8a6;
+  --border-strong: #b9a87c;
+  --amber: #c08a2e;
+  --amber-pale: #f1e3bf;
+  --amber-ink: #7a5414;
+  --accent: #9e2b22;
+  --accent-hover: #842219;
+  --accent-pale: #f2dcd6;
+  --khaki: var(--sage-soft);
+  --kraft: var(--sage-pale);
+  /* Index-card rules: blue lines, red header line. Decorative only. */
+  --rule-blue: #cfdce4;
+  --rule-red: #d99a93;
+  --pencil-blue: #2f5d7c;
 
-  /* Status tones (muted, legible on white and ivory) */
-  --ok-ink: #1f5a3f;
-  --ok-bg: #e3efe6;
-  --warn-ink: #7d5a1c;
-  --warn-bg: #f6ecd9;
-  --alert-ink: #8a3b2c;
-  --alert-bg: #f7e5df;
-  --info-ink: #3d5566;
-  --info-bg: #e5ecf0;
-  --neutral-ink: #4f5952;
-  --neutral-bg: #eef0ea;
+  /* Status tones (muted, legible on paper and kraft) */
+  --ok-ink: #3f4b24;
+  --ok-bg: #e2e4c8;
+  --warn-ink: #7a5414;
+  --warn-bg: #f1e3bf;
+  --alert-ink: #9e2b22;
+  --alert-bg: #f2dcd6;
+  --info-ink: #2f5d7c;
+  --info-bg: #dde7ea;
+  --neutral-ink: #4f4a3c;
+  --neutral-bg: #e9dfc7;
 
   /* Semantic roles */
   --bg: var(--ivory);
   --surface: var(--paper);
   --surface-muted: var(--sage-pale);
   --text: var(--charcoal);
-  /* Slightly deeper than --muted so secondary text keeps 4.5:1 contrast on sage and ivory-deep surfaces. */
-  --text-muted: #5f6961;
+  /* Deep enough to keep 4.5:1 contrast on paper, ivory and kraft. */
+  --text-muted: #5b5546;
   --link: var(--forest);
-  --focus-ring: var(--forest);
-  --on-dark: #eef2ea;
-  --on-dark-muted: #b6c4b3;
+  --focus-ring: var(--accent);
+  --on-dark: #f3ecda;
+  --on-dark-muted: #d3cdb4;
 
   /* Typography */
-  --font-serif: 'Newsreader Variable', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
-  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* Slab headings like stenciled gear, a typeface built for clear reading, and a hand for margin notes. */
+  --font-serif: 'Zilla Slab', 'Rockwell', 'Roboto Slab', Georgia, serif;
+  --font-sans: 'Atkinson Hyperlegible', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-hand: 'Kalam', 'Comic Neue', 'Segoe Print', cursive;
   --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
 
   --fs-2xs: 0.6875rem;
@@ -85,15 +96,19 @@
   --header-h: 4rem;
 
   /* Shape */
-  --r-xs: 3px;
-  --r-sm: 5px;
-  --r-md: 8px;
-  --r-lg: 12px;
+  --r-xs: 2px;
+  --r-sm: 3px;
+  --r-md: 4px;
+  --r-lg: 6px;
   --r-pill: 999px;
 
-  --shadow-sm: 0 1px 2px rgb(16 43 36 / 0.06);
-  --shadow-md: 0 1px 2px rgb(16 43 36 / 0.05), 0 10px 24px -14px rgb(16 43 36 / 0.22);
-  --shadow-lg: 0 2px 6px rgb(16 43 36 / 0.06), 0 24px 48px -20px rgb(16 43 36 / 0.32);
+  --shadow-sm: 0 1px 0 rgb(41 39 30 / 0.12);
+  --shadow-md: 0 1px 0 rgb(41 39 30 / 0.14), 0 12px 22px -14px rgb(41 39 30 / 0.45);
+  --shadow-lg: 0 2px 0 rgb(41 39 30 / 0.12), 0 26px 44px -20px rgb(41 39 30 / 0.5);
+  /* Hard offset shadows, like a card set down on a table. */
+  --shadow-hard-sm: 2px 2px 0 var(--charcoal);
+  --shadow-hard: 3px 3px 0 var(--charcoal);
+  --shadow-kraft: 5px 5px 0 var(--sage-pale);
 
   /* Layers, lowest to highest */
   --z-sticky: 20;
