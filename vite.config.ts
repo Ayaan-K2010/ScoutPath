@@ -7,6 +7,8 @@ export default defineConfig({
   build: {
     target: 'es2022',
     sourcemap: false,
+    // The content chunk holds every outline (about 100 kB gzipped) and is cached separately from app code.
+    chunkSizeWarningLimit: 700,
     rolldownOptions: {
       output: {
         // Long-lived vendor chunks cache separately from app code and content, which change more often.
