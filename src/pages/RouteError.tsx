@@ -10,7 +10,7 @@ export function RouteError() {
       <h1 className="page-header__title" style={{ marginTop: 'var(--s-4)' }}>
         Something went wrong on this page.
       </h1>
-      <p className="page-header__lede">Your saved progress is unaffected — it lives in this browser. Try reloading, or head back to the homepage.</p>
+      <p className="page-header__lede">Your saved progress is unaffected, because it lives in this browser. Try reloading, or head back to the homepage.</p>
       <p className="small muted" style={{ marginTop: 'var(--s-4)' }}>
         <code>{message}</code>
       </p>

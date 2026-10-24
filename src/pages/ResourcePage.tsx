@@ -1,4 +1,4 @@
-import { FolderPlus, ListChecks } from 'lucide-react';
+import { FolderPlus, ListChecks } from '../components/icons';
 import { useState } from 'react';
 import { Link, useParams } from 'react-router';
 import { BookmarkButton } from '../components/BookmarkButton';

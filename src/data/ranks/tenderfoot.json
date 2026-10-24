@@ -162,7 +162,7 @@
               "summary": "First aid for a list of common minor injuries and conditions such as cuts, blisters, minor burns, bites and stings, nosebleeds, frostbite, sunburn and choking.",
               "kind": "demonstration",
               "safetySensitive": true,
-              "orientation": "This is the foundation every later first-aid requirement builds on. For each condition, learn three things: how to recognize it, what to do, and when it is serious enough to get an adult or call for help. Practice with a partner and a real first-aid kit — reading alone does not build the habit.",
+              "orientation": "This is the foundation every later first-aid requirement builds on. For each condition, learn three things: how to recognize it, what to do, and when it is serious enough to get an adult or call for help. Practice with a partner and a real first-aid kit; reading alone does not build the habit.",
               "note": "The official requirement lists the exact conditions. Use it as your checklist.",
               "children": []
             },
@@ -486,7 +486,7 @@
               "summary": "First aid for a list of common minor injuries and conditions such as cuts, blisters, minor burns, bites and stings, nosebleeds, frostbite, sunburn and choking.",
               "kind": "demonstration",
               "safetySensitive": true,
-              "orientation": "This is the foundation every later first-aid requirement builds on. For each condition, learn how to recognize it, what to do, and when it is serious enough to get an adult or call for help. Practice with a partner and a real first-aid kit — reading alone does not build the habit.",
+              "orientation": "This is the foundation every later first-aid requirement builds on. For each condition, learn how to recognize it, what to do, and when it is serious enough to get an adult or call for help. Practice with a partner and a real first-aid kit; reading alone does not build the habit.",
               "note": "The official requirement lists the exact conditions. Use it as your checklist.",
               "children": []
             },

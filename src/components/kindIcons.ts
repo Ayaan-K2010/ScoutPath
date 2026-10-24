@@ -1,7 +1,7 @@
-import { Award, BookA, GraduationCap, Library, ListChecks, Medal, type LucideIcon } from 'lucide-react';
+import { Award, BookA, GraduationCap, Library, ListChecks, Medal, type IconComponent } from './icons';
 import type { SearchKind } from '../features/search/searchIndex';
 
-export const KIND_ICONS: Record<SearchKind, LucideIcon> = {
+export const KIND_ICONS: Record<SearchKind, IconComponent> = {
   badge: Award,
   rank: Medal,
   requirement: ListChecks,

@@ -3,7 +3,7 @@ const shortFormatter = new Intl.DateTimeFormat('en-US', { weekday: 'short', mont
 
 /** Format a YYYY-MM-DD date without shifting it across time zones. */
 export function formatIsoDate(iso: string | null | undefined): string {
-  if (!iso) return '—';
+  if (!iso) return 'Not set';
   const [y, m, d] = iso.slice(0, 10).split('-').map(Number);
   if (!y || !m || !d) return iso;
   return dateFormatter.format(new Date(Date.UTC(y, m - 1, d)));

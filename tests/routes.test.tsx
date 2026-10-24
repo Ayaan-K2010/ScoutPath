@@ -26,7 +26,7 @@ describe('routes', () => {
     renderAt('/merit-badges/first-aid');
     expect(await screen.findByRole('heading', { level: 1, name: /First Aid/ })).toBeInTheDocument();
     expect(screen.getByText('Bleeding')).toBeInTheDocument();
-    expect(screen.getByText('Partial outline — some requirements not shown yet')).toBeInTheDocument();
+    expect(screen.getByText('Partial outline: some requirements are not shown yet')).toBeInTheDocument();
   });
 
   it('shows a content-being-reviewed state for a listed badge without an outline', async () => {

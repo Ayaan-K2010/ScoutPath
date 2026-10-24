@@ -1,4 +1,4 @@
-import { Flag } from 'lucide-react';
+import { Flag } from './icons';
 import { useId, useState } from 'react';
 import { reportLink } from '../features/progress/actions';
 import { useUpdateUser, useUserData } from '../hooks/useUserData';

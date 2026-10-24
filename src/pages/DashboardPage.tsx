@@ -1,4 +1,4 @@
-import { ArrowRight, Bookmark, CalendarDays, Check, Plus, Trash2 } from 'lucide-react';
+import { ArrowRight, Bookmark, CalendarDays, Check, Plus, Trash2 } from '../components/icons';
 import { useState } from 'react';
 import { Link } from 'react-router';
 import { BadgeMark } from '../components/BadgeMark';

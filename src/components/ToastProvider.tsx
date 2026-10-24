@@ -1,4 +1,4 @@
-import { Check } from 'lucide-react';
+import { Check } from './icons';
 import { useCallback, useMemo, useRef, useState, type ReactNode } from 'react';
 import { ToastContext } from '../lib/toastContext';
 

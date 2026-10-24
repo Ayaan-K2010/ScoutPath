@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mb.health-care-professions",
   "slug": "health-care-professions",
-  "description": "Health Care Professions explores the many careers in medicine and health care — physicians and specialists, nursing, pharmacy and emergency medicine, therapy and nutrition, lab and imaging — plus a workplace visit, medical ethics and privacy, new advances, and volunteering.",
+  "description": "Health Care Professions explores the many careers in medicine and health care (physicians and specialists, nursing, pharmacy and emergency medicine, therapy and nutrition, lab and imaging), plus a workplace visit, medical ethics and privacy, new advances, and volunteering.",
   "lastReviewed": null,
   "safety": {
     "sensitive": false,

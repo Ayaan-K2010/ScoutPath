@@ -1,4 +1,4 @@
-import { Check, Minus } from 'lucide-react';
+import { Check, Minus } from '../components/icons';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router';
 import { Callout } from '../components/Callout';
@@ -135,7 +135,7 @@ export function CoveragePage() {
               const node = content.requirements.get(r.id);
               return (
                 <li key={r.id} style={{ breakInside: 'avoid', padding: 'var(--s-1) 0' }}>
-                  {node ? <Link to={node.path}>{`${r.owner} ${r.number}`}</Link> : `${r.owner} ${r.number}`} — {r.title}
+                  {node ? <Link to={node.path}>{`${r.owner} ${r.number}`}</Link> : `${r.owner} ${r.number}`}: {r.title}
                 </li>
               );
             })}

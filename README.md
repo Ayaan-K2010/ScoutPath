@@ -48,7 +48,7 @@ Notable official changes reflected in the data: rank requirements effective Janu
 | Routing | React Router 8 (data router, lazy routes) |
 | Validation | Zod 4 — one schema set shared by the app, scripts and tests |
 | Search | MiniSearch (in-browser) |
-| Icons | Lucide |
+| Icons | Drawn for ScoutPath (`src/components/icons.tsx`) |
 | Fonts | Zilla Slab, Atkinson Hyperlegible and Kalam, self-hosted via Fontsource (SIL Open Font License); system-font fallbacks |
 | Styling | Hand-written CSS with design tokens (`src/styles/tokens.css`) — no utility framework |
 | Persistence | `localStorage` with schema validation |
@@ -243,4 +243,4 @@ Designed to WCAG 2.2 AA: semantic landmarks and headings, skip link, visible foc
 
 ## License
 
-No license has been chosen yet. Fonts are under the SIL Open Font License, Lucide icons under the ISC license, and the other dependencies under their own licenses.
+No license has been chosen yet. Fonts are under the SIL Open Font License, and the other dependencies are under their own licenses.

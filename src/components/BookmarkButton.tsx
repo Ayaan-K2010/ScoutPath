@@ -1,4 +1,4 @@
-import { Bookmark } from 'lucide-react';
+import { Bookmark } from './icons';
 import { toggleSaved } from '../features/progress/actions';
 import { useUpdateUser, useUserData } from '../hooks/useUserData';
 import { useToast } from '../lib/toastContext';

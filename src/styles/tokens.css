@@ -15,29 +15,27 @@
   --border: #d6c8a6;
   --border-strong: #b9a87c;
   --amber: #c08a2e;
-  --amber-pale: #f1e3bf;
+  --amber-pale: #e9d7a6;
   --amber-ink: #7a5414;
   --accent: #9e2b22;
   --accent-hover: #842219;
-  --accent-pale: #f2dcd6;
   --khaki: var(--sage-soft);
   --kraft: var(--sage-pale);
-  /* Index-card rules: blue lines, red header line. Decorative only. */
-  --rule-blue: #cfdce4;
-  --rule-red: #d99a93;
+  /* Thin rules between rows. */
+  --rule: #d6c8a6;
   --pencil-blue: #2f5d7c;
 
-  /* Status tones (muted, legible on paper and kraft) */
+  /* Status tones. Status is carried by ink color, words and shape on plain paper; there are no tinted fills. */
   --ok-ink: #3f4b24;
-  --ok-bg: #e2e4c8;
+  --ok-bg: var(--paper);
   --warn-ink: #7a5414;
-  --warn-bg: #f1e3bf;
+  --warn-bg: var(--paper);
   --alert-ink: #9e2b22;
-  --alert-bg: #f2dcd6;
+  --alert-bg: var(--paper);
   --info-ink: #2f5d7c;
-  --info-bg: #dde7ea;
+  --info-bg: var(--paper);
   --neutral-ink: #4f4a3c;
-  --neutral-bg: #e9dfc7;
+  --neutral-bg: var(--paper);
 
   /* Semantic roles */
   --bg: var(--ivory);
@@ -96,19 +94,17 @@
   --header-h: 4rem;
 
   /* Shape */
-  --r-xs: 2px;
-  --r-sm: 3px;
-  --r-md: 4px;
-  --r-lg: 6px;
-  --r-pill: 999px;
+  /* Square corners throughout, like a printed page. Circles are reserved for patches. */
+  --r-xs: 0;
+  --r-sm: 0;
+  --r-md: 0;
+  --r-lg: 0;
+  --r-pill: 0;
 
-  --shadow-sm: 0 1px 0 rgb(41 39 30 / 0.12);
-  --shadow-md: 0 1px 0 rgb(41 39 30 / 0.14), 0 12px 22px -14px rgb(41 39 30 / 0.45);
-  --shadow-lg: 0 2px 0 rgb(41 39 30 / 0.12), 0 26px 44px -20px rgb(41 39 30 / 0.5);
-  /* Hard offset shadows, like a card set down on a table. */
-  --shadow-hard-sm: 2px 2px 0 var(--charcoal);
-  --shadow-hard: 3px 3px 0 var(--charcoal);
-  --shadow-kraft: 5px 5px 0 var(--sage-pale);
+  /* No shadows: surfaces are separated by ink rules, not depth. */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
 
   /* Layers, lowest to highest */
   --z-sticky: 20;
@@ -117,20 +113,11 @@
   --z-palette: 80;
   --z-toast: 100;
 
-  /* Motion */
+  /* Motion: state changes are instant. Only the flashcard flip and loading placeholders move. */
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
-  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-  --dur-fast: 140ms;
-  --dur: 200ms;
-  --dur-slow: 320ms;
+  --dur-fast: 0ms;
+  --dur: 0ms;
+  --dur-slow: 0ms;
 
   color-scheme: light;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  :root {
-    --dur-fast: 0ms;
-    --dur: 0ms;
-    --dur-slow: 0ms;
-  }
 }

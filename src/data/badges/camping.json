@@ -89,7 +89,7 @@
           "title": "Leave No Trace and the Outdoor Code",
           "summary": "Understanding Leave No Trace and the Outdoor Code and writing personal and group plans for putting them into practice on your next outing.",
           "kind": "mixed",
-          "orientation": "The seven Leave No Trace principles are a framework for making good decisions, not a rulebook. For your plans, pick concrete actions for each principle — for example, how you will repackage food to cut trash, where you will cook, and how you will store food away from wildlife — and decide which ones are personal and which the group owns.",
+          "orientation": "The seven Leave No Trace principles are a framework for making good decisions, not a rulebook. For your plans, pick concrete actions for each principle (for example, how you will repackage food to cut trash, where you will cook, and how you will store food away from wildlife) and decide which ones are personal and which the group owns.",
           "relatedRequirementIds": [
             "rank.scout.1e",
             "rank.tenderfoot.1c",
@@ -165,7 +165,7 @@
               "title": "Outdoor essentials",
               "summary": "Listing the essentials for any campout and explaining why each is needed.",
               "kind": "knowledge",
-              "orientation": "Scouting teaches its own list of outdoor essentials. The National Park Service’s Ten Essentials covers similar ground — navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter — and is useful for understanding the reasoning behind each item. Use the list from your handbook for the requirement itself.",
+              "orientation": "Scouting teaches its own list of outdoor essentials. The National Park Service’s Ten Essentials covers similar ground (navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter) and is useful for understanding the reasoning behind each item. Use the list from your handbook for the requirement itself.",
               "children": []
             },
             {
@@ -420,7 +420,7 @@
           "title": "Leave No Trace and the Outdoor Code",
           "summary": "Learning the Leave No Trace principles and the Outdoor Code and writing personal and group plans to practice them on your next outing.",
           "kind": "mixed",
-          "orientation": "The seven principles are a framework for good decisions, not a rulebook. For your plans, pick concrete actions for each principle — how you will repackage food to cut trash, where you will cook, how you will store food away from wildlife — and decide which ones are personal and which the group owns.",
+          "orientation": "The seven principles are a framework for good decisions, not a rulebook. For your plans, pick concrete actions for each principle (how you will repackage food to cut trash, where you will cook, how you will store food away from wildlife) and decide which ones are personal and which the group owns.",
           "relatedRequirementIds": [
             "rank.scout.1e",
             "rank.second-class.1b"
@@ -503,7 +503,7 @@
               "title": "Scout Basic Essentials",
               "summary": "The Scout Basic Essentials for any outing and why each one is needed.",
               "kind": "knowledge",
-              "orientation": "The National Park Service’s Ten Essentials cover similar ground — navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter — and are useful for understanding the reasoning. Use the Scouting list for the requirement itself.",
+              "orientation": "The National Park Service’s Ten Essentials cover similar ground (navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter) and are useful for understanding the reasoning. Use the Scouting list for the requirement itself.",
               "children": []
             },
             {

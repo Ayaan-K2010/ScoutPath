@@ -107,7 +107,7 @@
               "summary": "Building a fire at an approved place and time, then putting it out completely with minimal impact.",
               "kind": "demonstration",
               "safetySensitive": true,
-              "orientation": "Before you light anything, check fire restrictions and have water and a shovel at hand. To put a fire out, the method taught by the Forest Service is to drown it with water, stir the ashes, drown it again, and feel for heat with the back of your hand. If it is too hot to touch, it is too hot to leave. Burying coals is not enough — they can keep smoldering.",
+              "orientation": "Before you light anything, check fire restrictions and have water and a shovel at hand. To put a fire out, the method taught by the Forest Service is to drown it with water, stir the ashes, drown it again, and feel for heat with the back of your hand. If it is too hot to touch, it is too hot to leave. Burying coals is not enough, because they can keep smoldering.",
               "note": "Only where local fire restrictions allow and with adult supervision.",
               "children": []
             },
@@ -163,7 +163,7 @@
               "title": "Compass and map basics",
               "summary": "How a compass works, orienting a map, and explaining map symbols.",
               "kind": "demonstration",
-              "orientation": "Topographic maps show the shape of the land with contour lines: lines close together mean steep ground. Orienting the map means turning it so north on the map points north on the ground. The USGS primer covers contour lines, scale, symbols and bearings, and explains declination — the difference between true north and magnetic north.",
+              "orientation": "Topographic maps show the shape of the land with contour lines: lines close together mean steep ground. Orienting the map means turning it so north on the map points north on the ground. The USGS primer covers contour lines, scale, symbols and bearings, and explains declination: the difference between true north and magnetic north.",
               "relatedRequirementIds": [
                 "mb.camping.3"
               ],
@@ -269,7 +269,7 @@
               "summary": "First aid for a list of conditions including heat and cold illnesses, shock, puncture wounds and more serious burns.",
               "kind": "demonstration",
               "safetySensitive": true,
-              "orientation": "This step moves from minor injuries to conditions that can become serious. For heat, learn how heat exhaustion differs from heat stroke, which is a 911 emergency. For cold, learn the early signs of hypothermia — shivering, confusion, fumbling hands. For shock, learn the pale, clammy skin and weak, rapid pulse, and why you call for help immediately.",
+              "orientation": "This step moves from minor injuries to conditions that can become serious. For heat, learn how heat exhaustion differs from heat stroke, which is a 911 emergency. For cold, learn the early signs of hypothermia: shivering, confusion, fumbling hands. For shock, learn the pale, clammy skin and weak, rapid pulse, and why you call for help immediately.",
               "note": "The official requirement lists the exact conditions.",
               "children": []
             },

@@ -1,4 +1,4 @@
-# Badges A (part 2) — checked against official scouting.org excerpts.
+# Badges A (part 2): checked against official scouting.org excerpts.
 
 @owner mb.archaeology
 @complete complete
@@ -21,7 +21,7 @@
 @complete complete
 @source https://www.scouting.org/wp-content/uploads/2025/12/430-93825b-Range-and-Target-Activities-Manual-FINAL.pdf | National Range and Target Activities Manual, 2026 (scouting.org)
 @note Requirement 5 offers a recurve or longbow option and a compound bow option, each with its own steps and qualifying scores.
-@desc Archery covers range safety, arrows and equipment, how archery is scored, and — under qualified supervision — shooting form and qualifying scores with a recurve, longbow or compound bow.
+@desc Archery covers range safety, arrows and equipment, how archery is scored, and (under qualified supervision) shooting form and qualifying scores with a recurve, longbow or compound bow.
 @safety Archery is done only on an approved range under a certified range supervisor, following the National Range and Target Activities Manual.
 1 k! Range safety :: Projectile risks, range rules and whistle commands, safe arrow retrieval and archery laws.
 2 m Arrows :: Arrow parts, types and materials, making or repairing an arrow, and arrow care.
@@ -32,7 +32,7 @@
 @owner mb.architecture
 @complete partial
 @note Excerpts confirmed requirements 1, 3, 4 and 5; requirement 2 was not visible and is not outlined yet.
-@desc Architecture explores how buildings shape the places we live — sustainable design and reuse, how architects work with clients and builders, measured drawings, and careers in architecture.
+@desc Architecture explores how buildings shape the places we live: sustainable design and reuse, how architects work with clients and builders, measured drawings, and careers in architecture.
 1 m Buildings in your community :: Touring your community’s buildings, sketching one you admire, and sustainable architecture and building reuse.
 3 a Professional practice :: One option, such as reviewing models and drawings with an architect, visiting a construction site, or writing a short program for a client.
 4 a A measured drawing :: Measuring a room and drawing a scaled floor plan with walls, doors, windows and built-in furniture.

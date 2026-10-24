@@ -1,6 +1,6 @@
 import type { RouteObject } from 'react-router';
 import { AppShell } from '../layouts/AppShell';
-import { AboutPage, DisclaimerPage, PrivacyPage } from '../pages/InfoPages';
+import { AboutPage, DisclaimerPage, PrivacyPage, TermsPage } from '../pages/InfoPages';
 import { BadgeLibraryPage } from '../pages/BadgeLibraryPage';
 import { BadgePage } from '../pages/BadgePage';
 import { DashboardPage } from '../pages/DashboardPage';
@@ -41,6 +41,7 @@ export const routes: RouteObject[] = [
       { path: '/settings', lazy: async () => ({ Component: (await import('../pages/SettingsPage')).SettingsPage }) },
       { path: '/about', element: <AboutPage /> },
       { path: '/privacy', element: <PrivacyPage /> },
+      { path: '/terms', element: <TermsPage /> },
       { path: '/disclaimer', element: <DisclaimerPage /> },
       { path: '/coverage', lazy: async () => ({ Component: (await import('../pages/CoveragePage')).CoveragePage }) },
       { path: '/review', lazy: async () => ({ Component: (await import('../pages/ReviewPage')).ReviewPage }) },

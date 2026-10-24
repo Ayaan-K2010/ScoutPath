@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, BookOpen, GraduationCap, Hand, Library, Link2, ListChecks, MessageSquare, NotebookPen, SearchX, Users } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, GraduationCap, Hand, Library, Link2, ListChecks, MessageSquare, NotebookPen, SearchX, Users } from '../components/icons';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router';
 import { Callout } from '../components/Callout';
@@ -25,7 +25,7 @@ import { NotFoundPage } from './NotFoundPage';
 const KIND_GUIDANCE: Record<RequirementKind, { label: string; icon: typeof Hand; text: string }> = {
   knowledge: { label: 'Knowledge', icon: BookOpen, text: 'Your counselor or leader will check your understanding. Resources and practice quizzes here help you prepare; they are not the check itself.' },
   discussion: { label: 'Discussion', icon: MessageSquare, text: 'This is completed by discussing it with your counselor or leader. Reading helps you prepare, but the discussion is what counts.' },
-  demonstration: { label: 'Demonstration', icon: Hand, text: 'This must be shown in person. Watching a video or reading an article does not complete it — practice the skill hands-on until you can demonstrate it.' },
+  demonstration: { label: 'Demonstration', icon: Hand, text: 'This must be shown in person. Watching a video or reading an article does not complete it. Practice the skill hands-on until you can demonstrate it.' },
   activity: { label: 'Activity', icon: Hand, text: 'This requires actually doing something, often over time or on an outing. Resources help you plan and prepare.' },
   service: { label: 'Service', icon: Users, text: 'This requires approved service. Check with your leaders about which projects qualify.' },
   leadership: { label: 'Leadership', icon: Users, text: 'This requires serving or leading over time under your unit’s guidance.' },
@@ -138,7 +138,7 @@ function ProgressPanel({ node }: { node: RequirementNode }) {
         </div>
       )}
       <p className="field__hint" style={{ marginTop: 'var(--s-3)' }}>
-        A personal learning record, saved in this browser. It is not an official sign-off — your counselor or leader records completion.
+        A personal learning record, saved in this browser. It is not an official sign-off; your counselor or leader records completion.
       </p>
     </section>
   );
@@ -161,7 +161,7 @@ export function RequirementPage({ ownerType }: { ownerType: OwnerType }) {
         title="We couldn’t find that requirement"
         message={
           ownerExists
-            ? `ScoutPath’s outline has no requirement “${number}” here. Numbering can differ between requirement versions — check the requirement list instead.`
+            ? `ScoutPath’s outline has no requirement “${number}” here. Numbering can differ between requirement versions, so check the requirement list instead.`
             : `There is no ${ownerLabel} at “${slug}” in ScoutPath.`
         }
       />
@@ -454,7 +454,7 @@ export function RequirementPage({ ownerType }: { ownerType: OwnerType }) {
               </div>
               <div>
                 <dt>Dataset</dt>
-                <dd>{version?.label ?? '—'}</dd>
+                <dd>{version?.label ?? 'Not recorded'}</dd>
               </div>
               <div>
                 <dt>Requirement ID</dt>

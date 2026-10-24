@@ -1,4 +1,4 @@
-import { CircleCheck, CircleDashed, CircleHelp, TriangleAlert, CircleDot } from 'lucide-react';
+import { CircleCheck, CircleDashed, CircleHelp, TriangleAlert, CircleDot } from './icons';
 import type { LinkStatus, ReviewStatus, VerificationStatus } from '../schemas/content';
 
 const VERIFICATION: Record<VerificationStatus, { label: string; tone: string; icon: typeof CircleCheck; help: string }> = {

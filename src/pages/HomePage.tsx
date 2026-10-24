@@ -1,4 +1,4 @@
-import { ArrowRight, CalendarDays, Download, HardDrive, Library, Lock, Search } from 'lucide-react';
+import { ArrowRight, CalendarDays, Download, HardDrive, Library, Lock, Search } from '../components/icons';
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { BadgeMark } from '../components/BadgeMark';

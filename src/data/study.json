@@ -29,7 +29,7 @@
         "sections": [
           {
             "heading": "Check, Call, Care",
-            "body": "The American Red Cross organizes emergency response into three actions. Check: make sure the scene is safe for you, then check the person — are they responsive, breathing normally, or bleeding severely? Call: call 911 (or have someone else call) when a person is unresponsive, not breathing normally, or has another life-threatening problem; dispatchers are trained to coach you through steps such as CPR. Care: give the care you are trained to give and keep watching for changes until help takes over.",
+            "body": "The American Red Cross organizes emergency response into three actions. Check: make sure the scene is safe for you, then check the person. Are they responsive, breathing normally, or bleeding severely? Call: call 911 (or have someone else call) when a person is unresponsive, not breathing normally, or has another life-threatening problem; dispatchers are trained to coach you through steps such as CPR. Care: give the care you are trained to give and keep watching for changes until help takes over.",
             "sourceResourceIds": [
               "res.redcross-check-call-care"
             ]
@@ -44,7 +44,7 @@
           },
           {
             "heading": "Cold injuries: hypothermia and frostbite",
-            "body": "Hypothermia is not only a winter problem — the CDC notes it can happen at cool temperatures above 40 °F when someone is wet from rain, sweat or water. Warning signs include shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech and drowsiness. Frostbite often starts with redness or pain, then skin that looks white or grayish-yellow and feels unusually firm or waxy and numb. Because the area is numb, do not rub it and do not warm it with a heating pad, stove or fireplace; get the person to warmth and medical care.",
+            "body": "Hypothermia can happen outside winter too. The CDC notes it can happen at cool temperatures above 40 °F when someone is wet from rain, sweat or water. Warning signs include shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech and drowsiness. Frostbite often starts with redness or pain, then skin that looks white or grayish-yellow and feels unusually firm or waxy and numb. Because the area is numb, do not rub it and do not warm it with a heating pad, stove or fireplace; get the person to warmth and medical care.",
             "sourceResourceIds": [
               "res.cdc-hypothermia",
               "res.cdc-frostbite"
@@ -52,7 +52,7 @@
           },
           {
             "heading": "Heart attack, stroke, and Hands-Only CPR",
-            "body": "The most common heart attack sign is chest discomfort — pressure, squeezing or pain in the center of the chest. Other signs include discomfort in the arms, back, neck, jaw or stomach, shortness of breath, a cold sweat, nausea or lightheadedness. For stroke, the American Heart Association teaches F.A.S.T.: Face drooping, Arm weakness, Speech difficulty, Time to call 911. If a teen or adult suddenly collapses, Hands-Only CPR has two steps: call 911, then push hard and fast in the center of the chest at 100 to 120 compressions a minute. CPR must be learned hands-on from a certified instructor.",
+            "body": "The most common heart attack sign is chest discomfort: pressure, squeezing or pain in the center of the chest. Other signs include discomfort in the arms, back, neck, jaw or stomach, shortness of breath, a cold sweat, nausea or lightheadedness. For stroke, the American Heart Association teaches F.A.S.T.: Face drooping, Arm weakness, Speech difficulty, Time to call 911. If a teen or adult suddenly collapses, Hands-Only CPR has two steps: call 911, then push hard and fast in the center of the chest at 100 to 120 compressions a minute. CPR must be learned hands-on from a certified instructor.",
             "sourceResourceIds": [
               "res.aha-heart-attack-signs",
               "res.aha-heart-attack-stroke-signs",
@@ -133,7 +133,7 @@
         {
           "id": "fa-1",
           "front": "What are the three emergency action steps taught by the American Red Cross?",
-          "back": "Check, Call, Care — check the scene and the person, call 911 or have someone call, and give care within your training.",
+          "back": "Check, Call, Care: check the scene and the person, call 911 or have someone call, and give care within your training.",
           "sourceResourceIds": [
             "res.redcross-check-call-care"
           ]
@@ -198,7 +198,7 @@
         {
           "id": "fa-9",
           "front": "What does F.A.S.T. stand for?",
-          "back": "Face drooping, Arm weakness, Speech difficulty, Time to call 911 — the warning signs of stroke.",
+          "back": "Face drooping, Arm weakness, Speech difficulty, Time to call 911. These are the warning signs of stroke.",
           "sourceResourceIds": [
             "res.aha-heart-attack-stroke-signs"
           ]
@@ -206,7 +206,7 @@
         {
           "id": "fa-10",
           "front": "What is the most common warning sign of a heart attack?",
-          "back": "Chest discomfort — pressure, squeezing, fullness or pain in the center of the chest.",
+          "back": "Chest discomfort: pressure, squeezing, fullness or pain in the center of the chest.",
           "sourceResourceIds": [
             "res.aha-heart-attack-signs"
           ]
@@ -265,7 +265,7 @@
           "choices": [
             "Hypothermia",
             "Heat exhaustion",
-            "Nothing — it is above freezing",
+            "Nothing, because it is above freezing",
             "Dehydration only"
           ],
           "answerIndex": 0,
@@ -341,7 +341,7 @@
           "choices": [
             "Remove the gloves and wash your hands",
             "Wash the gloves and keep them for next time",
-            "Nothing — gloves protected your hands",
+            "Nothing, because gloves protected your hands",
             "Wipe your hands on your clothing"
           ],
           "answerIndex": 0,
@@ -356,7 +356,7 @@
       "id": "study.camp-ready",
       "slug": "camp-ready",
       "title": "Camp ready",
-      "description": "Outdoor ethics, the Ten Essentials, safe drinking water, campfire safety, food safety and tick prevention — the practical knowledge behind the camping requirements in the ranks and the Camping merit badge.",
+      "description": "Outdoor ethics, the Ten Essentials, safe drinking water, campfire safety, food safety and tick prevention: the practical knowledge behind the camping requirements in the ranks and the Camping merit badge.",
       "status": "unverified",
       "reviewedOn": null,
       "badgeIds": [
@@ -571,7 +571,7 @@
           "id": "cr-q2",
           "prompt": "Your stream water looks crystal clear. What is the safest choice?",
           "choices": [
-            "Treat it anyway — boiling is most reliable",
+            "Treat it anyway; boiling is most reliable",
             "Drink it, because clear water is safe",
             "Only drink it if it tastes normal",
             "Let it sit for ten minutes and drink it"
@@ -663,7 +663,7 @@
       "id": "study.weather-and-lightning",
       "slug": "weather-and-lightning",
       "title": "Weather and lightning",
-      "description": "Lightning safety, reading weather maps, fronts and clouds — background for the weather requirements in First Class, the Camping merit badge and the Weather merit badge.",
+      "description": "Lightning safety, reading weather maps, fronts and clouds: background for the weather requirements in First Class, the Camping merit badge and the Weather merit badge.",
       "status": "unverified",
       "reviewedOn": null,
       "badgeIds": [
@@ -684,7 +684,7 @@
         "sections": [
           {
             "heading": "When thunder roars",
-            "body": "If you can hear thunder, you are within striking distance of lightning — rain does not need to be falling where you are. Move to safe shelter right away and stay there until 30 minutes after the last thunder you hear.",
+            "body": "If you can hear thunder, you are within striking distance of lightning, even if rain is not to be falling where you are. Move to safe shelter right away and stay there until 30 minutes after the last thunder you hear.",
             "sourceResourceIds": [
               "res.nws-lightning-safety",
               "res.noaa-jetstream-lightning"
@@ -786,7 +786,7 @@
         {
           "id": "wx-4",
           "front": "Is it safe to touch someone who was struck by lightning?",
-          "back": "Yes — lightning victims do not carry a charge. Call 911 and give care.",
+          "back": "Yes. Lightning victims do not carry a charge. Call 911 and give care.",
           "sourceResourceIds": [
             "res.nws-lightning-safety"
           ]
@@ -898,7 +898,7 @@
       "id": "study.tenderfoot-skills",
       "slug": "tenderfoot-skills",
       "title": "Tenderfoot skills",
-      "description": "Knots and their jobs, flag etiquette, poisonous plants, snakebite do’s and don’ts, and the buddy system — background for the Scout and Tenderfoot ranks.",
+      "description": "Knots and their jobs, flag etiquette, poisonous plants, snakebite do’s and don’ts, and the buddy system: background for the Scout and Tenderfoot ranks.",
       "status": "unverified",
       "reviewedOn": null,
       "badgeIds": [],
@@ -984,7 +984,7 @@
       "flashcards": [
         {
           "id": "tf-1",
-          "front": "What is the square knot good for — and not good for?",
+          "front": "What is the square knot good for, and what is it not good for?",
           "back": "Joining two ends, such as a bandage. It should not be trusted where safety depends on it.",
           "sourceResourceIds": [
             "res.animatedknots-square-knot"
@@ -1033,7 +1033,7 @@
         {
           "id": "tf-7",
           "front": "Does “leaves of three” work for poison sumac?",
-          "back": "No — poison sumac usually has clusters of 7–13 leaflets.",
+          "back": "No. Poison sumac usually has clusters of 7–13 leaflets.",
           "sourceResourceIds": [
             "res.niosh-poisonous-plants"
           ]

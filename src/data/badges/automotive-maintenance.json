@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mb.automotive-maintenance",
   "slug": "automotive-maintenance",
-  "description": "Automotive Maintenance teaches how a car or truck works and how to care for it — safety, dashboards, tires, engine, cooling, fuel, ignition and electrical systems, drive train and brakes, including electric and hybrid vehicles.",
+  "description": "Automotive Maintenance teaches how a car or truck works and how to care for it: safety, dashboards, tires, engine, cooling, fuel, ignition and electrical systems, drive train and brakes, including electric and hybrid vehicles.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mb.archery",
   "slug": "archery",
-  "description": "Archery covers range safety, arrows and equipment, how archery is scored, and — under qualified supervision — shooting form and qualifying scores with a recurve, longbow or compound bow.",
+  "description": "Archery covers range safety, arrows and equipment, how archery is scored, and (under qualified supervision) shooting form and qualifying scores with a recurve, longbow or compound bow.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,

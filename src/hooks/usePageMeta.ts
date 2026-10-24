@@ -5,7 +5,7 @@ import type { RecentItem } from '../features/progress/schema';
 
 export function useDocumentTitle(title: string) {
   useEffect(() => {
-    document.title = title ? `${title} · ScoutPath` : 'ScoutPath — Every requirement. A clearer path forward.';
+    document.title = title ? `${title} · ScoutPath` : 'ScoutPath: Every requirement. A clearer path forward.';
   }, [title]);
 }
 

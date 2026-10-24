@@ -1,4 +1,4 @@
-import { ArrowRight, ChevronDown, Library } from 'lucide-react';
+import { ArrowRight, ChevronDown, Library } from './icons';
 import { useState } from 'react';
 import { Link } from 'react-router';
 import { content } from '../features/content/data';

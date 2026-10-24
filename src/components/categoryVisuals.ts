@@ -1,9 +1,9 @@
-import { Atom, BookMarked, Hammer, HeartPulse, Landmark, Leaf, Palette, Tent, Trophy, Waves, type LucideIcon } from 'lucide-react';
+import { Atom, BookMarked, Hammer, HeartPulse, Landmark, Leaf, Palette, Tent, Trophy, Waves, type IconComponent } from './icons';
 import type { CategoryId } from '../schemas/content';
 
 export type MarkTone = 'sage' | 'forest' | 'amber' | 'pine' | 'ivory';
 
-export const CATEGORY_VISUALS: Record<CategoryId, { icon: LucideIcon; tone: MarkTone }> = {
+export const CATEGORY_VISUALS: Record<CategoryId, { icon: IconComponent; tone: MarkTone }> = {
   outdoor: { icon: Tent, tone: 'forest' },
   nature: { icon: Leaf, tone: 'sage' },
   aquatics: { icon: Waves, tone: 'ivory' },

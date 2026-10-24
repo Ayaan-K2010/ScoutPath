@@ -1,7 +1,7 @@
 /**
  * Export and import of personal data. Imports are validated in full before
  * anything is applied, and the caller chooses whether to merge with or
- * replace existing data — nothing is overwritten implicitly.
+ * replace existing data. Nothing is overwritten implicitly.
  */
 import { exportEnvelope, userData, type UserData } from './schema';
 

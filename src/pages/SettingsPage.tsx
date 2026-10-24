@@ -1,4 +1,4 @@
-import { Copy, Download, HardDrive, Trash2, Upload } from 'lucide-react';
+import { Copy, Download, HardDrive, Trash2, Upload } from '../components/icons';
 import { useRef, useState } from 'react';
 import { Link } from 'react-router';
 import { Callout } from '../components/Callout';
@@ -83,7 +83,7 @@ export function SettingsPage() {
           </h2>
           {status.persistent ? (
             <p className="small">
-              Saved in this browser’s local storage. It is not synced to other devices or browsers, and clearing your browser data will erase it — export a
+              Saved in this browser’s local storage. It is not synced to other devices or browsers, and clearing your browser data will erase it. Export a
               backup if it matters to you.
             </p>
           ) : (
@@ -155,7 +155,7 @@ export function SettingsPage() {
               <ul className="plain-list small">
                 {data.linkReports.map((r) => (
                   <li key={`${r.resourceId}-${r.reportedAt}`} style={{ padding: 'var(--s-2) 0', borderBottom: '1px solid var(--border)' }}>
-                    <strong>{content.resourceById.get(r.resourceId)?.title ?? r.resourceId}</strong> — {r.note || 'no details'}{' '}
+                    <strong>{content.resourceById.get(r.resourceId)?.title ?? r.resourceId}</strong>: {r.note || 'no details'}{' '}
                     <span className="muted">({formatTimestamp(r.reportedAt)})</span>
                   </li>
                 ))}
@@ -237,13 +237,13 @@ export function SettingsPage() {
                   <label className="check">
                     <input type="radio" name="import-mode" checked={mode === 'merge'} onChange={() => setMode('merge')} />
                     <span>
-                      <strong>Merge</strong> — keep everything here and add what is new. Where both have the same item, the most recently updated wins.
+                      <strong>Merge:</strong> keep everything here and add what is new. Where both have the same item, the most recently updated wins.
                     </span>
                   </label>
                   <label className="check">
                     <input type="radio" name="import-mode" checked={mode === 'replace'} onChange={() => setMode('replace')} />
                     <span>
-                      <strong>Replace</strong> — erase the data in this browser and use the file instead.
+                      <strong>Replace:</strong> erase the data in this browser and use the file instead.
                     </span>
                   </label>
                   {mode === 'replace' && (

@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, CalendarDays, Check, Flag, Printer } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CalendarDays, Check, Flag, Printer } from '../components/icons';
 import { useEffect } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router';
 import { ExternalLink } from '../components/ExternalLink';

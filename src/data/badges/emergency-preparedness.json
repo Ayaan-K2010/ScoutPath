@@ -170,7 +170,7 @@
           "title": "Preparing for emergencies",
           "summary": "Prevention, protection, mitigation, response and recovery applied to a set of emergencies, and preparing a family disaster kit for sheltering in place and evacuating.",
           "kind": "mixed",
-          "orientation": "Emergency managers think in phases: what you do before (kits, plans, training), during, and after, and how you reduce the chance or impact of the next one. Ready.gov organizes household preparedness into building a kit, making a plan and being informed — a good frame for this requirement.",
+          "orientation": "Emergency managers think in phases: what you do before (kits, plans, training), during, and after, and how you reduce the chance or impact of the next one. Ready.gov organizes household preparedness into building a kit, making a plan and being informed, which is a good frame for this requirement.",
           "relatedRequirementIds": [
             "rank.first-class.7e"
           ],
@@ -180,7 +180,7 @@
           "id": "mb.emergency-preparedness.2",
           "number": "2",
           "title": "Safe rescues",
-          "summary": "Showing how to help someone in danger — from a live electrical wire, carbon monoxide, burning clothing or water — without becoming a victim yourself.",
+          "summary": "Showing how to help someone in danger (from a live electrical wire, carbon monoxide, burning clothing or water) without becoming a victim yourself.",
           "kind": "demonstration",
           "safetySensitive": true,
           "note": "Demonstrations must be simulations under adult supervision.",

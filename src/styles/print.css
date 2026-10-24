@@ -103,7 +103,7 @@
   }
 
   a.external-link::after {
-    content: ' — ' attr(href);
+    content: ' (' attr(href) ')';
     font-size: 8.5pt;
     color: #444;
     word-break: break-all;

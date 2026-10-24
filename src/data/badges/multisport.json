@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mb.multisport",
   "slug": "multisport",
-  "description": "Multisport is built around triathlon and its cousins — duathlon, aquathlon and aquabike: safety and health, a multi-week training plan, transitions and race distances, learning about athletes, and taking part in and volunteering at a sanctioned event.",
+  "description": "Multisport is built around triathlon and its cousins (duathlon, aquathlon and aquabike): safety and health, a multi-week training plan, transitions and race distances, learning about athletes, and taking part in and volunteering at a sanctioned event.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,
