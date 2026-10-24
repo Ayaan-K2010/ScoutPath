@@ -75,6 +75,7 @@ npm run dev          # http://localhost:5173
 | `npm run lint` | ESLint (TypeScript, React Hooks rules) |
 | `npm test` | All automated tests once (`npm run test:watch` to watch) |
 | `npm run build` | Validates content, typechecks, builds to `dist/` |
+| `npm run build:hash` | Same build with hash URLs and relative paths, to `dist-hash/` |
 | `npm run preview` | Serves the production build at http://localhost:4173 |
 | `npm run check` | typecheck + lint + test + build |
 | `npm run content:compile` | Compile `content-src/*.outline`, `mappings.map`, `pamphlets.map` and `confirmed-listings.txt` into `src/data/` |
@@ -93,7 +94,13 @@ The production build is a static site in `dist/`. Two files make it deploy-ready
 - `public/_redirects` — `/* /index.html 200`, so nested routes such as `/merit-badges/first-aid/requirements/4a` work on direct visits and refresh.
 - `public/_headers` — security headers, including a strict Content-Security-Policy (no third-party scripts, styles, fonts or connections) and long-lived caching for hashed assets.
 
-Both were tested locally against the production build with a server that applies them; nested routes, fonts and lazy-loaded pages work under the CSP. **ScoutPath has not been deployed by the author of this README** — run one of the following yourself.
+Both were tested locally against the production build with a server that applies them; nested routes, fonts and lazy-loaded pages work under the CSP.
+
+A preview build is published as a private claude.ai Artifact. It uses `npm run build:hash` (hash-based URLs and relative asset paths, output in `dist-hash/`), which suits hosts that cannot rewrite deep links to `index.html`. In that preview, printing and file downloads (data export) are disabled by the host's sandbox; use a normal deployment for those.
+
+### GitHub Actions
+
+`.github/workflows/deploy.yml` typechecks, lints, tests and builds every push and pull request. On pushes to `main` it also deploys `dist/` to Cloudflare Pages, once you add the repository secrets `CLOUDFLARE_API_TOKEN` (a token with the *Cloudflare Pages: Edit* permission) and `CLOUDFLARE_ACCOUNT_ID`, and create a Pages project named `scoutpath`. Without the secrets the deploy step is skipped.
 
 ### Cloudflare Pages (recommended)
 

@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run content:validate && tsc -b && vite build",
+    "build:hash": "npm run content:validate && tsc -b && VITE_ROUTER=hash vite build --base ./ --outDir dist-hash",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit",
     "lint": "eslint .",
