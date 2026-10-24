@@ -113,7 +113,7 @@ export function BadgePage() {
           <div className="stack-lg">
             <EmptyState
               icon={CircleHelp}
-              title="Content being reviewed"
+              title={badge.lifecycle === 'discontinued' ? 'No outline for a discontinued badge' : 'Content being reviewed'}
               actions={
                 <>
                   <ExternalLink href={badge.officialUrl} className="btn btn--primary">
@@ -129,6 +129,7 @@ export function BadgePage() {
             >
               ScoutPath has not outlined the requirements for {badge.name} yet, so there are no requirement pages or progress tracking for it. We would
               rather show nothing than guess at official requirements.
+              {badge.detail?.outlineNote && <span className="empty__note">{badge.detail.outlineNote}</span>}
             </EmptyState>
             {related.length > 0 && (
               <section aria-labelledby="related-title">

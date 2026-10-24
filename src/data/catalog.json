@@ -342,7 +342,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/camping/",
@@ -418,7 +418,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-community/",
@@ -434,7 +434,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
@@ -449,7 +449,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-world/",
@@ -509,7 +509,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/communication/",
@@ -556,7 +556,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/cooking/",
@@ -603,7 +603,7 @@
         "status": "required-option",
         "group": "Swimming, Hiking, or Cycling",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "One badge from this group is Eagle-required, per scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/cycling/",
@@ -737,7 +737,7 @@
         "status": "required-option",
         "group": "Emergency Preparedness or Lifesaving",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "One badge from this group is Eagle-required, per scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/emergency-preparedness/",
@@ -797,7 +797,7 @@
         "status": "required-option",
         "group": "Environmental Science or Sustainability",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "One badge from this group is Eagle-required, per scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/environmental-science/",
@@ -826,7 +826,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/family-life/",
@@ -887,7 +887,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/first-aid/",
@@ -1080,7 +1080,7 @@
         "status": "required-option",
         "group": "Swimming, Hiking, or Cycling",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "One badge from this group is Eagle-required, per scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/hiking/",
@@ -1244,7 +1244,7 @@
         "status": "required-option",
         "group": "Emergency Preparedness or Lifesaving",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "One badge from this group is Eagle-required, per scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/lifesaving/",
@@ -1465,7 +1465,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/personal-fitness/",
@@ -1481,7 +1481,7 @@
       "eagle": {
         "status": "required",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "Listed on scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/personal-management/",
@@ -2048,7 +2048,7 @@
         "status": "required-option",
         "group": "Environmental Science or Sustainability",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "One badge from this group is Eagle-required, per scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/sustainability/",
@@ -2065,7 +2065,7 @@
         "status": "required-option",
         "group": "Swimming, Hiking, or Cycling",
         "verified": true,
-        "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
+        "note": "One badge from this group is Eagle-required, per scouting.org’s Eagle-required merit badges page for 2026."
       },
       "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/swimming/",

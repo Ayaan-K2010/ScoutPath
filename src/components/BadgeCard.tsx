@@ -1,11 +1,12 @@
 import { Link } from 'react-router';
+import { content } from '../features/content/data';
 import type { Badge } from '../features/content/model';
 import { BadgeMark } from './BadgeMark';
 import { VerificationTag } from './StatusTag';
 
 export function EagleTag({ badge }: { badge: Badge }) {
-  if (badge.eagle.status === 'required') return <span className="tag tag--brand" title={badge.eagle.note}>Eagle-required*</span>;
-  if (badge.eagle.status === 'required-option') return <span className="tag tag--outline" title={badge.eagle.group}>Eagle option*</span>;
+  if (badge.eagle.status === 'required') return <span className="tag tag--brand" title={badge.eagle.note}>Eagle-required</span>;
+  if (badge.eagle.status === 'required-option') return <span className="tag tag--outline" title={badge.eagle.group}>Eagle option</span>;
   return null;
 }
 
@@ -21,10 +22,16 @@ export function BadgeCard({ badge, categoryName, resourceCount }: { badge: Badge
       </div>
       {badge.detail && <p className="badge-card__desc">{badge.detail.description}</p>}
       <div className="badge-card__foot">
-        <span>{badge.version ? `${resourceCount} linked resources` : 'Outline in progress'}</span>
+        <span>
+          {!badge.version
+            ? 'Official links only'
+            : resourceCount > 0
+              ? `${resourceCount} linked resources`
+              : `${content.requirementOrder.get(badge.id)?.length ?? 0} requirement pages`}
+        </span>
         <span className="tag-list">
           <EagleTag badge={badge} />
-          <VerificationTag status={badge.version ? badge.version.status : 'missing'} />
+          {badge.version && <VerificationTag status={badge.version.status} />}
         </span>
       </div>
     </Link>

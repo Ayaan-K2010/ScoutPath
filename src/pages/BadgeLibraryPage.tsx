@@ -53,14 +53,17 @@ function CatalogRow({ badge }: { badge: Badge }) {
           <span className="catalog-row__name">{badge.name}</span>
           <span className="catalog-row__meta" style={{ display: 'block' }}>
             {categoryName.get(badge.category)}
-            {badge.version ? ` · ${content.requirementOrder.get(badge.id)?.length ?? 0} outlined items` : ''}
+            {badge.version
+              ? ` · ${content.requirementOrder.get(badge.id)?.length ?? 0} requirement pages${badge.version.completeness === 'complete' ? '' : ' (partial)'}`
+              : ' · Official links only'}
           </span>
+          {badge.detail && <span className="catalog-row__desc">{badge.detail.description}</span>}
         </span>
         <span className="catalog-row__tags">
           {badge.lifecycle === 'discontinued' && <span className="tag tag--alert">Discontinued</span>}
           {badge.lifecycle === 'test-lab' && <span className="tag">Test Lab</span>}
           <EagleTag badge={badge} />
-          <VerificationTag status={badge.version ? badge.version.status : 'missing'} />
+          {badge.version && <VerificationTag status={badge.version.status} />}
         </span>
       </Link>
     </li>
@@ -78,7 +81,7 @@ export function BadgeLibraryPage() {
   const results = useMemo(() => filterBadges(content, filters), [params]); // eslint-disable-line react-hooks/exhaustive-deps
   const active = filters.query !== '' || filters.categories.length > 0 || filters.eagleOnly || filters.outlinedOnly || filters.resourceTypes.length > 0;
   const outlined = content.badges.filter((b) => b.version);
-  const withDetail = content.badges.filter((b) => b.detail);
+  const complete = outlined.filter((b) => b.version?.completeness === 'complete').length;
 
   const categoryCounts = useMemo(() => {
     const m = new Map<string, number>();
@@ -116,7 +119,7 @@ export function BadgeLibraryPage() {
               <span className="meter__fill" style={{ width: `${(outlined.length / content.badges.length) * 100}%` }} />
             </div>
             <span>
-              0 verified against official sources. <Link to="/coverage">Coverage details</Link>
+              {complete} complete, {outlined.length - complete} partial, checked against official excerpts. <Link to="/coverage">Coverage details</Link>
             </span>
           </div>
         }
@@ -152,7 +155,7 @@ export function BadgeLibraryPage() {
               <div className="filters__list">
                 <label className="check">
                   <input type="checkbox" checked={filters.eagleOnly} onChange={(e) => update({ eagleOnly: e.target.checked })} />
-                  Eagle-required or Eagle option*
+                  Eagle-required or Eagle option
                 </label>
                 <label className="check">
                   <input type="checkbox" checked={filters.outlinedOnly} onChange={(e) => update({ outlinedOnly: e.target.checked })} />
@@ -200,7 +203,7 @@ export function BadgeLibraryPage() {
                 Clear all filters
               </button>
             )}
-            <p className="field__hint">*Eagle status reflects 2026 council communications and has not been checked against scouting.org.</p>
+            <p className="field__hint">Eagle status follows scouting.org’s 2026 Eagle-required merit badges list.</p>
           </aside>
         </div>
 
@@ -228,15 +231,14 @@ export function BadgeLibraryPage() {
             </div>
           </div>
 
-          {!active && view === 'list' && (
-            <div style={{ marginBottom: 'var(--s-12)' }}>
-              <h3 className="mini-heading">With learning pages</h3>
-              <div className="featured-grid">
-                {withDetail.map((b) => (
-                  <BadgeCard key={b.id} badge={b} categoryName={categoryName.get(b.category) ?? ''} resourceCount={resourceCount(b)} />
-                ))}
-              </div>
-            </div>
+          {!active && filters.sort === 'alpha' && view === 'list' && (
+            <nav className="letter-index" aria-label="Jump to letter">
+              {grouped.map(([letter]) => (
+                <a key={letter} href={`#letter-${letter}`}>
+                  {letter}
+                </a>
+              ))}
+            </nav>
           )}
 
           {results.length === 0 ? (
@@ -260,9 +262,8 @@ export function BadgeLibraryPage() {
             </div>
           ) : filters.sort === 'alpha' && !active ? (
             <div>
-              <h3 className="mini-heading">All listed badges, A–Z</h3>
               {grouped.map(([letter, badges]) => (
-                <section key={letter} className="letter-group" aria-label={`Badges starting with ${letter}`}>
+                <section key={letter} id={`letter-${letter}`} className="letter-group" aria-label={`Badges starting with ${letter}`}>
                   <p className="letter-group__letter" aria-hidden="true">
                     {letter}
                   </p>

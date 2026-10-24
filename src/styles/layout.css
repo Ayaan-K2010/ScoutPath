@@ -60,7 +60,7 @@
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 40;
+  z-index: var(--z-header);
   background: color-mix(in srgb, var(--ivory) 92%, transparent);
   backdrop-filter: saturate(1.4) blur(10px);
   -webkit-backdrop-filter: saturate(1.4) blur(10px);
@@ -214,7 +214,7 @@
 .drawer {
   position: fixed;
   inset: 0;
-  z-index: 60;
+  z-index: var(--z-drawer);
   visibility: hidden;
 }
 
@@ -272,8 +272,6 @@
   padding: var(--s-5) var(--s-3) var(--s-2);
   font-size: var(--fs-xs);
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: var(--text-muted);
 }
 
@@ -508,8 +506,6 @@
 .site-footer h2 {
   font-size: var(--fs-xs);
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: var(--on-dark-muted);
   margin-bottom: var(--s-4);
 }
@@ -541,5 +537,17 @@
 
   .site-footer__brand {
     grid-column: 1 / -1;
+  }
+}
+
+/* A short settle on each new page. It starts mostly visible, so content is never hidden if the animation stalls. */
+.route-enter {
+  animation: route-in var(--dur-slow) var(--ease-out-expo) both;
+}
+
+@keyframes route-in {
+  from {
+    opacity: 0.35;
+    transform: translateY(6px);
   }
 }

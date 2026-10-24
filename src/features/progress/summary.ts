@@ -34,8 +34,9 @@ export function ownerProgress(content: Content, data: UserData, ownerId: string)
   const verifiedAndComplete = version?.status === 'verified' && version.completeness === 'complete';
   let partialReason: string | null = null;
   if (!version) partialReason = 'No requirement outline is available yet.';
+  else if (version.completeness !== 'complete') partialReason = 'Some requirements are not in ScoutPath’s outline yet, so this total is incomplete.';
+  else if (version.status === 'partially-verified') partialReason = 'The outline was checked against official excerpts but not word for word, so treat totals as a guide.';
   else if (version.status !== 'verified') partialReason = 'The requirement outline has not been verified against the official source, so totals may be incomplete or numbered differently.';
-  else if (version.completeness !== 'complete') partialReason = 'The requirement outline is incomplete.';
   return {
     ownerId,
     total: leaves.length,

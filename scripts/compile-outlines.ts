@@ -157,6 +157,7 @@ for (const { file, blocks } of parsed) {
       // Description-only block: the badge has no confirmed outline yet.
       if (kind === 'mb') {
         if (block.meta.desc) record.description = block.meta.desc;
+        if (block.meta.note) record.outlineNote = block.meta.note;
         if (block.meta.safety) record.safety = { sensitive: true, reviewed: false, note: block.meta.safety };
         record.studySetIds = [...new Set([...(record.studySetIds as string[]), ...block.studies])];
         record.relatedResourceIds = [...new Set([...(record.relatedResourceIds as string[]), ...block.related])];

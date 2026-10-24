@@ -144,7 +144,7 @@ kbd {
   position: absolute;
   left: var(--s-4);
   top: -100px;
-  z-index: 100;
+  z-index: var(--z-toast);
   padding: var(--s-2) var(--s-4);
   background: var(--forest);
   color: var(--paper);
@@ -178,10 +178,8 @@ kbd {
   display: inline-flex;
   align-items: center;
   gap: var(--s-2);
-  font-size: var(--fs-xs);
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: var(--fs-sm);
+  font-weight: 500;
   color: var(--text-muted);
 }
 

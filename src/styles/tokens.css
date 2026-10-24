@@ -95,8 +95,16 @@
   --shadow-md: 0 1px 2px rgb(16 43 36 / 0.05), 0 10px 24px -14px rgb(16 43 36 / 0.22);
   --shadow-lg: 0 2px 6px rgb(16 43 36 / 0.06), 0 24px 48px -20px rgb(16 43 36 / 0.32);
 
+  /* Layers, lowest to highest */
+  --z-sticky: 20;
+  --z-header: 40;
+  --z-drawer: 60;
+  --z-palette: 80;
+  --z-toast: 100;
+
   /* Motion */
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
   --dur-fast: 140ms;
   --dur: 200ms;
   --dur-slow: 320ms;

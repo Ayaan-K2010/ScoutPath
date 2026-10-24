@@ -187,6 +187,8 @@ export const badgeDetail = z.object({
   lastReviewed: isoDate.nullable(),
   safety: z.object({ sensitive: z.boolean(), reviewed: z.boolean(), note: z.string().optional() }),
   currentVersion: z.string().nullable(),
+  /** Why no requirement outline is published yet (shown on description-only badges). */
+  outlineNote: z.string().optional(),
   versions: z.array(requirementVersion),
   relatedResourceIds: z.array(z.string()).default([]),
   studySetIds: z.array(z.string()).default([]),

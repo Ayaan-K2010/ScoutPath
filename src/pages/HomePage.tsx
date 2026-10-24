@@ -1,4 +1,4 @@
-import { ArrowRight, Bookmark, CalendarDays, Download, GraduationCap, HardDrive, Library, ListChecks, Lock, Search } from 'lucide-react';
+import { ArrowRight, CalendarDays, Download, HardDrive, Library, Lock, Search } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { BadgeMark } from '../components/BadgeMark';
@@ -7,6 +7,7 @@ import { VerificationTag } from '../components/StatusTag';
 import { TopoPattern } from '../components/TopoPattern';
 import { coverageReport } from '../features/content/coverage';
 import { content } from '../features/content/data';
+import { versionOfOwner, type Badge } from '../features/content/model';
 import { inProgress } from '../features/progress/summary';
 import { STARTER_TOPICS } from '../features/search/searchIndex';
 import { useDocumentTitle } from '../hooks/usePageMeta';
@@ -14,7 +15,7 @@ import { useUserData } from '../hooks/useUserData';
 import { relativeTime } from '../lib/format';
 import { resourcePath } from '../lib/labels';
 
-const PREVIEW_REQUIREMENT = 'mb.first-aid.4a';
+const PREVIEW_REQUIREMENT = 'mb.first-aid.7';
 
 function HeroSearch() {
   const [q, setQ] = useState('');
@@ -37,7 +38,7 @@ function HeroSearch() {
           id="hero-search-input"
           className="input"
           type="search"
-          placeholder="Try “hypothermia”, “Tenderfoot 4a” or “knots”"
+          placeholder="Try “hypothermia” or “Tenderfoot 4a”"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           autoComplete="off"
@@ -62,13 +63,14 @@ function RequirementPreview() {
   const node = content.requirements.get(PREVIEW_REQUIREMENT);
   if (!node) return null;
   const resources = (content.resourcesByRequirement.get(node.id) ?? []).slice(0, 3);
+  const version = versionOfOwner(content, node.ownerId);
   return (
     <figure className="hero-figure">
       <TopoPattern className="hero-figure__topo" />
       <div className="field-card">
         <div className="field-card__head">
           <span className="field-card__crumb">{node.ownerName} · Requirement</span>
-          <VerificationTag status="unverified" />
+          <VerificationTag status={version?.status ?? 'missing'} />
         </div>
         <div className="field-card__title">
           <span className="field-card__num">{node.requirement.number}</span>
@@ -114,7 +116,6 @@ function ContinueLearning() {
       <section className="start-band" aria-labelledby="start-title">
         <div className="container start-band__inner">
           <div>
-            <p className="eyebrow">New here?</p>
             <h2 id="start-title" className="start-band__title">
               Start with one requirement you are working on right now.
             </h2>
@@ -237,6 +238,126 @@ function RecentResources() {
   );
 }
 
+const EAGLE_GROUPS = ['Emergency Preparedness or Lifesaving', 'Environmental Science or Sustainability', 'Swimming, Hiking, or Cycling'];
+
+function outlineNote(b: Badge): string {
+  if (!b.version) return 'Official links only';
+  return b.version.completeness === 'complete' ? `${content.requirementOrder.get(b.id)?.length ?? 0} requirement pages` : 'Partial outline';
+}
+
+function EaglePath() {
+  const required = content.badges.filter((b) => b.eagle.status === 'required');
+  const options = EAGLE_GROUPS.map((g) => ({ group: g, badges: content.badges.filter((b) => b.eagle.status === 'required-option' && b.eagle.group === g) }));
+  return (
+    <section className="container page-section" aria-labelledby="eagle-title">
+      <div className="eagle-path">
+        <div className="eagle-path__intro">
+          <h2 id="eagle-title" className="how__title">
+            The road to Eagle
+          </h2>
+          <p className="muted">
+            Eagle Scout needs 21 merit badges: the 13 below and 8 electives of your choice. Each one has its own learning pages here, checked against
+            scouting.org’s 2026 list.
+          </p>
+          <Link to="/merit-badges?eagle=1" className="text-link">
+            Eagle badges in the library <ArrowRight size={14} className="arrow" aria-hidden="true" />
+          </Link>
+        </div>
+        <div className="eagle-path__lists">
+          <div>
+            <h3 className="eagle-path__head">
+              Required <span className="tabular">{required.length}</span>
+            </h3>
+            <ul className="eagle-list">
+              {required.map((b) => (
+                <li key={b.id}>
+                  <Link to={`/merit-badges/${b.slug}`}>
+                    <BadgeMark category={b.category} size="sm" />
+                    <span className="eagle-list__name">{b.name}</span>
+                    <span className="eagle-list__meta">{outlineNote(b)}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="eagle-path__head">Choose one from each</h3>
+            {options.map(({ group, badges }) => (
+              <ul className="eagle-list eagle-list--choice" key={group} aria-label={group}>
+                {badges.map((b, i) => (
+                  <li key={b.id}>
+                    {i > 0 && (
+                      <span className="eagle-list__or" aria-hidden="true">
+                        or
+                      </span>
+                    )}
+                    <Link to={`/merit-badges/${b.slug}`}>
+                      <BadgeMark category={b.category} size="sm" />
+                      <span className="eagle-list__name">{b.name}</span>
+                      <span className="eagle-list__meta">{outlineNote(b)}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function CoverageBand({ report }: { report: ReturnType<typeof coverageReport> }) {
+  const listed = content.badges.length;
+  const complete = content.badges.filter((b) => b.version?.completeness === 'complete').length;
+  const partial = content.badges.filter((b) => b.version && b.version.completeness !== 'complete').length;
+  const linksOnly = listed - complete - partial;
+  const segments = [
+    { key: 'complete', label: 'Complete outline', value: complete },
+    { key: 'partial', label: 'Partial outline', value: partial },
+    { key: 'links', label: 'Official links only', value: linksOnly },
+  ];
+  return (
+    <section className="container page-section" aria-labelledby="coverage-title">
+      <div className="coverage-band">
+        <div>
+          <h2 id="coverage-title" className="coverage-band__title">
+            What is in the library today
+          </h2>
+          <p className="small" style={{ marginTop: 'var(--s-3)', maxWidth: '56ch' }}>
+            All {report.ranks.length} ranks and {complete + partial} of {listed} merit badge listings have requirement pages. Each outline was checked
+            against Scouting America’s published requirements, but the wording is ScoutPath’s own, so every page links to the official text.
+          </p>
+          <Link to="/coverage" className="text-link text-link--on-dark" style={{ marginTop: 'var(--s-4)' }}>
+            See the coverage report <ArrowRight size={14} className="arrow" aria-hidden="true" />
+          </Link>
+        </div>
+        <figure className="coverage-bar">
+          <div className="coverage-bar__track" role="img" aria-label={segments.map((g) => `${g.value} ${g.label.toLowerCase()}`).join(', ')}>
+            {segments.map((g) => (
+              <span key={g.key} className={`coverage-bar__seg coverage-bar__seg--${g.key}`} style={{ flexGrow: g.value }} />
+            ))}
+          </div>
+          <figcaption>
+            <ul className="coverage-bar__legend">
+              {segments.map((g) => (
+                <li key={g.key}>
+                  <span className={`coverage-bar__swatch coverage-bar__seg--${g.key}`} aria-hidden="true" />
+                  <span className="tabular coverage-bar__value">{g.value}</span> {g.label.toLowerCase()}
+                </li>
+              ))}
+            </ul>
+            <p className="coverage-bar__note">
+              {listed} listings, including {content.badges.filter((b) => b.lifecycle === 'test-lab').length} Test Lab trial badges ·{' '}
+              {report.totals.resources} curated resources
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  );
+}
+
 export function HomePage() {
   useDocumentTitle('');
   const report = useMemo(() => coverageReport(content), []);
@@ -252,14 +373,14 @@ export function HomePage() {
       <section className="hero">
         <div className="container hero__grid">
           <div className="hero__copy">
-            <p className="eyebrow">A free, independent learning library for Scouts BSA</p>
             <h1 className="hero__title">
               Every requirement.
               <br />
               <em>A clearer path forward.</em>
             </h1>
             <p className="hero__lede">
-              Find trusted learning resources, understand what each requirement asks, and organize your Scouting progress in one place.
+              A free, independent library for Scouts BSA. Open any rank or merit badge requirement to see what it asks, find trusted resources for
+              that exact step, and keep a private record of your progress.
             </p>
             <HeroSearch />
             <div className="button-row">
@@ -277,50 +398,7 @@ export function HomePage() {
 
       <ContinueLearning />
 
-      <section className="container page-section" aria-labelledby="how-title">
-        <div className="how">
-          <div className="how__intro">
-            <p className="eyebrow">Requirement-level learning</p>
-            <h2 id="how-title" className="how__title">
-              Resources organized around the exact thing you are working on.
-            </h2>
-            <p className="muted">
-              Instead of searching across videos, articles, PDFs and handbooks, open a single requirement and find what helps with that step. One
-              resource can support many requirements, and one requirement can draw on many resources.
-            </p>
-          </div>
-          <ol className="how__steps">
-            <li>
-              <span className="how__icon">
-                <ListChecks size={20} aria-hidden="true" />
-              </span>
-              <h3>Pick a requirement</h3>
-              <p>Every outlined requirement has its own page with its number, parent badge or rank, and source status.</p>
-            </li>
-            <li>
-              <span className="how__icon">
-                <Library size={20} aria-hidden="true" />
-              </span>
-              <h3>Learn from vetted sources</h3>
-              <p>Resources from agencies like the CDC, National Weather Service and Red Cross, each with an original description.</p>
-            </li>
-            <li>
-              <span className="how__icon">
-                <GraduationCap size={20} aria-hidden="true" />
-              </span>
-              <h3>Practice and plan</h3>
-              <p>Flashcards, practice quizzes, study guides and a planner that never guesses how long things take.</p>
-            </li>
-            <li>
-              <span className="how__icon">
-                <Bookmark size={20} aria-hidden="true" />
-              </span>
-              <h3>Show what you know</h3>
-              <p>Demonstrations and discussions still happen with your leaders and counselor. ScoutPath helps you arrive prepared.</p>
-            </li>
-          </ol>
-        </div>
-      </section>
+      <EaglePath />
 
       <section className="container page-section" aria-labelledby="ranks-title">
         <div className="section-head section-head--serif">
@@ -360,14 +438,8 @@ export function HomePage() {
           ))}
         </div>
         <p className="small muted" style={{ marginTop: 'var(--s-4)' }}>
-          Requirement outlines so far:{' '}
-          {outlined.map((b, i) => (
-            <span key={b.id}>
-              <Link to={`/merit-badges/${b.slug}`}>{b.name}</Link>
-              {i < outlined.length - 1 ? ', ' : '.'}
-            </span>
-          ))}{' '}
-          Other listings link to the official requirements while ScoutPath’s outlines are written.
+          {outlined.length} of {content.badges.length} listings have requirement pages; the rest link to the official requirements and pamphlet.{' '}
+          <Link to="/merit-badges">Browse the full A–Z library</Link>.
         </p>
       </section>
 
@@ -376,7 +448,6 @@ export function HomePage() {
       <section className="container page-section" aria-labelledby="track-title">
         <div className="track">
           <div>
-            <p className="eyebrow">Personal progress</p>
             <h2 id="track-title" className="how__title">
               A private record of your learning, not an official sign-off.
             </h2>
@@ -429,47 +500,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="container page-section" aria-labelledby="coverage-title">
-        <div className="coverage-band">
-          <div>
-            <p className="eyebrow">Content coverage, stated plainly</p>
-            <h2 id="coverage-title" className="coverage-band__title">
-              What is in the library today
-            </h2>
-            <p className="small" style={{ marginTop: 'var(--s-3)', maxWidth: '52ch' }}>
-              ScoutPath is early. Requirement outlines are drafts that have not yet been checked against official sources, and are labeled that
-              way on every page.
-            </p>
-            <Link to="/coverage" className="text-link text-link--on-dark" style={{ marginTop: 'var(--s-4)' }}>
-              See the coverage report <ArrowRight size={14} className="arrow" aria-hidden="true" />
-            </Link>
-          </div>
-          <dl className="coverage-band__stats">
-            <div>
-              <dt>Merit badges listed</dt>
-              <dd>{report.totals.badgesListed}</dd>
-            </div>
-            <div>
-              <dt>Badges with outlines</dt>
-              <dd>{report.totals.badgesWithOutline}</dd>
-            </div>
-            <div>
-              <dt>Ranks outlined</dt>
-              <dd>
-                {report.totals.ranksWithOutline}/{report.ranks.length}
-              </dd>
-            </div>
-            <div>
-              <dt>Curated resources</dt>
-              <dd>{report.totals.resources}</dd>
-            </div>
-            <div>
-              <dt>Verified against official sources</dt>
-              <dd>{report.totals.badgesByRating.verified}</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
+      <CoverageBand report={report} />
 
       <section className="container page-section" aria-label="Independent project disclaimer">
         <p className="disclaimer-strip">

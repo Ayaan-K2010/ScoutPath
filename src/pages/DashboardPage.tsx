@@ -232,7 +232,7 @@ export function DashboardPage() {
                   return (
                     <>
                       <ProgressMeter counts={s.counts} total={s.total} label={`${rank.name} progress`} size="lg" showLegend />
-                      {s.partial && <p className="field__hint">Partial figure — the rank outline is an unverified draft.</p>}
+                      {s.partial && s.partialReason && <p className="field__hint">Partial figure. {s.partialReason}</p>}
                     </>
                   );
                 })()}

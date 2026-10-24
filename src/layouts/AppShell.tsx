@@ -164,7 +164,9 @@ export function AppShell() {
           </div>
 
           <main id="main" className="app-main" ref={mainRef} tabIndex={-1}>
-            <Outlet />
+            <div className="route-enter" key={location.pathname}>
+              <Outlet />
+            </div>
           </main>
 
           <footer className="site-footer no-print">

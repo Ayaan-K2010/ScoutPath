@@ -60,6 +60,7 @@ export function CoveragePage() {
   const [showAll, setShowAll] = useState(false);
   const t = report.totals;
   const outlined = report.badges.filter((b) => b.hasOutline);
+  const completeOutlines = content.badges.filter((b) => b.version?.completeness === 'complete').length;
 
   return (
     <div className="container page">
@@ -69,32 +70,30 @@ export function CoveragePage() {
         lede="Exactly what the library contains and how much of it has been checked. Every number here is computed from the dataset."
       />
       <div className="stack-lg">
-        <div className="stat-strip">
-          <div className="stat">
-            <div className="stat__value">{t.badgesListed}</div>
-            <div className="stat__label">Merit badges listed (listings unverified)</div>
-          </div>
-          <div className="stat">
-            <div className="stat__value">{t.badgesWithOutline}</div>
-            <div className="stat__label">Badges with requirement outlines</div>
-          </div>
-          <div className="stat">
-            <div className="stat__value">
-              {t.leafRequirementsWithResources}/{t.leafRequirements}
+        <dl className="ledger">
+          {[
+            { label: 'Merit badge listings with requirement outlines', value: t.badgesWithOutline, of: t.badgesListed },
+            { label: 'Outlines that are complete (the rest are partial)', value: completeOutlines, of: t.badgesWithOutline },
+            { label: 'Ranks with requirement outlines', value: t.ranksWithOutline, of: report.ranks.length },
+            { label: 'Requirement items with at least one learning resource', value: t.leafRequirementsWithResources, of: t.leafRequirements },
+            { label: 'Resources whose links have been checked', value: t.resourcesLinkChecked, of: t.resources },
+            { label: 'Badges fully verified for publication', value: t.badgesByRating.verified, of: t.badgesListed },
+          ].map((row) => (
+            <div className="ledger__row" key={row.label}>
+              <dt>{row.label}</dt>
+              <dd>
+                <span className="ledger__bar" aria-hidden="true">
+                  <span style={{ width: `${row.of ? (row.value / row.of) * 100 : 0}%` }} />
+                </span>
+                <span className="ledger__value tabular">
+                  {row.value} <span>of {row.of}</span>
+                </span>
+              </dd>
             </div>
-            <div className="stat__label">Outlined items with resources</div>
-          </div>
-          <div className="stat">
-            <div className="stat__value">{t.resources}</div>
-            <div className="stat__label">Resources ({t.resourcesLinkChecked} link-checked)</div>
-          </div>
-          <div className="stat">
-            <div className="stat__value">{t.badgesByRating.verified}</div>
-            <div className="stat__label">Verified for publication</div>
-          </div>
-        </div>
+          ))}
+        </dl>
 
-        <Callout tone="warn" title="Why nothing is verified yet">
+        <Callout tone="info" title="How the content was checked">
           {content.meta?.environmentNote}
         </Callout>
 
