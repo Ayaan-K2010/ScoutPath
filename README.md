@@ -119,6 +119,16 @@ npx wrangler pages deploy dist --project-name scoutpath
 
 Cloudflare reads `_redirects` and `_headers` from `dist/` automatically.
 
+### Vercel
+
+`vercel.json` carries the same single-page-app rewrite, security headers and asset caching, because Vercel does not read `_redirects` or `_headers`.
+
+1. Vercel dashboard → Add New → Project → import this GitHub repository.
+2. Vercel picks up the settings from `vercel.json` (framework Vite, build `npm run build`, output `dist`). Node comes from `engines` in `package.json`.
+3. Deploy. Every push to `main` redeploys; pull requests get preview URLs.
+
+Or from a terminal: `npx vercel` for a preview, `npx vercel --prod` for production.
+
 ### Other free hosts
 
 - **Netlify:** build `npm run build`, publish `dist`. Netlify understands the same `_redirects` and `_headers` files.
