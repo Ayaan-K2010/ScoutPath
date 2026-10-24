@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.wood-carving",
+  "slug": "wood-carving",
+  "description": "Wood Carving teaches a classic Scout craft: carving safety and the Totin’ Chip, caring for and sharpening tools, the basic cuts, choosing wood, carving in the round, and relief or chip carving.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Carve away from your body, keep tools sharp, and use a carving glove and thumb guard."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/wood-carving/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/wood-carving/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.wood-carving.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Carving hazards and first aid for cuts, scratches and splinters.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.wood-carving.2",
+          "number": "2",
+          "title": "The Totin’ Chip",
+          "summary": "Earning the Totin’ Chip and the safety checklist for carving.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.wood-carving.3",
+          "number": "3",
+          "title": "Tools and sharpening",
+          "summary": "Caring for and using carving tools and sharpening devices.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.wood-carving.4",
+          "number": "4",
+          "title": "Basic cuts",
+          "summary": "The paring, push, V and stop cuts.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.wood-carving.5",
+          "number": "5",
+          "title": "Choosing wood",
+          "summary": "Why different woods suit different projects.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.wood-carving.6",
+          "number": "6",
+          "title": "Carving in the round",
+          "summary": "A simple three-dimensional carving project.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.wood-carving.7",
+          "number": "7",
+          "title": "Relief or chip carving",
+          "summary": "A simple relief carving or chip carving project.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

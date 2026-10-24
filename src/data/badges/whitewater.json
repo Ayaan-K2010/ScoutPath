@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.whitewater",
+  "slug": "whitewater",
+  "description": "Whitewater builds on Canoeing or Kayaking for moving water: hazards and cold-water injuries, reading river features and difficulty ratings, strokes, ferries and eddy turns, river signals and safety gear, self-rescue and throw-rope rescues, and planning a whitewater trip.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Whitewater paddling requires a qualified instructor, Safety Afloat, and the appropriate prerequisite badge."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

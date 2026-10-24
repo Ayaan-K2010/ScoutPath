@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.surveying",
+  "slug": "surveying",
+  "description": "Surveying teaches how land is measured and mapped: field safety, surveying a lot with instruments and GPS, finding elevations, reading a deed, new technologies like drones and laser scanning, and careers in surveying.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

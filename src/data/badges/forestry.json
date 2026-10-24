@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.forestry",
+  "slug": "forestry",
+  "description": "Forestry explores forests as living systems and working landscapes: identifying trees, wood and growth rings, what forests give us, sustainable management, field visits with foresters, tree hazards, forest threats, and wildfire.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/forestry/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts listed the topics in order with approximate numbering; confirm the numbering against the official page. The 2026 update revised the managed-forest and logging-visit items.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/forestry/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.forestry.1",
+          "number": "1",
+          "title": "Identifying trees",
+          "summary": "Identifying local trees, shrubs and vines and their features, habitats and uses.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.forestry.2",
+          "number": "2",
+          "title": "Wood or growth rings",
+          "summary": "One option: collecting wood samples, or studying growth rings in stumps, logs or cores.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.forestry.3",
+          "number": "3",
+          "title": "Benefits of forests",
+          "summary": "How forests contribute to the economy, recreation, soil, water, air and wildlife.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.forestry.4",
+          "number": "4",
+          "title": "Forest management",
+          "summary": "Multiple-use and sustainable management and common cutting systems.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.forestry.5",
+          "number": "5",
+          "title": "Field visits",
+          "summary": "Visiting a managed forest and a logging or mill operation, and fire prevention.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.forestry.6",
+          "number": "6",
+          "title": "Tree hazards",
+          "summary": "An inventory of hazardous trees, or reviewing a professional hazard report.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.forestry.7",
+          "number": "7",
+          "title": "Forest threats and wildfire",
+          "summary": "Threats such as wildfire, insects and overgrazing, and what to do if you find a forest fire.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.motorboating",
+  "slug": "motorboating",
+  "description": "Motorboating teaches safe operation of a motorboat: hazards and first aid, life jackets and the swimmer test, engines and fueling, boating laws and required equipment, navigation rules, and handling, anchoring and docking a boat.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Motorboating follows Safety Afloat with a qualified supervisor; pass the swimmer test and wear a life jacket."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

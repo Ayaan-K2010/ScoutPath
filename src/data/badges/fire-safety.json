@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.fire-safety",
+  "slug": "fire-safety",
+  "description": "Fire Safety teaches how fire behaves and how to prevent it: the fire tetrahedron, extinguishers and fire classes, burn and clothing-fire first aid, home escape plans and inspections, safe fuels and campfires, wildland fire prevention, and careers in fire safety.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Practice fire skills only with adult supervision and in approved fire areas; never fight a fire that is spreading — get out and call for help."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

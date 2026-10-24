@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.skating",
+  "slug": "skating",
+  "description": "Skating covers safety and first aid for skaters and one in-depth option: ice skating, roller skating, in-line skating or skateboarding, each with its own equipment, safety rules and skills.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Wear a helmet and the protective gear your option calls for, and skate only where it is safe and allowed."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

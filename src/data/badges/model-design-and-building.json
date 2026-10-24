@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.model-design-and-building",
+  "slug": "model-design-and-building",
+  "description": "Model Design and Building teaches how models communicate ideas: shop and 3D-printing safety, the kinds of models professionals use, planning an original model to scale, building one model, and designing a fantasy spacecraft.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Use hand tools, glues, resins and 3D printers with protective gear and adult supervision."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/model-design-and-building/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/model-design-and-building/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.model-design-and-building.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Safe use of hand tools, protective gear, and 3D printing and resin precautions.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.model-design-and-building.2",
+          "number": "2",
+          "title": "Models and materials",
+          "summary": "Architectural, structural, process, mechanical and industrial models, and design and fabrication tools.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.model-design-and-building.3",
+          "number": "3",
+          "title": "Planning a model",
+          "summary": "Choosing a subject and preparing scaled plans and lists of materials and tools for an original design.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.model-design-and-building.4",
+          "number": "4",
+          "title": "Building a model",
+          "summary": "One option: an architectural, structural, process, mechanical or industrial model.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.model-design-and-building.5",
+          "number": "5",
+          "title": "A fantasy model",
+          "summary": "Researching, designing and rendering a special-effects spacecraft.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

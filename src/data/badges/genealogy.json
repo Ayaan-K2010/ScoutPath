@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.genealogy",
+  "slug": "genealogy",
+  "description": "Genealogy is the study of family history: key terms, timelines and journals, interviewing relatives, finding records such as census, birth and marriage records, research organizations, and building a family tree.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

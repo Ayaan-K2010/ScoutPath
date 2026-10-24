@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.sewing-needlework",
+  "slug": "sewing-needlework",
+  "description": "Sewing & Needlework (a Test Lab badge) teaches basic hand and machine sewing through several small, practical projects, including hand stitching and appliqué.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.multisport",
+  "slug": "multisport",
+  "description": "Multisport is built around triathlon and its cousins — duathlon, aquathlon and aquabike: safety and health, a multi-week training plan, transitions and race distances, learning about athletes, and taking part in and volunteering at a sanctioned event.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Open-water swims follow Safe Swim Defense; wear a helmet on the bike and train progressively."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,72 @@
+# Badges M–N — checked against official scouting.org excerpts.
+
+@owner mb.mining-in-society
+@complete complete
+@note The 2026 update turned requirement 8 into a choice of career options. A forum report said requirement 5 should read as a choice of one option; check the current wording.
+@desc Mining in Society explores where the materials in everyday life come from: minerals and their uses, mines in your region, mine hazards and safety gear, abandoned mines, reclamation and sustainability, future mining and recycling, and careers.
+@safety Never enter an abandoned mine or quarry — stay out and stay alive.
+1 k Minerals and their uses :: Identifying minerals and products that use them, and mining’s role in food production.
+2 a Mapping mines :: Marking mining operations in your state or region and what each produces.
+3 k! Mine hazards :: Hazards of mining and the protective equipment miners use.
+4 k! Abandoned mines :: The dangers of abandoned mines and quarries.
+5 a A mine experience :: One option, such as a virtual tour, museum exhibit, active mine visit or local mine history.
+6 k Sustainability :: Environmental controls and reclamation at modern mines.
+7 k Mining’s future :: Ocean and space mining, recycling metals and minerals, and commodity prices.
+8 a Careers :: One option exploring mining careers, such as interviewing a mining worker.
+
+@owner mb.model-design-and-building
+@complete complete
+@desc Model Design and Building teaches how models communicate ideas: shop and 3D-printing safety, the kinds of models professionals use, planning an original model to scale, building one model, and designing a fantasy spacecraft.
+@safety Use hand tools, glues, resins and 3D printers with protective gear and adult supervision.
+1 k! Safety :: Safe use of hand tools, protective gear, and 3D printing and resin precautions.
+2 k Models and materials :: Architectural, structural, process, mechanical and industrial models, and design and fabrication tools.
+3 a Planning a model :: Choosing a subject and preparing scaled plans and lists of materials and tools for an original design.
+4 a Building a model :: One option: an architectural, structural, process, mechanical or industrial model.
+5 a A fantasy model :: Researching, designing and rendering a special-effects spacecraft.
+
+@owner mb.motorboating
+@note Excerpts showed the topics (hazards and first aid, the swimmer test and life jackets, engines and fuel, Safety Afloat and boating laws, required equipment, navigation lights and signals, and boat handling and knots) but not their numbering, so no requirement outline is published yet.
+@desc Motorboating teaches safe operation of a motorboat: hazards and first aid, life jackets and the swimmer test, engines and fueling, boating laws and required equipment, navigation rules, and handling, anchoring and docking a boat.
+@safety Motorboating follows Safety Afloat with a qualified supervisor; pass the swimmer test and wear a life jacket.
+
+@owner mb.moviemaking
+@complete complete
+@desc Moviemaking teaches visual storytelling: the elements of a good film, writing a treatment and storyboard, camera techniques, producing a short film, visiting a set or learning lenses, and careers or hobbies in film.
+1 k Elements of a good film :: Visual storytelling, rhythm, the 180-degree rule, camera movement, framing and lenses.
+2 a Making a film :: A treatment, a storyboard, key shooting techniques and one film project.
+3 a A set visit or lenses :: One option: visiting a film set or studio, or explaining how a zoom lens works.
+4 a Careers or hobbies :: One option: a film career, or a hobby that uses these skills.
+
+@owner mb.multisport
+@note Excerpts showed the topics (choosing one format, safety and first aid, health and nutrition, a training plan, transitions and race distances, and taking part in and volunteering at an event) but not their numbering, so no requirement outline is published yet.
+@desc Multisport is built around triathlon and its cousins — duathlon, aquathlon and aquabike: safety and health, a multi-week training plan, transitions and race distances, learning about athletes, and taking part in and volunteering at a sanctioned event.
+@safety Open-water swims follow Safe Swim Defense; wear a helmet on the bike and train progressively.
+
+@owner mb.music
+@complete complete
+@note The 2026 update revised requirement 6.
+@desc Music develops your musicianship: performing and reading music, the families of instruments and how they make sound, listening and learning about music, teaching, composing or making an instrument, music and intellectual property, and music as a hobby or career.
+1 demo Performing :: Singing or playing a song with good technique and reading the signs and terms of the score.
+2 k Instruments :: The groups of instruments and how they produce sound.
+3 a Exploring music :: Two options, such as attending performances, an interview, playing in a group or influential musicians.
+4 a Teaching, composing or making :: One option: teaching songs, composing a piece, or making and playing an instrument.
+5 k Music and intellectual property :: Intellectual property and how to obtain and share recorded music properly.
+6 a Careers or hobbies :: One option: a music career, or a hobby that uses these skills.
+
+@owner mb.nature
+@complete partial
+@note Requirements 1–3 (how living things depend on each other and food chains) and 5–6 (ecological succession and a natural-area visit) were summarized together in the excerpts and are not outlined separately yet.
+@desc Nature is a broad field study of the natural world: how living things depend on each other, food chains, five fields of your choice from birds to soils and rocks, ecological succession, and careers that use nature skills.
+4 a Five fields of nature :: All the tasks in five fields, chosen from birds, mammals, reptiles and amphibians, insects and spiders, fish, mollusks and crustaceans, plants, and soils and rocks.
+7 a Careers or hobbies :: One option, centered on a career that uses nature skills.
+
+@owner mb.nuclear-science
+@complete complete
+@desc Nuclear Science explores the atom and radiation: radiation and dose, atoms and isotopes, particle accelerators, classic experiments like cloud chambers, radiation safety and radon, nuclear energy, and how nuclear science helps in medicine, industry and space.
+1 k Radiation :: Ionizing and nonionizing radiation, ALARA, the radiation symbol and estimating your annual dose.
+2 a Nuclear basics :: Key terms and building models of isotopes.
+3 a Particle physics :: How accelerators work, and visiting a facility or researching accelerators.
+4 a Classic experiments :: Two options: an electroscope, a cloud chamber or a half-life demonstration.
+5 a Radiation safety :: One option: a shielding test, a radon study or an X-ray facility visit.
+6 a Nuclear energy :: One option on fission or a power plant visit, and how nuclear power makes electricity.
+7 k Beneficial uses :: Uses in medicine, the environment, industry, space and radiation therapy.

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.sculpture",
+  "slug": "sculpture",
+  "description": "Sculpture introduces three-dimensional art: safe use of a sculptor’s tools and materials, modeling in clay, casting with plaster molds, visiting museums or studios, and careers in sculpture.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

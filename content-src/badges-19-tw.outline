@@ -1,0 +1,89 @@
+# Badges T–W — checked against official scouting.org excerpts.
+
+@owner mb.truck-transportation
+@complete complete
+@desc Truck Transportation explores how freight moves by road: trucking lines and their role in commerce and supply chains, engines, visiting a terminal, how trucking companies are organized, the agencies that regulate them, kinds of trucks, planning a shipment, and industry terms.
+1 a Trucking in your town :: The major truck lines that serve your town.
+2 k Trucking and commerce :: Trucking’s role in commerce and supply chains.
+3 k Truck engines :: Gasoline and diesel engines and the advantages of each.
+4 a A terminal visit :: Visiting a truck terminal to learn about maintenance, dispatch, driver safety and logbooks.
+5 k How companies work :: How a trucking company is organized and the jobs within it.
+6 k Government agencies :: Government agencies that work with the trucking industry.
+7 k Kinds of trucks :: Different kinds of trucks and the service each provides.
+8 a Planning a shipment :: Planning a long-distance shipment: packing, choosing a carrier and insuring the load.
+9 k Trucking terms :: Terms such as bill of lading, intermodal and drayage.
+
+@owner mb.veterinary-medicine
+@complete partial
+@note The 2026 update removed a report-writing requirement and revised the careers requirement, so the numbering shown here should be confirmed against the official list.
+@desc Veterinary Medicine explores animal health careers: the many kinds of veterinary practice, the training to become a veterinarian or veterinary technician, the human–animal bond, time with a veterinarian, and career paths.
+1 k Kinds of practice :: The roles of veterinarians in companion-animal, food-animal, exotic, public health and other kinds of practice.
+2 k Becoming a veterinarian :: The training to become a veterinarian and the nearest veterinary college.
+3 k Veterinary technicians :: What a veterinary technician does and the training for the role.
+4 d The human–animal bond :: The veterinarian’s role in the bond between people and animals.
+5 a Time with a veterinarian :: Visiting a veterinary clinic or spending time with a veterinarian and sharing what you learned.
+6 a Careers :: A veterinary career and the continuing education it requires.
+
+@owner mb.water-sports
+@note Excerpts showed the topics (hazards and first aid, Safety Afloat, life jackets and the Water Sports Safety Code, the swimmer test, and on-water skiing or wakeboarding skills) but not their numbering, so no requirement outline is published yet.
+@desc Water Sports covers waterskiing and wakeboarding safely: hazards and first aid, Safety Afloat and the Water Sports Safety Code, life jackets, the swimmer test, hand signals, deep-water starts, crossing wakes and falling safely.
+@safety Water sports follow Safety Afloat with a qualified boat driver and observer; pass the swimmer test and wear a life jacket.
+
+@owner mb.weather
+@complete complete
+@desc Weather explains what makes the sky do what it does: meteorology and climate, dangerous weather and staying safe, forecasts and warnings, pressure systems and fronts, wind, rain, lightning and hail, clouds, the water cycle, climate, and observing or meeting a weather professional.
+@safety Know the difference between a watch and a warning, and take shelter at the first sign of lightning.
+@study study.weather-and-lightning
+1 k Weather and climate :: What meteorology is and how weather differs from climate.
+2 k! Dangerous weather :: Dangerous weather conditions, safety rules for each, and watches versus warnings.
+= mb.camping.1b
+3 k Forecasts and warnings :: Where to get weather forecasts and emergency warnings.
+4 a Pressure and fronts :: High and low pressure systems, and cross sections of cold and warm fronts.
+5 k Wind, rain, lightning and hail :: What causes wind, rain, lightning and hail.
+6 k Clouds :: Low, middle and high clouds and the weather each brings.
+7 a The water cycle :: Diagramming and explaining the water cycle.
+8 k People and climate :: Human activities that change the environment and climate.
+9 k Climates of the Earth :: How Earth’s tilt shapes climates from the equator to the poles.
+10 a Observing weather :: One option: building an instrument and keeping a weather log, or meeting a weather professional.
+11 a! Teaching weather safety :: A short talk on lightning, flash flood and tornado safety.
+
+@owner mb.welding
+@note The excerpts cut off partway through the list, so no requirement outline is published yet. Topics include hazards and first aid, safety data sheets and protective gear, cutting methods, comparing welding processes, setting up equipment, practice welds and joints, and equipment care.
+@desc Welding introduces joining metal with heat: welding hazards and first aid, protective equipment and safety data sheets, cutting methods, welding processes and setup, practice beads and joints, and caring for equipment.
+@safety Welding is taught only by a qualified person, with eye, hearing, hand and foot protection in use at all times.
+
+@owner mb.whitewater
+@note The official page lists twelve requirements, but the excerpt grouped them by topic, so no requirement outline is published yet. Canoeing or Kayaking must be earned first.
+@desc Whitewater builds on Canoeing or Kayaking for moving water: hazards and cold-water injuries, reading river features and difficulty ratings, strokes, ferries and eddy turns, river signals and safety gear, self-rescue and throw-rope rescues, and planning a whitewater trip.
+@safety Whitewater paddling requires a qualified instructor, Safety Afloat, and the appropriate prerequisite badge.
+
+@owner mb.wilderness-survival
+@complete complete
+@note The badge emphasizes staying safe until rescue rather than living off the land.
+@desc Wilderness Survival teaches you to prevent and handle a backcountry emergency: first aid and trip plans, survival priorities, avoiding panic, first aid and survival kits, improvised shelter, fire without matches, signaling, treating water, why not to rely on wild food, and careers.
+@safety Practice survival skills with adult supervision and a trip plan; a night in an improvised shelter needs leader approval.
+@study study.camp-ready
+1 k! Hazards and first aid :: First aid and prevention for backcountry conditions, the Scout Basic Essentials and trip plans.
+2 k Survival priorities :: The priorities for survival and why each matters.
+3 d Avoiding panic :: Keeping calm and morale up when lost.
+4 a Kits :: Assembling and using a personal first aid kit and survival kit.
+= mb.first-aid.2
+5 a! Shelter :: Staying safe in different conditions and building and spending a night in an improvised shelter.
+6 demo! Fire :: Lighting fires by several methods other than matches.
+7 demo Signaling :: Signaling search teams, using a signal mirror and ground-to-air signals.
+8 demo Water :: Ways to treat water for drinking.
+= mb.camping.6b
+9 k Wild food :: Why eating wild plants or animals is usually unwise in a survival situation.
+10 a Careers :: One option related to survival careers.
+
+@owner mb.wood-carving
+@complete complete
+@desc Wood Carving teaches a classic Scout craft: carving safety and the Totin’ Chip, caring for and sharpening tools, the basic cuts, choosing wood, carving in the round, and relief or chip carving.
+@safety Carve away from your body, keep tools sharp, and use a carving glove and thumb guard.
+1 k! Safety :: Carving hazards and first aid for cuts, scratches and splinters.
+2 a The Totin’ Chip :: Earning the Totin’ Chip and the safety checklist for carving.
+3 demo Tools and sharpening :: Caring for and using carving tools and sharpening devices.
+4 demo Basic cuts :: The paring, push, V and stop cuts.
+5 k Choosing wood :: Why different woods suit different projects.
+6 a Carving in the round :: A simple three-dimensional carving project.
+7 a Relief or chip carving :: A simple relief carving or chip carving project.

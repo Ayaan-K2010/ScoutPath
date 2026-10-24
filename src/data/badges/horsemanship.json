@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.horsemanship",
+  "slug": "horsemanship",
+  "description": "Horsemanship teaches safe riding and horse care: safety around horses, breeds and anatomy, health and feeding, grooming and tack, saddling and bridling, and riding skills, under an experienced instructor.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Wear an approved riding helmet and boots, and ride only under a qualified instructor."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

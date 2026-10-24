@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "2026.10-draft.1",
-  "updatedOn": "2026-10-22",
-  "environmentNote": "This dataset was assembled in a build environment whose network policy blocked scouting.org and every resource publisher. Requirement outlines are maintainer drafts that have not been checked against official sources, and resource URLs were taken from web-search results without being fetched. Everything is labeled accordingly until a reviewer completes verification."
+  "datasetVersion": "2026.10-excerpt.1",
+  "updatedOn": "2026-10-24",
+  "environmentNote": "Requirement outlines were checked against excerpts of official scouting.org pages (the Merit Badge Hub, the All Merit Badges A–Z list, the Eagle-required list, official rank PDFs and the 2026 advancement updates) returned by a search index on 2026-10-24. The build environment's network policy blocked opening scouting.org directly, so wording was not compared word for word: outlines are marked partially verified, and requirements that could not be confirmed are left out rather than guessed. Resource URLs were taken from search results and have not been fetched."
 }

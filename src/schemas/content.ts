@@ -165,6 +165,8 @@ export const catalogEntry = z.object({
   catalogStatus: verificationStatus,
   officialUrl: httpUrl,
   officialUrlStatus: linkStatus,
+  /** The free official merit badge pamphlet (PDF), when its address is known. */
+  pamphletUrl: httpUrl.optional(),
 });
 export type CatalogEntry = z.infer<typeof catalogEntry>;
 

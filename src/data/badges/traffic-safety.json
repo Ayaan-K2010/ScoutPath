@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.traffic-safety",
+  "slug": "traffic-safety",
+  "description": "Traffic Safety is about getting everyone home safely: impaired, distracted and drowsy driving, vehicle safety features and maintenance, traffic laws and what to do after a crash, roads and signs, sharing the road with cyclists, pedestrians and school buses, and promoting traffic safety.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

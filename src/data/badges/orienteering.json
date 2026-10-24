@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.orienteering",
+  "slug": "orienteering",
+  "description": "Orienteering is navigation as a sport: first aid and safety, compasses and bearings, topographic maps, pacing, control descriptions, competing in events, setting a course, serving as an official, and teaching others.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/orienteering/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/orienteering/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.orienteering.1",
+          "number": "1",
+          "title": "First aid and safety",
+          "summary": "First aid for outdoor injuries and heat and cold reactions, and recognizing poisonous plants and animals.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.orienteering.10",
+              "number": "10",
+              "title": "Teaching orienteering",
+              "summary": "Teaching orienteering techniques to your patrol, troop or crew.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.orienteering.2",
+          "number": "2",
+          "title": "What orienteering is",
+          "summary": "The sport of orienteering and how it works.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.3",
+          "number": "3",
+          "title": "Compass skills",
+          "summary": "How a compass works and taking and following a bearing.",
+          "kind": "demonstration",
+          "relatedRequirementIds": [
+            "rank.first-class.4a"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.4",
+          "number": "4",
+          "title": "Topographic maps",
+          "summary": "Terrain features, map symbols, declination, measuring distance and orienting a map.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.5",
+          "number": "5",
+          "title": "Pacing",
+          "summary": "Setting up a pace course and finding your walking and running pace.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.6",
+          "number": "6",
+          "title": "Control descriptions",
+          "summary": "International control symbols and orienteering terms such as attack point and handrail.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.7",
+          "number": "7",
+          "title": "Orienteering events",
+          "summary": "Taking part in several events and reporting on each.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.8",
+          "number": "8",
+          "title": "Setting a course",
+          "summary": "One option: a cross-country course or a score course.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.9",
+          "number": "9",
+          "title": "Serving as an official",
+          "summary": "Serving as an official at an orienteering event.",
+          "kind": "service",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

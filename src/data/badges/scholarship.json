@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.scholarship",
+  "slug": "scholarship",
+  "description": "Scholarship recognizes effort in school: good or improving grades, exploring education and careers, a note on your conduct and service, teamwork in school activities, and reflecting on how school prepares you for the future.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/scholarship/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/scholarship/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.scholarship.1",
+          "number": "1",
+          "title": "Your grades",
+          "summary": "Showing a strong average for a term, or improvement over the previous period.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.scholarship.2",
+          "number": "2",
+          "title": "Education and careers",
+          "summary": "Two options, such as visiting an educational place or interviewing professionals about their training.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.scholarship.3",
+          "number": "3",
+          "title": "A note on your conduct",
+          "summary": "A note from a school official, or a parent if homeschooled, about your behavior, leadership and service.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.scholarship.4",
+          "number": "4",
+          "title": "Teamwork",
+          "summary": "One option: a school activity and what it taught you about teamwork, or a team project.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.scholarship.5",
+          "number": "5",
+          "title": "A written report",
+          "summary": "A short report on how school will help your future or your career interests.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

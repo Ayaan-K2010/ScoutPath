@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.small-boat-sailing",
+  "slug": "small-boat-sailing",
+  "description": "Small-Boat Sailing teaches you to sail a small boat safely: hazards and first aid, Safety Afloat and the rules of the road, weather, preparing and rigging a boat, points of sail, tacking and jibing, capsize and person-overboard recovery, knots, and boat care.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Sailing follows Safety Afloat with a qualified supervisor; pass the swimmer test and wear a life jacket."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

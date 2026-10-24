@@ -96,9 +96,9 @@ export function RanksPage() {
       <div className="stack-lg">
         {selected && content.rankById.has(selected) && <RankDashboard rankId={selected} />}
 
-        <Callout tone="warn" title="Draft outlines">
-          Rank outlines here are ScoutPath summaries that have not been checked against the current official requirements. Requirements change, and
-          the version that applies to you depends on when you started. Confirm with your unit leader and the official Scouts BSA requirements.
+        <Callout tone="info" title="Checked against the 2025 rank requirements">
+          Rank outlines follow the official Scouts BSA rank requirements effective January 1, 2025, with ScoutPath’s own summaries in place of the official
+          wording. The version that applies to you depends on when you started. Confirm with your unit leader and the official Scouts BSA requirements.
         </Callout>
 
         <ol className="rank-ladder">

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.sports",
+  "slug": "sports",
+  "description": "Sports is about being a good athlete and a good sport: preparation, healthy habits and injury first aid, the skills, rules and etiquette of two sports you choose, a season of play, and careers or lifelong activity in sports.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

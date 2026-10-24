@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.rifle-shooting",
+  "slug": "rifle-shooting",
+  "description": "Rifle Shooting teaches firearm safety and marksmanship: safety at home and on the range, laws and hunting ethics, rifle parts and care, shooting fundamentals, and qualifying with a modern rifle, air rifle or muzzleloader under a certified instructor.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Shooting is done only on an approved range under a certified range officer and instructor, following the National Range and Target Activities Manual."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

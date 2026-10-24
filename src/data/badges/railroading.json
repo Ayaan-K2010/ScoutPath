@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.railroading",
+  "slug": "railroading",
+  "description": "Railroading covers how railroads move people and freight: trains, railcars and locomotives, passenger rail and transit, careers and the industry, safety around tracks and crossings, signals, and model railroading or railfanning.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Stay off tracks and railroad property; the only safe place to cross is at a designated crossing."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

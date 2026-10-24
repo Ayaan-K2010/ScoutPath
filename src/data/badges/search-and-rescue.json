@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.search-and-rescue",
+  "slug": "search-and-rescue",
+  "description": "Search and Rescue teaches how lost people are found: first aid for searchers and subjects, trip plans and signaling, maps, GPS and coordinate systems, how SAR teams and incident command work, and planning and carrying out a practice search.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Practice searches are simulations with adult leadership; real searches are run by trained responders."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.engineering",
+  "slug": "engineering",
+  "description": "Engineering is about solving problems through design: investigating how a manufactured item works, the many kinds of engineers, visiting an engineer, designing an original device with the systems approach, hands-on projects, professional registration and ethics, and engineering careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/engineering/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The 2026 update added requirement 9 on engineering careers. Requirement 8 was not visible in the excerpts and is not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/engineering/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.engineering.1",
+          "number": "1",
+          "title": "How something works",
+          "summary": "Investigating how and why a manufactured item in your home works.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.engineering.2",
+          "number": "2",
+          "title": "Types of engineers",
+          "summary": "The work of several types of engineers and how two of them relate to engineering.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.engineering.3",
+          "number": "3",
+          "title": "Visiting an engineer",
+          "summary": "An engineer’s tools, a current project and the reports they write.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.engineering.4",
+          "number": "4",
+          "title": "A design project",
+          "summary": "Designing an original device with the systems engineering approach.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.engineering.5",
+          "number": "5",
+          "title": "Engineering projects",
+          "summary": "Two options, such as transforming motion, using electricity or materials, converting energy, moving people, or an engineering project.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.engineering.6",
+          "number": "6",
+          "title": "Professional engineers",
+          "summary": "What a registered Professional Engineer is and where registration matters most.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.engineering.7",
+          "number": "7",
+          "title": "Engineering ethics",
+          "summary": "The Engineer’s Code of Ethics and how it compares with the Scout Oath and Law.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.engineering.9",
+          "number": "9",
+          "title": "Careers",
+          "summary": "Researching careers in engineering.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

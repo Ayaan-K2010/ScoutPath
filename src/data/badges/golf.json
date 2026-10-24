@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.golf",
+  "slug": "golf",
+  "description": "Golf can be earned through traditional golf or disc golf: safety and first aid, the rules and etiquette, handicapping or scoring, history, fitness, swing or throwing fundamentals, playing rounds with others, and golf careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

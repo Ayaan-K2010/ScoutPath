@@ -2,11 +2,144 @@
   "schemaVersion": 1,
   "id": "mb.weather",
   "slug": "weather",
-  "description": "Weather connects the science of the atmosphere — air masses, fronts, clouds and the water cycle — with the practical safety decisions Scouts make outdoors. ScoutPath has gathered background resources and a study set, but the requirement outline has not been written yet.",
+  "description": "Weather explains what makes the sky do what it does: meteorology and climate, dangerous weather and staying safe, forecasts and warnings, pressure systems and fronts, wind, rain, lightning and hail, clouds, the water cycle, climate, and observing or meeting a weather professional.",
   "lastReviewed": null,
-  "safety": { "sensitive": true, "reviewed": false, "note": "Severe-weather safety guidance comes from the National Weather Service and your local authorities." },
-  "currentVersion": null,
-  "versions": [],
-  "relatedResourceIds": ["res.nws-lightning-safety", "res.noaa-jetstream-weather-maps", "res.noaa-weather-systems", "res.nws-cloud-chart", "res.noaa-jetstream-lightning"],
-  "studySetIds": ["study.weather-and-lightning"]
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Know the difference between a watch and a warning, and take shelter at the first sign of lightning."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/weather/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/weather/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.weather.1",
+          "number": "1",
+          "title": "Weather and climate",
+          "summary": "What meteorology is and how weather differs from climate.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.weather.10",
+              "number": "10",
+              "title": "Observing weather",
+              "summary": "One option: building an instrument and keeping a weather log, or meeting a weather professional.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.weather.11",
+              "number": "11",
+              "title": "Teaching weather safety",
+              "summary": "A short talk on lightning, flash flood and tornado safety.",
+              "kind": "activity",
+              "safetySensitive": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.weather.2",
+          "number": "2",
+          "title": "Dangerous weather",
+          "summary": "Dangerous weather conditions, safety rules for each, and watches versus warnings.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.camping.1b"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.weather.3",
+          "number": "3",
+          "title": "Forecasts and warnings",
+          "summary": "Where to get weather forecasts and emergency warnings.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.weather.4",
+          "number": "4",
+          "title": "Pressure and fronts",
+          "summary": "High and low pressure systems, and cross sections of cold and warm fronts.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.weather.5",
+          "number": "5",
+          "title": "Wind, rain, lightning and hail",
+          "summary": "What causes wind, rain, lightning and hail.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.weather.6",
+          "number": "6",
+          "title": "Clouds",
+          "summary": "Low, middle and high clouds and the weather each brings.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.weather.7",
+          "number": "7",
+          "title": "The water cycle",
+          "summary": "Diagramming and explaining the water cycle.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.weather.8",
+          "number": "8",
+          "title": "People and climate",
+          "summary": "Human activities that change the environment and climate.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.weather.9",
+          "number": "9",
+          "title": "Climates of the Earth",
+          "summary": "How Earth’s tilt shapes climates from the equator to the poles.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [
+    "res.nws-lightning-safety",
+    "res.noaa-jetstream-weather-maps",
+    "res.noaa-weather-systems",
+    "res.nws-cloud-chart",
+    "res.noaa-jetstream-lightning"
+  ],
+  "studySetIds": [
+    "study.weather-and-lightning"
+  ]
 }

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.robotics",
+  "slug": "robotics",
+  "description": "Robotics introduces how robots sense, think and move: safety, kinds of robots and how they move, the major fields of robotics, designing, building, programming and testing your own robot, competitions, and careers or hobbies.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/robotics/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The 2026 update added a careers-or-hobby choice as requirement 7.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/robotics/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.robotics.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Hazards of working with robots, protective gear and first aid.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.robotics.2",
+          "number": "2",
+          "title": "Robot basics",
+          "summary": "What robots do, remote-controlled versus autonomous robots, and ways robots move.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.robotics.3",
+          "number": "3",
+          "title": "Fields of robotics",
+          "summary": "Several major fields of robotics and why they matter.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.robotics.4",
+          "number": "4",
+          "title": "Building a robot",
+          "summary": "Designing, building, programming and testing a robot, with an engineering notebook.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.robotics.5",
+          "number": "5",
+          "title": "Demonstrating your robot",
+          "summary": "Showing your robot and reviewing your notebook with your counselor.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.robotics.6",
+          "number": "6",
+          "title": "Competitions",
+          "summary": "One option: attending a robotics competition, or researching youth competitions.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.robotics.7",
+          "number": "7",
+          "title": "Careers or hobbies",
+          "summary": "One option: robotics careers, or a hobby that uses these skills.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

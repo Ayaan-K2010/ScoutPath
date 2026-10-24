@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.fly-fishing",
+  "slug": "fly-fishing",
+  "description": "Fly Fishing teaches the craft of fishing with flies: safety, a balanced rod, line and leader, knots, the kinds of flies and tying your own, casting, reading what fish eat, catch and release, regulations and sportsmanship, and catching and cooking a fish.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Wear eye protection while casting and a life jacket on boats; know how to remove a hook safely."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/fly-fishing/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/fly-fishing/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.fly-fishing.1",
+          "number": "1",
+          "title": "Health and safety",
+          "summary": "Likely hazards, safety practices, and preventing and treating common problems such as cuts, hypothermia and sunburn.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.fly-fishing.10",
+              "number": "10",
+              "title": "Catching a fish",
+              "summary": "Catching a fish on a fly and identifying it.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.fly-fishing.11",
+              "number": "11",
+              "title": "Cleaning and cooking",
+              "summary": "Where regulations allow, cleaning and cooking a fish.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.fly-fishing.2",
+          "number": "2",
+          "title": "A balanced system",
+          "summary": "Matching rod, line and leader, types of fly line, and caring for your gear.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.3",
+          "number": "3",
+          "title": "Knots",
+          "summary": "The knots that join backing, line, leader, tippet and fly.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.4",
+          "number": "4",
+          "title": "Flies",
+          "summary": "The main kinds of flies, what they imitate, and tying flies of your own.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.5",
+          "number": "5",
+          "title": "Casting",
+          "summary": "Overhead and roll casts at a set distance.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.6",
+          "number": "6",
+          "title": "Observing fish",
+          "summary": "What fish eat above and below the surface, and matching the hatch.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.7",
+          "number": "7",
+          "title": "Catch and release",
+          "summary": "What catch and release means and how to release a fish safely.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.8",
+          "number": "8",
+          "title": "Regulations",
+          "summary": "Local fishing regulations and why they exist.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.9",
+          "number": "9",
+          "title": "Sportsmanship",
+          "summary": "Outdoor ethics for anglers, including Leave No Trace and the Outdoor Code.",
+          "kind": "discussion",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

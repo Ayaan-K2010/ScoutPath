@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.soil-and-water-conservation",
+  "slug": "soil-and-water-conservation",
+  "description": "Soil and Water Conservation explores the ground beneath us and the water that moves through it: how soil forms, erosion and how to control it, watersheds and aquifers, the water cycle, water pollution and treatment, and hands-on conservation work.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/soil-and-water-conservation/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/soil-and-water-conservation/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.soil-and-water-conservation.1",
+          "number": "1",
+          "title": "Soil",
+          "summary": "What soil is, how it forms and the main plant nutrients.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.soil-and-water-conservation.2",
+          "number": "2",
+          "title": "Erosion",
+          "summary": "What erosion is, its effects and its types, with examples.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.soil-and-water-conservation.3",
+          "number": "3",
+          "title": "Conservation practices",
+          "summary": "What conservation means and how erosion-control methods work.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.soil-and-water-conservation.4",
+          "number": "4",
+          "title": "Watersheds",
+          "summary": "Watersheds, river basins and aquifers, and mapping a watershed.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.soil-and-water-conservation.5",
+          "number": "5",
+          "title": "The water cycle",
+          "summary": "The hydrologic cycle, how soil holds water, and how land use affects water supply.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.soil-and-water-conservation.6",
+          "number": "6",
+          "title": "Water pollution",
+          "summary": "Sources and effects of water pollution and how wastewater is treated.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.soil-and-water-conservation.7",
+          "number": "7",
+          "title": "Conservation field work",
+          "summary": "Two options, such as a site visit, planting trees, seeding an area or tackling a local erosion or pollution problem.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.public-health",
+  "slug": "public-health",
+  "description": "Public Health looks at how communities prevent disease: how diseases spread, immunization, safe water and sanitation, controlling disease vectors, food safety, health hazards such as tobacco and pollution, the work of public health agencies, and careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

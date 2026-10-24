@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.painting",
+  "slug": "painting",
+  "description": "Painting is about protective and decorative coatings: safe surface preparation, kinds of paint and finishes, painting two different surfaces, color harmony, caring for equipment, ladder and personal safety, environmental concerns, and careers or hobbies.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Use ventilation and protective gear, follow ladder safety, and have an adult check for lead paint before sanding older surfaces."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/painting/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/painting/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.painting.1",
+          "number": "1",
+          "title": "Safe practices",
+          "summary": "Safe practices for preparing surfaces and applying coatings.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.painting.2",
+          "number": "2",
+          "title": "Paints and finishes",
+          "summary": "How coatings protect surfaces, kinds of paint and finishes, and why sheen matters.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.painting.3",
+          "number": "3",
+          "title": "Painting two surfaces",
+          "summary": "Preparing and painting two different surfaces with primers and topcoats.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.painting.4",
+          "number": "4",
+          "title": "Color harmony",
+          "summary": "Painting an item in harmonizing colors chosen with the color wheel.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.painting.5",
+          "number": "5",
+          "title": "Equipment care",
+          "summary": "Using, cleaning and storing painting equipment.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.painting.6",
+          "number": "6",
+          "title": "Ladders and protection",
+          "summary": "Ladder safety, personal hygiene and protective equipment.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.painting.7",
+          "number": "7",
+          "title": "Environment and health",
+          "summary": "Concerns about removing, applying and disposing of paint.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.painting.8",
+          "number": "8",
+          "title": "Careers or hobbies",
+          "summary": "One option: a painting career, or a hobby that uses these skills.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

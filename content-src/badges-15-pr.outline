@@ -1,0 +1,67 @@
+# Badges P–R — checked against official scouting.org excerpts.
+
+@owner mb.pottery
+@complete complete
+@desc Pottery is a hands-on clay craft: studio safety, clay bodies and potter’s wheels, designing forms, pottery terms, making hand-built, sculpted and wheel-thrown pieces, firing a kiln, the ceramics industry, and a field experience.
+@safety Kilns reach extreme temperatures; load and fire them only with a qualified adult, and keep dust down when working with dry clay and glazes.
+1 k! Safety :: Safety precautions for a potter’s tools, materials and kiln.
+2 k Clay and wheels :: What makes a good clay body, and how different kinds of potter’s wheels work.
+3 a Designing forms :: Sketching pottery forms, one in a historical style and one of your own design.
+4 k Pottery terms :: Terms such as wedging, bisque, slip, stoneware and glaze.
+5 a Making pottery :: Hand-built and sculpted pieces, a wheel-thrown piece, and helping fire a kiln.
+6 k The ceramics industry :: The ceramics industry and the products it makes beyond craft pottery.
+7 a A field experience :: One option: a kiln yard or studio visit, a museum, or researching pottery’s cultural importance.
+
+@owner mb.programming
+@complete complete
+@desc Programming teaches how software is written: digital safety and healthy computer habits, the history of programming, popular languages and the devices they run, software intellectual property, writing and debugging programs in several languages, and careers.
+1 k Safety :: The Digital Safety video and preventing injuries such as eyestrain and repetitive stress.
+2 k History :: How programming developed, with several milestones.
+3 k Languages and devices :: Popular programming languages, the industries that use them, and programmed devices you use.
+4 k Intellectual property :: How software is protected, licensing versus owning, and free, open-source and commercial software.
+5 a Writing programs :: Writing or modifying programs in several languages that take input, make decisions and produce output.
+6 a Careers :: Programming careers and researching one of them.
+
+@owner mb.public-health
+@note The official page said the requirements were updated in 2025, but the excerpt appeared to show the earlier version, so no requirement outline is published yet.
+@desc Public Health looks at how communities prevent disease: how diseases spread, immunization, safe water and sanitation, controlling disease vectors, food safety, health hazards such as tobacco and pollution, the work of public health agencies, and careers.
+
+@owner mb.public-speaking
+@complete complete
+@desc Public Speaking builds confidence in front of a group: introducing yourself, a prepared talk with visual aids, speaking impromptu, researching and delivering a longer speech, and running a meeting by the rules of order.
+1 a Introducing yourself :: A short talk introducing yourself to a group.
+2 a A prepared talk :: A short talk on a topic you choose, using body language and visual aids.
+3 a An impromptu talk :: Speaking on a topic you do not know in advance.
+4 a A longer speech :: Researching, outlining and delivering a longer speech in a conversational style.
+5 demo Parliamentary procedure :: Leading a meeting by the rules of order, or answering questions about them.
+
+@owner mb.pulp-and-paper
+@complete complete
+@desc Pulp and Paper explores how trees become paper: papermaking history, forest management and sustainability, fiber sources and pulping, how paper is made and recycled, coated and modified papers, paper products at home, and visiting a mill or plant.
+1 k History :: The history of papermaking and paper’s role in society and the economy.
+2 k The industry and forests :: How the industry grows and harvests trees, sustainable forest management, and reducing pollution.
+3 k Fibers and pulp :: Trees used for papermaking, extracting fibers and bleaching pulp.
+4 a Making paper :: How paper is made and recycled, and making a sheet by hand.
+5 k Coated paper :: What coated paper is, its uses, and other ways paper is modified.
+6 a Paper at home :: Pulp and paper products found in your home.
+7 a A visit or research :: One option: visiting a mill or plant, or researching how paper products are developed.
+
+@owner mb.radio
+@note Radio was restructured for 2026 to include cell phones, Wi-Fi, Bluetooth and RFID, with a choice of amateur or professional radio options. The excerpts mixed the old and new versions, so no requirement outline is published yet.
+@desc Radio explores how wireless communication works: radio safety and fundamentals, hardware and services, regulation, cell phones and other wireless technology, and hands-on amateur or professional radio options.
+
+@owner mb.railroading
+@note Excerpts showed the topics (freight and equipment, passenger rail and transit, careers, rail safety, crossings, signals, and a model railroading or railfanning option) but not their numbering, so no requirement outline is published yet.
+@desc Railroading covers how railroads move people and freight: trains, railcars and locomotives, passenger rail and transit, careers and the industry, safety around tracks and crossings, signals, and model railroading or railfanning.
+@safety Stay off tracks and railroad property; the only safe place to cross is at a designated crossing.
+
+@owner mb.reading
+@complete complete
+@desc Reading builds lifelong reading habits: using a library catalog, exploring authors and book lists, reading and responding to different kinds of books, a how-to project, keeping up with current information, reading-related service, and careers.
+1 a The library :: Touring a library, using its catalog and finding books of several types.
+2 a Books you enjoy :: A favorite book, the author’s other works and recommended book lists.
+3 a Reading variety :: Reading several kinds of books and responding to each with a review, comparison or book talk.
+4 a A how-to book :: Reading a how-to book and completing a project from it.
+5 a Current information :: Reading about the world from more than one source and discussing it.
+6 s Reading service :: A reading-related service activity, such as reading to others or volunteering at a library.
+7 a Careers :: Careers that use reading skills and researching one of them.

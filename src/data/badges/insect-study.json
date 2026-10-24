@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.insect-study",
+  "slug": "insect-study",
+  "description": "Insect Study introduces the most numerous animals on Earth: safety around stinging insects, anatomy and orders, life cycles, observing and identifying insects, social insects, their role in ecosystems and agriculture, conservation, and careers or hobbies.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Know how to recognize and respond to severe allergic reactions to stings."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/insect-study/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Collect insects only where it is legal; collecting is prohibited in many parks and refuges.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/insect-study/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.insect-study.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Hazards from stinging and biting insects and treating stings, including severe allergic reactions.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.2",
+          "number": "2",
+          "title": "Anatomy and orders",
+          "summary": "How insects differ from other arthropods, and the major insect orders.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.3",
+          "number": "3",
+          "title": "Life cycles",
+          "summary": "Complete and incomplete metamorphosis, and raising an insect through its life cycle.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.4",
+          "number": "4",
+          "title": "Observing insects",
+          "summary": "Observing and identifying live insects across several orders and their roles in ecosystems.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.5",
+          "number": "5",
+          "title": "Social insects",
+          "summary": "One option: observing an ant colony or a beehive.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.6",
+          "number": "6",
+          "title": "Insects in ecosystems",
+          "summary": "Insects in food webs and as pollinators.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.7",
+          "number": "7",
+          "title": "Insects and people",
+          "summary": "Bees and colony collapse, and alternatives to insecticides.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.8",
+          "number": "8",
+          "title": "Conservation",
+          "summary": "An insect migration and a threatened or endangered insect.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.insect-study.9",
+          "number": "9",
+          "title": "Careers or hobbies",
+          "summary": "One option: an insect-related career, or a hobby.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -25,8 +25,8 @@ describe('routes', () => {
   it('renders a badge page with its requirement hierarchy', async () => {
     renderAt('/merit-badges/first-aid');
     expect(await screen.findByRole('heading', { level: 1, name: /First Aid/ })).toBeInTheDocument();
-    expect(screen.getByText('Emergency basics')).toBeInTheDocument();
-    expect(screen.getByText('Draft outline — check the official requirements')).toBeInTheDocument();
+    expect(screen.getByText('Bleeding')).toBeInTheDocument();
+    expect(screen.getByText('Partial outline — some requirements not shown yet')).toBeInTheDocument();
   });
 
   it('shows a content-being-reviewed state for a listed badge without an outline', async () => {
@@ -37,19 +37,19 @@ describe('routes', () => {
 
   it('renders a requirement page and records personal progress locally', async () => {
     const user = userEvent.setup();
-    renderAt('/merit-badges/first-aid/requirements/4a');
-    expect(await screen.findByRole('heading', { level: 1, name: /Shock, heart attack, and stroke/ })).toBeInTheDocument();
+    renderAt('/merit-badges/first-aid/requirements/7');
+    expect(await screen.findByRole('heading', { level: 1, name: /Heart attack, CPR, and AEDs/ })).toBeInTheDocument();
     expect(screen.getByText('ScoutPath summary · not official wording')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'All First Aid requirements' })).toHaveAttribute('href', '/merit-badges/first-aid');
     await user.click(screen.getByLabelText('Learning'));
-    expect(userStore.getSnapshot().progress['mb.first-aid.4a'].state).toBe('learning');
-    expect(JSON.parse(localStorage.getItem('scoutpath:user:v1')!).progress['mb.first-aid.4a'].state).toBe('learning');
-    expect(userStore.getSnapshot().recent[0].id).toBe('mb.first-aid.4a');
+    expect(userStore.getSnapshot().progress['mb.first-aid.7'].state).toBe('learning');
+    expect(JSON.parse(localStorage.getItem('scoutpath:user:v1')!).progress['mb.first-aid.7'].state).toBe('learning');
+    expect(userStore.getSnapshot().recent[0].id).toBe('mb.first-aid.7');
   });
 
   it('bookmarks a resource', async () => {
     const user = userEvent.setup();
-    renderAt('/merit-badges/first-aid/requirements/4e');
+    renderAt('/merit-badges/first-aid/requirements/5');
     const save = await screen.findByRole('button', { name: /Save “Adult and child choking/ });
     await user.click(save);
     expect(userStore.getSnapshot().saved['res.redcross-choking']).toBeDefined();

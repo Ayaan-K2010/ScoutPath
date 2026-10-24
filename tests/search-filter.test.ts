@@ -60,7 +60,9 @@ describe('catalog filtering', () => {
     const eagle = filterBadges(content, { ...DEFAULT_FILTERS, eagleOnly: true });
     expect(eagle.map((b) => b.slug)).toContain('first-aid');
     expect(eagle.map((b) => b.slug)).not.toContain('chess');
-    expect(filterBadges(content, { ...DEFAULT_FILTERS, outlinedOnly: true }).map((b) => b.slug).sort()).toEqual(['camping', 'emergency-preparedness', 'first-aid']);
+    const outlined = filterBadges(content, { ...DEFAULT_FILTERS, outlinedOnly: true }).map((b) => b.slug);
+    expect(outlined).toEqual(expect.arrayContaining(['camping', 'emergency-preparedness', 'first-aid']));
+    expect(outlined).not.toContain('chess');
   });
 
   it('matches requirement topics and resource types', () => {

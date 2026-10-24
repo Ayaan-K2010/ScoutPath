@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.radio",
+  "slug": "radio",
+  "description": "Radio explores how wireless communication works: radio safety and fundamentals, hardware and services, regulation, cell phones and other wireless technology, and hands-on amateur or professional radio options.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

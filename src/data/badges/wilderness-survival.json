@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.wilderness-survival",
+  "slug": "wilderness-survival",
+  "description": "Wilderness Survival teaches you to prevent and handle a backcountry emergency: first aid and trip plans, survival priorities, avoiding panic, first aid and survival kits, improvised shelter, fire without matches, signaling, treating water, why not to rely on wild food, and careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Practice survival skills with adult supervision and a trip plan; a night in an improvised shelter needs leader approval."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/wilderness-survival/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The badge emphasizes staying safe until rescue rather than living off the land.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/wilderness-survival/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.wilderness-survival.1",
+          "number": "1",
+          "title": "Hazards and first aid",
+          "summary": "First aid and prevention for backcountry conditions, the Scout Basic Essentials and trip plans.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.wilderness-survival.10",
+              "number": "10",
+              "title": "Careers",
+              "summary": "One option related to survival careers.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.wilderness-survival.2",
+          "number": "2",
+          "title": "Survival priorities",
+          "summary": "The priorities for survival and why each matters.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.3",
+          "number": "3",
+          "title": "Avoiding panic",
+          "summary": "Keeping calm and morale up when lost.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.4",
+          "number": "4",
+          "title": "Kits",
+          "summary": "Assembling and using a personal first aid kit and survival kit.",
+          "kind": "activity",
+          "relatedRequirementIds": [
+            "mb.first-aid.2"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.5",
+          "number": "5",
+          "title": "Shelter",
+          "summary": "Staying safe in different conditions and building and spending a night in an improvised shelter.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.6",
+          "number": "6",
+          "title": "Fire",
+          "summary": "Lighting fires by several methods other than matches.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.7",
+          "number": "7",
+          "title": "Signaling",
+          "summary": "Signaling search teams, using a signal mirror and ground-to-air signals.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.8",
+          "number": "8",
+          "title": "Water",
+          "summary": "Ways to treat water for drinking.",
+          "kind": "demonstration",
+          "relatedRequirementIds": [
+            "mb.camping.6b"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.9",
+          "number": "9",
+          "title": "Wild food",
+          "summary": "Why eating wild plants or animals is usually unwise in a survival situation.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": [
+    "study.camp-ready"
+  ]
+}

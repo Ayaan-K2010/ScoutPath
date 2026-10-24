@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.electricity",
+  "slug": "electricity",
+  "description": "Electricity covers how electricity works and how to use it safely: responding to electrical emergencies, inspecting your home, circuits, fuses and breakers, reading your meter and bill, the units and devices of electricity, and building simple circuits and motors.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Never work on household wiring or touch a downed line. Electrical emergencies call for shutting off power and calling for help, not touching the person."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

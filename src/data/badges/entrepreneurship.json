@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.entrepreneurship",
+  "slug": "entrepreneurship",
+  "description": "Entrepreneurship teaches how new businesses start: what entrepreneurs do, the skills they need, learning from someone who started a business, generating and choosing an idea, writing a business plan, and thinking through success, problems and ethics.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/entrepreneurship/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/entrepreneurship/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.entrepreneurship.1",
+          "number": "1",
+          "title": "What entrepreneurship is",
+          "summary": "What entrepreneurship is and its role in the economy.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.entrepreneurship.2",
+          "number": "2",
+          "title": "Skills of an entrepreneur",
+          "summary": "Why skills such as communication, planning and leadership matter to entrepreneurs.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.entrepreneurship.3",
+          "number": "3",
+          "title": "Interviewing an entrepreneur",
+          "summary": "Interviewing someone who started a business and discussing what you learned.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.entrepreneurship.4",
+          "number": "4",
+          "title": "Business ideas",
+          "summary": "Brainstorming ideas, narrowing them down and choosing the best one.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.entrepreneurship.5",
+          "number": "5",
+          "title": "A business plan",
+          "summary": "A plan covering your product, market, finances, people and marketing.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.entrepreneurship.6",
+          "number": "6",
+          "title": "Running the business",
+          "summary": "Likely successes, problems and ethical questions once the business is running.",
+          "kind": "discussion",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

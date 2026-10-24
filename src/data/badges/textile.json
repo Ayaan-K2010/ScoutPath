@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.textile",
+  "slug": "textile",
+  "description": "Textile explores the fibers and fabrics around us: what textiles are, natural and synthetic fibers, how yarn and fabric are made, hands-on projects such as weaving, felting and dyeing, textile terms, environmental concerns, and careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/textile/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/textile/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.textile.1",
+          "number": "1",
+          "title": "What textiles are",
+          "summary": "Why textiles matter and what fiber, fabric and textile mean.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.textile.2",
+          "number": "2",
+          "title": "Fibers and fabrics",
+          "summary": "Samples of natural, synthetic and cellulosic fabrics, and how fiber becomes yarn and fabric.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.textile.3",
+          "number": "3",
+          "title": "Textile projects",
+          "summary": "Two options, such as weaving on a homemade loom, making felt, natural dyeing or testing fibers.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.textile.4",
+          "number": "4",
+          "title": "Textile terms",
+          "summary": "Terms such as warp, heddle, loom and worsted.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.textile.5",
+          "number": "5",
+          "title": "Fibers and the environment",
+          "summary": "Pros and cons of the main fiber types and environmental concerns in textile production.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.textile.6",
+          "number": "6",
+          "title": "Careers",
+          "summary": "Careers in the textile industry and two that interest you.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

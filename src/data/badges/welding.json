@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.welding",
+  "slug": "welding",
+  "description": "Welding introduces joining metal with heat: welding hazards and first aid, protective equipment and safety data sheets, cutting methods, welding processes and setup, practice beads and joints, and caring for equipment.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Welding is taught only by a qualified person, with eye, hearing, hand and foot protection in use at all times."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

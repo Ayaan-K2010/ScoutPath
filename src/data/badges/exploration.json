@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.exploration",
+  "slug": "exploration",
+  "description": "Exploration is about real expeditions: what exploration is, its history and fields, living explorers, and planning, preparing for and carrying out an expedition of your own, then reporting what you learned.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Expeditions need permission, an approved plan and qualified adult supervision."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/exploration/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts were jumbled for requirements 3–5, which are not outlined yet. The 2026 update revised requirements 8 and 9.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/exploration/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.exploration.1",
+          "number": "1",
+          "title": "What exploration is",
+          "summary": "How exploration differs from adventure travel, and how it works in settings from oceans to space to labs.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.exploration.2",
+          "number": "2",
+          "title": "History of exploration",
+          "summary": "The history of exploration and one field of study that shows its importance.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.exploration.6",
+          "number": "6",
+          "title": "Planning an expedition",
+          "summary": "Objectives, budget, equipment, communications, transportation, safety, first aid and team selection.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.exploration.7",
+          "number": "7",
+          "title": "Preparing for an expedition",
+          "summary": "Working with a qualified leader, listing gear and deciding who goes.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.exploration.8",
+          "number": "8",
+          "title": "An expedition",
+          "summary": "Carrying out a supervised expedition to a new area, practicing outdoor ethics, and writing a report.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.exploration.9",
+          "number": "9",
+          "title": "Careers",
+          "summary": "Researching a career related to exploration.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

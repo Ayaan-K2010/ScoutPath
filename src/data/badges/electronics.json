@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.electronics",
+  "slug": "electronics",
+  "description": "Electronics introduces how circuits work: safety, schematics, soldering, digital logic and binary, control and analog circuits, Ohm’s law and test equipment, and careers in electronics.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Soldering irons are hot enough to burn instantly; work with eye protection, good ventilation and adult supervision."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/electronics/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/electronics/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.electronics.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Safety precautions for using, building and repairing electronic devices.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.electronics.2",
+          "number": "2",
+          "title": "A schematic",
+          "summary": "Drawing a simple schematic with correct symbols and explaining each part.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.electronics.3",
+          "number": "3",
+          "title": "Soldering",
+          "summary": "Soldering and desoldering, avoiding heat damage, and printed circuit boards.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.electronics.4",
+          "number": "4",
+          "title": "Control, digital and analog",
+          "summary": "How electronics are used for control, digital logic and binary numbers, and one circuit project.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.electronics.5",
+          "number": "5",
+          "title": "Ohm’s law and test equipment",
+          "summary": "Ohm’s law, test equipment, resistor color codes and how circuits are assembled.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.electronics.6",
+          "number": "6",
+          "title": "Careers",
+          "summary": "Careers in electronics and researching one of them.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.gardening",
+  "slug": "gardening",
+  "description": "Gardening teaches how to grow food and flowers: garden safety, raising vegetables and flowers from seed and seedlings, nutrition, germination, pollinators, pests, a hands-on project such as composting or hydroponics, and gardening careers or hobbies.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Use gardening tools carefully and handle fertilizers and pesticides only with adult supervision, following label directions."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/gardening/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/gardening/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.gardening.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Garden hazards and preventing or treating related health problems, including pesticide exposure.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.gardening.2",
+          "number": "2",
+          "title": "Growing plants",
+          "summary": "Raising vegetables and flowers from seeds and seedlings.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.gardening.3",
+          "number": "3",
+          "title": "Nutrition",
+          "summary": "The nutritional value of root crops, above-ground vegetables and fruits.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.gardening.4",
+          "number": "4",
+          "title": "Germination",
+          "summary": "Testing seeds and working out the germination rate.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.gardening.5",
+          "number": "5",
+          "title": "A visit",
+          "summary": "Visiting an extension office, nursery, farm or garden and reporting on it.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.gardening.6",
+          "number": "6",
+          "title": "Pollinators",
+          "summary": "How honeybees pollinate crops and the threats bees face.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.gardening.7",
+          "number": "7",
+          "title": "Pests",
+          "summary": "Garden pests and solutions for each, including organic ones.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.gardening.8",
+          "number": "8",
+          "title": "A gardening project",
+          "summary": "One option, such as a compost or worm bin, hydroponics, a water garden or your own garden.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.gardening.9",
+          "number": "9",
+          "title": "Careers or hobbies",
+          "summary": "One option: a gardening career, or a gardening hobby or healthy lifestyle.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

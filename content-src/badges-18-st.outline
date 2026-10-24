@@ -1,0 +1,68 @@
+# Badges S–T — checked against official scouting.org excerpts.
+
+@owner mb.soil-and-water-conservation
+@complete complete
+@desc Soil and Water Conservation explores the ground beneath us and the water that moves through it: how soil forms, erosion and how to control it, watersheds and aquifers, the water cycle, water pollution and treatment, and hands-on conservation work.
+1 k Soil :: What soil is, how it forms and the main plant nutrients.
+2 a Erosion :: What erosion is, its effects and its types, with examples.
+3 k Conservation practices :: What conservation means and how erosion-control methods work.
+4 a Watersheds :: Watersheds, river basins and aquifers, and mapping a watershed.
+5 a The water cycle :: The hydrologic cycle, how soil holds water, and how land use affects water supply.
+6 k Water pollution :: Sources and effects of water pollution and how wastewater is treated.
+7 a Conservation field work :: Two options, such as a site visit, planting trees, seeding an area or tackling a local erosion or pollution problem.
+
+@owner mb.space-exploration
+@complete partial
+@note The excerpts ended before requirement 8 (careers), which is not outlined yet. Model rockets must follow National Association of Rocketry safety rules; an alternate is available where launches are not allowed.
+@desc Space Exploration covers why we explore space, the pioneers who led the way, building and launching a model rocket, the science of rockets and orbits, robotic and crewed missions, spacecraft and the International Space Station, and designing a base on another world.
+@safety Launch model rockets only with adult supervision, following the National Association of Rocketry safety code and local laws.
+1 k Why we explore :: The reasons for space exploration, its goals and its benefits on Earth.
+2 a Space pioneers :: A collector’s card about a space pioneer, and discussing several others.
+3 a! A model rocket :: Building, launching and recovering a model rocket, or the alternate where launches are not allowed.
+4 demo Rocket and space science :: Action and reaction, rocket engines, orbits and how spacecraft communicate.
+5 a Missions :: Two options on robotic and crewed missions, a current mission, or designing a sample-return mission.
+6 k Spacecraft :: The purpose and parts of a crewed orbital vehicle or the International Space Station.
+7 a A space base :: Designing an inhabited base and how it would provide energy, shelter and life support.
+
+@owner mb.sports
+@note Excerpts showed the topics (sportsmanship and preparation, first aid for sports injuries, two chosen sports with their skills and rules, a season of play, and a career or lifestyle option) but not reliable numbering, so no requirement outline is published yet.
+@desc Sports is about being a good athlete and a good sport: preparation, healthy habits and injury first aid, the skills, rules and etiquette of two sports you choose, a season of play, and careers or lifelong activity in sports.
+
+@owner mb.stamp-collecting
+@complete complete
+@desc Stamp Collecting introduces philately: what stamps teach about people and history, the postal system, kinds of collections and stamps, catalogs and collector tools, albums and preservation, stamp activities, and mounting a collection of your own.
+1 k Stamps and history :: What stamp collecting teaches about people, places and history, and how the postal system developed.
+2 k Kinds of collections :: Topical collecting and other kinds of stamp collections.
+3 a Kinds of stamps :: Examples of many kinds of stamps, such as mint and used stamps and first day covers.
+4 demo Catalogs :: Using a standard catalog and why catalog value differs from price.
+5 demo Collector tools :: Tools such as tongs, magnifiers, hinges and perforation gauges.
+6 demo Albums and preservation :: Mounting stamps and preserving stamps, covers and albums.
+7 a Stamp activities :: Two options, such as designing a stamp, visiting a stamp show or researching stamp history.
+8 a Your collection :: Mounting and showing a collection of your own.
+
+@owner mb.surveying
+@note The official page lists eight requirements, but only seven topics were visible in the excerpts (field safety, a lot survey, elevations, reading a deed, drones and laser scanning, GPS, and careers), so no requirement outline is published yet.
+@desc Surveying teaches how land is measured and mapped: field safety, surveying a lot with instruments and GPS, finding elevations, reading a deed, new technologies like drones and laser scanning, and careers in surveying.
+
+@owner mb.textile
+@complete complete
+@desc Textile explores the fibers and fabrics around us: what textiles are, natural and synthetic fibers, how yarn and fabric are made, hands-on projects such as weaving, felting and dyeing, textile terms, environmental concerns, and careers.
+1 k What textiles are :: Why textiles matter and what fiber, fabric and textile mean.
+2 a Fibers and fabrics :: Samples of natural, synthetic and cellulosic fabrics, and how fiber becomes yarn and fabric.
+3 a Textile projects :: Two options, such as weaving on a homemade loom, making felt, natural dyeing or testing fibers.
+4 k Textile terms :: Terms such as warp, heddle, loom and worsted.
+5 k Fibers and the environment :: Pros and cons of the main fiber types and environmental concerns in textile production.
+6 a Careers :: Careers in the textile industry and two that interest you.
+
+@owner mb.theater
+@complete complete
+@desc Theater explores the stage from both sides of the curtain: reading or watching plays, writing a one-act play, safety and the roles of cast and crew, pantomime, and the language of the stage.
+1 a Plays :: Watching or reading full-length plays and reviewing each.
+2 a Writing a play :: Writing a short one-act play with a main character, a conflict and a climax.
+3 a Safety and roles :: Theater safety and several roles, such as acting, directing, design or stage management.
+4 demo Pantomime :: Miming a scenario your counselor chooses.
+5 k Stage terms :: Terms such as proscenium, stage left and right, flies and sightlines.
+
+@owner mb.traffic-safety
+@note The scraped official page had inconsistent numbering, so no requirement outline is published yet. Topics include impaired and distracted driving, vehicle safety, traffic laws and crashes, road design and signs, sharing the road, and a personal pledge and safety event.
+@desc Traffic Safety is about getting everyone home safely: impaired, distracted and drowsy driving, vehicle safety features and maintenance, traffic laws and what to do after a crash, roads and signs, sharing the road with cyclists, pedestrians and school buses, and promoting traffic safety.

@@ -252,8 +252,21 @@ const catalog = JSON.parse(readFileSync(catalogPath, 'utf8')) as { badges: { slu
 const known = new Set(catalog.badges.map((b) => b.slug));
 const unknown = [...confirmed].filter((s) => !known.has(s));
 if (unknown.length) throw new Error(`Confirmed or outlined badges missing from catalog.json: ${unknown.join(', ')}`);
+// Pamphlets: content-src/pamphlets.map lists official pamphlet PDFs seen in scouting.org results.
+const pamphletFile = join(SRC, 'pamphlets.map');
+const pamphlets = new Map<string, string>();
+if (existsSync(pamphletFile)) {
+  for (const raw of readFileSync(pamphletFile, 'utf8').split('\n')) {
+    const line = raw.trim();
+    if (!line || line.startsWith('#')) continue;
+    const [slug, url] = line.split('|').map((x) => x.trim());
+    if (!known.has(slug)) throw new Error(`pamphlets.map: ${slug} is not in catalog.json`);
+    pamphlets.set(slug, url);
+  }
+}
 let marked = 0;
-for (const b of catalog.badges) {
+for (const b of catalog.badges as { slug: string; catalogStatus: string; eagle: { verified: boolean }; pamphletUrl?: string }[]) {
+  if (pamphlets.has(b.slug)) b.pamphletUrl = pamphlets.get(b.slug);
   if (!confirmed.has(b.slug)) continue;
   b.catalogStatus = 'verified';
   b.eagle.verified = true;

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.safety",
+  "slug": "safety",
+  "description": "Safety is about recognizing and reducing risk: what safety means, home inspections and escape plans, personal and online safety, what to do in emergencies in public places, and safety as a pedestrian and passenger.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

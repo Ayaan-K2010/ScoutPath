@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.programming",
+  "slug": "programming",
+  "description": "Programming teaches how software is written: digital safety and healthy computer habits, the history of programming, popular languages and the devices they run, software intellectual property, writing and debugging programs in several languages, and careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/programming/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/programming/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.programming.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "The Digital Safety video and preventing injuries such as eyestrain and repetitive stress.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.programming.2",
+          "number": "2",
+          "title": "History",
+          "summary": "How programming developed, with several milestones.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.programming.3",
+          "number": "3",
+          "title": "Languages and devices",
+          "summary": "Popular programming languages, the industries that use them, and programmed devices you use.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.programming.4",
+          "number": "4",
+          "title": "Intellectual property",
+          "summary": "How software is protected, licensing versus owning, and free, open-source and commercial software.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.programming.5",
+          "number": "5",
+          "title": "Writing programs",
+          "summary": "Writing or modifying programs in several languages that take input, make decisions and produce output.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.programming.6",
+          "number": "6",
+          "title": "Careers",
+          "summary": "Programming careers and researching one of them.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

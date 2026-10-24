@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.woodwork",
+  "slug": "woodwork",
+  "description": "Woodwork teaches safe, skilled work with wood: shop safety and the Totin’ Chip, how lumber is grown, milled and graded, caring for and sharpening tools, building useful projects from your own drawings, and careers in woodworking.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Wear eye and hearing protection and a dust mask, keep tools sharp, and use power tools only with adult supervision."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/woodwork/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirements 5 and 6 were not visible in the excerpts and are not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/woodwork/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.woodwork.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Woodworking hazards, first aid, eye, hearing and dust protection, and the Totin’ Chip.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.woodwork.2",
+          "number": "2",
+          "title": "Wood",
+          "summary": "How timber is grown and milled and how lumber is cured and graded, and collecting useful woods.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.woodwork.3",
+          "number": "3",
+          "title": "Tools",
+          "summary": "Caring for and storing tools and sharpening cutting tools.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.woodwork.4",
+          "number": "4",
+          "title": "A woodworking project",
+          "summary": "Building a useful project from your own drawings with hand tools.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.woodwork.7",
+          "number": "7",
+          "title": "Careers",
+          "summary": "Talking with a cabinetmaker or finish carpenter about the trade.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

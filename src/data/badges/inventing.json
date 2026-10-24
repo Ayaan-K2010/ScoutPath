@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.inventing",
+  "slug": "inventing",
+  "description": "Inventing covers how inventions happen: what inventors do and their role in the economy, interviewing an inventor, patents and intellectual property, improving an existing product, designing, prototyping and testing your own invention, and joining clubs or visiting exhibits.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -59,3 +59,9 @@ health-care-professions
 public-health
 fire-safety
 military-service-and-veterans
+auctioneering
+life-skills
+physics
+sewing-needlework
+dance
+psychology

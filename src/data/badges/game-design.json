@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.game-design",
+  "slug": "game-design",
+  "description": "Game Design teaches how games are made: analyzing games and play value, design terms, intellectual property, experimenting with rules, designing and prototyping your own game, playtesting with real players, and meeting game development professionals.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/game-design/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/game-design/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.game-design.1",
+          "number": "1",
+          "title": "Analyzing games",
+          "summary": "Analyzing games from different media and the kinds of play value they offer.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.game-design.2",
+          "number": "2",
+          "title": "Design terms",
+          "summary": "Game design terms and how they apply to specific games.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.game-design.3",
+          "number": "3",
+          "title": "Intellectual property",
+          "summary": "What intellectual property is, how it is protected, and licensed properties in games.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.game-design.4",
+          "number": "4",
+          "title": "Changing the rules",
+          "summary": "Playing a game, then testing and comparing rule changes.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.game-design.5",
+          "number": "5",
+          "title": "Designing a game",
+          "summary": "A vision statement, preliminary rules and drawings in a design notebook.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.game-design.6",
+          "number": "6",
+          "title": "Prototype and playtest",
+          "summary": "Building a prototype, playtesting and revising the rules.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.game-design.7",
+          "number": "7",
+          "title": "Instructions and feedback",
+          "summary": "Writing instructions, watching new players use them, and reviewing their feedback.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.game-design.8",
+          "number": "8",
+          "title": "Meeting a professional",
+          "summary": "One option: visiting a game development professional or educator.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

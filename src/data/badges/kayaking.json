@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.kayaking",
+  "slug": "kayaking",
+  "description": "Kayaking teaches safe paddling: hazards and first aid, Safety Afloat, life jackets and safety gear, kayak and paddle design and care, wet exits and rescues, and the strokes and maneuvers of a solo paddler.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Paddling follows Safety Afloat under a qualified supervisor, and you must pass the swimmer test first."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/kayaking/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 2 is the swimmer test, which must be completed before requirements 3 through 8. Confirm sub-item lettering on the official page.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/kayaking/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.kayaking.1",
+          "number": "1",
+          "title": "Hazards, first aid and Safety Afloat",
+          "summary": "Likely paddling hazards, first aid for common injuries, and the Safety Afloat policy.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.swimming.1"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.kayaking.2",
+          "number": "2",
+          "title": "The swimmer test",
+          "summary": "Passing the Scouting America swimmer test before the on-water requirements.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.kayaking.3",
+          "number": "3",
+          "title": "Life jackets and safety gear",
+          "summary": "Choosing and fitting a life jacket, and gear such as a signal device, spare paddle and throw bag.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.kayaking.4",
+          "number": "4",
+          "title": "Kayak design and care",
+          "summary": "Parts of a kayak, the main kinds of kayaks, and care and storage.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.kayaking.5",
+          "number": "5",
+          "title": "Paddles",
+          "summary": "Paddle parts, sizing, use and care.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.kayaking.6",
+          "number": "6",
+          "title": "Capsize and rescue",
+          "summary": "Wet exits, assisted reentry, a kayak-over-kayak rescue, the HELP position, and swimming a kayak to shore.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.kayaking.7",
+          "number": "7",
+          "title": "Strokes",
+          "summary": "The basic solo strokes, such as forward, back, sweep and draw.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.kayaking.8",
+          "number": "8",
+          "title": "Maneuvers",
+          "summary": "Paddling straight, turning, moving sideways, stopping, reversing and a figure-eight course.",
+          "kind": "demonstration",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

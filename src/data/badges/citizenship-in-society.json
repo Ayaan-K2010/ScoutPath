@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.citizenship-in-society",
+  "slug": "citizenship-in-society",
+  "description": "Citizenship in Society focused on diversity, equity, inclusion and ethical leadership. Scouting America discontinued it effective February 27, 2026, and it is no longer required for Eagle.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

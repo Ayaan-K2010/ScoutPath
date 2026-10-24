@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.fingerprinting",
+  "slug": "fingerprinting",
+  "description": "Fingerprinting explores the science of identification: its history, civil and criminal uses, friction ridges and pattern types, taking a set of prints, and careers in biometrics.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/fingerprinting/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 2 appears to cover identification systems and biometrics, but its text was not visible, so it is not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/fingerprinting/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/fingerprinting/",
+            "label": "Fingerprinting Digital Resource Guide (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.fingerprinting.1",
+          "number": "1",
+          "title": "History",
+          "summary": "A short history of fingerprinting and civil versus criminal identification.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.fingerprinting.3",
+          "number": "3",
+          "title": "The science",
+          "summary": "Where friction ridges are found, the principles of fingerprint science and positive identification.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.fingerprinting.4",
+          "number": "4",
+          "title": "Taking prints",
+          "summary": "Making rolled and plain impressions on an identification card and recording prints with tape.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.fingerprinting.5",
+          "number": "5",
+          "title": "Pattern types",
+          "summary": "The three basic fingerprint patterns and their subcategories, using your own hand.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.fingerprinting.6",
+          "number": "6",
+          "title": "Careers",
+          "summary": "Careers in biometrics or fingerprinting and researching one of them.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

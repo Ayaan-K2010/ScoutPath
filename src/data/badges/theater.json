@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.theater",
+  "slug": "theater",
+  "description": "Theater explores the stage from both sides of the curtain: reading or watching plays, writing a one-act play, safety and the roles of cast and crew, pantomime, and the language of the stage.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/theater/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/theater/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.theater.1",
+          "number": "1",
+          "title": "Plays",
+          "summary": "Watching or reading full-length plays and reviewing each.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.theater.2",
+          "number": "2",
+          "title": "Writing a play",
+          "summary": "Writing a short one-act play with a main character, a conflict and a climax.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.theater.3",
+          "number": "3",
+          "title": "Safety and roles",
+          "summary": "Theater safety and several roles, such as acting, directing, design or stage management.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.theater.4",
+          "number": "4",
+          "title": "Pantomime",
+          "summary": "Miming a scenario your counselor chooses.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.theater.5",
+          "number": "5",
+          "title": "Stage terms",
+          "summary": "Terms such as proscenium, stage left and right, flies and sightlines.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

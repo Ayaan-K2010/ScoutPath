@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.health-care-professions",
+  "slug": "health-care-professions",
+  "description": "Health Care Professions explores the many careers in medicine and health care — physicians and specialists, nursing, pharmacy and emergency medicine, therapy and nutrition, lab and imaging — plus a workplace visit, medical ethics and privacy, new advances, and volunteering.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/health-care-professions/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Health Care Professions replaced the Medicine merit badge in 2021.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/health-care-professions/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.health-care-professions.1",
+          "number": "1",
+          "title": "Physicians and specialists",
+          "summary": "Several professions from the physician and specialist group, their roles and education.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.2",
+          "number": "2",
+          "title": "Nursing, pharmacy and EMS",
+          "summary": "Several professions from the nursing, pharmacy and emergency medical group.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.3",
+          "number": "3",
+          "title": "Therapy and nutrition",
+          "summary": "Several professions from the therapy and dietetics group.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.4",
+          "number": "4",
+          "title": "Lab, imaging and records",
+          "summary": "Several professions from the laboratory, imaging and health records group.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.5",
+          "number": "5",
+          "title": "A workplace visit",
+          "summary": "Visiting a health care professional at work and discussing their career.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.6",
+          "number": "6",
+          "title": "The Physician’s Oath",
+          "summary": "What the Physician’s Oath means.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.7",
+          "number": "7",
+          "title": "Patient privacy",
+          "summary": "Patient confidentiality and HIPAA.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.8",
+          "number": "8",
+          "title": "Medical advances",
+          "summary": "A recent medical advance and how it could affect patient care.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.health-care-professions.9",
+          "number": "9",
+          "title": "Volunteering",
+          "summary": "Volunteering at a health-related event or facility and reporting what you learned.",
+          "kind": "service",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

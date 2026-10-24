@@ -11,6 +11,7 @@ import { PrintHeader } from '../components/PrintHeader';
 import { RequirementTree } from '../components/RequirementTree';
 import { ResourceRow } from '../components/ResourceRow';
 import { VerificationTag } from '../components/StatusTag';
+import { VersionNotice } from '../components/VersionNotice';
 import { content } from '../features/content/data';
 import { toggleSelectedBadge } from '../features/progress/actions';
 import { useDocumentTitle, useRecordVisit } from '../hooks/usePageMeta';
@@ -68,6 +69,11 @@ export function BadgePage() {
             <ExternalLink href={badge.officialUrl} className="btn btn--primary">
               Official requirements
             </ExternalLink>
+            {badge.pamphletUrl && (
+              <ExternalLink href={badge.pamphletUrl} className="btn">
+                Pamphlet (PDF)
+              </ExternalLink>
+            )}
             <button
               type="button"
               className="btn"
@@ -109,9 +115,16 @@ export function BadgePage() {
               icon={CircleHelp}
               title="Content being reviewed"
               actions={
-                <ExternalLink href={badge.officialUrl} className="btn btn--primary">
-                  Read the official requirements
-                </ExternalLink>
+                <>
+                  <ExternalLink href={badge.officialUrl} className="btn btn--primary">
+                    Read the official requirements
+                  </ExternalLink>
+                  {badge.pamphletUrl && (
+                    <ExternalLink href={badge.pamphletUrl} className="btn">
+                      Free official pamphlet (PDF)
+                    </ExternalLink>
+                  )}
+                </>
               }
             >
               ScoutPath has not outlined the requirements for {badge.name} yet, so there are no requirement pages or progress tracking for it. We would
@@ -139,13 +152,7 @@ export function BadgePage() {
       ) : (
         <div className="with-aside">
           <div className="stack-lg">
-            {version.status !== 'verified' && (
-              <Callout tone="warn" title="Draft outline — check the official requirements">
-                These are ScoutPath’s own topic summaries, not the official wording, and the numbering has not been verified against
-                Scouting America’s current requirements. Use them to find learning resources. Always work from the official requirements and
-                your counselor’s guidance.
-              </Callout>
-            )}
+            <VersionNotice version={version} kind="badge" />
             {badge.detail?.safety.sensitive && badge.detail.safety.note && (
               <Callout tone="safety" title="Safety first">
                 {badge.detail.safety.note}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.pioneering",
+  "slug": "pioneering",
+  "description": "Pioneering is the art of building with rope and spars: safety, knots and lashings, camp gadgets, rope types and strength, making rope, anchoring, trestles, and building a full-size structure such as a monkey bridge.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Structures must follow the height and safety limits in the Guide to Safe Scouting, with adult supervision."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/pioneering/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The official numbering skipped from 4 to 6 in the excerpts, so requirement 5 (formerly splicing) may have been removed; it is not outlined here.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/pioneering/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.pioneering.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Likely hazards and first aid for pioneering injuries.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.pioneering.2",
+          "number": "2",
+          "title": "Knots and lashings",
+          "summary": "Whipping, rope tackles, hitches and the main lashings.",
+          "kind": "demonstration",
+          "relatedRequirementIds": [
+            "rank.second-class.2a"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.pioneering.3",
+          "number": "3",
+          "title": "Camp gadgets",
+          "summary": "Building camp gadgets such as a wash station, flagpole and table.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.pioneering.4",
+          "number": "4",
+          "title": "Rope",
+          "summary": "Synthetic and natural rope, breaking strength, safe working loads and care.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.pioneering.6",
+          "number": "6",
+          "title": "Making rope",
+          "summary": "Making a three-strand rope and whipping its ends.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.pioneering.7",
+          "number": "7",
+          "title": "Anchoring",
+          "summary": "Why anchoring matters and common anchoring systems.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.pioneering.8",
+          "number": "8",
+          "title": "Trestles",
+          "summary": "The lashings, pole positions and braces of a trestle.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.pioneering.9",
+          "number": "9",
+          "title": "A full-size structure",
+          "summary": "Building an approved full-size pioneering structure.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

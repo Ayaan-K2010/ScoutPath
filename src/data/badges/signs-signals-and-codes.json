@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.signs-signals-and-codes",
+  "slug": "signs-signals-and-codes",
+  "description": "Signs, Signals, and Codes explores how people communicate without ordinary speech or writing: Morse code, American Sign Language, semaphore and nautical flags, braille, sound and silent signals, trail signs, hand signals, traffic and map symbols, and secret codes.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

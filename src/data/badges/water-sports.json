@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.water-sports",
+  "slug": "water-sports",
+  "description": "Water Sports covers waterskiing and wakeboarding safely: hazards and first aid, Safety Afloat and the Water Sports Safety Code, life jackets, the swimmer test, hand signals, deep-water starts, crossing wakes and falling safely.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Water sports follow Safety Afloat with a qualified boat driver and observer; pass the swimmer test and wear a life jacket."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

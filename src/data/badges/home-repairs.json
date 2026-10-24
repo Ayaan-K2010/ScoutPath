@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.home-repairs",
+  "slug": "home-repairs",
+  "description": "Home Repairs builds practical skills for keeping a home in shape: safety, exterior and yard work, shop and carpentry repairs, simple electrical and plumbing tasks, interior repairs, and careers or hobbies that use these skills.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Work with a knowledgeable adult, turn off power and water before repairs, and use eye protection and the right tool for each job."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

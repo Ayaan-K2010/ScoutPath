@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.pottery",
+  "slug": "pottery",
+  "description": "Pottery is a hands-on clay craft: studio safety, clay bodies and potter’s wheels, designing forms, pottery terms, making hand-built, sculpted and wheel-thrown pieces, firing a kiln, the ceramics industry, and a field experience.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Kilns reach extreme temperatures; load and fire them only with a qualified adult, and keep dust down when working with dry clay and glazes."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/pottery/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/pottery/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.pottery.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Safety precautions for a potter’s tools, materials and kiln.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.pottery.2",
+          "number": "2",
+          "title": "Clay and wheels",
+          "summary": "What makes a good clay body, and how different kinds of potter’s wheels work.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.pottery.3",
+          "number": "3",
+          "title": "Designing forms",
+          "summary": "Sketching pottery forms, one in a historical style and one of your own design.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.pottery.4",
+          "number": "4",
+          "title": "Pottery terms",
+          "summary": "Terms such as wedging, bisque, slip, stoneware and glaze.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.pottery.5",
+          "number": "5",
+          "title": "Making pottery",
+          "summary": "Hand-built and sculpted pieces, a wheel-thrown piece, and helping fire a kiln.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.pottery.6",
+          "number": "6",
+          "title": "The ceramics industry",
+          "summary": "The ceramics industry and the products it makes beyond craft pottery.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.pottery.7",
+          "number": "7",
+          "title": "A field experience",
+          "summary": "One option: a kiln yard or studio visit, a museum, or researching pottery’s cultural importance.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

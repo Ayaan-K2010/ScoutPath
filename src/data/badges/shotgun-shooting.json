@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.shotgun-shooting",
+  "slug": "shotgun-shooting",
+  "description": "Shotgun Shooting teaches firearm safety and wingshooting: safety, laws and hunting ethics, shotgun sports, shotgun parts and care, the fundamentals of hitting a moving target, and qualifying with a modern or muzzleloading shotgun under a certified instructor.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Shooting is done only on an approved range under certified range personnel, with eye and hearing protection, following the National Range and Target Activities Manual."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.rowing",
+  "slug": "rowing",
+  "description": "Rowing teaches safe handling of a rowboat: hazards and first aid, the swimmer test and life jackets, launching, rowing a course and landing, swamped-boat and rescue drills, and the boats, oars and techniques of rowing.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Rowing follows Safety Afloat with a qualified supervisor; pass the swimmer test and wear a life jacket."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

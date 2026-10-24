@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.energy",
+  "slug": "energy",
+  "description": "Energy explores where our energy comes from and how it is converted and used: everyday devices, building a system that converts energy, efficiency and waste, tracking your household’s use, national energy sources, and the future of energy systems.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

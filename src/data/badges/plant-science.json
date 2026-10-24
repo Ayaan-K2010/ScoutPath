@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.plant-science",
+  "slug": "plant-science",
+  "description": "Plant Science explores how plants live and how people grow them: flower parts and photosynthesis, what plants need, soil, propagation, native and invasive plants, and an in-depth option such as agronomy, horticulture or fruit and nut crops.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

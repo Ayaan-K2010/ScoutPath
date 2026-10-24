@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.oceanography",
+  "slug": "oceanography",
+  "description": "Oceanography explores the science of the sea: its branches, seawater physics and currents, waves and tsunamis, the seafloor, ocean chemistry and life, a hands-on project, sharing what you learn, and how scientists study the ocean.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/oceanography/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/oceanography/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.oceanography.1",
+          "number": "1",
+          "title": "Why study the oceans",
+          "summary": "The branches of oceanography and why ocean study matters.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.2",
+          "number": "2",
+          "title": "Seawater and currents",
+          "summary": "Salinity, temperature and density, and how currents affect weather and climate.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.3",
+          "number": "3",
+          "title": "Waves",
+          "summary": "Storm surges, tsunamis, tides and tidal bores, and sea, swell and surf.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.4",
+          "number": "4",
+          "title": "The seafloor",
+          "summary": "Drawing and labeling a cross-section of the ocean floor.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.5",
+          "number": "5",
+          "title": "Ocean chemistry",
+          "summary": "Salts, gases and nutrients in seawater and what changes its saltiness.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.6",
+          "number": "6",
+          "title": "Ocean life",
+          "summary": "Benthos, nekton and plankton, and phytoplankton in the food chain.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.7",
+          "number": "7",
+          "title": "An ocean project",
+          "summary": "One option, such as a plankton net, a reef model, temperature readings or satellite tracking.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.8",
+          "number": "8",
+          "title": "Sharing what you learn",
+          "summary": "One option: a book report, a visit to a research vessel or marine facility, or a talk to your troop.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.oceanography.9",
+          "number": "9",
+          "title": "Research methods",
+          "summary": "Methods marine scientists use to study the ocean.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

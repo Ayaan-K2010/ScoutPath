@@ -1,13 +1,13 @@
 import { ArrowLeft, ArrowRight, CalendarDays, Check, Flag, Printer } from 'lucide-react';
 import { useEffect } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router';
-import { Callout } from '../components/Callout';
 import { ExternalLink } from '../components/ExternalLink';
 import { OwnerSidebar } from '../components/OwnerSidebar';
 import { PageHeader } from '../components/PageHeader';
 import { PrintHeader } from '../components/PrintHeader';
 import { RequirementTree } from '../components/RequirementTree';
 import { VerificationTag } from '../components/StatusTag';
+import { VersionNotice } from '../components/VersionNotice';
 import { SuggestedTasks } from '../components/SuggestedTasks';
 import { content } from '../features/content/data';
 import { setSelectedRank } from '../features/progress/actions';
@@ -84,10 +84,7 @@ export function RankPage() {
 
       <div className="with-aside">
         <div className="stack-lg">
-          <Callout tone="warn" title="Draft outline — check the official requirements">
-            This checklist uses ScoutPath’s own summaries of each requirement. It has not been verified against the current official text, and the
-            version that applies to you depends on when you started the rank. Your Scoutmaster and board of review decide when a rank is complete.
-          </Callout>
+          {rank.version && <VersionNotice version={rank.version} kind="rank" />}
 
           <section aria-labelledby="next-title" className="no-print">
             <div className="section-head">

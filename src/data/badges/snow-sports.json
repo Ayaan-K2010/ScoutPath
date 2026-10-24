@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.snow-sports",
+  "slug": "snow-sports",
+  "description": "Snow Sports covers safe skiing, snowboarding and snowshoeing: hazards and cold-weather first aid, reporting accidents, trail markings, fitness, clothing and equipment, the Responsibility Code and avalanche safety, and one in-depth option.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Ski and ride within your ability, follow the Responsibility Code, and never enter closed or avalanche-prone terrain."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/snow-sports/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 7 offers four options — alpine skiing, cross-country skiing, snowboarding and snowshoeing — each with its own steps.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/snow-sports/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.snow-sports.1",
+          "number": "1",
+          "title": "Hazards and first aid",
+          "summary": "Likely hazards and first aid for cold-weather and other injuries.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.snow-sports.2",
+          "number": "2",
+          "title": "Reporting an accident",
+          "summary": "How to report an accident to ski patrol or emergency personnel.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.snow-sports.3",
+          "number": "3",
+          "title": "Trail markings",
+          "summary": "The international trail-marking system.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.snow-sports.4",
+          "number": "4",
+          "title": "Fitness",
+          "summary": "Strength, endurance and flexibility, and exercises for your chosen option.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.snow-sports.5",
+          "number": "5",
+          "title": "Clothing and equipment",
+          "summary": "The clothing and equipment for your option and how they keep you warm and protected.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.snow-sports.6",
+          "number": "6",
+          "title": "Codes and avalanche safety",
+          "summary": "The Responsibility Code, terrain-park safety and avalanche safety.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.snow-sports.7",
+          "number": "7",
+          "title": "An in-depth option",
+          "summary": "One option: alpine skiing, cross-country skiing, snowboarding or snowshoeing.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.graphic-arts",
+  "slug": "graphic-arts",
+  "description": "Graphic Arts explores how printed and digital communication is made: printing processes, kinds of images, designing a printed piece and producing it, finishing and binding, and visiting a printing or graphics workplace.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

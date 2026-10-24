@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.auctioneering",
+  "slug": "auctioneering",
+  "description": "Auctioneering (a Test Lab badge) combines public speaking and salesmanship: how auctions work, the auctioneer’s chant and the skills of running a sale.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

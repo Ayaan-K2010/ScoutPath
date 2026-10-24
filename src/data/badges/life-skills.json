@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.life-skills",
+  "slug": "life-skills",
+  "description": "Life Skills (a Test Lab badge) covers practical independence: health, household management, money, getting ready for a job, and everyday tasks such as sewing on a button.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

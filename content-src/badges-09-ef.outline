@@ -1,0 +1,78 @@
+# Badges E–F (part 1) — checked against official scouting.org excerpts.
+
+@owner mb.electricity
+@note The official page and the 2025 update numbered these requirements differently, so no requirement outline is published yet. Topics include electrical emergencies, a home safety inspection, circuits and overloads, reading a meter and electric bill, electrical units and equipment, and hands-on circuit projects.
+@desc Electricity covers how electricity works and how to use it safely: responding to electrical emergencies, inspecting your home, circuits, fuses and breakers, reading your meter and bill, the units and devices of electricity, and building simple circuits and motors.
+@safety Never work on household wiring or touch a downed line. Electrical emergencies call for shutting off power and calling for help, not touching the person.
+
+@owner mb.electronics
+@complete complete
+@desc Electronics introduces how circuits work: safety, schematics, soldering, digital logic and binary, control and analog circuits, Ohm’s law and test equipment, and careers in electronics.
+@safety Soldering irons are hot enough to burn instantly; work with eye protection, good ventilation and adult supervision.
+1 k! Safety :: Safety precautions for using, building and repairing electronic devices.
+2 a A schematic :: Drawing a simple schematic with correct symbols and explaining each part.
+3 demo! Soldering :: Soldering and desoldering, avoiding heat damage, and printed circuit boards.
+4 a Control, digital and analog :: How electronics are used for control, digital logic and binary numbers, and one circuit project.
+5 k Ohm’s law and test equipment :: Ohm’s law, test equipment, resistor color codes and how circuits are assembled.
+6 a Careers :: Careers in electronics and researching one of them.
+
+@owner mb.energy
+@note Excerpts showed the topics (how devices convert energy, building a system with energy conversions, efficiency, a household energy log, energy waste, U.S. energy sources and use, and improving energy systems) but not their numbering, so no requirement outline is published yet.
+@desc Energy explores where our energy comes from and how it is converted and used: everyday devices, building a system that converts energy, efficiency and waste, tracking your household’s use, national energy sources, and the future of energy systems.
+
+@owner mb.engineering
+@complete partial
+@note The 2026 update added requirement 9 on engineering careers. Requirement 8 was not visible in the excerpts and is not outlined yet.
+@desc Engineering is about solving problems through design: investigating how a manufactured item works, the many kinds of engineers, visiting an engineer, designing an original device with the systems approach, hands-on projects, professional registration and ethics, and engineering careers.
+1 a How something works :: Investigating how and why a manufactured item in your home works.
+2 k Types of engineers :: The work of several types of engineers and how two of them relate to engineering.
+3 a Visiting an engineer :: An engineer’s tools, a current project and the reports they write.
+4 a A design project :: Designing an original device with the systems engineering approach.
+5 a Engineering projects :: Two options, such as transforming motion, using electricity or materials, converting energy, moving people, or an engineering project.
+6 k Professional engineers :: What a registered Professional Engineer is and where registration matters most.
+7 d Engineering ethics :: The Engineer’s Code of Ethics and how it compares with the Scout Oath and Law.
+9 a Careers :: Researching careers in engineering.
+
+@owner mb.entrepreneurship
+@complete complete
+@desc Entrepreneurship teaches how new businesses start: what entrepreneurs do, the skills they need, learning from someone who started a business, generating and choosing an idea, writing a business plan, and thinking through success, problems and ethics.
+1 k What entrepreneurship is :: What entrepreneurship is and its role in the economy.
+2 k Skills of an entrepreneur :: Why skills such as communication, planning and leadership matter to entrepreneurs.
+3 a Interviewing an entrepreneur :: Interviewing someone who started a business and discussing what you learned.
+4 a Business ideas :: Brainstorming ideas, narrowing them down and choosing the best one.
+5 a A business plan :: A plan covering your product, market, finances, people and marketing.
+6 d Running the business :: Likely successes, problems and ethical questions once the business is running.
+
+@owner mb.exploration
+@complete partial
+@note Excerpts were jumbled for requirements 3–5, which are not outlined yet. The 2026 update revised requirements 8 and 9.
+@desc Exploration is about real expeditions: what exploration is, its history and fields, living explorers, and planning, preparing for and carrying out an expedition of your own, then reporting what you learned.
+@safety Expeditions need permission, an approved plan and qualified adult supervision.
+1 k What exploration is :: How exploration differs from adventure travel, and how it works in settings from oceans to space to labs.
+2 k History of exploration :: The history of exploration and one field of study that shows its importance.
+6 a Planning an expedition :: Objectives, budget, equipment, communications, transportation, safety, first aid and team selection.
+7 a Preparing for an expedition :: Working with a qualified leader, listing gear and deciding who goes.
+8 a! An expedition :: Carrying out a supervised expedition to a new area, practicing outdoor ethics, and writing a report.
+9 a Careers :: Researching a career related to exploration.
+
+@owner mb.farm-mechanics
+@complete partial
+@note Requirements 5 and 6 were not visible in the excerpts and are not outlined yet.
+@desc Farm Mechanics covers the machines that keep farms running: shop safety and warning symbols, how engines, hydraulics and transmissions deliver power, tool care, maintaining equipment, and careers in farm mechanics.
+@safety Farm machinery is dangerous: work only with an experienced adult, with engines off and parts secured.
+1 k! Safety :: Safety equipment and clothing, a farm-shop plan, warning symbols and safety data sheets.
+2 k Power :: How power is produced or transferred in a diesel engine, a hydraulic system and a transmission.
+3 a Tool work :: Two tool tasks, such as replacing a handle or dressing a chisel or screwdriver tip.
+4 a Machine maintenance :: One option, such as servicing a machine, a preoperation checklist or winter storage.
+7 a Careers :: Careers in farm mechanics and the education one of them requires.
+
+@owner mb.fingerprinting
+@complete partial
+@source https://www.scouting.org/skills/merit-badges/digital-resource-guides/fingerprinting/ | Fingerprinting Digital Resource Guide (scouting.org)
+@note Requirement 2 appears to cover identification systems and biometrics, but its text was not visible, so it is not outlined yet.
+@desc Fingerprinting explores the science of identification: its history, civil and criminal uses, friction ridges and pattern types, taking a set of prints, and careers in biometrics.
+1 k History :: A short history of fingerprinting and civil versus criminal identification.
+3 k The science :: Where friction ridges are found, the principles of fingerprint science and positive identification.
+4 demo Taking prints :: Making rolled and plain impressions on an identification card and recording prints with tape.
+5 demo Pattern types :: The three basic fingerprint patterns and their subcategories, using your own hand.
+6 a Careers :: Careers in biometrics or fingerprinting and researching one of them.

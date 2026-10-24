@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.law",
+  "slug": "law",
+  "description": "Law explores where laws come from and how the legal system works: legal history, civil and criminal law, public opinion, consumer protection, courts and mock trials, lawyers and judges, legal aid, and the many areas of law and careers in it.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/law/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/law/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.law.1",
+          "number": "1",
+          "title": "What law is",
+          "summary": "What law is, where it comes from and the purposes it serves.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.law.10",
+              "number": "10",
+              "title": "Getting legal help",
+              "summary": "Where people can find a lawyer, including free legal help.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.law.11",
+              "number": "11",
+              "title": "Areas of law",
+              "summary": "The importance of several areas of law, such as administrative law or dispute resolution.",
+              "kind": "knowledge",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.law.2",
+          "number": "2",
+          "title": "Legal history",
+          "summary": "Options such as ancient law codes and the Magna Carta, the jury system or famous trials.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.law.3",
+          "number": "3",
+          "title": "Civil and criminal law",
+          "summary": "The differences between civil and criminal law, with examples.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.law.4",
+          "number": "4",
+          "title": "Public opinion",
+          "summary": "Asking several people about the role of law enforcement and reporting back.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.law.5",
+          "number": "5",
+          "title": "Consumer protection",
+          "summary": "Laws and organizations that protect consumers and sellers.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.law.6",
+          "number": "6",
+          "title": "A court experience",
+          "summary": "One option: attending a court session and summarizing it, or organizing a mock trial.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.law.7",
+          "number": "7",
+          "title": "Visiting a lawyer",
+          "summary": "Meeting a lawyer who works for a business or government agency.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.law.8",
+          "number": "8",
+          "title": "Lawyers and judges",
+          "summary": "How to become a lawyer in your state and how judges are chosen.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.law.9",
+          "number": "9",
+          "title": "Law careers",
+          "summary": "Law-related jobs and which you would prefer and why.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

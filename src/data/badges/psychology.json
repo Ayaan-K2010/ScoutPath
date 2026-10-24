@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.psychology",
+  "slug": "psychology",
+  "description": "Psychology (a Test Lab badge) explores how people think, feel and behave. Its trial requirements are published on the Scouts BSA Test Lab page.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

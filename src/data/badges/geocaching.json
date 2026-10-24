@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.geocaching",
+  "slug": "geocaching",
+  "description": "Geocaching combines navigation and outdoor ethics: safety and planning, cache etiquette, GPS and map-and-compass skills, finding caches, Travel Bugs, Cache In Trash Out, and planning a geohunt for younger Scouts.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Geocache only with permission, a buddy and a plan; never bury a cache or hide one where searching could damage the land."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/geocaching/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts confirmed requirements 1 and 7–9; requirements 2–6 cover etiquette, terms and navigation but their exact numbering was not visible, so they are not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/geocaching/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.geocaching.1",
+          "number": "1",
+          "title": "Safety and planning",
+          "summary": "Likely hazards, first aid for common injuries, and planning a GPS outing.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.geocaching.7",
+          "number": "7",
+          "title": "Your first find",
+          "summary": "Using a geocaching website, with permission, to find a public cache near you.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.geocaching.8",
+          "number": "8",
+          "title": "A geocaching project",
+          "summary": "One option: Cache to Eagle, a Travel Bug, hiding and maintaining a cache, or a Cache In Trash Out event.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.geocaching.9",
+          "number": "9",
+          "title": "Leading a geohunt",
+          "summary": "Planning a geohunt with several waypoints for a youth group.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

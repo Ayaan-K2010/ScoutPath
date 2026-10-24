@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.fishing",
+  "slug": "fishing",
+  "description": "Fishing covers safe, ethical angling: hazards and first aid, rods and reels, essential fishing knots, lures and natural baits, regulations, Leave No Trace and catch and release, and catching, identifying and cooking a fish.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Wear a life jacket when fishing from a boat, know how to remove a hook safely, and follow local fishing regulations."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

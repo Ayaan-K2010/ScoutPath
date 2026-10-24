@@ -1,0 +1,93 @@
+# Badges O–P — checked against official scouting.org excerpts.
+
+@owner mb.oceanography
+@complete complete
+@desc Oceanography explores the science of the sea: its branches, seawater physics and currents, waves and tsunamis, the seafloor, ocean chemistry and life, a hands-on project, sharing what you learn, and how scientists study the ocean.
+1 k Why study the oceans :: The branches of oceanography and why ocean study matters.
+2 k Seawater and currents :: Salinity, temperature and density, and how currents affect weather and climate.
+3 k Waves :: Storm surges, tsunamis, tides and tidal bores, and sea, swell and surf.
+4 a The seafloor :: Drawing and labeling a cross-section of the ocean floor.
+5 k Ocean chemistry :: Salts, gases and nutrients in seawater and what changes its saltiness.
+6 k Ocean life :: Benthos, nekton and plankton, and phytoplankton in the food chain.
+7 a An ocean project :: One option, such as a plankton net, a reef model, temperature readings or satellite tracking.
+8 a Sharing what you learn :: One option: a book report, a visit to a research vessel or marine facility, or a talk to your troop.
+9 k Research methods :: Methods marine scientists use to study the ocean.
+
+@owner mb.orienteering
+@complete complete
+@desc Orienteering is navigation as a sport: first aid and safety, compasses and bearings, topographic maps, pacing, control descriptions, competing in events, setting a course, serving as an official, and teaching others.
+1 k! First aid and safety :: First aid for outdoor injuries and heat and cold reactions, and recognizing poisonous plants and animals.
+2 k What orienteering is :: The sport of orienteering and how it works.
+3 demo Compass skills :: How a compass works and taking and following a bearing.
+= rank.first-class.4a
+4 demo Topographic maps :: Terrain features, map symbols, declination, measuring distance and orienting a map.
+5 demo Pacing :: Setting up a pace course and finding your walking and running pace.
+6 k Control descriptions :: International control symbols and orienteering terms such as attack point and handrail.
+7 a Orienteering events :: Taking part in several events and reporting on each.
+8 a Setting a course :: One option: a cross-country course or a score course.
+9 s Serving as an official :: Serving as an official at an orienteering event.
+10 a Teaching orienteering :: Teaching orienteering techniques to your patrol, troop or crew.
+
+@owner mb.painting
+@complete complete
+@desc Painting is about protective and decorative coatings: safe surface preparation, kinds of paint and finishes, painting two different surfaces, color harmony, caring for equipment, ladder and personal safety, environmental concerns, and careers or hobbies.
+@safety Use ventilation and protective gear, follow ladder safety, and have an adult check for lead paint before sanding older surfaces.
+1 k! Safe practices :: Safe practices for preparing surfaces and applying coatings.
+2 k Paints and finishes :: How coatings protect surfaces, kinds of paint and finishes, and why sheen matters.
+3 a Painting two surfaces :: Preparing and painting two different surfaces with primers and topcoats.
+4 a Color harmony :: Painting an item in harmonizing colors chosen with the color wheel.
+5 demo Equipment care :: Using, cleaning and storing painting equipment.
+6 k! Ladders and protection :: Ladder safety, personal hygiene and protective equipment.
+7 k Environment and health :: Concerns about removing, applying and disposing of paint.
+8 a Careers or hobbies :: One option: a painting career, or a hobby that uses these skills.
+
+@owner mb.pets
+@complete partial
+@note Excerpts confirmed requirements 1–4; requirement 5 offers a choice whose options were not visible and is not outlined yet.
+@desc Pets is about caring responsibly for an animal over time: keeping a care record, learning about your pet’s needs and the laws that apply, reading about your kind of pet, and showing or training it.
+1 a Caring for a pet :: Caring for a pet over several months, with approval before you start.
+2 a A report on your pet :: Your pet’s care, feeding and housing, interesting facts, and local laws.
+3 a Reading about your pet :: Reading and discussing a book or pamphlet about your kind of pet.
+4 a Showing or training :: One option: showing your pet, or training it in tricks or special abilities.
+
+@owner mb.photography
+@complete complete
+@source https://www.scouting.org/skills/merit-badges/digital-resource-guides/photography/ | Photography Digital Resource Guide (scouting.org)
+@desc Photography teaches how to make strong images with any camera: safety, light and exposure, composition, how cameras work, experiments with perspective, photographing different subjects, editing, and telling a visual story.
+1 k Safety :: Hazards of photography outings and the Digital Safety video.
+2 k Elements of a good photo :: Light, exposure, depth of field, composition, motion and the decisive moment.
+3 k How a camera works :: The parts of a camera and how an exposure is made.
+4 a Experiments :: Two experiments with angle, light, depth of field or composition.
+5 a Kinds of photos :: Photographing several subjects, such as a portrait, action, an animal or nature.
+6 a Editing :: How software improves a photo, and one editing technique.
+7 a A visual story :: Planning and photographing a story and presenting a selection of images.
+
+@owner mb.pioneering
+@complete partial
+@note The official numbering skipped from 4 to 6 in the excerpts, so requirement 5 (formerly splicing) may have been removed; it is not outlined here.
+@desc Pioneering is the art of building with rope and spars: safety, knots and lashings, camp gadgets, rope types and strength, making rope, anchoring, trestles, and building a full-size structure such as a monkey bridge.
+@safety Structures must follow the height and safety limits in the Guide to Safe Scouting, with adult supervision.
+1 k! Safety :: Likely hazards and first aid for pioneering injuries.
+2 demo Knots and lashings :: Whipping, rope tackles, hitches and the main lashings.
+= rank.second-class.2a
+3 a Camp gadgets :: Building camp gadgets such as a wash station, flagpole and table.
+4 k Rope :: Synthetic and natural rope, breaking strength, safe working loads and care.
+6 a Making rope :: Making a three-strand rope and whipping its ends.
+7 k Anchoring :: Why anchoring matters and common anchoring systems.
+8 k Trestles :: The lashings, pole positions and braces of a trestle.
+9 a! A full-size structure :: Building an approved full-size pioneering structure.
+
+@owner mb.plant-science
+@note The 2025 update added a new requirement 8 and changed the Agronomy option. Excerpts showed the general requirements and options but not their numbering, so no requirement outline is published yet.
+@desc Plant Science explores how plants live and how people grow them: flower parts and photosynthesis, what plants need, soil, propagation, native and invasive plants, and an in-depth option such as agronomy, horticulture or fruit and nut crops.
+
+@owner mb.plumbing
+@complete partial
+@note Requirements 6 and 7 were revised in 2025 and the excerpts disagreed about their content, so they are not outlined yet.
+@desc Plumbing explains the system that brings clean water into a home and carries waste away: health and safety, supply and drainage systems, tools, terms and pipe types, hands-on supervised repairs, and careers.
+@safety Shut off the water before repairs and work with an adult; soldering with a torch requires direct adult supervision.
+1 k Health and safety :: How good plumbing protects health, local regulations and safety precautions.
+2 a How the system works :: Sketching a home’s water supply and drainage, including vents and freeze protection.
+3 demo Tools :: Common plumbing tools and their use.
+4 k Terms :: Plumbing terms such as trap, tee, flux and water meter.
+5 k Pipe types :: Common kinds of pipe and why each is used.

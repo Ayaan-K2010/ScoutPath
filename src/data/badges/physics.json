@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.physics",
+  "slug": "physics",
+  "description": "Physics (a Test Lab badge) explores how matter, energy and motion behave. Its trial requirements are published on the Scouts BSA Test Lab page.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

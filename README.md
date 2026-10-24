@@ -13,18 +13,16 @@ ScoutPath is a free, independent learning library for Scouts BSA advancement. It
 | Area | State |
 |---|---|
 | Application (all routes, features, tests, build) | Complete and working |
-| Merit badge index | 140 listings, **unverified** against the official list |
-| Requirement outlines | First Aid, Camping, Emergency Preparedness (partial), all 7 ranks (Scout and Tenderfoot complete; others partial) — **all unverified drafts** |
+| Merit badge index | 150 listings — 142 merit badges (including discontinued Citizenship in Society) and 8 Scouts BSA Test Lab badges — each confirmed against scouting.org; 97 link to their free official pamphlet |
+| Requirement outlines | All 7 ranks (2025 requirements, complete) and 104 merit badges (73 complete, 31 partial), **partially verified** against official scouting.org excerpts. The other 46 listings have a description and official links only |
 | Official requirement wording | **Not reproduced.** Every requirement page shows a ScoutPath summary and links to the official text |
 | Resources | 61 curated links with original descriptions; URLs came from web-search results; **links not yet checked**, content and safety reviews **pending** |
 | Study sets | 4 sets (38 flashcards, 25 quiz questions), every item citing a source; **awaiting expert review** |
 | Verified for publication | **0** — shown honestly in the app’s coverage report |
 
-**Why nothing is verified:** the dataset was assembled in a build environment whose network policy blocked `scouting.org` and every resource publisher. Requirement outlines were drafted from maintainer familiarity with the published requirements and cross-checked against secondary sources found through web search. Resource URLs were taken from search results but never fetched. Everything is labeled accordingly in the data and the interface. A maintainer with normal internet access should run `npm run content:check-links` and work through the [content workflow](#content-workflow) before treating anything as verified.
+**How the content was checked:** the build environment's network policy blocks opening `scouting.org` directly, so each outline was checked against excerpts of official scouting.org pages returned by a site-restricted search index on 2026-10-24: per-badge Merit Badge Hub pages, the All Merit Badges A–Z list, the Eagle-required list, the official rank requirement PDFs and the 2026 advancement-update documents. Outlines are therefore marked **partially verified**, never verified: numbering and topics were confirmed, but wording was not compared word for word. Where an excerpt did not show a requirement clearly, that requirement is left out (and the version marked partial) rather than guessed; where it showed only topics, the badge gets a description and no outline. Earlier maintainer drafts are kept as superseded versions. Resource URLs were taken from search results but never fetched. A maintainer with normal internet access should run `npm run content:check-links` and work through the [content workflow](#content-workflow) before treating anything as verified.
 
-Notable changes found during research (from council notices and news coverage, also unverified against scouting.org): Citizenship in Society was reported discontinued effective February 27, 2026, and Eagle reported as 13 required badges plus 8 electives; Artificial Intelligence and Cybersecurity badges were introduced in October 2025; Indian Lore was renamed American Indian Culture in January 2026. The data reflects these changes, each with a note.
-
----
+Notable official changes reflected in the data: rank requirements effective January 1, 2025 (no rank changes for 2026); more than 80 merit badges revised effective January 1, 2026; Citizenship in Society discontinued effective February 27, 2026, leaving Eagle at 13 required badges plus 8 electives; Artificial Intelligence and Cybersecurity introduced in 2025; Indian Lore renamed American Indian Culture; and Test Lab badges (Competitive Gaming, Military Service & Veterans, Wildland Fire Management, Auctioneering, Life Skills, Physics, Sewing & Needlework, Dance, Psychology) listed separately with their trial status.
 
 ## Features
 
@@ -79,6 +77,7 @@ npm run dev          # http://localhost:5173
 | `npm run build` | Validates content, typechecks, builds to `dist/` |
 | `npm run preview` | Serves the production build at http://localhost:4173 |
 | `npm run check` | typecheck + lint + test + build |
+| `npm run content:compile` | Compile `content-src/*.outline`, `mappings.map`, `pamphlets.map` and `confirmed-listings.txt` into `src/data/` |
 | `npm run content:validate` | Validate all content (`-- --verbose` lists informational gaps) |
 | `npm run content:coverage` | Write `reports/coverage.json` and `reports/coverage.md` |
 | `npm run content:compare` | List stored requirement versions or diff two of them |
@@ -153,7 +152,7 @@ All schemas live in [`src/schemas/content.ts`](src/schemas/content.ts).
 |---|---|
 | `data/meta.json` | Dataset version, update date, environment note |
 | `data/categories.json` | ScoutPath’s own topic groups (not an official classification) |
-| `data/catalog.json` | Every merit badge listing: `id`, `slug`, `name`, `category`, `lifecycle`, Eagle status (with `verified` flag), `catalogStatus`, `officialUrl` and its link status, plus provenance |
+| `data/catalog.json` | Every merit badge listing: `id`, `slug`, `name`, `category`, `lifecycle` (active, test-lab, discontinued), Eagle status (with `verified` flag), `catalogStatus`, `officialUrl` and its link status, optional `pamphletUrl`, plus provenance |
 | `data/badges/<slug>.json` | Detail for badges beyond a bare listing: description, safety flags, `currentVersion`, **all stored requirement versions**, related resources, study sets |
 | `data/ranks/<slug>.json` | The same for each rank |
 | `data/resources.json` | Resource records: URL, publisher and type, original description, topics, verified duration, language, official/independent classification, link status and last-checked date, content-review date, verification and safety-review status, attribution, discovery notes |
@@ -167,7 +166,7 @@ All schemas live in [`src/schemas/content.ts`](src/schemas/content.ts).
 
 ## Content workflow
 
-1. **Draft or update** content in `src/data/` directly, in the local review tool at `/review` (export changed files from its Export tab), or as a package (see `docs/examples/`) imported with `npm run content:import -- package.json --dry-run`, then without `--dry-run`.
+1. **Draft or update** requirement outlines in `content-src/*.outline` (a compact one-line-per-requirement format documented at the top of `scripts/compile-outlines.ts`) and run `npm run content:compile`; mappings live in `content-src/mappings.map`. Other content can be edited in `src/data/` directly, in the local review tool at `/review` (export changed files from its Export tab), or as a package (see `docs/examples/`) imported with `npm run content:import -- package.json --dry-run`, then without `--dry-run`.
 2. **Validate:** `npm run content:validate`. It checks required fields, duplicate IDs and slugs, invalid URLs (only absolute http/https), impossible dates, invalid statuses, malformed nested requirements (IDs and numbering must match the tree), mappings to missing resources or requirements, duplicate mappings, missing study-set sources, missing provenance and version information, and versions that `supersede` something no longer stored.
 3. **Check links** from a machine with internet access: `npm run content:check-links -- --write`. A working link is not a content review.
 4. **Review content and safety** by hand. Record `contentReviewedOn`, `verification` and `safetyReview` per resource.
@@ -215,9 +214,9 @@ Designed to WCAG 2.2 AA: semantic landmarks and headings, skip link, visible foc
 
 ## Known limitations
 
-- **No content is verified yet** (see the status table). Requirement numbering in particular may not match current official requirements.
+- **No content is fully verified** (see the status table). Outlines were checked against search-index excerpts of official pages, not the pages themselves.
 - Official requirement wording is not shown; permission to reproduce it has not been established.
-- Only three merit badges and seven ranks have outlines; Second Class, First Class, Star, Life, Eagle and Emergency Preparedness outlines are partial. The other 137 badges link to official pages only, and those per-badge `officialUrl` values follow scouting.org’s URL pattern without having been fetched.
+- 46 of 150 listings have no requirement outline yet (only a description and official links), and 31 outlines are partial. Curated learning resources cover mainly the ranks and the Eagle-required badges.
 - No videos are included, because no video URL could be verified.
 - Resource durations are unknown, so the planner relies on user estimates.
 - Progress lives in one browser; there is no sync. Clearing site data erases it unless exported.
