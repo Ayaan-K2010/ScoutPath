@@ -29,7 +29,7 @@
 - No hover motion. Hover changes color or fill instantly; nothing lifts, tilts, slides or grows.
 - Loading shows flat skeleton blocks in the shape of the page (`PageSkeleton`).
 - No emoji, sparkle icons, testimonials, pricing tiers, bento grids, terminal windows or three-up feature cards.
-- Small fixed tilts (stamps, the hero index card and its tape) are allowed; they are removed in print.
+- Nothing is tilted: stamps, cards, tape and trail blazes all sit square to the page.
 
 **Layers.** `--z-sticky` 20 < `--z-header` 40 < `--z-drawer` 60 < `--z-palette` 80 < `--z-toast` 100. Dialogs use the native top layer.
 
