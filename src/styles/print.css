@@ -13,6 +13,7 @@
 
   body {
     background: #fff;
+    background-image: none;
     color: #000;
     font-size: 11pt;
   }
@@ -85,10 +86,15 @@
 
   .resource-row,
   .panel,
-  .official-box {
+  .official-box,
+  .req-tree,
+  .badge-card,
+  .stat-strip,
+  .table-wrap {
     border: 1pt solid #999;
     box-shadow: none;
     background: #fff;
+    transform: none;
   }
 
   a {
