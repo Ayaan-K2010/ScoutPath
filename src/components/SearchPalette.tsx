@@ -1,4 +1,4 @@
-import { ArrowRight, CornerDownLeft, Search } from 'lucide-react';
+import { ArrowRight, CornerDownLeft, Search } from './icons';
 import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { getSearch } from '../features/search/instance';

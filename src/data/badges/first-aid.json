@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mb.first-aid",
   "slug": "first-aid",
-  "description": "First Aid goes well beyond the rank-level basics: assessing an emergency, airway and breathing, bleeding, loss of consciousness, CPR and AEDs, bone, joint, head and spine injuries, moving a patient, heat and cold, and stress reactions. It is safety-sensitive — the resources here are background reading, and hands-on practice with a qualified instructor is what builds the skill.",
+  "description": "First Aid goes well beyond the rank-level basics: assessing an emergency, airway and breathing, bleeding, loss of consciousness, CPR and AEDs, bone, joint, head and spine injuries, moving a patient, heat and cold, and stress reactions. It is safety-sensitive: the resources here are background reading, and hands-on practice with a qualified instructor is what builds the skill.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,
@@ -97,7 +97,7 @@
               "summary": "Protecting yourself and others from infection by blood and other body fluids while giving care.",
               "kind": "knowledge",
               "safetySensitive": true,
-              "orientation": "Standard precautions treat every person’s blood and body fluids as potentially infectious, so you use the same protection every time instead of guessing. In first aid that means disposable gloves, avoiding direct contact with blood, safely disposing of contaminated materials, and washing your hands afterward — gloves do not replace hand washing.",
+              "orientation": "Standard precautions treat every person’s blood and body fluids as potentially infectious, so you use the same protection every time instead of guessing. In first aid that means disposable gloves, avoiding direct contact with blood, safely disposing of contaminated materials, and washing your hands afterward. Gloves do not replace hand washing.",
               "children": []
             }
           ]
@@ -115,7 +115,7 @@
               "title": "A home first-aid kit",
               "summary": "Preparing a first-aid kit for your household and being able to explain what each item is for.",
               "kind": "activity",
-              "orientation": "A kit is only useful if you know what is in it and it is easy to find. As you assemble one, sort items by purpose — wound care, medications your family uses, tools, personal protective equipment — and note expiry dates. Emergency-kit lists from Ready.gov are a helpful starting point, but your counselor may expect a specific contents list.",
+              "orientation": "A kit is only useful if you know what is in it and it is easy to find. As you assemble one, sort items by purpose (wound care, medications your family uses, tools, personal protective equipment) and note expiry dates. Emergency-kit lists from Ready.gov are a helpful starting point, but your counselor may expect a specific contents list.",
               "children": []
             },
             {
@@ -143,7 +143,7 @@
               "summary": "The warning signs of shock, heart attack and stroke, and what a first-aider does for each while waiting for help.",
               "kind": "knowledge",
               "safetySensitive": true,
-              "orientation": "These three conditions look different but share one rule: they are emergencies, so call 911 immediately. Learn the signs that set each apart — pale, cool, clammy skin and a weak rapid pulse for shock; chest discomfort and discomfort in the arms, back, neck or jaw for a heart attack; face drooping, arm weakness and speech trouble for a stroke — and what you can do while help is on the way.",
+              "orientation": "These three conditions look different but share one rule: they are emergencies, so call 911 immediately. Learn the signs that set each apart: pale, cool, clammy skin and a weak rapid pulse for shock; chest discomfort and discomfort in the arms, back, neck or jaw for a heart attack; face drooping, arm weakness and speech trouble for a stroke. Then learn what you can do while help is on the way.",
               "children": []
             },
             {
@@ -221,7 +221,7 @@
               "summary": "Signs of a broken bone and first aid for fractures, including improvised splints.",
               "kind": "demonstration",
               "safetySensitive": true,
-              "orientation": "The safest assumption is that a painful, swollen or misshapen limb may be broken. First aid focuses on keeping it still — immobilizing the joints above and below — rather than straightening it. Practice improvised splints with padding and materials you would actually have on a trip.",
+              "orientation": "The safest assumption is that a painful, swollen or misshapen limb may be broken. First aid focuses on keeping it still, immobilizing the joints above and below, rather than straightening it. Practice improvised splints with padding and materials you would actually have on a trip.",
               "children": []
             },
             {
@@ -302,7 +302,7 @@
           "summary": "Assessing a scene and a patient, getting emergency help at home and in remote places, infection precautions, airway and breathing, a full patient check, shock and triage.",
           "kind": "mixed",
           "safetySensitive": true,
-          "orientation": "Most courses teach a simple, repeatable sequence so you do not freeze. The American Red Cross calls it Check, Call, Care: make sure the scene is safe, check the person, call or send someone to call 911, then give the care you are trained to give and keep watching for changes. Standard precautions — gloves, avoiding contact with blood, washing your hands afterward — protect you every time.",
+          "orientation": "Most courses teach a simple, repeatable sequence so you do not freeze. The American Red Cross calls it Check, Call, Care: make sure the scene is safe, check the person, call or send someone to call 911, then give the care you are trained to give and keep watching for changes. Standard precautions (gloves, avoiding contact with blood, washing your hands afterward) protect you every time.",
           "relatedRequirementIds": [
             "rank.second-class.6d"
           ],
@@ -315,7 +315,7 @@
           "summary": "Assembling and checking first aid kits using an approved checklist, and knowing what each item is for.",
           "kind": "activity",
           "safetySensitive": true,
-          "orientation": "A kit is only useful if you know what is in it and can find it fast. Sort items by purpose — wound care, medications your family uses, tools, protective equipment — and note expiry dates. Ready.gov’s emergency supply list is a helpful cross-check, but use the checklist your counselor approves.",
+          "orientation": "A kit is only useful if you know what is in it and can find it fast. Sort items by purpose (wound care, medications your family uses, tools, protective equipment) and note expiry dates. Ready.gov’s emergency supply list is a helpful cross-check, but use the checklist your counselor approves.",
           "relatedRequirementIds": [
             "rank.tenderfoot.4d"
           ],
@@ -366,7 +366,7 @@
           "summary": "Heart attack warning signs, when CPR is needed, CPR on a training device, and how to use an AED.",
           "kind": "demonstration",
           "safetySensitive": true,
-          "orientation": "Heart attack, stroke and cardiac arrest share one rule: call 911 immediately. CPR is a physical skill — depth, rate and hand position are learned on a manikin with feedback. Use the American Heart Association material to understand Hands-Only CPR, then practice in a certified class, and find out where the AEDs are in the places you spend time.",
+          "orientation": "Heart attack, stroke and cardiac arrest share one rule: call 911 immediately. CPR is a physical skill: depth, rate and hand position are learned on a manikin with feedback. Use the American Heart Association material to understand Hands-Only CPR, then practice in a certified class, and find out where the AEDs are in the places you spend time.",
           "note": "Hands-on CPR instruction must come from a currently certified instructor. Videos and articles are background only.",
           "relatedRequirementIds": [
             "rank.first-class.7c"
@@ -380,7 +380,7 @@
           "summary": "Strains, sprains, fractures and dislocations, including bandaging and splinting.",
           "kind": "demonstration",
           "safetySensitive": true,
-          "orientation": "Treat a painful, swollen or misshapen limb as possibly broken. First aid focuses on keeping it still — immobilizing the joints above and below — rather than straightening it. Practice improvised splints with materials you would really have on a trip.",
+          "orientation": "Treat a painful, swollen or misshapen limb as possibly broken. First aid focuses on keeping it still, immobilizing the joints above and below, rather than straightening it. Practice improvised splints with materials you would really have on a trip.",
           "relatedRequirementIds": [
             "rank.first-class.7a"
           ],

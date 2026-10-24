@@ -20,9 +20,6 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: var(--bg);
-  /* A faint paper grain. */
-  background-image: radial-gradient(rgb(120 100 60 / 0.07) 1px, transparent 1px);
-  background-size: 6px 6px;
   color: var(--text);
   font-family: var(--font-sans);
   font-size: var(--fs-base);
@@ -70,7 +67,6 @@ a {
   text-decoration-thickness: 1.5px;
   text-underline-offset: 0.18em;
   text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
-  transition: text-decoration-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
 }
 
 a:hover {
@@ -93,7 +89,7 @@ button {
 :focus-visible {
   outline: 2px solid var(--focus-ring);
   outline-offset: 2px;
-  border-radius: var(--r-xs);
+  border-radius: 0;
 }
 
 ::selection {
@@ -104,7 +100,7 @@ button {
 mark {
   background: color-mix(in srgb, var(--amber) 30%, transparent);
   color: inherit;
-  border-radius: 2px;
+  border-radius: 0;
   padding: 0 0.08em;
 }
 
@@ -125,7 +121,7 @@ kbd {
   padding: 0 0.4em;
   border: 1px solid var(--sage);
   border-bottom-width: 2px;
-  border-radius: var(--r-xs);
+  border-radius: 0;
   background: var(--paper);
   font-size: var(--fs-2xs);
   line-height: 1.6;
@@ -152,7 +148,7 @@ kbd {
   padding: var(--s-2) var(--s-4);
   background: var(--pine);
   color: var(--paper);
-  border-radius: var(--r-sm);
+  border-radius: 0;
   font-weight: 700;
   text-decoration: none;
 }

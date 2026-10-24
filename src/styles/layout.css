@@ -107,13 +107,12 @@
   align-items: center;
   height: 2.75rem;
   padding: 0 var(--s-3);
-  border-radius: var(--r-sm);
+  border-radius: 0;
   font-family: var(--font-serif);
   font-size: var(--fs-md);
   font-weight: 600;
   color: var(--charcoal);
   text-decoration: none;
-  transition: background-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
 }
 
 .nav-link:hover {
@@ -133,8 +132,7 @@
   bottom: 4px;
   height: 3px;
   background: var(--accent);
-  border-radius: 2px 1px 3px 1px;
-  transform: rotate(-0.6deg);
+  border-radius: 0;
 }
 
 .header-actions {
@@ -152,18 +150,15 @@
   height: 2.75rem;
   padding: 0 var(--s-2) 0 var(--s-3);
   border: 2px solid var(--charcoal);
-  border-radius: var(--r-md);
+  border-radius: 0;
   background: var(--paper);
   color: var(--text-muted);
   font-size: var(--fs-sm);
   text-align: left;
-  box-shadow: var(--shadow-hard-sm);
-  transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease);
 }
 
 .search-trigger:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: var(--shadow-hard);
+  background: var(--sage-pale);
 }
 
 .search-trigger span {
@@ -177,11 +172,10 @@
   width: 2.5rem;
   height: 2.5rem;
   border: 1px solid transparent;
-  border-radius: var(--r-md);
+  border-radius: 0;
   background: transparent;
   color: var(--charcoal);
   text-decoration: none;
-  transition: background-color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
 }
 
 .icon-button:hover {
@@ -233,7 +227,6 @@
   inset: 0;
   background: rgb(41 39 30 / 0.4);
   opacity: 0;
-  transition: opacity var(--dur) var(--ease);
 }
 
 .drawer[data-open='true'] .drawer__scrim {
@@ -250,9 +243,7 @@
   flex-direction: column;
   background: var(--ivory);
   border-left: 3px double var(--charcoal);
-  box-shadow: var(--shadow-lg);
   transform: translateX(100%);
-  transition: transform var(--dur-slow) var(--ease);
   overflow-y: auto;
 }
 
@@ -288,7 +279,7 @@
   gap: var(--s-3);
   min-height: 2.875rem;
   padding: 0 var(--s-3);
-  border-radius: var(--r-md);
+  border-radius: 0;
   color: var(--charcoal);
   font-family: var(--font-serif);
   font-size: var(--fs-md);
@@ -304,7 +295,10 @@
 .drawer__link[aria-current='page'] {
   background: var(--sage-pale);
   color: var(--charcoal);
-  box-shadow: inset 4px 0 0 var(--accent);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.3em;
 }
 
 .drawer__link svg {
@@ -548,17 +542,5 @@
 
   .site-footer__brand {
     grid-column: 1 / -1;
-  }
-}
-
-/* A short settle on each new page. It starts mostly visible, so content is never hidden if the animation stalls. */
-.route-enter {
-  animation: route-in var(--dur-slow) var(--ease-out-expo) both;
-}
-
-@keyframes route-in {
-  from {
-    opacity: 0.35;
-    transform: translateY(6px);
   }
 }

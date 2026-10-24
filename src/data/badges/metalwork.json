@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mb.metalwork",
   "slug": "metalwork",
-  "description": "Metalwork covers the science and craft of shaping metal: shop safety, alloys and heat treatment, basic metalworking exercises, and one craft track — sheet metal, silversmithing, casting or blacksmithing.",
+  "description": "Metalwork covers the science and craft of shaping metal: shop safety, alloys and heat treatment, basic metalworking exercises, and one craft track: sheet metal, silversmithing, casting or blacksmithing.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,

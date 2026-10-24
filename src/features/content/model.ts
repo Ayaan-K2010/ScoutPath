@@ -308,7 +308,7 @@ export function buildContent(raw: RawContent): { content: Content; issues: Conte
   return { content, issues };
 }
 
-/** Leaf requirements of an owner in document order — the unit used for progress and planning. */
+/** Leaf requirements of an owner in document order: the unit used for progress and planning. */
 export function leafRequirementIds(content: Content, ownerId: string): string[] {
   return (content.requirementOrder.get(ownerId) ?? []).filter((id) => content.requirements.get(id)?.isLeaf);
 }

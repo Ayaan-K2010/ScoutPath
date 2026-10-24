@@ -1,4 +1,4 @@
-import { Bookmark, FolderPlus, Printer } from 'lucide-react';
+import { Bookmark, FolderPlus, Printer } from '../components/icons';
 import { Link, useNavigate } from 'react-router';
 import { EmptyState } from '../components/EmptyState';
 import { PageHeader } from '../components/PageHeader';

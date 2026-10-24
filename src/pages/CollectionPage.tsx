@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowUp, Download, Lock, Plus, Printer, Trash2, X } from 'lucide-react';
+import { ArrowDown, ArrowUp, Download, Lock, Plus, Printer, Trash2, X } from '../components/icons';
 import { useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router';
 import { Dialog } from '../components/Dialog';
@@ -15,7 +15,7 @@ import { useUpdateUser, useUserData } from '../hooks/useUserData';
 import { downloadText, slugForFile } from '../lib/download';
 import { useToast } from '../lib/toastContext';
 import { NotFoundPage } from './NotFoundPage';
-import { FolderOpen } from 'lucide-react';
+import { FolderOpen } from '../components/icons';
 
 function move<T>(list: T[], from: number, to: number): T[] {
   const next = [...list];
@@ -127,7 +127,7 @@ export function CollectionPage() {
                 <option value="">Add a resource from the library…</option>
                 {availableResources.map((r) => (
                   <option key={r.id} value={r.id}>
-                    {r.title} — {r.publisher}
+                    {r.title}, {r.publisher}
                   </option>
                 ))}
               </select>

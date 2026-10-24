@@ -24,7 +24,7 @@
       "supersedes": null,
       "provenance": {
         "method": "official-source-excerpt",
-        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 7 offers four options — alpine skiing, cross-country skiing, snowboarding and snowshoeing — each with its own steps.",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 7 offers four options (alpine skiing, cross-country skiing, snowboarding and snowshoeing), each with its own steps.",
         "recordedBy": "ScoutPath maintainers",
         "recordedOn": "2026-10-24",
         "references": [

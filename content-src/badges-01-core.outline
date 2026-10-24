@@ -1,4 +1,4 @@
-# First Aid, Camping, Emergency Preparedness — checked against official scouting.org excerpts (2026 requirements).
+# First Aid, Camping, Emergency Preparedness: checked against official scouting.org excerpts (2026 requirements).
 
 @owner mb.first-aid
 @effective 2026-01-01
@@ -7,14 +7,14 @@
 @source https://www.scouting.org/merit-badges/first-aid/ | First Aid merit badge (scouting.org Merit Badge Hub)
 @source https://www.scouting.org/wp-content/uploads/2024/12/Merit-Badge-Requirement-Updates-Effective-January-1-2025-Updated-12-12-24.pdf | Merit Badge Requirement Updates effective January 1, 2025 (scouting.org)
 @note The badge was reorganized in 2025 into twelve topic areas. Excerpts did not consistently show sub-item lettering, so sub-items are described inside each requirement rather than invented. Scouts must also complete the first-aid requirements of the Tenderfoot, Second Class and First Class ranks.
-@desc First Aid goes well beyond the rank-level basics: assessing an emergency, airway and breathing, bleeding, loss of consciousness, CPR and AEDs, bone, joint, head and spine injuries, moving a patient, heat and cold, and stress reactions. It is safety-sensitive — the resources here are background reading, and hands-on practice with a qualified instructor is what builds the skill.
+@desc First Aid goes well beyond the rank-level basics: assessing an emergency, airway and breathing, bleeding, loss of consciousness, CPR and AEDs, bone, joint, head and spine injuries, moving a patient, heat and cold, and stress reactions. It is safety-sensitive: the resources here are background reading, and hands-on practice with a qualified instructor is what builds the skill.
 @safety Medical and emergency guidance changes. Follow your counselor, current Red Cross or American Heart Association training, and local emergency services. CPR must be learned from currently certified instructors.
 @study study.first-aid-foundations
 1 m! Handling a first aid emergency :: Assessing a scene and a patient, getting emergency help at home and in remote places, infection precautions, airway and breathing, a full patient check, shock and triage.
-> Most courses teach a simple, repeatable sequence so you do not freeze. The American Red Cross calls it Check, Call, Care: make sure the scene is safe, check the person, call or send someone to call 911, then give the care you are trained to give and keep watching for changes. Standard precautions — gloves, avoiding contact with blood, washing your hands afterward — protect you every time.
+> Most courses teach a simple, repeatable sequence so you do not freeze. The American Red Cross calls it Check, Call, Care: make sure the scene is safe, check the person, call or send someone to call 911, then give the care you are trained to give and keep watching for changes. Standard precautions (gloves, avoiding contact with blood, washing your hands afterward) protect you every time.
 = rank.second-class.6d
 2 a! First aid kits :: Assembling and checking first aid kits using an approved checklist, and knowing what each item is for.
-> A kit is only useful if you know what is in it and can find it fast. Sort items by purpose — wound care, medications your family uses, tools, protective equipment — and note expiry dates. Ready.gov’s emergency supply list is a helpful cross-check, but use the checklist your counselor approves.
+> A kit is only useful if you know what is in it and can find it fast. Sort items by purpose (wound care, medications your family uses, tools, protective equipment) and note expiry dates. Ready.gov’s emergency supply list is a helpful cross-check, but use the checklist your counselor approves.
 = rank.tenderfoot.4d
 3 demo! Wounds and burns :: Recognizing and caring for different kinds of wounds and injuries, including burns and cold injuries to the skin.
 ~ The official requirement lists the exact conditions. Use it as your checklist.
@@ -24,10 +24,10 @@
 6 demo! Loss of consciousness :: Signs, first aid and prevention for conditions that cause loss of consciousness, such as fainting, seizures, overdose and drowning.
 7 demo! Heart attack, CPR, and AEDs :: Heart attack warning signs, when CPR is needed, CPR on a training device, and how to use an AED.
 ~ Hands-on CPR instruction must come from a currently certified instructor. Videos and articles are background only.
-> Heart attack, stroke and cardiac arrest share one rule: call 911 immediately. CPR is a physical skill — depth, rate and hand position are learned on a manikin with feedback. Use the American Heart Association material to understand Hands-Only CPR, then practice in a certified class, and find out where the AEDs are in the places you spend time.
+> Heart attack, stroke and cardiac arrest share one rule: call 911 immediately. CPR is a physical skill: depth, rate and hand position are learned on a manikin with feedback. Use the American Heart Association material to understand Hands-Only CPR, then practice in a certified class, and find out where the AEDs are in the places you spend time.
 = rank.first-class.7c
 8 demo! Muscle and bone injuries :: Strains, sprains, fractures and dislocations, including bandaging and splinting.
-> Treat a painful, swollen or misshapen limb as possibly broken. First aid focuses on keeping it still — immobilizing the joints above and below — rather than straightening it. Practice improvised splints with materials you would really have on a trip.
+> Treat a painful, swollen or misshapen limb as possibly broken. First aid focuses on keeping it still, immobilizing the joints above and below, rather than straightening it. Practice improvised splints with materials you would really have on a trip.
 = rank.first-class.7a
 9 demo! Head, neck, and spine injuries :: Concussions, head wounds and suspected neck or back injuries, and how to avoid making them worse.
 10 demo! Moving a patient :: When to move an injured person, carries for emergencies, and improvising a stretcher with helpers.
@@ -57,7 +57,7 @@
 ~ The official requirement lists the conditions. Use it as your checklist.
 = mb.first-aid.11, rank.tenderfoot.4a
 2 m Leave No Trace and the Outdoor Code :: Learning the Leave No Trace principles and the Outdoor Code and writing personal and group plans to practice them on your next outing.
-> The seven principles are a framework for good decisions, not a rulebook. For your plans, pick concrete actions for each principle — how you will repackage food to cut trash, where you will cook, how you will store food away from wildlife — and decide which ones are personal and which the group owns.
+> The seven principles are a framework for good decisions, not a rulebook. For your plans, pick concrete actions for each principle (how you will repackage food to cut trash, where you will cook, how you will store food away from wildlife) and decide which ones are personal and which the group owns.
 = rank.scout.1e, rank.second-class.1b
 3 a Overnight trek :: A written plan for an overnight trek and showing how to reach your campsite with a topographic map and a compass, GPS receiver or phone app.
 > A trip plan answers who, where, when, how and what if. The navigation part asks you to read terrain from contour lines and connect the map to the ground; the USGS primer explains contours, scale and bearings in plain language.
@@ -71,7 +71,7 @@
 5b d Footwear :: Footwear for different kinds of weather and trips.
 5c k Caring for gear :: How to care for and store camping gear.
 5d k Scout Basic Essentials :: The Scout Basic Essentials for any outing and why each one is needed.
-> The National Park Service’s Ten Essentials cover similar ground — navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter — and are useful for understanding the reasoning. Use the Scouting list for the requirement itself.
+> The National Park Service’s Ten Essentials cover similar ground (navigation, light, insulation, first aid, fire, repair tools, food, water, sun protection and shelter) and are useful for understanding the reasoning. Use the Scouting list for the requirement itself.
 5e demo Pack inspection :: Presenting your packed gear for inspection.
 6 m Tents, sanitation, packs, and sleeping :: Tents, water treatment, choosing a site, backpacks, sleeping bags and ground beds.
 6a m Tents :: Four types of tents, when to use them and how to care for them, and pitching one with another Scout.
@@ -110,9 +110,9 @@
 @desc Emergency Preparedness is about thinking ahead: how households and communities prepare for, respond to, recover from and reduce the impact of emergencies. It combines planning with your family, practical rescue and transport skills, and an understanding of how emergency services are organized.
 @safety Rescue scenarios such as electrical hazards, carbon monoxide, fire and water must only be practiced as simulations under adult supervision. Never enter a real hazard to attempt a rescue.
 1 m Preparing for emergencies :: Prevention, protection, mitigation, response and recovery applied to a set of emergencies, and preparing a family disaster kit for sheltering in place and evacuating.
-> Emergency managers think in phases: what you do before (kits, plans, training), during, and after, and how you reduce the chance or impact of the next one. Ready.gov organizes household preparedness into building a kit, making a plan and being informed — a good frame for this requirement.
+> Emergency managers think in phases: what you do before (kits, plans, training), during, and after, and how you reduce the chance or impact of the next one. Ready.gov organizes household preparedness into building a kit, making a plan and being informed, which is a good frame for this requirement.
 = rank.first-class.7e
-2 demo! Safe rescues :: Showing how to help someone in danger — from a live electrical wire, carbon monoxide, burning clothing or water — without becoming a victim yourself.
+2 demo! Safe rescues :: Showing how to help someone in danger (from a live electrical wire, carbon monoxide, burning clothing or water) without becoming a victim yourself.
 ~ Demonstrations must be simulations under adult supervision.
 = rank.second-class.5c
 3 demo Signaling for help :: Ways to signal rescue aircraft, drones and searchers on the ground.

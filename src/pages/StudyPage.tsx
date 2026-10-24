@@ -1,4 +1,4 @@
-import { ArrowRight, Hourglass } from 'lucide-react';
+import { ArrowRight, Hourglass } from '../components/icons';
 import { Link } from 'react-router';
 import { Callout } from '../components/Callout';
 import { PageHeader } from '../components/PageHeader';

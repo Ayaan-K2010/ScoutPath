@@ -1,4 +1,4 @@
-import { FolderOpen, FolderPlus, Upload } from 'lucide-react';
+import { FolderOpen, FolderPlus, Upload } from '../components/icons';
 import { useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { Callout } from '../components/Callout';

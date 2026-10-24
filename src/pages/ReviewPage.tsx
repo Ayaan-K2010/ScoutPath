@@ -6,7 +6,7 @@
  * the bundled dataset in this browser and exports changed JSON files, which a
  * maintainer reviews and commits to the repository.
  */
-import { Download, ExternalLink as ExternalIcon, RotateCcw, Trash2 } from 'lucide-react';
+import { Download, ExternalLink as ExternalIcon, RotateCcw, Trash2 } from '../components/icons';
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router';
 import { Callout } from '../components/Callout';
@@ -312,7 +312,7 @@ function RequirementEditor({ draft, setDraft }: { draft: RawContent; setDraft: (
       ) : (
         <>
           <section className="panel">
-            <h3 className="panel__title">Version metadata — {version.versionId}</h3>
+            <h3 className="panel__title">Version metadata: {version.versionId}</h3>
             <div className="form-grid">
               <div className="field">
                 <label htmlFor="rq-status">Verification status</label>
@@ -525,7 +525,7 @@ export function ReviewPage() {
         lede="For maintainers: validate the dataset, review links, edit resource metadata and requirement mappings, compare versions, and export changed files."
       />
       <div className="stack-lg">
-        <Callout tone="warn" title="Local-only tool — not a secure admin system">
+        <Callout tone="warn" title="Local-only tool. Not a secure admin system.">
           Edits here change a draft stored in this browser only. Nothing is published, and there is no server or login. To publish, export the changed files,
           review them, run <code>npm run content:validate</code> and commit them to the repository. Anyone can open this page, which is why it can only edit
           their own browser’s draft.
@@ -575,7 +575,7 @@ export function ReviewPage() {
                     <span className={`tag ${i.severity === 'error' ? 'tag--alert' : i.severity === 'warning' ? 'tag--warn' : ''}`}>{i.code}</span>
                     <span>
                       {i.file && <code>{i.file} </code>}
-                      {i.recordId && <code>{i.recordId} </code>}— {i.message}
+                      {i.recordId && <code>{i.recordId}</code>}{i.recordId && ': '}{i.message}
                     </span>
                   </li>
                 ))}
@@ -588,7 +588,7 @@ export function ReviewPage() {
               <ul className="plain-list small" style={{ columns: '22rem' }}>
                 {report.needsReview.map((r, i) => (
                   <li key={i} style={{ breakInside: 'avoid', padding: '2px 0' }}>
-                    <code>{r.id}</code> — {r.kind}: {r.reason}
+                    <code>{r.id}</code> ({r.kind}): {r.reason}
                   </li>
                 ))}
               </ul>

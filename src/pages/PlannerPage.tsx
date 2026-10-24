@@ -1,4 +1,4 @@
-import { CalendarDays, CalendarPlus, Plus, Printer, RefreshCw, Trash2 } from 'lucide-react';
+import { CalendarDays, CalendarPlus, Plus, Printer, RefreshCw, Trash2 } from '../components/icons';
 import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router';
 import { Callout } from '../components/Callout';

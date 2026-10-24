@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, BookOpen, Check, Layers, ListChecks, Printer, RotateCcw, Shuffle } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, Check, Layers, ListChecks, Printer, RotateCcw, Shuffle } from '../components/icons';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router';
 import { Callout } from '../components/Callout';
@@ -288,7 +288,7 @@ function Quiz({ set }: { set: StudySet }) {
                 <li key={q.id} className="panel">
                   <p style={{ fontWeight: 650 }}>{q.prompt}</p>
                   <p className="small" style={{ marginTop: 'var(--s-2)', color: 'var(--alert-ink)' }}>
-                    Your answer: {q.choices[answers[q.id]] ?? '—'}
+                    Your answer: {q.choices[answers[q.id]] ?? 'No answer'}
                   </p>
                   <p className="small" style={{ color: 'var(--ok-ink)' }}>
                     Correct answer: {q.choices[q.answerIndex]}

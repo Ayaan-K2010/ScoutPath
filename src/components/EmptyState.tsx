@@ -1,7 +1,7 @@
-import type { LucideIcon } from 'lucide-react';
+import type { IconComponent } from './icons';
 import type { ReactNode } from 'react';
 
-export function EmptyState({ icon: Icon, title, children, actions, center = false }: { icon: LucideIcon; title: string; children?: ReactNode; actions?: ReactNode; center?: boolean }) {
+export function EmptyState({ icon: Icon, title, children, actions, center = false }: { icon: IconComponent; title: string; children?: ReactNode; actions?: ReactNode; center?: boolean }) {
   return (
     <div className={`empty${center ? ' empty--center' : ''}`}>
       <span className="empty__icon" aria-hidden="true">

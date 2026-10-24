@@ -1,4 +1,4 @@
-import { Library, ListChecks } from 'lucide-react';
+import { Library, ListChecks } from './icons';
 import { content } from '../features/content/data';
 import { leafRequirementIds } from '../features/content/model';
 import { ownerProgress } from '../features/progress/summary';

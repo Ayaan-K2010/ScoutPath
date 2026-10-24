@@ -1,4 +1,4 @@
-import { Info, ShieldCheck, TriangleAlert } from 'lucide-react';
+import { Info, ShieldCheck, TriangleAlert } from './icons';
 import type { ReactNode } from 'react';
 
 export function Callout({ tone = 'info', title, children }: { tone?: 'info' | 'warn' | 'alert' | 'safety'; title?: ReactNode; children: ReactNode }) {

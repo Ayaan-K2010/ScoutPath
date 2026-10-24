@@ -1,7 +1,7 @@
-import { BookA, FileText, FlaskConical, Globe, Image, Mic, MousePointerClick, Newspaper, PenLine, Shapes, Video, type LucideIcon } from 'lucide-react';
+import { BookA, FileText, FlaskConical, Globe, Image, Mic, MousePointerClick, Newspaper, PenLine, Shapes, Video, type IconComponent } from './icons';
 import type { ResourceType } from '../schemas/content';
 
-const ICONS: Record<ResourceType, LucideIcon> = {
+const ICONS: Record<ResourceType, IconComponent> = {
   video: Video,
   article: Newspaper,
   'official-page': Globe,

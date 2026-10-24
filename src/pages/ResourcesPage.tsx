@@ -1,4 +1,4 @@
-import { SearchX } from 'lucide-react';
+import { SearchX } from '../components/icons';
 import { useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router';
 import { EmptyState } from '../components/EmptyState';

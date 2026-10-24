@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mb.cooking",
   "slug": "cooking",
-  "description": "Cooking covers food safety and nutrition, cooking methods, and planning, cooking and evaluating real meals at home, in camp and on the trail — with attention to allergies, budgets and cleanup.",
+  "description": "Cooking covers food safety and nutrition, cooking methods, and planning, cooking and evaluating real meals at home, in camp and on the trail, with attention to allergies, budgets and cleanup.",
   "lastReviewed": null,
   "safety": {
     "sensitive": true,

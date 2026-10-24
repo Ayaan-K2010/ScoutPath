@@ -1,4 +1,4 @@
-import { ShieldCheck } from 'lucide-react';
+import { ShieldCheck } from './icons';
 import type { RequirementVersion } from '../schemas/content';
 import { formatIsoDate } from '../lib/format';
 import { Disclosure } from './Disclosure';

@@ -1,8 +1,9 @@
-import { Bookmark, CalendarDays, FolderOpen, GraduationCap, LayoutDashboard, Medal, Menu, Award, Search, Settings, X, Info, ShieldCheck, ScanSearch, Library } from 'lucide-react';
+import { Bookmark, CalendarDays, FolderOpen, GraduationCap, LayoutDashboard, Medal, Menu, Award, Search, Settings, X, Info, ShieldCheck, ScanSearch, Library, FileText } from '../components/icons';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router';
+import { Link, NavLink, Outlet, ScrollRestoration, useLocation, useNavigation } from 'react-router';
 import { Brand } from '../components/Brand';
 import { ExternalLink } from '../components/ExternalLink';
+import { PageSkeleton } from '../components/PageSkeleton';
 import { SearchPalette } from '../components/SearchPalette';
 import { ToastProvider } from '../components/ToastProvider';
 import { TopoPattern } from '../components/TopoPattern';
@@ -28,6 +29,7 @@ const ABOUT = [
   { to: '/about', label: 'About ScoutPath', icon: Info },
   { to: '/coverage', label: 'Content coverage', icon: ScanSearch },
   { to: '/privacy', label: 'Privacy', icon: ShieldCheck },
+  { to: '/terms', label: 'Terms of use', icon: FileText },
 ];
 
 function StorageNotice() {
@@ -48,6 +50,9 @@ export function AppShell() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [palette, setPalette] = useState<{ open: boolean; query: string; session: number }>({ open: false, query: '', session: 0 });
   const location = useLocation();
+  // Lazy pages load their code on navigation; show a placeholder instead of leaving the old page up.
+  const navigation = useNavigation();
+  const loadingPage = navigation.state === 'loading' && navigation.location?.pathname !== location.pathname;
   const mainRef = useRef<HTMLElement>(null);
   const firstRender = useRef(true);
 
@@ -164,9 +169,14 @@ export function AppShell() {
           </div>
 
           <main id="main" className="app-main" ref={mainRef} tabIndex={-1}>
-            <div className="route-enter" key={location.pathname}>
-              <Outlet />
-            </div>
+            {loadingPage ? (
+              <PageSkeleton />
+            ) : (
+              // Keyed by path so each page starts with fresh state.
+              <div key={location.pathname}>
+                <Outlet />
+              </div>
+            )}
           </main>
 
           <footer className="site-footer no-print">
@@ -205,6 +215,7 @@ export function AppShell() {
                   <ul>
                     <li><Link to="/about">About ScoutPath</Link></li>
                     <li><Link to="/disclaimer">Disclaimer</Link></li>
+                    <li><Link to="/terms">Terms of use</Link></li>
                     <li><Link to="/coverage">Content coverage</Link></li>
                     <li><Link to="/review">Content review tool</Link></li>
                     <li>

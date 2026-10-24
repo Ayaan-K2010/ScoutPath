@@ -1,4 +1,4 @@
-import { ExternalLink as ExternalIcon } from 'lucide-react';
+import { ExternalLink as ExternalIcon } from './icons';
 import type { ReactNode } from 'react';
 import { domainOf } from '../lib/format';
 

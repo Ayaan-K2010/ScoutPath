@@ -1,4 +1,4 @@
-import { LayoutGrid, List, SearchX, SlidersHorizontal } from 'lucide-react';
+import { LayoutGrid, List, SearchX, SlidersHorizontal } from '../components/icons';
 import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router';
 import { BadgeCard, EagleTag } from '../components/BadgeCard';

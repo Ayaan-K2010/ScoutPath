@@ -1,4 +1,4 @@
-import { CalendarDays, CircleHelp, GraduationCap, Plus, Printer, Check } from 'lucide-react';
+import { CalendarDays, CircleHelp, GraduationCap, Plus, Printer, Check } from '../components/icons';
 import { Link, useParams } from 'react-router';
 import { EagleTag } from '../components/BadgeCard';
 import { BadgeMark } from '../components/BadgeMark';
