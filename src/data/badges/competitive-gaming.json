@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.competitive-gaming",
+  "slug": "competitive-gaming",
+  "description": "Competitive Gaming (a Test Lab badge) looks at esports and gaming responsibly: gaming history, online safety, balancing gaming with sleep and physical activity, the technology behind competitive play, leadership and service in the gaming community, and careers in the industry.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

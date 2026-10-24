@@ -57,7 +57,8 @@ export function BadgePage() {
         meta={
           <>
             <EagleTag badge={badge} />
-            {badge.lifecycle === 'discontinued' && <span className="tag tag--alert">Reported discontinued</span>}
+            {badge.lifecycle === 'discontinued' && <span className="tag tag--alert">Discontinued</span>}
+            {badge.lifecycle === 'test-lab' && <span className="tag">Test Lab</span>}
             <VerificationTag status={version ? version.status : 'missing'} />
             {badge.catalogStatus !== 'verified' && <span className="tag tag--outline">Listing unverified</span>}
           </>
@@ -95,7 +96,7 @@ export function BadgePage() {
 
       {badge.lifecycleNote && (
         <div style={{ marginBottom: 'var(--s-8)' }}>
-          <Callout tone={badge.lifecycle === 'discontinued' ? 'alert' : 'info'} title={badge.lifecycle === 'discontinued' ? 'Status change reported' : 'Recent change'}>
+          <Callout tone={badge.lifecycle === 'discontinued' ? 'alert' : 'info'} title={badge.lifecycle === 'discontinued' ? 'Discontinued' : badge.lifecycle === 'test-lab' ? 'Test Lab badge' : 'Recent change'}>
             {badge.lifecycleNote}
           </Callout>
         </div>

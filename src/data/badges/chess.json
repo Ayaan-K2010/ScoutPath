@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.chess",
+  "slug": "chess",
+  "description": "Chess covers the history of the game, notation, how the pieces move, basic strategy and tactics, famous players, how tournaments are run, solving mate problems, and teaching or organizing play.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

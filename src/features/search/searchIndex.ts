@@ -50,7 +50,7 @@ export function buildDocuments(content: Content): SearchDoc[] {
       title: b.name,
       subtitle: `Merit badge · ${categoryName.get(b.category) ?? b.category}`,
       text: b.detail?.description ?? '',
-      keywords: [categoryName.get(b.category), b.eagle.status === 'required' || b.eagle.status === 'required-option' ? 'eagle required' : '', b.lifecycle === 'discontinued' ? 'discontinued' : ''].join(' '),
+      keywords: [categoryName.get(b.category), b.eagle.status === 'required' || b.eagle.status === 'required-option' ? 'eagle required' : '', b.lifecycle === 'discontinued' ? 'discontinued' : b.lifecycle === 'test-lab' ? 'test lab trial' : ''].join(' '),
       path: `/merit-badges/${b.slug}`,
     });
   }

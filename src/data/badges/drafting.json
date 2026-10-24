@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.drafting",
+  "slug": "drafting",
+  "description": "Drafting teaches technical drawing by hand and on computer: preparing drawing sheets, scale drawings with a bill of materials, a CAD drawing, comparing manual and computer drafting, lettering, visiting a workplace, and how drafting tools have changed.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/drafting/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts were partly out of order; requirements 5–7 are outlined from topic and should be confirmed against the official list.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/drafting/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.drafting.1",
+          "number": "1",
+          "title": "Preparing drawing sheets",
+          "summary": "Borders, title blocks and rough sketches for your drawing projects.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.drafting.2",
+          "number": "2",
+          "title": "A scale drawing",
+          "summary": "An architectural, mechanical or electrical drawing with a bill of materials.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.drafting.3",
+          "number": "3",
+          "title": "A CAD drawing",
+          "summary": "A computer-aided drawing with its title block completed.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.drafting.4",
+          "number": "4",
+          "title": "Manual versus CAD",
+          "summary": "Comparing your manual and computer drafting work.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.drafting.5",
+          "number": "5",
+          "title": "Lettering",
+          "summary": "A short explanation of a benefit of CAD, lettered by hand.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.drafting.6",
+          "number": "6",
+          "title": "Drafting at work",
+          "summary": "Visiting a workplace where drafting is used, or a similar investigation.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.drafting.7",
+          "number": "7",
+          "title": "Tools then and now",
+          "summary": "How drafting tools and media have changed, including the effect of CAD.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

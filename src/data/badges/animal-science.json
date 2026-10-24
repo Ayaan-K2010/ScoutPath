@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.animal-science",
+  "slug": "animal-science",
+  "description": "Animal Science covers the care and management of livestock and poultry: breeds and their uses, disease prevention, nutrition, breeding and production technology, with hands-on work with one type of animal.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Working with large animals requires supervision by an experienced adult."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/animal-science/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 6 offers options by species (beef, dairy, horse, sheep or goat, hog, or poultry) with their own steps; later requirements were not fully visible.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/animal-science/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.animal-science.1",
+          "number": "1",
+          "title": "Breeds",
+          "summary": "Breeds of livestock, their uses and origins.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.animal-science.2",
+          "number": "2",
+          "title": "Animal health",
+          "summary": "Diseases that affect livestock, their signs and how to prevent them.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.animal-science.3",
+          "number": "3",
+          "title": "Digestion and nutrition",
+          "summary": "Differences in digestive systems and how they affect feeding.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.animal-science.4",
+          "number": "4",
+          "title": "A management plan",
+          "summary": "A management plan for one type of animal.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.animal-science.5",
+          "number": "5",
+          "title": "Breeding and technology",
+          "summary": "Breeding practices and modern production technology.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.animal-science.6",
+          "number": "6",
+          "title": "Working with one species",
+          "summary": "One species option with its own hands-on steps.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

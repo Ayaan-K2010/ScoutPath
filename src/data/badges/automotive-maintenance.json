@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.automotive-maintenance",
+  "slug": "automotive-maintenance",
+  "description": "Automotive Maintenance teaches how a car or truck works and how to care for it — safety, dashboards, tires, engine, cooling, fuel, ignition and electrical systems, drive train and brakes, including electric and hybrid vehicles.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Work on vehicles only with a knowledgeable adult, on a level surface with the engine off and cool, and never under a vehicle supported only by a jack."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/automotive-maintenance/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Numbers follow the order in which the official page lists the topic areas; sub-items, which include electric and hybrid vehicles, are summarized. You need access to a vehicle and its owner’s manual.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/automotive-maintenance/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.automotive-maintenance.1",
+          "number": "1",
+          "title": "Safety and ownership",
+          "summary": "Safety around vehicles, registration and the costs of owning a vehicle.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": [
+            {
+              "id": "mb.automotive-maintenance.10",
+              "number": "10",
+              "title": "Brakes",
+              "summary": "The braking system and its care.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.automotive-maintenance.11",
+              "number": "11",
+              "title": "Evaluating and caring for vehicles",
+              "summary": "Options such as evaluating vehicles and cleaning or waxing a car.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.automotive-maintenance.2",
+          "number": "2",
+          "title": "General maintenance",
+          "summary": "Routine maintenance schedules and checks.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.3",
+          "number": "3",
+          "title": "Dashboard and indicators",
+          "summary": "Dashboard gauges and warning indicators.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.4",
+          "number": "4",
+          "title": "Tires",
+          "summary": "Tire care, pressure and changing a tire.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.5",
+          "number": "5",
+          "title": "Engine",
+          "summary": "How the engine works and engine maintenance.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.6",
+          "number": "6",
+          "title": "Cooling system",
+          "summary": "The cooling system and its care.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.7",
+          "number": "7",
+          "title": "Fuel system",
+          "summary": "The fuel system and its care.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.8",
+          "number": "8",
+          "title": "Ignition and electrical",
+          "summary": "The ignition and electrical systems.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.9",
+          "number": "9",
+          "title": "Drive train",
+          "summary": "The drive train and transmission.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

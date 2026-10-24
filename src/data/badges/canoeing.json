@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.canoeing",
+  "slug": "canoeing",
+  "description": "Canoeing teaches you to paddle safely and efficiently: hazards and first aid, the parts of a canoe and paddle, life jackets, carrying and launching, capsize recovery and rescues, and tandem and solo strokes and maneuvers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Paddling activities follow Safety Afloat and require a qualified supervisor; Scouts must pass the BSA swimmer test."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/canoeing/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts showed the safety, equipment, handling, rescue and tandem-maneuver requirements but not every number, so only the confirmed opening requirement is outlined. Check the official list for numbering and distances.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/canoeing/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.canoeing.1",
+          "number": "1",
+          "title": "Hazards and first aid",
+          "summary": "Hazards of canoeing and how to respond, and first aid for injuries such as blisters, hypothermia, heat reactions, sunburn and sprains.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.swimming.1"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

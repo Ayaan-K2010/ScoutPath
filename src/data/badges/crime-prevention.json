@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.crime-prevention",
+  "slug": "crime-prevention",
+  "description": "Crime Prevention looks at why laws exist and how communities keep people safe: crime in your area, security surveys, retail crime, reporting crime and abuse, peer pressure, substance use, online safety, and careers in public safety.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/crime-prevention/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/crime-prevention/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.crime-prevention.1",
+          "number": "1",
+          "title": "Crime and the law",
+          "summary": "Why criminal laws exist, types of crime, why people commit crimes, and what crime prevention means.",
+          "kind": "discussion",
+          "children": [
+            {
+              "id": "mb.crime-prevention.10",
+              "number": "10",
+              "title": "Interview",
+              "summary": "Interviewing a law enforcement officer or other public servant about crime prevention.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.crime-prevention.11",
+              "number": "11",
+              "title": "Careers",
+              "summary": "Careers in crime prevention and researching one of them.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.crime-prevention.2",
+          "number": "2",
+          "title": "Who prevents crime",
+          "summary": "How citizens, schools and neighborhood or youth groups help prevent crime.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.3",
+          "number": "3",
+          "title": "Crime in your community",
+          "summary": "Researching news coverage of several different kinds of crime.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.4",
+          "number": "4",
+          "title": "Security survey and lesson",
+          "summary": "How design and community groups deter crime, a home or building security survey, and teaching a lesson.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.5",
+          "number": "5",
+          "title": "Retail crime",
+          "summary": "The effects of shoplifting and employee theft, and how stores prevent them.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.6",
+          "number": "6",
+          "title": "Reporting crime and staying safe",
+          "summary": "When and how to report crimes, warning signs of abuse, and personal safety rules.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.7",
+          "number": "7",
+          "title": "Peers and crime",
+          "summary": "Peer pressure, bullying, hazing and gangs.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.8",
+          "number": "8",
+          "title": "Substance use and crime",
+          "summary": "Legal and health consequences of substances, their link to crime, and where to get help.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.9",
+          "number": "9",
+          "title": "Online crime",
+          "summary": "Scams, identity theft, online security, and how bullying and sharing images can become crimes.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

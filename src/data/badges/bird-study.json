@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.bird-study",
+  "slug": "bird-study",
+  "description": "Bird Study teaches you to observe and identify birds by sight and sound, understand their adaptations and role in ecosystems, help them through habitat projects, and practice outdoor ethics while birding.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/bird-study/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The 2026 update added a Leave No Trace requirement and career options. Excerpts combined some topics; requirements 6 and 7 are separated here by topic and should be confirmed.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/bird-study/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Advancement-updates-2026_2.pdf",
+            "label": "Advancement Updates 2026 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.bird-study.1",
+          "number": "1",
+          "title": "Birds and ecosystems",
+          "summary": "Why birds are useful environmental indicators and how they fit into ecosystems.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.bird-study.10",
+              "number": "10",
+              "title": "Protecting birds",
+              "summary": "Endangered and threatened species and habitat protection.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.bird-study.11",
+              "number": "11",
+              "title": "Non-native birds",
+              "summary": "Non-native birds and their effects on ecosystems.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.bird-study.12",
+              "number": "12",
+              "title": "Ethics in birding",
+              "summary": "Leave No Trace and the Outdoor Code as they apply to bird study.",
+              "kind": "discussion",
+              "children": []
+            },
+            {
+              "id": "mb.bird-study.13",
+              "number": "13",
+              "title": "Careers or hobbies",
+              "summary": "One option: careers related to birds, or a lifelong hobby.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.bird-study.2",
+          "number": "2",
+          "title": "Bird anatomy",
+          "summary": "The parts of a perched bird and its wing feathers.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.3",
+          "number": "3",
+          "title": "Optics",
+          "summary": "Choosing and caring for binoculars or a spotting scope.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.4",
+          "number": "4",
+          "title": "Field guides",
+          "summary": "Using a field guide and its range maps.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.5",
+          "number": "5",
+          "title": "Identifying birds",
+          "summary": "Identifying wild bird species and keeping a field notebook.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.6",
+          "number": "6",
+          "title": "Adaptations",
+          "summary": "How birds’ bodies and plumage suit their way of life.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.7",
+          "number": "7",
+          "title": "Songs and calls",
+          "summary": "Bird songs and calls and identifying birds by sound.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.8",
+          "number": "8",
+          "title": "Bird surveys",
+          "summary": "One option: a field trip, a bird count or a banding program.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.9",
+          "number": "9",
+          "title": "A backyard project",
+          "summary": "One project such as a feeder, birdbath, nest box or habitat plan.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": [
+    "study.camp-ready"
+  ]
+}

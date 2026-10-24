@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.american-labor",
+  "slug": "american-labor",
+  "description": "American Labor looks at work from the worker’s side: workplace concerns, the history and role of unions, how bargaining works, and how owners, employees and communities balance their goals.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/american-labor/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts confirmed requirements 1, 3, 4, 5, 7 and 8; requirements 2 and 6 were not visible in current form and are not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/american-labor/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.american-labor.1",
+          "number": "1",
+          "title": "Concerns of workers",
+          "summary": "Learning about working people and listing major concerns of American workers, including researching a labor organization.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.american-labor.3",
+          "number": "3",
+          "title": "What unions do",
+          "summary": "What labor unions are, what they do and what services they provide.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-labor.4",
+          "number": "4",
+          "title": "Bargaining",
+          "summary": "Union terms and the difference between adversarial and cooperative bargaining.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-labor.5",
+          "number": "5",
+          "title": "Labor history project",
+          "summary": "One option, such as a timeline, an exhibit, a film discussion or a biography.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.american-labor.7",
+          "number": "7",
+          "title": "Both sides of an issue",
+          "summary": "Arguing a current labor issue from management’s side and then from labor’s.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.american-labor.8",
+          "number": "8",
+          "title": "Goals and compromise",
+          "summary": "The different goals of owners, shareholders, customers, employees, unions, communities and officials, and why they compromise.",
+          "kind": "discussion",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

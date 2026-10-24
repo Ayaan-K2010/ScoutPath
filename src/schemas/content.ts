@@ -159,7 +159,7 @@ export const catalogEntry = z.object({
   slug,
   name: z.string().min(2),
   category: categoryId,
-  lifecycle: z.enum(['active', 'discontinued', 'unknown']),
+  lifecycle: z.enum(['active', 'test-lab', 'discontinued', 'unknown']),
   lifecycleNote: z.string().optional(),
   eagle: eagleStatus,
   catalogStatus: verificationStatus,

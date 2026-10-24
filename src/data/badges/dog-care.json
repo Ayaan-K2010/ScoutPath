@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.dog-care",
+  "slug": "dog-care",
+  "description": "Dog Care teaches responsible dog ownership: breeds and history, how a dog’s body works, feeding, grooming and training, keeping a care log, preventive health and first aid, local dog laws, and careers working with dogs.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Approach unfamiliar dogs only with the owner’s permission; dog bites need prompt first aid and medical attention."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

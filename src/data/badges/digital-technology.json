@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.digital-technology",
+  "slug": "digital-technology",
+  "description": "Digital Technology explains how digital devices, software and the internet work — digital safety and the Cyber Chip, compression and networks, apps and malware, productivity tools, digital projects for your troop, intellectual property, e-waste, and careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/digital-technology/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/digital-technology/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.digital-technology.1",
+          "number": "1",
+          "title": "Digital safety",
+          "summary": "The Personal Safety Awareness “Digital Safety” video and the Cyber Chip.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.2",
+          "number": "2",
+          "title": "History and future",
+          "summary": "How digital technology has changed over time and may change in the future.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.3",
+          "number": "3",
+          "title": "How devices work",
+          "summary": "Digitizing media, compression, programming, and local and wide area networks.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.4",
+          "number": "4",
+          "title": "Software and security",
+          "summary": "How apps run, malware and protecting against it, and barcodes, QR codes and RFID.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.5",
+          "number": "5",
+          "title": "The internet and productivity",
+          "summary": "How data moves online, secure connections, and using productivity software for troop tasks.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.6",
+          "number": "6",
+          "title": "Digital projects",
+          "summary": "Projects for your troop such as photos, audio recordings and a blog.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.7",
+          "number": "7",
+          "title": "Intellectual property",
+          "summary": "Copyright, patents, trademarks and trade secrets, and using software legally.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.8",
+          "number": "8",
+          "title": "Disposal and recycling",
+          "summary": "Options on safely disposing of and recycling electronics and batteries.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.digital-technology.9",
+          "number": "9",
+          "title": "Careers",
+          "summary": "One option: researching a career or visiting a facility that uses digital technology.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

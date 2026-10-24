@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.american-cultures",
+  "slug": "american-cultures",
+  "description": "American Cultures explores the many backgrounds that make up the United States — including your own — through festivals, places, conversations, stories and history, and asks how different groups can understand one another better.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/american-cultures/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/american-cultures/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.american-cultures.1",
+          "number": "1",
+          "title": "Experiencing other cultures",
+          "summary": "Options for learning about three groups first-hand, such as attending an event, visiting a place of worship or institution, or talking with members of a group.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.american-cultures.2",
+          "number": "2",
+          "title": "Groups living together",
+          "summary": "Imagining each group living on its own and then all three living together.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.american-cultures.3",
+          "number": "3",
+          "title": "Customs compared",
+          "summary": "Differences and similarities among the groups’ religious and social customs.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.american-cultures.4",
+          "number": "4",
+          "title": "Contributions",
+          "summary": "Contributions made to the country by people from different backgrounds.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-cultures.5",
+          "number": "5",
+          "title": "Leading a discussion",
+          "summary": "A talk about how different groups have gotten along, and leading a discussion on building understanding.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

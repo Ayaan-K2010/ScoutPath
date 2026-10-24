@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "listedOn": "2026-10-22",
+  "listedOn": "2026-10-24",
   "provenance": {
-    "method": "maintainer-draft",
-    "notes": "Badge names compiled from maintainer familiarity with the Scouts BSA catalog and adjusted for 2025-2026 changes reported in news coverage and council communications. The official merit badge list on scouting.org could not be reached from the build environment, so every listing is marked unverified. Official URLs follow the scouting.org per-badge URL pattern and have not been fetched.",
+    "method": "official-source-excerpt",
+    "notes": "Badge names, official page URLs and Eagle status were checked against scouting.org pages (the All Merit Badges A–Z list, the Eagle-required list and per-badge Merit Badge Hub pages) as returned by a search index on 2026-10-24. Listings whose official page appeared in those results are marked verified; the pages themselves could not be opened from the build environment, so official links remain unchecked. Test Lab badges are listed separately because they are trials rather than permanent badges.",
     "recordedBy": "ScoutPath maintainers",
-    "recordedOn": "2026-10-22",
+    "recordedOn": "2026-10-24",
     "references": [
       {
-        "label": "Scouting America press release: AI and Cybersecurity merit badges (Scouting Newsroom)",
-        "url": "https://www.scoutingnewsroom.org/press-releases/scouting-america-launches-first-ever-ai-and-cybersecurity-merit-badges/"
+        "label": "All Merit Badges A–Z (scouting.org)",
+        "url": "https://www.scouting.org/skills/merit-badges/all/"
       },
       {
-        "label": "Golden Gate Area Council update on Citizenship in Society (secondary source)",
-        "url": "https://goldengatescouting.org/2026/03/16/scouting-americas-military-agreement-ggac-update/"
+        "label": "Eagle Required Merit Badges (scouting.org)",
+        "url": "https://www.scouting.org/skills/merit-badges/eagle-required/"
       },
       {
-        "label": "Michigan Crossroads Council: Indian Lore renamed American Indian Culture (secondary source)",
-        "url": "https://michiganscouting.org/?p=189582"
+        "label": "Scouts BSA Test Lab (scouting.org)",
+        "url": "https://www.scouting.org/skills/merit-badges/test-lab/"
       }
     ]
   },
@@ -30,9 +30,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/american-business/",
       "officialUrlStatus": "unchecked"
     },
@@ -44,9 +44,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/american-cultures/",
       "officialUrlStatus": "unchecked"
     },
@@ -58,9 +58,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/american-heritage/",
       "officialUrlStatus": "unchecked"
     },
@@ -72,9 +72,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/american-indian-culture/",
       "officialUrlStatus": "unchecked",
       "lifecycleNote": "Reported as the new name of the former Indian Lore merit badge, effective January 12, 2026."
@@ -87,9 +87,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/american-labor/",
       "officialUrlStatus": "unchecked"
     },
@@ -101,9 +101,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/animal-science/",
       "officialUrlStatus": "unchecked"
     },
@@ -115,10 +115,24 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/animation/",
+      "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.archaeology",
+      "slug": "archaeology",
+      "name": "Archaeology",
+      "category": "science-tech",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": true
+      },
+      "catalogStatus": "verified",
+      "officialUrl": "https://www.scouting.org/merit-badges/archaeology/",
       "officialUrlStatus": "unchecked"
     },
     {
@@ -129,9 +143,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/archery/",
       "officialUrlStatus": "unchecked"
     },
@@ -143,9 +157,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/architecture/",
       "officialUrlStatus": "unchecked"
     },
@@ -157,9 +171,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/art/",
       "officialUrlStatus": "unchecked"
     },
@@ -171,9 +185,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/artificial-intelligence/",
       "officialUrlStatus": "unchecked",
       "lifecycleNote": "Reported as introduced by Scouting America in October 2025."
@@ -186,9 +200,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/astronomy/",
       "officialUrlStatus": "unchecked"
     },
@@ -200,9 +214,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/athletics/",
       "officialUrlStatus": "unchecked"
     },
@@ -214,9 +228,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/automotive-maintenance/",
       "officialUrlStatus": "unchecked"
     },
@@ -228,9 +242,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/aviation/",
       "officialUrlStatus": "unchecked"
     },
@@ -242,9 +256,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/backpacking/",
       "officialUrlStatus": "unchecked"
     },
@@ -256,9 +270,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/basketry/",
       "officialUrlStatus": "unchecked"
     },
@@ -270,9 +284,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/bird-study/",
       "officialUrlStatus": "unchecked"
     },
@@ -284,9 +298,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/bugling/",
       "officialUrlStatus": "unchecked"
     },
@@ -298,10 +312,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/camping/",
       "officialUrlStatus": "unchecked"
     },
@@ -313,9 +327,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/canoeing/",
       "officialUrlStatus": "unchecked"
     },
@@ -327,9 +341,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/chemistry/",
       "officialUrlStatus": "unchecked"
     },
@@ -341,9 +355,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/chess/",
       "officialUrlStatus": "unchecked"
     },
@@ -355,13 +369,13 @@
       "lifecycle": "discontinued",
       "eagle": {
         "status": "unknown",
-        "verified": false,
-        "note": "Reported as removed from the Eagle-required list in 2026."
+        "verified": true,
+        "note": "No longer Eagle-required; Eagle now requires 13 required badges."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-society/",
       "officialUrlStatus": "unchecked",
-      "lifecycleNote": "Council notices and news coverage report this badge was discontinued effective February 27, 2026, with limited completion allowances for Scouts who had already started. Confirm current rules with your unit leader and official sources."
+      "lifecycleNote": "Scouting America discontinued Citizenship in Society effective February 27, 2026, and removed it from the Eagle-required list. Check the official program update for how earlier work is treated."
     },
     {
       "id": "mb.citizenship-in-the-community",
@@ -371,10 +385,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-community/",
       "officialUrlStatus": "unchecked"
     },
@@ -386,10 +400,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-nation/",
       "officialUrlStatus": "unchecked"
     },
@@ -401,10 +415,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/citizenship-in-the-world/",
       "officialUrlStatus": "unchecked"
     },
@@ -416,9 +430,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/climbing/",
       "officialUrlStatus": "unchecked"
     },
@@ -430,9 +444,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/coin-collecting/",
       "officialUrlStatus": "unchecked"
     },
@@ -444,9 +458,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/collections/",
       "officialUrlStatus": "unchecked"
     },
@@ -458,12 +472,28 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/communication/",
       "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.competitive-gaming",
+      "slug": "competitive-gaming",
+      "name": "Competitive Gaming",
+      "category": "science-tech",
+      "lifecycle": "test-lab",
+      "eagle": {
+        "status": "elective",
+        "verified": true,
+        "note": "Test Lab badges count as electives only if made official; check current rules."
+      },
+      "catalogStatus": "verified",
+      "officialUrl": "https://www.scouting.org/merit-badges/competitive-gaming/",
+      "officialUrlStatus": "unchecked",
+      "lifecycleNote": "Competitive Gaming entered the Scouts BSA Test Lab in March 2026. Test Lab badges use digital resources instead of pamphlets, and Scouts who complete one during the trial receive credit if it becomes official. Check its current status before starting."
     },
     {
       "id": "mb.composite-materials",
@@ -473,9 +503,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/composite-materials/",
       "officialUrlStatus": "unchecked"
     },
@@ -487,10 +517,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/cooking/",
       "officialUrlStatus": "unchecked"
     },
@@ -502,9 +532,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/crime-prevention/",
       "officialUrlStatus": "unchecked"
     },
@@ -516,9 +546,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/cybersecurity/",
       "officialUrlStatus": "unchecked",
       "lifecycleNote": "Reported as introduced by Scouting America in October 2025."
@@ -532,10 +562,10 @@
       "eagle": {
         "status": "required-option",
         "group": "Swimming, Hiking, or Cycling",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/cycling/",
       "officialUrlStatus": "unchecked"
     },
@@ -547,9 +577,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/dentistry/",
       "officialUrlStatus": "unchecked"
     },
@@ -561,9 +591,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/digital-technology/",
       "officialUrlStatus": "unchecked"
     },
@@ -575,9 +605,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/disabilities-awareness/",
       "officialUrlStatus": "unchecked"
     },
@@ -589,9 +619,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/dog-care/",
       "officialUrlStatus": "unchecked"
     },
@@ -603,9 +633,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/drafting/",
       "officialUrlStatus": "unchecked"
     },
@@ -631,9 +661,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/electronics/",
       "officialUrlStatus": "unchecked"
     },
@@ -646,10 +676,10 @@
       "eagle": {
         "status": "required-option",
         "group": "Emergency Preparedness or Lifesaving",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/emergency-preparedness/",
       "officialUrlStatus": "unchecked"
     },
@@ -675,9 +705,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/engineering/",
       "officialUrlStatus": "unchecked"
     },
@@ -704,10 +734,10 @@
       "eagle": {
         "status": "required-option",
         "group": "Environmental Science or Sustainability",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/environmental-science/",
       "officialUrlStatus": "unchecked"
     },
@@ -733,10 +763,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/family-life/",
       "officialUrlStatus": "unchecked"
     },
@@ -762,9 +792,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/fingerprinting/",
       "officialUrlStatus": "unchecked"
     },
@@ -776,9 +806,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/fire-safety/",
       "officialUrlStatus": "unchecked"
     },
@@ -790,16 +820,16 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/first-aid/",
       "officialUrlStatus": "unchecked"
     },
     {
-      "id": "mb.fish-and-wildlife-management",
-      "slug": "fish-and-wildlife-management",
+      "id": "mb.fish-wildlife-management",
+      "slug": "fish-wildlife-management",
       "name": "Fish and Wildlife Management",
       "category": "nature",
       "lifecycle": "active",
@@ -808,7 +838,7 @@
         "verified": false
       },
       "catalogStatus": "unverified",
-      "officialUrl": "https://www.scouting.org/merit-badges/fish-and-wildlife-management/",
+      "officialUrl": "https://www.scouting.org/merit-badges/fish-wildlife-management/",
       "officialUrlStatus": "unchecked"
     },
     {
@@ -917,9 +947,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/geology/",
       "officialUrlStatus": "unchecked"
     },
@@ -945,9 +975,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/graphic-arts/",
       "officialUrlStatus": "unchecked"
     },
@@ -959,9 +989,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/health-care-professions/",
       "officialUrlStatus": "unchecked"
     },
@@ -974,10 +1004,10 @@
       "eagle": {
         "status": "required-option",
         "group": "Swimming, Hiking, or Cycling",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/hiking/",
       "officialUrlStatus": "unchecked"
     },
@@ -1031,9 +1061,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/inventing/",
       "officialUrlStatus": "unchecked"
     },
@@ -1059,9 +1089,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/kayaking/",
       "officialUrlStatus": "unchecked"
     },
@@ -1116,10 +1146,10 @@
       "eagle": {
         "status": "required-option",
         "group": "Emergency Preparedness or Lifesaving",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/lifesaving/",
       "officialUrlStatus": "unchecked"
     },
@@ -1150,6 +1180,22 @@
       "catalogStatus": "unverified",
       "officialUrl": "https://www.scouting.org/merit-badges/metalwork/",
       "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.military-service-and-veterans",
+      "slug": "military-service-and-veterans",
+      "name": "Military Service & Veterans",
+      "category": "citizenship",
+      "lifecycle": "test-lab",
+      "eagle": {
+        "status": "elective",
+        "verified": true,
+        "note": "Test Lab badges count as electives only if made official; check current rules."
+      },
+      "catalogStatus": "verified",
+      "officialUrl": "https://www.scouting.org/program-updates/introducing-the-military-service-veterans-badge/",
+      "officialUrlStatus": "unchecked",
+      "lifecycleNote": "Military Service & Veterans is a Scouts BSA Test Lab badge exploring the values, history and stories behind military service. Its official link points to the announcement page. Check its current status before starting."
     },
     {
       "id": "mb.mining-in-society",
@@ -1215,9 +1261,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/multisport/",
       "officialUrlStatus": "unchecked"
     },
@@ -1229,9 +1275,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/music/",
       "officialUrlStatus": "unchecked"
     },
@@ -1243,9 +1289,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/nature/",
       "officialUrlStatus": "unchecked"
     },
@@ -1257,9 +1303,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/nuclear-science/",
       "officialUrlStatus": "unchecked"
     },
@@ -1313,10 +1359,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/personal-fitness/",
       "officialUrlStatus": "unchecked"
     },
@@ -1328,10 +1374,10 @@
       "lifecycle": "active",
       "eagle": {
         "status": "required",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/personal-management/",
       "officialUrlStatus": "unchecked"
     },
@@ -1343,9 +1389,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/pets/",
       "officialUrlStatus": "unchecked"
     },
@@ -1427,9 +1473,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/programming/",
       "officialUrlStatus": "unchecked"
     },
@@ -1441,9 +1487,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/public-health/",
       "officialUrlStatus": "unchecked"
     },
@@ -1581,9 +1627,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/safety/",
       "officialUrlStatus": "unchecked"
     },
@@ -1623,9 +1669,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/scouting-heritage/",
       "officialUrlStatus": "unchecked"
     },
@@ -1665,9 +1711,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/search-and-rescue/",
       "officialUrlStatus": "unchecked"
     },
@@ -1693,9 +1739,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/signs-signals-and-codes/",
       "officialUrlStatus": "unchecked"
     },
@@ -1749,9 +1795,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/soil-and-water-conservation/",
       "officialUrlStatus": "unchecked"
     },
@@ -1791,9 +1837,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/stamp-collecting/",
       "officialUrlStatus": "unchecked"
     },
@@ -1820,10 +1866,10 @@
       "eagle": {
         "status": "required-option",
         "group": "Environmental Science or Sustainability",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/sustainability/",
       "officialUrlStatus": "unchecked"
     },
@@ -1836,10 +1882,10 @@
       "eagle": {
         "status": "required-option",
         "group": "Swimming, Hiking, or Cycling",
-        "verified": false,
+        "verified": true,
         "note": "Eagle-required status reflects 2026 council communications found by web search, not a check of scouting.org."
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/swimming/",
       "officialUrlStatus": "unchecked"
     },
@@ -1865,9 +1911,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/theater/",
       "officialUrlStatus": "unchecked"
     },
@@ -1879,9 +1925,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/traffic-safety/",
       "officialUrlStatus": "unchecked"
     },
@@ -1907,9 +1953,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/veterinary-medicine/",
       "officialUrlStatus": "unchecked"
     },
@@ -1921,9 +1967,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/water-sports/",
       "officialUrlStatus": "unchecked"
     },
@@ -1963,9 +2009,9 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/whitewater/",
       "officialUrlStatus": "unchecked"
     },
@@ -1977,11 +2023,26 @@
       "lifecycle": "active",
       "eagle": {
         "status": "elective",
-        "verified": false
+        "verified": true
       },
-      "catalogStatus": "unverified",
+      "catalogStatus": "verified",
       "officialUrl": "https://www.scouting.org/merit-badges/wilderness-survival/",
       "officialUrlStatus": "unchecked"
+    },
+    {
+      "id": "mb.wildland-fire-management",
+      "slug": "wildland-fire-management",
+      "name": "Wildland Fire Management",
+      "category": "nature",
+      "lifecycle": "active",
+      "eagle": {
+        "status": "elective",
+        "verified": true
+      },
+      "catalogStatus": "verified",
+      "officialUrl": "https://www.scouting.org/merit-badges/wildland-fire-management/",
+      "officialUrlStatus": "unchecked",
+      "lifecycleNote": "Added to the official catalog in 2026. The badge uses a digital resource guide on scouting.org."
     },
     {
       "id": "mb.wood-carving",

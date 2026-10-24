@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.backpacking",
+  "slug": "backpacking",
+  "description": "Backpacking prepares you to travel self-sufficiently on multi-day treks: trail health, lightweight gear, crew organization and safety, Leave No Trace, water, navigation, weather, stoves and meals, packing, and a series of treks building to a five-day trip.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Treks need an approved plan, an emergency response plan and appropriate adult leadership."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/backpacking/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/backpacking/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.backpacking.1",
+          "number": "1",
+          "title": "Trail health",
+          "summary": "Preventing and treating health problems on the trail, such as heat and cold reactions and blisters.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.camping.1c"
+          ],
+          "children": [
+            {
+              "id": "mb.backpacking.10",
+              "number": "10",
+              "title": "Treks",
+              "summary": "Several multi-day treks of the required length.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.backpacking.11",
+              "number": "11",
+              "title": "An extended trek",
+              "summary": "Planning and completing a longer trek with a budget and a service project, and keeping a journal.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.backpacking.2",
+          "number": "2",
+          "title": "Gear and weight",
+          "summary": "The Scout Basic Essentials and ways to reduce pack weight and bulk.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.3",
+          "number": "3",
+          "title": "Crew organization and safety",
+          "summary": "Crew size, organizing a crew, reducing risk and emergency response plans.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.4",
+          "number": "4",
+          "title": "Leave No Trace",
+          "summary": "Leave No Trace and the Outdoor Code on treks, and handling waste and personal cleanliness.",
+          "kind": "knowledge",
+          "relatedRequirementIds": [
+            "mb.camping.2"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.5",
+          "number": "5",
+          "title": "Water",
+          "summary": "Treating water by two methods and staying hydrated.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "mb.camping.6b"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.6",
+          "number": "6",
+          "title": "Navigation",
+          "summary": "Reading a topographic map and finding your position with a map and compass or GPS.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.7",
+          "number": "7",
+          "title": "Weather",
+          "summary": "Preparing for and handling bad weather on a trek.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.8",
+          "number": "8",
+          "title": "Stoves and meals",
+          "summary": "Stove types and fuels, safe stove use, cooking trail meals and storing food.",
+          "kind": "mixed",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.9",
+          "number": "9",
+          "title": "Planning and packing",
+          "summary": "A short hike schedule, inspecting patrol gear, packing and fitting your pack, and a loaded practice hike.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": [
+    "study.camp-ready"
+  ]
+}

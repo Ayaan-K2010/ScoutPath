@@ -1,0 +1,127 @@
+# Badges C–D — checked against official scouting.org excerpts.
+
+@owner mb.collections
+@complete complete
+@note Stamp and coin collecting are not eligible for this badge; they have their own badges.
+@desc Collections is for Scouts with a collecting hobby: describing and growing your collection, preserving, displaying and cataloging it, collecting versus investing, and the terms, grading and organizations of your hobby.
+1 a Your collection :: A short written description of your collection, its history, why you enjoy it and what you have learned.
+2 k Growth of your collection :: How your collection has grown and developed.
+3 demo Preserving and cataloging :: Preserving and displaying your collection, events for collectors, and your cataloging method.
+4 k Collecting and investing :: How investing and speculation relate to your kind of collection.
+5 m Terms, grading and value :: Terms used in your hobby, showing organized groups from your collection, grading and value, and collector associations.
+
+@owner mb.composite-materials
+@complete complete
+@note The 2026 update changed requirement 6 to a careers-or-hobby choice.
+@desc Composite Materials explores materials made by combining fibers and resins — how they compare with wood and metals, how they are made, two hands-on projects, and careers or hobbies that use them.
+@safety Resins and fibers can be hazardous: work under qualified adult supervision, outdoors or with good ventilation, using the precautions on each safety data sheet.
+1 k! Safety :: Likely hazards, protective equipment, handling and disposing of resins, and safety data sheets.
+2 k What composites are :: What composite materials are and how they compare with wood and metals.
+3 k Materials and manufacturing :: How composites are made, and several reinforcement materials and resins with their uses.
+4 a Outside research :: One option: visiting a company that makes or repairs composites, or reviewing composites websites.
+5 a! Composite projects :: Two projects using composite materials, at least one from the pamphlet.
+6 a Careers or hobbies :: One option: a career related to composites, or a hobby that uses these skills.
+
+@owner mb.crime-prevention
+@complete complete
+@desc Crime Prevention looks at why laws exist and how communities keep people safe: crime in your area, security surveys, retail crime, reporting crime and abuse, peer pressure, substance use, online safety, and careers in public safety.
+1 d Crime and the law :: Why criminal laws exist, types of crime, why people commit crimes, and what crime prevention means.
+2 k Who prevents crime :: How citizens, schools and neighborhood or youth groups help prevent crime.
+3 a Crime in your community :: Researching news coverage of several different kinds of crime.
+4 a Security survey and lesson :: How design and community groups deter crime, a home or building security survey, and teaching a lesson.
+5 k Retail crime :: The effects of shoplifting and employee theft, and how stores prevent them.
+6 k! Reporting crime and staying safe :: When and how to report crimes, warning signs of abuse, and personal safety rules.
+7 d Peers and crime :: Peer pressure, bullying, hazing and gangs.
+8 k Substance use and crime :: Legal and health consequences of substances, their link to crime, and where to get help.
+9 k Online crime :: Scams, identity theft, online security, and how bullying and sharing images can become crimes.
+10 a Interview :: Interviewing a law enforcement officer or other public servant about crime prevention.
+11 a Careers :: Careers in crime prevention and researching one of them.
+
+@owner mb.cybersecurity
+@complete partial
+@note The excerpt was cut off partway through requirement 6; any later requirements are not outlined yet.
+@desc Cybersecurity teaches you to protect yourself and your devices: online safety and ethics, what attackers target, common threats like malware and phishing, practical defenses such as strong passwords, multi-factor authentication and backups, and the basics of cryptography.
+1 k Safety :: Your digital footprint, privacy settings and the physical effects of device use.
+2 d Ethics :: Applying the Scout Law online and handling situations such as an unlocked device or exposed password.
+3 k Attack surface :: The systems and information that need protecting and why.
+4 k Threats and attacks :: Vulnerabilities, threats and exploits, malware, public Wi-Fi risks, and phishing and spoofing.
+5 demo Cyber defenses :: Defensive technologies and hands-on steps such as strong passwords, multi-factor authentication, updates, scans and backups.
+6 a Cryptography :: Encryption, checking for an encrypted connection, and making or using a cipher.
+
+@owner mb.dentistry
+@complete complete
+@desc Dentistry explores how teeth work and how to keep them healthy: tooth structure and X-rays, decay and gum disease, a dental visit, fluoride and whole-body health, hands-on projects, and careers in dentistry.
+1 a Teeth and X-rays :: Studying dental X-rays and drawing and labeling a tooth.
+2 k Decay and gum disease :: Causes of tooth decay and gum disease, mouth guards, and the effects of tobacco.
+3 a Visiting a dentist :: Visiting a dental office and learning how the team works.
+4 a Dental options :: Two options, such as identifying dental instruments or tracking your diet.
+5 k Fluoride and health :: How fluoride helps teeth and how oral health connects to overall health.
+6 a Dental projects :: Two projects, such as a model tooth, a poster or an article.
+7 a Dental careers :: Researching dental careers and exploring one in depth.
+
+@owner mb.digital-technology
+@complete complete
+@desc Digital Technology explains how digital devices, software and the internet work — digital safety and the Cyber Chip, compression and networks, apps and malware, productivity tools, digital projects for your troop, intellectual property, e-waste, and careers.
+1 k Digital safety :: The Personal Safety Awareness “Digital Safety” video and the Cyber Chip.
+2 d History and future :: How digital technology has changed over time and may change in the future.
+3 k How devices work :: Digitizing media, compression, programming, and local and wide area networks.
+4 k Software and security :: How apps run, malware and protecting against it, and barcodes, QR codes and RFID.
+5 a The internet and productivity :: How data moves online, secure connections, and using productivity software for troop tasks.
+6 a Digital projects :: Projects for your troop such as photos, audio recordings and a blog.
+7 k Intellectual property :: Copyright, patents, trademarks and trade secrets, and using software legally.
+8 a Disposal and recycling :: Options on safely disposing of and recycling electronics and batteries.
+9 a Careers :: One option: researching a career or visiting a facility that uses digital technology.
+
+@owner mb.disabilities-awareness
+@complete complete
+@desc Disabilities Awareness builds understanding and respect: disability etiquette and terms, visiting an agency, meeting people with disabilities, accessibility and accommodation, outreach, a personal commitment, and careers serving people with disabilities.
+1 k Terms and etiquette :: Disability terms such as accessibility, accommodation and person-first language, and why etiquette matters.
+2 a Visiting an agency :: Visiting an agency that works with people with disabilities and learning about its work.
+3 a Learning from others :: Two options, such as talking with a person with a disability, an adaptive sport, independent-living aids or an awareness activity.
+4 a Accessibility or accommodation :: One option: surveying locations for accessibility, or for accommodations for invisible disabilities.
+5 s Outreach :: One option: a presentation, volunteer service, or researching common myths about disability.
+6 d Your commitment :: A commitment to a positive attitude toward people with disabilities, and how your awareness has changed.
+7 a Careers :: Professions that serve people with disabilities and the training for one of them.
+
+@owner mb.dog-care
+@note Excerpts showed the topics (history and breeds, body parts, training and responsibilities, a two-month care log, health, first aid, a veterinarian or shelter visit, dog laws, and careers or hobbies) but not their numbering, so no requirement outline is published yet.
+@desc Dog Care teaches responsible dog ownership: breeds and history, how a dog’s body works, feeding, grooming and training, keeping a care log, preventive health and first aid, local dog laws, and careers working with dogs.
+@safety Approach unfamiliar dogs only with the owner’s permission; dog bites need prompt first aid and medical attention.
+
+@owner mb.drafting
+@complete partial
+@note Excerpts were partly out of order; requirements 5–7 are outlined from topic and should be confirmed against the official list.
+@desc Drafting teaches technical drawing by hand and on computer: preparing drawing sheets, scale drawings with a bill of materials, a CAD drawing, comparing manual and computer drafting, lettering, visiting a workplace, and how drafting tools have changed.
+1 a Preparing drawing sheets :: Borders, title blocks and rough sketches for your drawing projects.
+2 a A scale drawing :: An architectural, mechanical or electrical drawing with a bill of materials.
+3 a A CAD drawing :: A computer-aided drawing with its title block completed.
+4 d Manual versus CAD :: Comparing your manual and computer drafting work.
+5 a Lettering :: A short explanation of a benefit of CAD, lettered by hand.
+6 a Drafting at work :: Visiting a workplace where drafting is used, or a similar investigation.
+7 k Tools then and now :: How drafting tools and media have changed, including the effect of CAD.
+
+@owner mb.wildland-fire-management
+@complete complete
+@source https://www.scouting.org/skills/merit-badges/digital-resource-guides/wildland-fire-management/contents/ | Wildland Fire Management Digital Resource Guide (scouting.org)
+@note This badge was added in 2026 and uses a digital resource guide instead of a printed pamphlet.
+@desc Wildland Fire Management covers the history of fighting and managing wildfire, its harms and benefits, prescribed fire, prevention, fire behavior, firefighter safety and tactics, hand tools, a hands-on fire readiness option, a major historical fire, and careers.
+@safety Never start or approach a wildland fire. Tool demonstrations and field visits happen only with qualified fire professionals.
+1 k History :: The history of wildland fire suppression, prevention and management in the United States.
+2 k Harms of wildfire :: Effects on forest products, wildlife habitat, water, recreation, homes and air quality.
+3 k Benefits and prescribed fire :: How prescribed fire reduces fuel and restores ecosystems.
+4 k Prevention :: Causes of wildfire and the wildland–urban interface.
+5 k Fire behavior :: How weather, topography and fuel affect fire, and the parts of a wildfire.
+6 k! Firefighter safety :: Protective equipment, the standard firefighting orders, watch-out situations and LCES.
+7 k Suppression tactics :: Direct and indirect attack and the Incident Command System.
+8 demo! Wildland tools :: Hand tools used in wildland firefighting and other firefighting equipment.
+9 a Fire readiness :: One option, such as a fire readiness plan, a Firewise assessment, or meeting a forestry, prevention or fire-weather professional.
+10 a A historic wildfire :: A catastrophic U.S. wildfire and how it changed policy.
+11 a Careers :: Researching a career in wildland fire.
+
+@owner mb.competitive-gaming
+@note Competitive Gaming is a Test Lab badge. Its official page and digital guide group the requirements into history of gaming, gamer safety, health and balance, community connection, technology, leadership and service, and careers — but the two sources worded some items differently, so no requirement outline is published yet.
+@desc Competitive Gaming (a Test Lab badge) looks at esports and gaming responsibly: gaming history, online safety, balancing gaming with sleep and physical activity, the technology behind competitive play, leadership and service in the gaming community, and careers in the industry.
+
+@owner mb.military-service-and-veterans
+@note This is a Test Lab badge; its requirements were not visible in the official excerpts, so no requirement outline is published yet.
+@desc Military Service & Veterans (a Test Lab badge) invites Scouts to explore the values, history and human stories behind military service, including the experiences of veterans in their own communities.

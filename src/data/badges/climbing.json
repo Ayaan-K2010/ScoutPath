@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.climbing",
+  "slug": "climbing",
+  "description": "Climbing teaches safe climbing, bouldering and rappelling: hazards and first aid, gear and grading, site safety, verbal signals, rope care and the essential knots, and climbing and rappelling under a qualified instructor.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Climbing and rappelling follow Climb On Safely and require a qualified instructor."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/climbing/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The official page lists the topics in order, but the excerpts did not show clean numbering for the belaying, climbing and rappelling requirements, so those are not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/climbing/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.climbing.1",
+          "number": "1",
+          "title": "Hazards and first aid",
+          "summary": "Hazards of climbing and first aid for climbing injuries.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.climbing.3",
+          "number": "3",
+          "title": "Climbing gear and grades",
+          "summary": "Clothing and gear, how climbs are graded, and top-roping, lead climbing and bouldering.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.climbing.4",
+          "number": "4",
+          "title": "Site safety",
+          "summary": "Checking a climbing site and keeping the area safe.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.climbing.5",
+          "number": "5",
+          "title": "Verbal signals",
+          "summary": "Signals for climbers, rappellers, belayers and boulderers.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.climbing.6",
+          "number": "6",
+          "title": "Rope care",
+          "summary": "Inspecting, caring for, retiring and coiling a climbing rope.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.climbing.7",
+          "number": "7",
+          "title": "Climbing knots",
+          "summary": "The knots used in climbing, such as the figure eight follow-through.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.climbing.8",
+          "number": "8",
+          "title": "Harness and helmet",
+          "summary": "Fitting a harness and helmet and the gear you wear.",
+          "kind": "demonstration",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

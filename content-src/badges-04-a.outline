@@ -1,0 +1,73 @@
+# Badges A (part 1) — checked against official scouting.org excerpts.
+
+@owner mb.american-business
+@complete complete
+@note Sub-items within requirements 1–3 are summarized.
+@desc American Business explains how businesses work in a free-enterprise economy: their history, finances, ethics and regulation, and how the five main areas of a business fit together — with a look at business careers.
+1 k How business works :: Free enterprise, business history and leaders, the main areas of a business, labor unions and how business affects the economy.
+2 k Business finance :: Financial statements, how interest rates, taxes and government spending affect business, raising capital and insurance.
+3 k Business decisions :: Profit, sustainable practices, ethics in decisions, and physical versus online businesses.
+4 k Workplace laws :: The Department of Labor and major federal laws that protect workers.
+5 a Researching a business :: Researching one business across its main areas of operation.
+6 a Business careers :: One option: exploring careers in an area of business, or interviewing a business leader.
+
+@owner mb.american-cultures
+@complete complete
+@desc American Cultures explores the many backgrounds that make up the United States — including your own — through festivals, places, conversations, stories and history, and asks how different groups can understand one another better.
+1 a Experiencing other cultures :: Options for learning about three groups first-hand, such as attending an event, visiting a place of worship or institution, or talking with members of a group.
+2 d Groups living together :: Imagining each group living on its own and then all three living together.
+3 d Customs compared :: Differences and similarities among the groups’ religious and social customs.
+4 k Contributions :: Contributions made to the country by people from different backgrounds.
+5 a Leading a discussion :: A talk about how different groups have gotten along, and leading a discussion on building understanding.
+
+@owner mb.american-heritage
+@complete partial
+@note Excerpts confirmed requirements 1, 2, 4 and 5; requirement 3 and any later requirements were not visible and are not outlined yet.
+@desc American Heritage connects you with the people, documents, symbols and places that shaped the United States, and with the history of your own family and community.
+1 d The Declaration of Independence :: The Declaration of Independence and what it means to you.
+2 a People and organizations :: Options for learning about notable Americans, historical organizations, veterans or longtime community members.
+4 a Symbols and local history :: Options on national symbols such as the flag, the Pledge, the Great Seal, the motto and the anthem, or on family and local history.
+5 a Stories of America :: One option: a film, biography or song about American history, and what it shows.
+
+@owner mb.american-indian-culture
+@complete complete
+@source https://www.scouting.org/merit-badges/american-indian-culture/ | American Indian Culture merit badge (formerly Indian Lore)
+@note Scouting America renamed Indian Lore to American Indian Culture; the official note says the curriculum and requirements were otherwise unchanged by the rename. Confirm whether requirement 5 asks for one or both options.
+@desc American Indian Culture (formerly Indian Lore) is a respectful study of the cultural areas, nations and present-day life of American Indian peoples: one tribe or nation in depth, language and place names, leaders, contributions, games, museums and gatherings.
+1 k Cultural areas :: The different American Indian cultural areas and what makes each distinct.
+2 k Researching a nation :: The way of life, government, beliefs, language, arts and present-day communities of one tribe, group or nation.
+3 k Language, places, and leaders :: Words in an American Indian language, the meanings of place names, and notable leaders and their contributions.
+4 m Contributions and games :: How American Indians shaped life for newcomers, things others adopted from American Indian cultures, and teaching a traditional game.
+5 a Museums and gatherings :: Visiting a museum to study artifacts, or attending a contemporary American Indian gathering and learning its etiquette.
+
+@owner mb.american-labor
+@complete partial
+@note Excerpts confirmed requirements 1, 3, 4, 5, 7 and 8; requirements 2 and 6 were not visible in current form and are not outlined yet.
+@desc American Labor looks at work from the worker’s side: workplace concerns, the history and role of unions, how bargaining works, and how owners, employees and communities balance their goals.
+1 a Concerns of workers :: Learning about working people and listing major concerns of American workers, including researching a labor organization.
+3 k What unions do :: What labor unions are, what they do and what services they provide.
+4 k Bargaining :: Union terms and the difference between adversarial and cooperative bargaining.
+5 a Labor history project :: One option, such as a timeline, an exhibit, a film discussion or a biography.
+7 d Both sides of an issue :: Arguing a current labor issue from management’s side and then from labor’s.
+8 d Goals and compromise :: The different goals of owners, shareholders, customers, employees, unions, communities and officials, and why they compromise.
+
+@owner mb.animal-science
+@complete partial
+@note Requirement 6 offers options by species (beef, dairy, horse, sheep or goat, hog, or poultry) with their own steps; later requirements were not fully visible.
+@desc Animal Science covers the care and management of livestock and poultry: breeds and their uses, disease prevention, nutrition, breeding and production technology, with hands-on work with one type of animal.
+@safety Working with large animals requires supervision by an experienced adult.
+1 k Breeds :: Breeds of livestock, their uses and origins.
+2 k Animal health :: Diseases that affect livestock, their signs and how to prevent them.
+3 k Digestion and nutrition :: Differences in digestive systems and how they affect feeding.
+4 a A management plan :: A management plan for one type of animal.
+5 k Breeding and technology :: Breeding practices and modern production technology.
+6 a! Working with one species :: One species option with its own hands-on steps.
+
+@owner mb.animation
+@complete complete
+@desc Animation introduces how moving images are made — the history and principles of animation, two hands-on animation projects in different techniques, how animation is used in the world, and animation careers. No drawing talent is required.
+1 k General knowledge :: What animation is and a brief history of it.
+2 k Principles of animation :: Several of the principles that make animation believable.
+3 a Animation projects :: Planning, creating and sharing animations in two approved techniques, and what you would improve.
+4 a Animation in our world :: Touring an animation studio or business and how animation may be used in the future.
+5 a Animation careers :: Animation career options and the training one of them requires.

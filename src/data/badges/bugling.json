@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.bugling",
+  "slug": "bugling",
+  "description": "Bugling covers the history of the bugle, how brass instruments make sound, composing and sounding the traditional calls of camp life, caring for your instrument, and serving as your troop’s bugler.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/bugling/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. A bugle, trumpet or cornet may be used. Requirement 3 asks for a set number of calls from the official list.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/bugling/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.bugling.1",
+          "number": "1",
+          "title": "History of the bugle",
+          "summary": "A brief history of the bugle and its use in camp and military life.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bugling.2",
+          "number": "2",
+          "title": "Sound and composition",
+          "summary": "How a bugle produces sound and how it relates to other brass instruments, and composing a call for your unit.",
+          "kind": "mixed",
+          "children": [
+            {
+              "id": "mb.bugling.2a",
+              "number": "2a",
+              "title": "How a bugle works",
+              "summary": "How a bugle produces sound and how it relates to other brass instruments.",
+              "kind": "knowledge",
+              "children": []
+            },
+            {
+              "id": "mb.bugling.2b",
+              "number": "2b",
+              "title": "Composing a call",
+              "summary": "Composing a call for your troop or patrol and playing it for the unit.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.bugling.3",
+          "number": "3",
+          "title": "Sounding calls",
+          "summary": "Sounding the required number of calls from the official list.",
+          "kind": "demonstration",
+          "children": []
+        },
+        {
+          "id": "mb.bugling.4",
+          "number": "4",
+          "title": "When calls are used",
+          "summary": "When each of the calls from requirement 3 is used.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bugling.5",
+          "number": "5",
+          "title": "Instrument care",
+          "summary": "Cleaning, caring for and maintaining your instrument.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bugling.6",
+          "number": "6",
+          "title": "Serving as bugler",
+          "summary": "Serving as bugler for your troop for the required time.",
+          "kind": "service",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

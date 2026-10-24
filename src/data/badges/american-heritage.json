@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.american-heritage",
+  "slug": "american-heritage",
+  "description": "American Heritage connects you with the people, documents, symbols and places that shaped the United States, and with the history of your own family and community.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/american-heritage/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts confirmed requirements 1, 2, 4 and 5; requirement 3 and any later requirements were not visible and are not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/american-heritage/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.american-heritage.1",
+          "number": "1",
+          "title": "The Declaration of Independence",
+          "summary": "The Declaration of Independence and what it means to you.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.american-heritage.2",
+          "number": "2",
+          "title": "People and organizations",
+          "summary": "Options for learning about notable Americans, historical organizations, veterans or longtime community members.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.american-heritage.4",
+          "number": "4",
+          "title": "Symbols and local history",
+          "summary": "Options on national symbols such as the flag, the Pledge, the Great Seal, the motto and the anthem, or on family and local history.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.american-heritage.5",
+          "number": "5",
+          "title": "Stories of America",
+          "summary": "One option: a film, biography or song about American history, and what it shows.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

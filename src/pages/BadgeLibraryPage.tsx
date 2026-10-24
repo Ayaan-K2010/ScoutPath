@@ -57,7 +57,8 @@ function CatalogRow({ badge }: { badge: Badge }) {
           </span>
         </span>
         <span className="catalog-row__tags">
-          {badge.lifecycle === 'discontinued' && <span className="tag tag--alert">Reported discontinued</span>}
+          {badge.lifecycle === 'discontinued' && <span className="tag tag--alert">Discontinued</span>}
+          {badge.lifecycle === 'test-lab' && <span className="tag">Test Lab</span>}
           <EagleTag badge={badge} />
           <VerificationTag status={badge.version ? badge.version.status : 'missing'} />
         </span>

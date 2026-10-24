@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.archery",
+  "slug": "archery",
+  "description": "Archery covers range safety, arrows and equipment, how archery is scored, and — under qualified supervision — shooting form and qualifying scores with a recurve, longbow or compound bow.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Archery is done only on an approved range under a certified range supervisor, following the National Range and Target Activities Manual."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/archery/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 5 offers a recurve or longbow option and a compound bow option, each with its own steps and qualifying scores.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/archery/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/430-93825b-Range-and-Target-Activities-Manual-FINAL.pdf",
+            "label": "National Range and Target Activities Manual, 2026 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.archery.1",
+          "number": "1",
+          "title": "Range safety",
+          "summary": "Projectile risks, range rules and whistle commands, safe arrow retrieval and archery laws.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.archery.2",
+          "number": "2",
+          "title": "Arrows",
+          "summary": "Arrow parts, types and materials, making or repairing an arrow, and arrow care.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.archery.3",
+          "number": "3",
+          "title": "Archery gear",
+          "summary": "Tabs, arm guards, gloves and quivers, and terms such as draw length and draw weight.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.archery.4",
+          "number": "4",
+          "title": "Archery concepts",
+          "summary": "Ends and rounds, field, target and 3-D archery, and scoring a target.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.archery.5",
+          "number": "5",
+          "title": "Shooting",
+          "summary": "Under qualified supervision, one bow option: bow parts and care, shooting form and a qualifying score.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

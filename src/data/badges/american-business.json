@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.american-business",
+  "slug": "american-business",
+  "description": "American Business explains how businesses work in a free-enterprise economy: their history, finances, ethics and regulation, and how the five main areas of a business fit together — with a look at business careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/american-business/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Sub-items within requirements 1–3 are summarized.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/american-business/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.american-business.1",
+          "number": "1",
+          "title": "How business works",
+          "summary": "Free enterprise, business history and leaders, the main areas of a business, labor unions and how business affects the economy.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-business.2",
+          "number": "2",
+          "title": "Business finance",
+          "summary": "Financial statements, how interest rates, taxes and government spending affect business, raising capital and insurance.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-business.3",
+          "number": "3",
+          "title": "Business decisions",
+          "summary": "Profit, sustainable practices, ethics in decisions, and physical versus online businesses.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-business.4",
+          "number": "4",
+          "title": "Workplace laws",
+          "summary": "The Department of Labor and major federal laws that protect workers.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-business.5",
+          "number": "5",
+          "title": "Researching a business",
+          "summary": "Researching one business across its main areas of operation.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.american-business.6",
+          "number": "6",
+          "title": "Business careers",
+          "summary": "One option: exploring careers in an area of business, or interviewing a business leader.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

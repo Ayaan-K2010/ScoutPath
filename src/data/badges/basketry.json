@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.basketry",
+  "slug": "basketry",
+  "description": "Basketry is a hands-on craft badge: safe use of tools and materials, the main kinds of baskets and weaves, and weaving several projects such as a square basket, a round basket and a seat.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

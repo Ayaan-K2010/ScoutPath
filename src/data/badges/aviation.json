@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.aviation",
+  "slug": "aviation",
+  "description": "Aviation covers how aircraft fly, building and flying a model or drone, flight operations such as preflight inspections and simulators, visiting airports and aviation facilities, and the paths to flying and aviation careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Drone flights must follow FAA rules; earn the required recreational drone certification before flying."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/aviation/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/aviation/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/skills/merit-badges/digital-resource-guides/aviation/",
+            "label": "Aviation Digital Resource Guide (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.aviation.1",
+          "number": "1",
+          "title": "Aviation basics",
+          "summary": "Kinds of aircraft, the history of flight, engines, the four forces, lift, control surfaces and cockpit instruments.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.aviation.2",
+          "number": "2",
+          "title": "Principles of flight",
+          "summary": "One option: a model glider, a rubber-band airplane, or a powered model or drone with the required certification.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.aviation.3",
+          "number": "3",
+          "title": "Flight operations",
+          "summary": "Two options such as flight-simulator practice, a preflight inspection, observing maintenance, reading charts or a discovery flight.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.aviation.4",
+          "number": "4",
+          "title": "Airport operations",
+          "summary": "One option: visiting an airport, an FAA facility, a military aviation facility, or an aviation museum or air show.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.aviation.5",
+          "number": "5",
+          "title": "Aviation opportunities",
+          "summary": "Pilot certificates and ratings, aviation youth programs and aviation careers.",
+          "kind": "knowledge",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

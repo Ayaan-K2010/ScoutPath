@@ -230,3 +230,34 @@ if (existsSync(mapFile)) {
   if (!check) writeFileSync(join(DATA_DIR, 'mappings.json'), JSON.stringify({ schemaVersion: 1, mappings }, null, 2) + '\n');
   console.log(`${check ? 'Would write' : 'Wrote'} ${mappings.length} mappings.`);
 }
+
+// Catalog: a listing is confirmed when its official Merit Badge Hub page appeared in scouting.org
+// results — either listed in confirmed-listings.txt or used as the primary source of an outline.
+const confirmedFile = join(SRC, 'confirmed-listings.txt');
+const confirmed = new Set<string>();
+if (existsSync(confirmedFile)) {
+  for (const raw of readFileSync(confirmedFile, 'utf8').split('\n')) {
+    const line = raw.trim();
+    if (line && !line.startsWith('#')) confirmed.add(line);
+  }
+}
+for (const file of files) {
+  for (const block of parse(readFileSync(join(SRC, file), 'utf8'), file)) {
+    const [kind, slug] = block.owner.split('.');
+    if (kind === 'mb') confirmed.add(slug);
+  }
+}
+const catalogPath = join(DATA_DIR, 'catalog.json');
+const catalog = JSON.parse(readFileSync(catalogPath, 'utf8')) as { badges: { slug: string; catalogStatus: string; eagle: { verified: boolean } }[] };
+const known = new Set(catalog.badges.map((b) => b.slug));
+const unknown = [...confirmed].filter((s) => !known.has(s));
+if (unknown.length) throw new Error(`Confirmed or outlined badges missing from catalog.json: ${unknown.join(', ')}`);
+let marked = 0;
+for (const b of catalog.badges) {
+  if (!confirmed.has(b.slug)) continue;
+  b.catalogStatus = 'verified';
+  b.eagle.verified = true;
+  marked++;
+}
+if (!check) writeFileSync(catalogPath, JSON.stringify(catalog, null, 2) + '\n');
+console.log(`${check ? 'Would mark' : 'Marked'} ${marked} of ${catalog.badges.length} catalog listings as confirmed.`);

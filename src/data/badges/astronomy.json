@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.astronomy",
+  "slug": "astronomy",
+  "description": "Astronomy takes you outside under the night sky: observing safely, light pollution, telescopes and binoculars, constellations, planets, the Moon and Sun, an observing activity and careers or hobbies in astronomy.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Never look at the Sun without proper solar filters. Observe at night with a buddy and dress for the cold."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/astronomy/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/astronomy/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2026/02/3321625-Scouts-BSA-Requirements.pdf",
+            "label": "2025 Scouts BSA Requirements (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.astronomy.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Hazards of astronomy activities, first aid, clothing for night and cold, and safe solar observing.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.2",
+          "number": "2",
+          "title": "Light and air pollution",
+          "summary": "How light and air pollution affect observing.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.3",
+          "number": "3",
+          "title": "Telescopes and binoculars",
+          "summary": "Types of telescopes and binoculars, their parts and their care.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.4",
+          "number": "4",
+          "title": "The night sky",
+          "summary": "Naked-eye constellations and stars, sketching a constellation, and the Milky Way.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.5",
+          "number": "5",
+          "title": "Planets",
+          "summary": "Visible planets, when they can be seen, how they move, and observing one.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.6",
+          "number": "6",
+          "title": "The Moon",
+          "summary": "Sketching the Moon and its phases, what keeps it in orbit, and eclipses.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.7",
+          "number": "7",
+          "title": "The Sun and stars",
+          "summary": "What the Sun is made of, sunspots, and star colors.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.8",
+          "number": "8",
+          "title": "Observing activities",
+          "summary": "An option such as a planetarium or observatory visit, an observing session, a star party or astrophotography.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.astronomy.9",
+          "number": "9",
+          "title": "Careers or hobbies",
+          "summary": "One option: astronomy careers, or a hobby that uses astronomy skills.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

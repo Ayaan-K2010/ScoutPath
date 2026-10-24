@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.military-service-and-veterans",
+  "slug": "military-service-and-veterans",
+  "description": "Military Service & Veterans (a Test Lab badge) invites Scouts to explore the values, history and human stories behind military service, including the experiences of veterans in their own communities.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

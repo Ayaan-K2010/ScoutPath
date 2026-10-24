@@ -207,6 +207,12 @@ export function buildContent(raw: RawContent): { content: Content; issues: Conte
     const version = detail ? currentVersionOf(detail.versions, detail.currentVersion, entry.id, `badges/${entry.slug}.json`, issues) : null;
     return { ...entry, detail, version };
   });
+  const listed = new Set(catalogEntries.map((e) => e.slug));
+  for (const slug of details.keys()) {
+    if (!listed.has(slug)) {
+      issues.push({ severity: 'error', code: 'orphan-detail', message: `Detail file for ${slug} has no catalog listing, so it would never be shown`, file: `badges/${slug}.json` });
+    }
+  }
 
   const ranks: RankRecord[] = [];
   for (const [file, value] of Object.entries(raw.ranks)) {

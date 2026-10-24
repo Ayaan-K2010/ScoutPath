@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.american-indian-culture",
+  "slug": "american-indian-culture",
+  "description": "American Indian Culture (formerly Indian Lore) is a respectful study of the cultural areas, nations and present-day life of American Indian peoples: one tribe or nation in depth, language and place names, leaders, contributions, games, museums and gatherings.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/american-indian-culture/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Scouting America renamed Indian Lore to American Indian Culture; the official note says the curriculum and requirements were otherwise unchanged by the rename. Confirm whether requirement 5 asks for one or both options.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/american-indian-culture/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/merit-badges/american-indian-culture/",
+            "label": "American Indian Culture merit badge (formerly Indian Lore)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.american-indian-culture.1",
+          "number": "1",
+          "title": "Cultural areas",
+          "summary": "The different American Indian cultural areas and what makes each distinct.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-indian-culture.2",
+          "number": "2",
+          "title": "Researching a nation",
+          "summary": "The way of life, government, beliefs, language, arts and present-day communities of one tribe, group or nation.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-indian-culture.3",
+          "number": "3",
+          "title": "Language, places, and leaders",
+          "summary": "Words in an American Indian language, the meanings of place names, and notable leaders and their contributions.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.american-indian-culture.4",
+          "number": "4",
+          "title": "Contributions and games",
+          "summary": "How American Indians shaped life for newcomers, things others adopted from American Indian cultures, and teaching a traditional game.",
+          "kind": "mixed",
+          "children": []
+        },
+        {
+          "id": "mb.american-indian-culture.5",
+          "number": "5",
+          "title": "Museums and gatherings",
+          "summary": "Visiting a museum to study artifacts, or attending a contemporary American Indian gathering and learning its etiquette.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

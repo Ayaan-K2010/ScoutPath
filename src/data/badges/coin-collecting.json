@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.coin-collecting",
+  "slug": "coin-collecting",
+  "description": "Coin Collecting introduces numismatics: how coins are made, grading and caring for coins, the designs and designers of U.S. coins and paper money, commemorative issues, and building a collection of world coins, notes or tokens.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/coin-collecting/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Excerpts confirmed requirements 1 and 4–7; requirements 2 and 3 were not visible and are not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/coin-collecting/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.coin-collecting.1",
+          "number": "1",
+          "title": "How coins are made",
+          "summary": "How coins are made and where the U.S. Mint facilities are.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.coin-collecting.4",
+          "number": "4",
+          "title": "U.S. coin designs",
+          "summary": "Collecting U.S. coins of each denomination and explaining their designs, designers and special programs.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.coin-collecting.5",
+          "number": "5",
+          "title": "Bicentennial designs",
+          "summary": "The special designs struck for the U.S. Bicentennial.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.coin-collecting.6",
+          "number": "6",
+          "title": "Paper money",
+          "summary": "The people on U.S. paper currency and where it is printed.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.coin-collecting.7",
+          "number": "7",
+          "title": "A collection or experience",
+          "summary": "One option: a collection of world coins, notes or tokens, or a coin show, club meeting or mint visit.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

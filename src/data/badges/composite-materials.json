@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.composite-materials",
+  "slug": "composite-materials",
+  "description": "Composite Materials explores materials made by combining fibers and resins — how they compare with wood and metals, how they are made, two hands-on projects, and careers or hobbies that use them.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Resins and fibers can be hazardous: work under qualified adult supervision, outdoors or with good ventilation, using the precautions on each safety data sheet."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/composite-materials/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The 2026 update changed requirement 6 to a careers-or-hobby choice.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/composite-materials/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.composite-materials.1",
+          "number": "1",
+          "title": "Safety",
+          "summary": "Likely hazards, protective equipment, handling and disposing of resins, and safety data sheets.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.composite-materials.2",
+          "number": "2",
+          "title": "What composites are",
+          "summary": "What composite materials are and how they compare with wood and metals.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.composite-materials.3",
+          "number": "3",
+          "title": "Materials and manufacturing",
+          "summary": "How composites are made, and several reinforcement materials and resins with their uses.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.composite-materials.4",
+          "number": "4",
+          "title": "Outside research",
+          "summary": "One option: visiting a company that makes or repairs composites, or reviewing composites websites.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.composite-materials.5",
+          "number": "5",
+          "title": "Composite projects",
+          "summary": "Two projects using composite materials, at least one from the pamphlet.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.composite-materials.6",
+          "number": "6",
+          "title": "Careers or hobbies",
+          "summary": "One option: a career related to composites, or a hobby that uses these skills.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

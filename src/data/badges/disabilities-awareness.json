@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.disabilities-awareness",
+  "slug": "disabilities-awareness",
+  "description": "Disabilities Awareness builds understanding and respect: disability etiquette and terms, visiting an agency, meeting people with disabilities, accessibility and accommodation, outreach, a personal commitment, and careers serving people with disabilities.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/disabilities-awareness/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.disabilities-awareness.1",
+          "number": "1",
+          "title": "Terms and etiquette",
+          "summary": "Disability terms such as accessibility, accommodation and person-first language, and why etiquette matters.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.disabilities-awareness.2",
+          "number": "2",
+          "title": "Visiting an agency",
+          "summary": "Visiting an agency that works with people with disabilities and learning about its work.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.disabilities-awareness.3",
+          "number": "3",
+          "title": "Learning from others",
+          "summary": "Two options, such as talking with a person with a disability, an adaptive sport, independent-living aids or an awareness activity.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.disabilities-awareness.4",
+          "number": "4",
+          "title": "Accessibility or accommodation",
+          "summary": "One option: surveying locations for accessibility, or for accommodations for invisible disabilities.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.disabilities-awareness.5",
+          "number": "5",
+          "title": "Outreach",
+          "summary": "One option: a presentation, volunteer service, or researching common myths about disability.",
+          "kind": "service",
+          "children": []
+        },
+        {
+          "id": "mb.disabilities-awareness.6",
+          "number": "6",
+          "title": "Your commitment",
+          "summary": "A commitment to a positive attitude toward people with disabilities, and how your awareness has changed.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.disabilities-awareness.7",
+          "number": "7",
+          "title": "Careers",
+          "summary": "Professions that serve people with disabilities and the training for one of them.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

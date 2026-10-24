@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.chemistry",
+  "slug": "chemistry",
+  "description": "Chemistry is the science of what things are made of and how they change. The badge covers lab safety and safety data sheets, chemistry in the kitchen, experiments with water, fire and polymers, environmental chemistry, the fields of chemistry, the agencies that regulate chemicals, and careers.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Experiments are done only under the supervision of a knowledgeable adult, with eye protection and the precautions on each product’s safety data sheet."
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "partial",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/chemistry/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. The official page showed eight requirements in its listing; the excerpts confirmed the topics of 1–7. Requirement 8 is not outlined yet.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/chemistry/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.chemistry.1",
+          "number": "1",
+          "title": "Chemistry and safety",
+          "summary": "Safety data sheets, protective equipment, hazard pictograms and storing chemicals safely.",
+          "kind": "knowledge",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.chemistry.2",
+          "number": "2",
+          "title": "Chemistry and cooking",
+          "summary": "Kitchen chemistry experiments such as browning reactions and testing pH with a cabbage indicator.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.chemistry.3",
+          "number": "3",
+          "title": "Chemistry experiments",
+          "summary": "Experiments such as waterproofing, flame tests and making a polymer, and the classes of fire.",
+          "kind": "activity",
+          "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.chemistry.4",
+          "number": "4",
+          "title": "Chemistry and the environment",
+          "summary": "How chemistry can reduce the environmental impact of products such as single-use items.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.chemistry.5",
+          "number": "5",
+          "title": "Fields of chemistry",
+          "summary": "Several fields of chemistry and how they interact.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.chemistry.6",
+          "number": "6",
+          "title": "Regulating chemicals",
+          "summary": "Government agencies that oversee chemicals and their responsibilities.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.chemistry.7",
+          "number": "7",
+          "title": "Chemistry careers",
+          "summary": "One option: visiting a lab or plant, or researching chemistry careers.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

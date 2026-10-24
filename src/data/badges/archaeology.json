@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.archaeology",
+  "slug": "archaeology",
+  "description": "Archaeology is the study of the human past through what people left behind. The badge covers how archaeologists find, date and protect sites, the ethics of artifacts, your own family and local history, careers, and a hands-on dig or exhibit.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": false,
+    "reviewed": false
+  },
+  "currentVersion": "2026-official-excerpt",
+  "versions": [
+    {
+      "versionId": "2026-official-excerpt",
+      "label": "Checked against official scouting.org excerpts (partial verification)",
+      "effectiveDate": "2026-01-01",
+      "status": "partially-verified",
+      "completeness": "complete",
+      "wordingPolicy": "link-only",
+      "sourceUrl": "https://www.scouting.org/merit-badges/archaeology/",
+      "sourceLinkStatus": "unchecked",
+      "sourceCheckedOn": "2026-10-24",
+      "supersedes": null,
+      "provenance": {
+        "method": "official-source-excerpt",
+        "notes": "Requirement numbering and topics were checked against excerpts of official Scouting America pages (scouting.org) returned by a search index on 2026-10-24. The pages themselves could not be opened from the build environment, so wording was not compared word for word and some sub-items may be summarized from partial excerpts. Summaries are ScoutPath's own words. Requirement 9 changed for 2026 and now focuses on careers. Requirements 10 and 11 each offer a choice of two options.",
+        "recordedBy": "ScoutPath maintainers",
+        "recordedOn": "2026-10-24",
+        "references": [
+          {
+            "url": "https://www.scouting.org/merit-badges/archaeology/",
+            "label": "Official merit badge page (scouting.org Merit Badge Hub)"
+          },
+          {
+            "url": "https://www.scouting.org/wp-content/uploads/2025/12/Advancement-updates-2026_2.pdf",
+            "label": "Advancement Updates 2026 (scouting.org)"
+          }
+        ]
+      },
+      "requirements": [
+        {
+          "id": "mb.archaeology.1",
+          "number": "1",
+          "title": "What archaeology is",
+          "summary": "What archaeology is, how it differs from related fields, and how it differs from artifact collecting.",
+          "kind": "knowledge",
+          "children": [
+            {
+              "id": "mb.archaeology.10",
+              "number": "10",
+              "title": "Hands-on archaeology",
+              "summary": "Assisting a qualified archaeologist on a project, or taking part in a simulated dig.",
+              "kind": "activity",
+              "children": []
+            },
+            {
+              "id": "mb.archaeology.11",
+              "number": "11",
+              "title": "Exhibit or experiment",
+              "summary": "Helping prepare an exhibit, or trying experimental archaeology and reporting on it.",
+              "kind": "activity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mb.archaeology.2",
+          "number": "2",
+          "title": "The archaeological process",
+          "summary": "The steps from locating a site to sharing what was learned.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.3",
+          "number": "3",
+          "title": "Dating the past",
+          "summary": "Ways archaeologists date sites and artifacts, and absolute versus relative dating.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.4",
+          "number": "4",
+          "title": "Researching sites",
+          "summary": "Researching archaeological sites in the United States and elsewhere and presenting one.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.5",
+          "number": "5",
+          "title": "Protecting sites",
+          "summary": "Laws and agreements that protect archaeological sites, local rules, and organizations that help.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.6",
+          "number": "6",
+          "title": "Archaeological ethics",
+          "summary": "Why sites matter, what to do if you find an artifact, and how you can help protect the past.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.7",
+          "number": "7",
+          "title": "Artifacts and family history",
+          "summary": "A museum visit, a family heirloom, and what archaeologists might learn from a household’s trash.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.8",
+          "number": "8",
+          "title": "Local history",
+          "summary": "A group that lived in your area long ago and what a site from that time might show.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.9",
+          "number": "9",
+          "title": "Archaeology careers",
+          "summary": "Archaeology career options and how to prepare for one.",
+          "kind": "activity",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}

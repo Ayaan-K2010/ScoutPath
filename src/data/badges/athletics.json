@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mb.athletics",
+  "slug": "athletics",
+  "description": "Athletics builds an all-around athletic program: safety and conditioning, measuring your performance in running, jumping, throwing and other events, training to improve, and exploring careers or lifelong fitness through athletics.",
+  "lastReviewed": null,
+  "safety": {
+    "sensitive": true,
+    "reviewed": false,
+    "note": "Warm up, train progressively and follow your coach’s and counselor’s safety guidance."
+  },
+  "currentVersion": null,
+  "versions": [],
+  "relatedResourceIds": [],
+  "studySetIds": []
+}
