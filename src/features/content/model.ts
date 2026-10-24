@@ -112,6 +112,24 @@ export function requirementPath(type: OwnerType, slug: string, number: string): 
   return `${ownerPath(type, slug)}/requirements/${number}`;
 }
 
+/**
+ * The number a requirement number nests under, from its structure rather than
+ * its text prefix: "9b1" → "9b", "2a" → "2", and top-level numbers such as
+ * "10" have no parent (so "10" is never mistaken for a child of "1").
+ */
+export function parentRequirementNumber(number: string): string | null {
+  const m = /^(\d+)([a-z]?)(\d*)$/.exec(number);
+  if (!m) return null;
+  if (m[3]) return m[1] + m[2];
+  return m[2] ? m[1] : null;
+}
+
+/** True when `ancestor` is a structural ancestor of `number` (e.g. "9" of "9b1"). */
+export function isRequirementAncestor(ancestor: string, number: string): boolean {
+  for (let p = parentRequirementNumber(number); p !== null; p = parentRequirementNumber(p)) if (p === ancestor) return true;
+  return false;
+}
+
 function formatZodIssues(error: z.ZodError): string {
   return error.issues
     .slice(0, 4)

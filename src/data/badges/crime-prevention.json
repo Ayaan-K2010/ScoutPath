@@ -40,24 +40,7 @@
           "title": "Crime and the law",
           "summary": "Why criminal laws exist, types of crime, why people commit crimes, and what crime prevention means.",
           "kind": "discussion",
-          "children": [
-            {
-              "id": "mb.crime-prevention.10",
-              "number": "10",
-              "title": "Interview",
-              "summary": "Interviewing a law enforcement officer or other public servant about crime prevention.",
-              "kind": "activity",
-              "children": []
-            },
-            {
-              "id": "mb.crime-prevention.11",
-              "number": "11",
-              "title": "Careers",
-              "summary": "Careers in crime prevention and researching one of them.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.crime-prevention.2",
@@ -122,6 +105,22 @@
           "title": "Online crime",
           "summary": "Scams, identity theft, online security, and how bullying and sharing images can become crimes.",
           "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.10",
+          "number": "10",
+          "title": "Interview",
+          "summary": "Interviewing a law enforcement officer or other public servant about crime prevention.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.crime-prevention.11",
+          "number": "11",
+          "title": "Careers",
+          "summary": "Careers in crime prevention and researching one of them.",
+          "kind": "activity",
           "children": []
         }
       ]

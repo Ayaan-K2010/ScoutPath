@@ -42,24 +42,7 @@
           "summary": "Safety around vehicles, registration and the costs of owning a vehicle.",
           "kind": "knowledge",
           "safetySensitive": true,
-          "children": [
-            {
-              "id": "mb.automotive-maintenance.10",
-              "number": "10",
-              "title": "Brakes",
-              "summary": "The braking system and its care.",
-              "kind": "knowledge",
-              "children": []
-            },
-            {
-              "id": "mb.automotive-maintenance.11",
-              "number": "11",
-              "title": "Evaluating and caring for vehicles",
-              "summary": "Options such as evaluating vehicles and cleaning or waxing a car.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.automotive-maintenance.2",
@@ -123,6 +106,22 @@
           "title": "Drive train",
           "summary": "The drive train and transmission.",
           "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.10",
+          "number": "10",
+          "title": "Brakes",
+          "summary": "The braking system and its care.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.automotive-maintenance.11",
+          "number": "11",
+          "title": "Evaluating and caring for vehicles",
+          "summary": "Options such as evaluating vehicles and cleaning or waxing a car.",
+          "kind": "activity",
           "children": []
         }
       ]

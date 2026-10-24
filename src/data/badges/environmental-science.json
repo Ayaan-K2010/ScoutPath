@@ -44,24 +44,7 @@
           "title": "Describing environmental science",
           "summary": "What environmental science is and why it matters.",
           "kind": "knowledge",
-          "children": [
-            {
-              "id": "mb.environmental-science.10",
-              "number": "10",
-              "title": "Construction and the environment",
-              "summary": "Environmental impacts to consider for a construction project.",
-              "kind": "knowledge",
-              "children": []
-            },
-            {
-              "id": "mb.environmental-science.11",
-              "number": "11",
-              "title": "Environmental careers",
-              "summary": "Careers that use environmental science and the preparation one of them requires.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.environmental-science.2",
@@ -124,6 +107,22 @@
           "number": "9",
           "title": "Invasive species",
           "summary": "Investigating invasive species in your area.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.10",
+          "number": "10",
+          "title": "Construction and the environment",
+          "summary": "Environmental impacts to consider for a construction project.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.environmental-science.11",
+          "number": "11",
+          "title": "Environmental careers",
+          "summary": "Careers that use environmental science and the preparation one of them requires.",
           "kind": "activity",
           "children": []
         }

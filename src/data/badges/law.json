@@ -40,24 +40,7 @@
           "title": "What law is",
           "summary": "What law is, where it comes from and the purposes it serves.",
           "kind": "knowledge",
-          "children": [
-            {
-              "id": "mb.law.10",
-              "number": "10",
-              "title": "Getting legal help",
-              "summary": "Where people can find a lawyer, including free legal help.",
-              "kind": "knowledge",
-              "children": []
-            },
-            {
-              "id": "mb.law.11",
-              "number": "11",
-              "title": "Areas of law",
-              "summary": "The importance of several areas of law, such as administrative law or dispute resolution.",
-              "kind": "knowledge",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.law.2",
@@ -121,6 +104,22 @@
           "title": "Law careers",
           "summary": "Law-related jobs and which you would prefer and why.",
           "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.law.10",
+          "number": "10",
+          "title": "Getting legal help",
+          "summary": "Where people can find a lawyer, including free legal help.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.law.11",
+          "number": "11",
+          "title": "Areas of law",
+          "summary": "The importance of several areas of law, such as administrative law or dispute resolution.",
+          "kind": "knowledge",
           "children": []
         }
       ]

@@ -1579,3 +1579,9 @@ fieldset {
 .with-aside__aside .meta-list > div {
   grid-template-columns: 6.5rem minmax(0, 1fr);
 }
+
+.field__hint--warn {
+  color: var(--text);
+  border-left: 3px solid var(--warn-ink);
+  padding-left: var(--s-2);
+}

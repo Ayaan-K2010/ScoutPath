@@ -411,14 +411,6 @@
                 "rank.tenderfoot.4a"
               ],
               "children": []
-            },
-            {
-              "id": "mb.camping.10",
-              "number": "10",
-              "title": "Reflection",
-              "summary": "How earning the badge taught you about health and safety, survival, public health, conservation and citizenship, and how the Scout Oath and Law apply to camping.",
-              "kind": "discussion",
-              "children": []
             }
           ]
         },
@@ -688,6 +680,14 @@
               "children": []
             }
           ]
+        },
+        {
+          "id": "mb.camping.10",
+          "number": "10",
+          "title": "Reflection",
+          "summary": "How earning the badge taught you about health and safety, survival, public health, conservation and citizenship, and how the Scout Oath and Law apply to camping.",
+          "kind": "discussion",
+          "children": []
         }
       ]
     }

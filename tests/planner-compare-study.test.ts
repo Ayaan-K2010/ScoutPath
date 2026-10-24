@@ -24,6 +24,11 @@ describe('planner scheduling', () => {
     expect(r.warnings).toEqual([]);
   });
 
+  it('avoids a final session shorter than the minimum when the split allows', () => {
+    const r = generateSchedule({ ...base, tasks: [{ requirementId: 'long', minutes: 70 }] });
+    expect(r.sessions.map((s) => s.minutes)).toEqual([55, 15]);
+  });
+
   it('splits long tasks into numbered sessions', () => {
     const r = generateSchedule({ ...base, tasks: [{ requirementId: 'long', minutes: 150 }] });
     expect(r.sessions.map((s) => [s.minutes, s.part, s.parts])).toEqual([

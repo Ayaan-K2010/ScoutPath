@@ -45,24 +45,7 @@
           "relatedRequirementIds": [
             "mb.camping.1c"
           ],
-          "children": [
-            {
-              "id": "mb.backpacking.10",
-              "number": "10",
-              "title": "Treks",
-              "summary": "Several multi-day treks of the required length.",
-              "kind": "activity",
-              "children": []
-            },
-            {
-              "id": "mb.backpacking.11",
-              "number": "11",
-              "title": "An extended trek",
-              "summary": "Planning and completing a longer trek with a budget and a service project, and keeping a journal.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.backpacking.2",
@@ -135,6 +118,22 @@
           "number": "9",
           "title": "Planning and packing",
           "summary": "A short hike schedule, inspecting patrol gear, packing and fitting your pack, and a loaded practice hike.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.10",
+          "number": "10",
+          "title": "Treks",
+          "summary": "Several multi-day treks of the required length.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.backpacking.11",
+          "number": "11",
+          "title": "An extended trek",
+          "summary": "Planning and completing a longer trek with a budget and a service project, and keeping a journal.",
           "kind": "activity",
           "children": []
         }

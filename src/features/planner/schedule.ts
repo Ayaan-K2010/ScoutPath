@@ -3,7 +3,7 @@
  *
  * Tasks are placed in order onto the available study days between the start
  * and target dates. Tasks with a known estimate consume the daily budget and
- * are split into sessions of at least MIN_CHUNK minutes when they do not fit
+ * are split into sessions of at least MIN_CHUNK minutes (where the split allows) when they do not fit
  * in one day. Tasks without an estimate are never given an invented duration:
  * they get a single "time unknown" session on a day that does not already
  * hold one, and they are counted separately in the workload.
@@ -112,7 +112,10 @@ export function generateSchedule(input: ScheduleInput): ScheduleResult {
       const free = capacity[i];
       const minimum = Math.min(MIN_CHUNK, remaining);
       if (free < minimum) continue;
-      const chunk = Math.min(free, remaining);
+      let chunk = Math.min(free, remaining);
+      // Avoid leaving a final session shorter than MIN_CHUNK when a split can absorb it.
+      const tail = remaining - chunk;
+      if (tail > 0 && tail < MIN_CHUNK && remaining - MIN_CHUNK >= MIN_CHUNK) chunk = remaining - MIN_CHUNK;
       capacity[i] -= chunk;
       remaining -= chunk;
       pieces.push({ dayIndex: i, minutes: chunk });

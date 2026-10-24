@@ -45,24 +45,7 @@
           "title": "History",
           "summary": "The history of wildland fire suppression, prevention and management in the United States.",
           "kind": "knowledge",
-          "children": [
-            {
-              "id": "mb.wildland-fire-management.10",
-              "number": "10",
-              "title": "A historic wildfire",
-              "summary": "A catastrophic U.S. wildfire and how it changed policy.",
-              "kind": "activity",
-              "children": []
-            },
-            {
-              "id": "mb.wildland-fire-management.11",
-              "number": "11",
-              "title": "Careers",
-              "summary": "Researching a career in wildland fire.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.wildland-fire-management.2",
@@ -127,6 +110,22 @@
           "number": "9",
           "title": "Fire readiness",
           "summary": "One option, such as a fire readiness plan, a Firewise assessment, or meeting a forestry, prevention or fire-weather professional.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.wildland-fire-management.10",
+          "number": "10",
+          "title": "A historic wildfire",
+          "summary": "A catastrophic U.S. wildfire and how it changed policy.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.wildland-fire-management.11",
+          "number": "11",
+          "title": "Careers",
+          "summary": "Researching a career in wildland fire.",
           "kind": "activity",
           "children": []
         }

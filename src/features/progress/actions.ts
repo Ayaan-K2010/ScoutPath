@@ -18,11 +18,12 @@ function bumpActivity(data: UserData): UserData['activity'] {
   return { ...data.activity, [key]: (data.activity[key] ?? 0) + 1 };
 }
 
-export function setProgress(data: UserData, requirementId: string, state: ProgressState): UserData {
-  if ((data.progress[requirementId]?.state ?? 'not-started') === state) return data;
+export function setProgress(data: UserData, requirementId: string, state: ProgressState, versionId?: string): UserData {
+  const current = data.progress[requirementId];
+  if ((current?.state ?? 'not-started') === state && (state === 'not-started' || current?.versionId === versionId)) return data;
   const progress = { ...data.progress };
   if (state === 'not-started') delete progress[requirementId];
-  else progress[requirementId] = { state, updatedAt: nowIso() };
+  else progress[requirementId] = { state, updatedAt: nowIso(), ...(versionId ? { versionId } : {}) };
   return { ...data, progress, activity: bumpActivity(data) };
 }
 

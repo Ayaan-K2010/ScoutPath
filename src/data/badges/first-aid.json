@@ -306,42 +306,7 @@
           "relatedRequirementIds": [
             "rank.second-class.6d"
           ],
-          "children": [
-            {
-              "id": "mb.first-aid.10",
-              "number": "10",
-              "title": "Moving a patient",
-              "summary": "When to move an injured person, carries for emergencies, and improvising a stretcher with helpers.",
-              "kind": "demonstration",
-              "safetySensitive": true,
-              "relatedRequirementIds": [
-                "rank.first-class.7b",
-                "mb.emergency-preparedness.4"
-              ],
-              "children": []
-            },
-            {
-              "id": "mb.first-aid.11",
-              "number": "11",
-              "title": "Heat- and cold-related conditions",
-              "summary": "Preventing, recognizing and caring for heat and cold illnesses such as heat exhaustion, heatstroke and hypothermia.",
-              "kind": "demonstration",
-              "safetySensitive": true,
-              "orientation": "Most outdoor emergencies are easier to prevent than to treat. Know how heat exhaustion differs from heatstroke, which is a 911 emergency, and how hypothermia can happen above freezing when someone is wet. The National Weather Service and CDC pages give clear comparisons.",
-              "relatedRequirementIds": [
-                "mb.camping.1c"
-              ],
-              "children": []
-            },
-            {
-              "id": "mb.first-aid.12",
-              "number": "12",
-              "title": "Stress reactions",
-              "summary": "How people react to stressful situations and what helps prepare for and manage those reactions.",
-              "kind": "discussion",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.first-aid.2",
@@ -428,6 +393,40 @@
           "summary": "Concussions, head wounds and suspected neck or back injuries, and how to avoid making them worse.",
           "kind": "demonstration",
           "safetySensitive": true,
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.10",
+          "number": "10",
+          "title": "Moving a patient",
+          "summary": "When to move an injured person, carries for emergencies, and improvising a stretcher with helpers.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "relatedRequirementIds": [
+            "rank.first-class.7b",
+            "mb.emergency-preparedness.4"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.11",
+          "number": "11",
+          "title": "Heat- and cold-related conditions",
+          "summary": "Preventing, recognizing and caring for heat and cold illnesses such as heat exhaustion, heatstroke and hypothermia.",
+          "kind": "demonstration",
+          "safetySensitive": true,
+          "orientation": "Most outdoor emergencies are easier to prevent than to treat. Know how heat exhaustion differs from heatstroke, which is a 911 emergency, and how hypothermia can happen above freezing when someone is wet. The National Weather Service and CDC pages give clear comparisons.",
+          "relatedRequirementIds": [
+            "mb.camping.1c"
+          ],
+          "children": []
+        },
+        {
+          "id": "mb.first-aid.12",
+          "number": "12",
+          "title": "Stress reactions",
+          "summary": "How people react to stressful situations and what helps prepare for and manage those reactions.",
+          "kind": "discussion",
           "children": []
         }
       ]

@@ -452,30 +452,6 @@
                 "mb.camping.6c"
               ],
               "children": []
-            },
-            {
-              "id": "rank.second-class.10",
-              "number": "10",
-              "title": "Scout spirit",
-              "summary": "Living the Scout Oath and Law, your duty to God, and four points of the Scout Law.",
-              "kind": "discussion",
-              "children": []
-            },
-            {
-              "id": "rank.second-class.11",
-              "number": "11",
-              "title": "Scoutmaster conference",
-              "summary": "Taking part in a Scoutmaster conference.",
-              "kind": "conference",
-              "children": []
-            },
-            {
-              "id": "rank.second-class.12",
-              "number": "12",
-              "title": "Board of review",
-              "summary": "Completing a board of review for the rank.",
-              "kind": "review",
-              "children": []
             }
           ]
         },
@@ -818,6 +794,30 @@
               "children": []
             }
           ]
+        },
+        {
+          "id": "rank.second-class.10",
+          "number": "10",
+          "title": "Scout spirit",
+          "summary": "Living the Scout Oath and Law, your duty to God, and four points of the Scout Law.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.second-class.11",
+          "number": "11",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.second-class.12",
+          "number": "12",
+          "title": "Board of review",
+          "summary": "Completing a board of review for the rank.",
+          "kind": "review",
+          "children": []
         }
       ]
     }

@@ -44,24 +44,7 @@
           "title": "What archaeology is",
           "summary": "What archaeology is, how it differs from related fields, and how it differs from artifact collecting.",
           "kind": "knowledge",
-          "children": [
-            {
-              "id": "mb.archaeology.10",
-              "number": "10",
-              "title": "Hands-on archaeology",
-              "summary": "Assisting a qualified archaeologist on a project, or taking part in a simulated dig.",
-              "kind": "activity",
-              "children": []
-            },
-            {
-              "id": "mb.archaeology.11",
-              "number": "11",
-              "title": "Exhibit or experiment",
-              "summary": "Helping prepare an exhibit, or trying experimental archaeology and reporting on it.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.archaeology.2",
@@ -124,6 +107,22 @@
           "number": "9",
           "title": "Archaeology careers",
           "summary": "Archaeology career options and how to prepare for one.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.10",
+          "number": "10",
+          "title": "Hands-on archaeology",
+          "summary": "Assisting a qualified archaeologist on a project, or taking part in a simulated dig.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.archaeology.11",
+          "number": "11",
+          "title": "Exhibit or experiment",
+          "summary": "Helping prepare an exhibit, or trying experimental archaeology and reporting on it.",
           "kind": "activity",
           "children": []
         }

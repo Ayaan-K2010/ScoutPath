@@ -406,38 +406,6 @@
                 "mb.camping.2"
               ],
               "children": []
-            },
-            {
-              "id": "rank.first-class.10",
-              "number": "10",
-              "title": "Sharing Scouting",
-              "summary": "Telling someone who is eligible about Scouting and inviting them to an activity.",
-              "kind": "activity",
-              "children": []
-            },
-            {
-              "id": "rank.first-class.11",
-              "number": "11",
-              "title": "Scout spirit",
-              "summary": "Living the Scout Oath and Law, your duty to God, and four points of the Scout Law.",
-              "kind": "discussion",
-              "children": []
-            },
-            {
-              "id": "rank.first-class.12",
-              "number": "12",
-              "title": "Scoutmaster conference",
-              "summary": "Taking part in a Scoutmaster conference.",
-              "kind": "conference",
-              "children": []
-            },
-            {
-              "id": "rank.first-class.13",
-              "number": "13",
-              "title": "Board of review",
-              "summary": "Completing a board of review for the rank.",
-              "kind": "review",
-              "children": []
             }
           ]
         },
@@ -805,6 +773,38 @@
               "children": []
             }
           ]
+        },
+        {
+          "id": "rank.first-class.10",
+          "number": "10",
+          "title": "Sharing Scouting",
+          "summary": "Telling someone who is eligible about Scouting and inviting them to an activity.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.11",
+          "number": "11",
+          "title": "Scout spirit",
+          "summary": "Living the Scout Oath and Law, your duty to God, and four points of the Scout Law.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.12",
+          "number": "12",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.first-class.13",
+          "number": "13",
+          "title": "Board of review",
+          "summary": "Completing a board of review for the rank.",
+          "kind": "review",
+          "children": []
         }
       ]
     }

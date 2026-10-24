@@ -37,6 +37,15 @@ describe('progress calculations', () => {
     expect(s.partial).toBe(false);
   });
 
+  it('records the outline version and re-confirms when it changes', () => {
+    const first = setProgress(emptyUserData(), 'mb.first-aid.7', 'learning', 'old-version');
+    expect(first.progress['mb.first-aid.7'].versionId).toBe('old-version');
+    const confirmed = setProgress(first, 'mb.first-aid.7', 'learning', 'new-version');
+    expect(confirmed).not.toBe(first);
+    expect(confirmed.progress['mb.first-aid.7'].versionId).toBe('new-version');
+    expect(setProgress(confirmed, 'mb.first-aid.7', 'learning', 'new-version')).toBe(confirmed);
+  });
+
   it('removes the record when set back to not started', () => {
     let data = setProgress(emptyUserData(), 'mb.first-aid.2a', 'learning');
     data = setProgress(data, 'mb.first-aid.2a', 'not-started');

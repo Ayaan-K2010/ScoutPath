@@ -42,16 +42,7 @@
           "summary": "First aid and prevention for backcountry conditions, the Scout Basic Essentials and trip plans.",
           "kind": "knowledge",
           "safetySensitive": true,
-          "children": [
-            {
-              "id": "mb.wilderness-survival.10",
-              "number": "10",
-              "title": "Careers",
-              "summary": "One option related to survival careers.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.wilderness-survival.2",
@@ -123,6 +114,14 @@
           "title": "Wild food",
           "summary": "Why eating wild plants or animals is usually unwise in a survival situation.",
           "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.wilderness-survival.10",
+          "number": "10",
+          "title": "Careers",
+          "summary": "One option related to survival careers.",
+          "kind": "activity",
           "children": []
         }
       ]

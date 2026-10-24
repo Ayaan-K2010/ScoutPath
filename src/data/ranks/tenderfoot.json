@@ -392,22 +392,6 @@
                 "mb.camping.2"
               ],
               "children": []
-            },
-            {
-              "id": "rank.tenderfoot.10",
-              "number": "10",
-              "title": "Scoutmaster conference",
-              "summary": "Taking part in a Scoutmaster conference.",
-              "kind": "conference",
-              "children": []
-            },
-            {
-              "id": "rank.tenderfoot.11",
-              "number": "11",
-              "title": "Board of review",
-              "summary": "Completing a board of review for the rank.",
-              "kind": "review",
-              "children": []
             }
           ]
         },
@@ -650,6 +634,22 @@
           "title": "Scout spirit",
           "summary": "Living the Scout Oath and Law, and explaining how you have done your duty to God and lived four points of the Scout Law.",
           "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "rank.tenderfoot.10",
+          "number": "10",
+          "title": "Scoutmaster conference",
+          "summary": "Taking part in a Scoutmaster conference.",
+          "kind": "conference",
+          "children": []
+        },
+        {
+          "id": "rank.tenderfoot.11",
+          "number": "11",
+          "title": "Board of review",
+          "summary": "Completing a board of review for the rank.",
+          "kind": "review",
           "children": []
         }
       ]

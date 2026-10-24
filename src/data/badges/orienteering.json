@@ -41,16 +41,7 @@
           "summary": "First aid for outdoor injuries and heat and cold reactions, and recognizing poisonous plants and animals.",
           "kind": "knowledge",
           "safetySensitive": true,
-          "children": [
-            {
-              "id": "mb.orienteering.10",
-              "number": "10",
-              "title": "Teaching orienteering",
-              "summary": "Teaching orienteering techniques to your patrol, troop or crew.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.orienteering.2",
@@ -117,6 +108,14 @@
           "title": "Serving as an official",
           "summary": "Serving as an official at an orienteering event.",
           "kind": "service",
+          "children": []
+        },
+        {
+          "id": "mb.orienteering.10",
+          "number": "10",
+          "title": "Teaching orienteering",
+          "summary": "Teaching orienteering techniques to your patrol, troop or crew.",
+          "kind": "activity",
           "children": []
         }
       ]

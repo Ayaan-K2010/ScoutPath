@@ -77,6 +77,13 @@ describe('content validation', () => {
     expect(errorCodes(raw)).toContain('malformed-requirement');
   });
 
+  it('rejects a two-digit requirement nested under a one-digit one ("10" under "1")', () => {
+    const raw = fixtureRaw();
+    const first = badgeFile(raw).versions[0].requirements[0] as { children: unknown[] };
+    first.children.push({ id: 'mb.knots.10', number: '10', title: 'Tenth', summary: 'A top-level requirement.', kind: 'knowledge', children: [] });
+    expect(errorCodes(raw)).toContain('malformed-requirement');
+  });
+
   it('detects requirement IDs that do not match their number', () => {
     const raw = fixtureRaw();
     (badgeFile(raw).versions[0].requirements[0] as { id: string }).id = 'mb.knots.7';

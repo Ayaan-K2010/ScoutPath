@@ -3,7 +3,7 @@
  * JSON dataset. Each outline becomes a NEW requirement version appended to the
  * owner's file; earlier versions are kept and linked with `supersedes`.
  *
- *   npm run content:compile            compile all outlines (skips versions that already exist)
+ *   npm run content:compile            compile all outlines (re-compiling a version replaces it in place)
  *   npm run content:compile -- --check report what would change without writing
  *
  * Outline format (one owner per block, blocks separated by a line starting with "@owner"):
@@ -29,6 +29,7 @@
  */
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { parentRequirementNumber } from '../src/features/content/model.ts';
 import type { Requirement, RequirementKind, RequirementVersion } from '../src/schemas/content.ts';
 import { DATA_DIR } from './lib/load.ts';
 
@@ -62,8 +63,8 @@ function parse(text: string, file: string): Block[] {
     const b: Block = cur;
     if (line.startsWith('@')) {
       const sp = line.indexOf(' ');
-      const key = line.slice(1, sp);
-      const value = line.slice(sp + 1).trim();
+      const key = sp < 0 ? line.slice(1) : line.slice(1, sp);
+      const value = sp < 0 ? '' : line.slice(sp + 1).trim();
       if (key === 'source') {
         const [url, label] = value.split('|').map((s) => s.trim());
         b.sources.push({ url, label: label || url });
@@ -115,9 +116,9 @@ function tree(block: Block): Requirement[] {
       ...(r.relatedIds ? { relatedRequirementIds: r.relatedIds } : {}),
       children: [],
     };
-    // Parent is the longest previously seen number that this number extends (2a -> 2, 9b1 -> 9b).
+    // Parent is the nearest previously seen structural ancestor (2a -> 2, 9b1 -> 9b); "10" is top level, not a child of "1".
     let parent: Requirement | undefined;
-    for (let len = r.number.length - 1; len > 0 && !parent; len--) parent = byNumber.get(r.number.slice(0, len));
+    for (let p = parentRequirementNumber(r.number); p !== null && !parent; p = parentRequirementNumber(p)) parent = byNumber.get(p);
     if (parent) parent.children.push(req);
     else roots.push(req);
     byNumber.set(r.number, req);
@@ -126,9 +127,10 @@ function tree(block: Block): Requirement[] {
 }
 
 const files = readdirSync(SRC).filter((f) => f.endsWith('.outline')).sort();
+const parsed = files.map((file) => ({ file, blocks: parse(readFileSync(join(SRC, file), 'utf8'), file) }));
 let written = 0;
-for (const file of files) {
-  for (const block of parse(readFileSync(join(SRC, file), 'utf8'), file)) {
+for (const { file, blocks } of parsed) {
+  for (const block of blocks) {
     const [kind, slug] = block.owner.split('.');
     const path = join(DATA_DIR, kind === 'rank' ? 'ranks' : 'badges', `${slug}.json`);
     const versionId = block.meta.version ?? (kind === 'rank' ? '2025-official-excerpt' : '2026-official-excerpt');
@@ -163,11 +165,11 @@ for (const file of files) {
       written++;
       continue;
     }
-    if (record.versions.some((v) => v.versionId === versionId)) {
-      // Re-compiling an existing version replaces only that version (outlines are the source of truth for it).
-      record.versions = record.versions.filter((v) => v.versionId !== versionId);
-    }
-    const previous = record.currentVersion && record.currentVersion !== versionId ? record.currentVersion : (record.versions.find((v) => v.versionId !== versionId)?.versionId ?? null);
+    const existing = record.versions.find((v) => v.versionId === versionId);
+    // Re-compiling an existing version replaces only that version (outlines are the source of truth for it)
+    // and keeps the version it originally superseded, so repeated compiles are stable.
+    if (existing) record.versions = record.versions.filter((v) => v !== existing);
+    const previous = existing ? existing.supersedes : record.currentVersion;
     // Badges default to their official Merit Badge Hub page as the primary source.
     if (kind === 'mb' && !block.meta.url) {
       block.meta.url = `https://www.scouting.org/merit-badges/${slug}/`;
@@ -241,32 +243,39 @@ if (existsSync(confirmedFile)) {
     if (line && !line.startsWith('#')) confirmed.add(line);
   }
 }
-for (const file of files) {
-  for (const block of parse(readFileSync(join(SRC, file), 'utf8'), file)) {
+for (const { blocks } of parsed) {
+  for (const block of blocks) {
     const [kind, slug] = block.owner.split('.');
     if (kind === 'mb') confirmed.add(slug);
   }
 }
 const catalogPath = join(DATA_DIR, 'catalog.json');
-const catalog = JSON.parse(readFileSync(catalogPath, 'utf8')) as { badges: { slug: string; catalogStatus: string; eagle: { verified: boolean } }[] };
+const catalog = JSON.parse(readFileSync(catalogPath, 'utf8')) as { badges: { slug: string; catalogStatus: string; eagle: { verified: boolean }; pamphletUrl?: string }[] };
 const known = new Set(catalog.badges.map((b) => b.slug));
 const unknown = [...confirmed].filter((s) => !known.has(s));
 if (unknown.length) throw new Error(`Confirmed or outlined badges missing from catalog.json: ${unknown.join(', ')}`);
 // Pamphlets: content-src/pamphlets.map lists official pamphlet PDFs seen in scouting.org results.
 const pamphletFile = join(SRC, 'pamphlets.map');
+const hasPamphletMap = existsSync(pamphletFile);
 const pamphlets = new Map<string, string>();
-if (existsSync(pamphletFile)) {
-  for (const raw of readFileSync(pamphletFile, 'utf8').split('\n')) {
-    const line = raw.trim();
-    if (!line || line.startsWith('#')) continue;
-    const [slug, url] = line.split('|').map((x) => x.trim());
-    if (!known.has(slug)) throw new Error(`pamphlets.map: ${slug} is not in catalog.json`);
-    pamphlets.set(slug, url);
-  }
+if (hasPamphletMap) {
+  readFileSync(pamphletFile, 'utf8')
+    .split('\n')
+    .forEach((raw, i) => {
+      const line = raw.trim();
+      if (!line || line.startsWith('#')) return;
+      const [slug, url] = line.split('|').map((x) => x.trim());
+      if (!url || !/^https?:\/\//.test(url)) throw new Error(`pamphlets.map:${i + 1}: expected "<badge-slug> | <url>"`);
+      if (!known.has(slug)) throw new Error(`pamphlets.map:${i + 1}: ${slug} is not in catalog.json`);
+      pamphlets.set(slug, url);
+    });
 }
 let marked = 0;
-for (const b of catalog.badges as { slug: string; catalogStatus: string; eagle: { verified: boolean }; pamphletUrl?: string }[]) {
-  if (pamphlets.has(b.slug)) b.pamphletUrl = pamphlets.get(b.slug);
+for (const b of catalog.badges) {
+  // pamphlets.map is the source of truth: a badge dropped from it loses its stale pamphlet link.
+  const pamphletUrl = pamphlets.get(b.slug);
+  if (pamphletUrl) b.pamphletUrl = pamphletUrl;
+  else if (hasPamphletMap) delete b.pamphletUrl;
   if (!confirmed.has(b.slug)) continue;
   b.catalogStatus = 'verified';
   b.eagle.verified = true;

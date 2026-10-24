@@ -42,24 +42,7 @@
           "summary": "Likely hazards, safety practices, and preventing and treating common problems such as cuts, hypothermia and sunburn.",
           "kind": "knowledge",
           "safetySensitive": true,
-          "children": [
-            {
-              "id": "mb.fly-fishing.10",
-              "number": "10",
-              "title": "Catching a fish",
-              "summary": "Catching a fish on a fly and identifying it.",
-              "kind": "activity",
-              "children": []
-            },
-            {
-              "id": "mb.fly-fishing.11",
-              "number": "11",
-              "title": "Cleaning and cooking",
-              "summary": "Where regulations allow, cleaning and cooking a fish.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.fly-fishing.2",
@@ -123,6 +106,22 @@
           "title": "Sportsmanship",
           "summary": "Outdoor ethics for anglers, including Leave No Trace and the Outdoor Code.",
           "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.10",
+          "number": "10",
+          "title": "Catching a fish",
+          "summary": "Catching a fish on a fly and identifying it.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.fly-fishing.11",
+          "number": "11",
+          "title": "Cleaning and cooking",
+          "summary": "Where regulations allow, cleaning and cooking a fish.",
+          "kind": "activity",
           "children": []
         }
       ]

@@ -102,7 +102,11 @@ export const userData = z.object({
     selectedRankId: z.string().max(120).nullable(),
     selectedBadgeIds: z.array(z.string().max(120)).max(200),
   }),
-  progress: z.record(z.string().max(120), z.object({ state: progressState, updatedAt: timestamp })),
+  progress: z.record(
+    z.string().max(120),
+    // versionId records which requirement outline the entry was made against, so a later renumbering can be flagged.
+    z.object({ state: progressState, updatedAt: timestamp, versionId: z.string().max(80).optional() }),
+  ),
   notes: z.record(z.string().max(120), z.object({ text: shortText(20000), updatedAt: timestamp })),
   saved: z.record(z.string().max(120), z.object({ savedAt: timestamp })),
   recent: z.array(recentItem).max(50),

@@ -4,7 +4,7 @@
  * duplicate mappings and records that are missing their provenance trail.
  */
 import type { Requirement, RequirementVersion } from '../../schemas/content';
-import { buildContent, type Content, type ContentIssue, type RawContent } from './model';
+import { buildContent, isRequirementAncestor, type Content, type ContentIssue, type RawContent } from './model';
 
 function duplicates(values: string[]): string[] {
   const seen = new Set<string>();
@@ -32,8 +32,8 @@ function checkRequirementTree(
       if (item.id !== expectedId) {
         issues.push({ severity: 'error', code: 'malformed-requirement', message: `Requirement ${item.id} should have the ID ${expectedId} to match its number`, file, recordId: item.id });
       }
-      if (parent && !item.number.startsWith(parent.number)) {
-        issues.push({ severity: 'error', code: 'malformed-requirement', message: `Sub-requirement ${item.number} is nested under ${parent.number} but its number does not start with the parent number`, file, recordId: item.id });
+      if (parent && !isRequirementAncestor(parent.number, item.number)) {
+        issues.push({ severity: 'error', code: 'malformed-requirement', message: `Sub-requirement ${item.number} is nested under ${parent.number}, which is not one of its parent numbers`, file, recordId: item.id });
       }
       if (parent && item.number === parent.number) {
         issues.push({ severity: 'error', code: 'malformed-requirement', message: `Sub-requirement ${item.id} repeats its parent number`, file, recordId: item.id });

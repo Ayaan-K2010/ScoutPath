@@ -44,40 +44,7 @@
           "title": "Birds and ecosystems",
           "summary": "Why birds are useful environmental indicators and how they fit into ecosystems.",
           "kind": "knowledge",
-          "children": [
-            {
-              "id": "mb.bird-study.10",
-              "number": "10",
-              "title": "Protecting birds",
-              "summary": "Endangered and threatened species and habitat protection.",
-              "kind": "knowledge",
-              "children": []
-            },
-            {
-              "id": "mb.bird-study.11",
-              "number": "11",
-              "title": "Non-native birds",
-              "summary": "Non-native birds and their effects on ecosystems.",
-              "kind": "knowledge",
-              "children": []
-            },
-            {
-              "id": "mb.bird-study.12",
-              "number": "12",
-              "title": "Ethics in birding",
-              "summary": "Leave No Trace and the Outdoor Code as they apply to bird study.",
-              "kind": "discussion",
-              "children": []
-            },
-            {
-              "id": "mb.bird-study.13",
-              "number": "13",
-              "title": "Careers or hobbies",
-              "summary": "One option: careers related to birds, or a lifelong hobby.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.bird-study.2",
@@ -140,6 +107,38 @@
           "number": "9",
           "title": "A backyard project",
           "summary": "One project such as a feeder, birdbath, nest box or habitat plan.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.10",
+          "number": "10",
+          "title": "Protecting birds",
+          "summary": "Endangered and threatened species and habitat protection.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.11",
+          "number": "11",
+          "title": "Non-native birds",
+          "summary": "Non-native birds and their effects on ecosystems.",
+          "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.12",
+          "number": "12",
+          "title": "Ethics in birding",
+          "summary": "Leave No Trace and the Outdoor Code as they apply to bird study.",
+          "kind": "discussion",
+          "children": []
+        },
+        {
+          "id": "mb.bird-study.13",
+          "number": "13",
+          "title": "Careers or hobbies",
+          "summary": "One option: careers related to birds, or a lifelong hobby.",
           "kind": "activity",
           "children": []
         }

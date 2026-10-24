@@ -41,25 +41,7 @@
           "title": "Weather and climate",
           "summary": "What meteorology is and how weather differs from climate.",
           "kind": "knowledge",
-          "children": [
-            {
-              "id": "mb.weather.10",
-              "number": "10",
-              "title": "Observing weather",
-              "summary": "One option: building an instrument and keeping a weather log, or meeting a weather professional.",
-              "kind": "activity",
-              "children": []
-            },
-            {
-              "id": "mb.weather.11",
-              "number": "11",
-              "title": "Teaching weather safety",
-              "summary": "A short talk on lightning, flash flood and tornado safety.",
-              "kind": "activity",
-              "safetySensitive": true,
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.weather.2",
@@ -127,6 +109,23 @@
           "title": "Climates of the Earth",
           "summary": "How Earth’s tilt shapes climates from the equator to the poles.",
           "kind": "knowledge",
+          "children": []
+        },
+        {
+          "id": "mb.weather.10",
+          "number": "10",
+          "title": "Observing weather",
+          "summary": "One option: building an instrument and keeping a weather log, or meeting a weather professional.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.weather.11",
+          "number": "11",
+          "title": "Teaching weather safety",
+          "summary": "A short talk on lightning, flash flood and tornado safety.",
+          "kind": "activity",
+          "safetySensitive": true,
           "children": []
         }
       ]

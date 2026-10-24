@@ -102,6 +102,9 @@ function ProgressPanel({ node }: { node: RequirementNode }) {
     );
   }
   const state = stateOf(data, node.id);
+  const recordedVersion = data.progress[node.id]?.versionId;
+  const currentVersion = versionOfOwner(content, node.ownerId);
+  const stale = state !== 'not-started' && currentVersion && recordedVersion !== currentVersion.versionId;
   return (
     <section className="panel" aria-labelledby="progress-title">
       <h2 className="panel__title" id="progress-title">
@@ -111,10 +114,29 @@ function ProgressPanel({ node }: { node: RequirementNode }) {
         legend={`Your personal progress on ${node.ownerName} ${node.requirement.number}`}
         value={state}
         onChange={(next) => {
-          update((d) => setProgress(d, node.id, next));
+          update((d) => setProgress(d, node.id, next, currentVersion?.versionId));
           toast.show(`Marked “${PROGRESS_LABELS[next]}”`);
         }}
       />
+      {stale && (
+        <div className="field__hint field__hint--warn" style={{ marginTop: 'var(--s-3)' }}>
+          <p>
+            You marked this before ScoutPath updated this outline, and requirement numbers may have changed. Check that your mark still fits this
+            requirement.
+          </p>
+          <button
+            type="button"
+            className="btn btn--sm"
+            style={{ marginTop: 'var(--s-2)' }}
+            onClick={() => {
+              update((d) => setProgress(d, node.id, state, currentVersion.versionId));
+              toast.show('Progress confirmed for this outline');
+            }}
+          >
+            It still applies
+          </button>
+        </div>
+      )}
       <p className="field__hint" style={{ marginTop: 'var(--s-3)' }}>
         A personal learning record, saved in this browser. It is not an official sign-off — your counselor or leader records completion.
       </p>
@@ -197,7 +219,7 @@ export function RequirementPage({ ownerType }: { ownerType: OwnerType }) {
         }
         meta={
           <>
-            <VerificationTag status={version?.status ?? 'missing'} label={version?.status === 'verified' ? 'Verified requirement' : 'Unverified draft'} />
+            <VerificationTag status={version?.status ?? 'missing'} label={version?.status === 'verified' ? 'Verified requirement' : version?.status === 'partially-verified' ? 'Partially verified' : 'Unverified draft'} />
             <span className="tag tag--outline">
               <KindIcon aria-hidden="true" /> {kind.label}
             </span>
@@ -422,7 +444,13 @@ export function RequirementPage({ ownerType }: { ownerType: OwnerType }) {
             <dl className="meta-list">
               <div>
                 <dt>Status</dt>
-                <dd>{version?.status === 'verified' ? 'Verified against the official source' : 'Not yet verified against the official source'}</dd>
+                <dd>
+                  {version?.status === 'verified'
+                    ? 'Verified against the official source'
+                    : version?.status === 'partially-verified'
+                      ? 'Numbering and topics checked against official excerpts; wording not compared'
+                      : 'Not yet verified against the official source'}
+                </dd>
               </div>
               <div>
                 <dt>Dataset</dt>

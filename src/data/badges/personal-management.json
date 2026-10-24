@@ -44,16 +44,7 @@
           "title": "A family savings goal",
           "summary": "Choosing a major family purchase, writing a savings plan and a shopping strategy.",
           "kind": "activity",
-          "children": [
-            {
-              "id": "mb.personal-management.10",
-              "number": "10",
-              "title": "Career costs",
-              "summary": "Researching a career’s education and costs and how to cover them.",
-              "kind": "activity",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.personal-management.2",
@@ -116,6 +107,14 @@
           "number": "9",
           "title": "A project plan",
           "summary": "A written plan for a project, with goal, timeline, resources and budget.",
+          "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.personal-management.10",
+          "number": "10",
+          "title": "Career costs",
+          "summary": "Researching a career’s education and costs and how to cover them.",
           "kind": "activity",
           "children": []
         }

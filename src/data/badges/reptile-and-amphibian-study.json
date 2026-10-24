@@ -41,16 +41,7 @@
           "title": "Identifying species",
           "summary": "Identifying reptile and amphibian species found in the United States.",
           "kind": "activity",
-          "children": [
-            {
-              "id": "mb.reptile-and-amphibian-study.10",
-              "number": "10",
-              "title": "Myths and facts",
-              "summary": "Common superstitions and surprising true facts about reptiles and amphibians.",
-              "kind": "discussion",
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "mb.reptile-and-amphibian-study.2",
@@ -115,6 +106,14 @@
           "title": "Field skills",
           "summary": "Two options, such as identifying species by voice or sight.",
           "kind": "activity",
+          "children": []
+        },
+        {
+          "id": "mb.reptile-and-amphibian-study.10",
+          "number": "10",
+          "title": "Myths and facts",
+          "summary": "Common superstitions and surprising true facts about reptiles and amphibians.",
+          "kind": "discussion",
           "children": []
         }
       ]
