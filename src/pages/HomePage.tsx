@@ -449,7 +449,7 @@ export function HomePage() {
         <div className="track">
           <div>
             <h2 id="track-title" className="how__title">
-              A private record of your learning, not an official sign-off.
+              Your progress is a private record, kept for you alone.
             </h2>
             <p className="muted" style={{ marginTop: 'var(--s-4)' }}>
               Mark each requirement with one of four personal states. Only you see them, and they never replace the approval of your
